@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:jr="http://openrosa.org/javarosa">
+	<h:head>
+		<h:title>PNC (ክትትል ድሕሪ ወሊድ) v1</h:title>
+		<model>
+			<itext>
+				<translation lang="English">
+					<text id="yes"><value>Yes</value></text>
+					<text id="no"><value>No</value></text>
+					<text id="selectall"><value>Select all that apply</value></text>
+					<text id="notsure"><value>Not sure</value></text>
+					<text id="notavail"><value>Not available</value></text>
+					<text id="notreq"><value>Not required</value></text>
+					<text id="notexp"><value>Not explored</value></text>
+					<text id="immuno_hint"><value>Please check the child's immunization card, include any doses given today</value></text>
+					<text id="constraint_inpast"><value>The date entered must be in the past</value></text>
+					<text id="constraint_infuture"><value>The date entered must be in the future</value></text>
+					<text id="constraint_greaterthanzero"><value>Please enter a number greater than 0</value></text>
+					
+					<text id="infoprotocol_text"><value>If this is the first time the women has been seen, please complete a registration protocol first</value></text>
+					<text id="q_consent_text"><value>Q101. Do you give me your consent to use phone for interview?</value></text>
+					<text id="infoconsent_text"><value>Put phone down and provide care as normal</value></text>
+
+					<text id="q_healthpointid_text"><value>Q102. Select where the user was registered</value></text>
+					<text id="q_healthpointid_9999"><value>Practice only</value></text>
+					<text id="q_healthpointid_1006"><value>Ara Alemseged health post</value></text>
+					<text id="q_healthpointid_1001"><value>Ayanlem health post</value></text>
+					<text id="q_healthpointid_1009"><value>Frewoyni health post</value></text>
+					<text id="q_healthpointid_1002"><value>Gemad health post</value></text>
+					<text id="q_healthpointid_1007"><value>Hagerselam health post</value></text>
+					<text id="q_healthpointid_1005"><value>Maynebri health post</value></text>
+					<text id="q_healthpointid_1008"><value>Mesanu - Hintalowajerat health post</value></text>
+					<text id="q_healthpointid_1000"><value>Mesanu - Kilteawelaelo health post</value></text>
+					<text id="q_healthpointid_1003"><value>Negash health post</value></text>
+					<text id="q_healthpointid_1004"><value>Tsadanaele health post</value></text>
+					<text id="q_healthpointid_50001"><value>Abraha Atsbha health centre</value></text>
+					<text id="q_healthpointid_50002"><value>Adigudom health centre</value></text>
+					<text id="q_healthpointid_50003"><value>Agulae health centre</value></text>
+					<text id="q_healthpointid_50004"><value>Hiwane health centre</value></text>
+					<text id="q_healthpointid_50005"><value>Negash health centre</value></text>
+
+					<text id="q_userid_text"><value>Q103. Enter the user's ID</value></text>
+					<text id="q_userid_constraint"><value>Must be greater than 0</value></text>
+					
+					<text id="q_yearofbirth_text"><value>Q104. Please enter user's year of birth</value></text>
+					<text id="q_yearofbirth_hint"><value>Please use the Ethiopian calendar</value></text>
+					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
+					
+					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
+					<text id="q_age_constraint"><value>Please enter a number 0 or greater</value></text>
+					<text id="q_photo_text"><value>Q106. Ask for consent to take a photo of the user's head for the purpose of medical record identification.</value></text>
+					<text id="q_photo_hint"><value>Your photo is used to help us identify users and match the correct medical records with the correct person, especially if you are visiting healthcare workers who you may not have had previous contact with</value></text>
+					<text id="q_pncvisitno_text"><value>Q107. Which postnatalcare visit is this?</value></text>
+					<text id="q_pncvisitno_1"><value>1st visit</value></text>
+					<text id="q_pncvisitno_2"><value>2nd visit</value></text>
+					<text id="q_pncvisitno_3"><value>3rd visit</value></text>
+					<text id="q_deliverydate_text"><value>Q108. Delivery date</value></text>
+					
+					<text id="infosection2_text"><value>Section 2: Delivery Summary</value></text>
+					
+					<text id="q_deliverynobabies_text"><value>Q201. Number of babies delivered</value></text>
+					<text id="q_deliverynobabies_1"><value>singleton</value></text>
+					<text id="q_deliverynobabies_2"><value>twins</value></text>
+					<text id="q_deliverynobabies_3"><value>triplets</value></text>
+					
+					<text id="q_deliverymode_text"><value>Q202. Delivery mode</value></text>
+					<text id="q_deliverymode_normal"><value>Normal</value></text>
+					<text id="q_deliverymode_csection"><value>C-section</value></text>
+					<text id="q_deliverymode_forceps"><value>Forceps</value></text>
+					<text id="q_deliverymode_vacuum"><value>Vacuum</value></text>
+					
+					<text id="q_deliverysite_text"><value>Q203. Where did the delivery take place?</value></text>
+					<text id="q_deliverysite_home"><value>Home</value></text>
+					<text id="q_deliverysite_healthpost"><value>Health Post</value></text>
+					<text id="q_deliverysite_healthcentre"><value>Health Centre</value></text>
+					<text id="q_deliverysite_hospital"><value>Hospital</value></text>
+					<text id="q_deliverysite_other"><value>Other</value></text>
+					
+					<text id="q_birthattendant_text"><value>Q204. Who was/were the birth attendant/s?</value></text>
+					<text id="q_birthattendant_midwife"><value>Midwife</value></text>
+					<text id="q_birthattendant_hew"><value>Health extension worker</value></text>
+					<text id="q_birthattendant_trainedbirthattendant"><value>Trained traditional birth attendant</value></text>
+					<text id="q_birthattendant_untrainedbirthattendant"><value>Untrained traditional birth attendant </value></text>
+					<text id="q_birthattendant_relativeorfriend"><value>Relative or friend </value></text>
+					<text id="q_birthattendant_doctor"><value>Doctor</value></text>
+					<text id="q_birthattendant_healthofficer"><value>Health officer </value></text>
+					<text id="q_birthattendant_nurse"><value>Nurse</value></text>
+					<text id="q_birthattendant_other"><value>Other</value></text>
+					
+					<text id="q_complications_text"><value>Q205. Please select if there were any complications during delivery</value></text>
+					<text id="q_complications_none"><value>None</value></text>
+					<text id="q_complications_eclampsia"><value>Eclampsia</value></text>
+					<text id="q_complications_infection"><value>Puerperal infection-sepsis</value></text>
+					<text id="q_complications_pph"><value>PPH (total blood above 500 ml) </value></text>
+					<text id="q_complications_rupture"><value>Ruptured uterus</value></text>
+					<text id="q_complications_fistula"><value>Vesicovaginal fistula</value></text>
+					<text id="q_complications_dropfoot"><value>Drop foot </value></text>
+					<text id="q_complications_psychosis"><value>Puerperal psychosis</value></text>
+					<text id="q_complications_other"><value>Other</value></text>
+					
+					<text id="q_maternaldeath_text"><value>Q206. Did maternal death occur?</value></text>
+					
+					<text id="infosection3_text"><value>Section 3: PNC (Mother)</value></text>
+					<text id="q_mothercondition_text"><value>Q301. What is the general condition of the mother? </value></text>
+					<text id="q_mothercondition_good"><value>Good</value></text>
+					<text id="q_mothercondition_bad"><value>Bad</value></text>
+					
+					<text id="q_lochiacolour_text"><value>Q302. What is the lochia or vaginal discharge colour?</value></text>
+					<text id="q_lochiacolour_rubra"><value>Red (Lochia rubra)</value></text>
+					<text id="q_lochiacolour_serosa"><value>Pink-brownish (lochia serosa)</value></text>
+					<text id="q_lochiacolour_alba"><value>White (lochia alba)</value></text>
+					<text id="q_lochiacolour_none"><value>None</value></text>
+					
+					<text id="q_lochiaamount_text"><value>Q303. What is the lochia or vaginal discharge amount?</value></text>
+					<text id="q_lochiaamount_excess"><value>Excess</value></text>
+					<text id="q_lochiaamount_normal"><value>Normal</value></text>
+					<text id="q_lochiaamount_none"><value>None</value></text>
+					
+					<text id="q_lochiaodour_text"><value>Q304. What is the lochia or vaginal discharge odour?</value></text>
+					<text id="q_lochiaodour_foul"><value>Foul smelling</value></text>
+					<text id="q_lochiaodour_normal"><value>Normal</value></text>
+					<text id="q_lochiaodour_none"><value>None</value></text>
+					
+					<text id="q_temperature_text"><value>Q305. Enter mother's temperature</value></text>
+					<text id="q_temperature_normal"><value>Normal</value></text>
+					<text id="q_temperature_over37"><value>Over 37</value></text>
+					<text id="q_temperature_nottaken"><value>Not taken</value></text>
+					
+					<text id="q_systolicbp_text"><value>Q306. Measure blood pressure and enter the Systolic Blood Pressure in mmHg</value></text>
+					<text id="q_diastolicbp_text"><value>Q307. Enter the Diastolic Blood pressure in mmHg.</value></text>
+					<text id="infoBP_text"><value>Please check blood pressure again if you find: a) systolic BP greater than 140 or less than 90 ; b) diastolic BP greater than 90 or less than 60</value></text>
+					
+					<text id="q_cardiacpulse_text"><value>Q308. Take pulse and enter pulse per minute.</value></text>
+					<text id="infocardiacpulse_text"><value>If pulse above 100 beats or below 50 per minute, check it again</value></text>
+					
+					<text id="q_palloranemia_text"><value>Q309. Please look carefully at the woman's nails and eyes and observe if they show a significant pallor (suggestive of anemia)</value></text>
+					<text id="q_palloranemia_pallor"><value>Yes, pallor</value></text>
+					<text id="q_palloranemia_normal"><value>Normal</value></text>
+					<text id="q_palloranemia_notclear"><value>Not clear to me</value></text>
+					
+					<text id="q_leakingurine_text"><value>Q310. Are there signs of dribbling or leaking urine?</value></text>
+					<text id="q_genitaliaexterna_text"><value>Q311. Does the external genitalia have any signs of laceration?</value></text>
+					<text id="q_ironsuppl_text"><value>Q312. Is iron supplement being given today?</value></text>
+					<text id="q_vitasuppl_text"><value>Q313. Is vitamin A supplement being given today?</value></text>
+					
+					<text id="q_tetanus_text"><value>Q314. Check the woman's tetanus toxoid immunization card. Which TT doses has the woman received?</value></text>
+					<text id="q_tetanus_hint"><value>Include any doses given today</value></text>
+					<text id="q_tetanus_none"><value>None</value></text>
+					<text id="q_tetanus_tt1"><value>TT1 only</value></text>
+					<text id="q_tetanus_tt2"><value>TT1 and TT2</value></text>
+					<text id="q_tetanus_tt3"><value>TT1, TT2 and TT3</value></text>
+					<text id="tetanus_date_constraint"><value>Date cannot be in the future</value></text>
+					<text id="q_tt1_text"><value>Q314a. When was the TT1 given?</value></text>
+					<text id="q_tt2_text"><value>Q314b. When was the TT2 given?</value></text>
+					
+					<text id="q_fpcounseled_text"><value>Q315. Was family planning advice given today? </value></text>
+					<text id="q_fpaccepted_text"><value>Q316. Was family planning advice accepted? </value></text>
+					<text id="q_hiv_text"><value>Q317. What is your HIV status?</value></text>
+					<text id="q_hiv_positive"><value>Positive</value></text>
+					<text id="q_hiv_negative"><value>Negative</value></text>
+					<text id="q_hiv_dontknow"><value>I don't know</value></text>
+					<text id="infohiv_text"><value>If the woman doesn't know her HIV status, counsel for immediate testing.</value></text>
+					<text id="q_hivtreatment_text"><value>Q318. Are you currently being treated for your HIV status?</value></text>
+					<text id="q_drugs_text"><value>Q319. Were you currently taking any drugs before delivery which you need to take again?</value></text>
+					<text id="q_drugsdescription_text"><value>Q320. Which drugs are you taking?</value></text>
+					<text id="q_drugsdescription_hint"><value>(enter the drug names or tablets colour and for what diagnosis)</value></text>
+					<text id="q_commentsmother_text"><value>Q321. Do you have any other comments about the condition of the mother?</value></text>
+					
+					<text id="infosection4_text"><value>Section 4: PNC (Baby)</value></text>
+					<text id="infosection4_hint"><value>Repeat the next section of questions for every baby who was delivered</value></text>
+					
+					<text id="q_babies_text"><value>Babies delivered</value></text>
+					
+					<text id="q_babycondition_text"><value>Q401. What is the baby's general condition?</value></text>
+					<text id="q_babycondition_good"><value>Good</value></text>
+					<text id="q_babycondition_bad"><value>Bad</value></text>
+					<text id="q_babycondition_died"><value>Unfortunately the baby has died</value></text>
+					
+					<text id="q_deathdate_text"><value>Q402. Please enter the date of death</value></text>
+					<text id="q_deathcomments_text"><value>Q402a. Please enter any comments regarding the baby's death</value></text>
+					<text id="q_babybreathing_text"><value>Q403. How is the baby breathing?</value></text>
+					<text id="q_babybreathing_normal"><value>normal (40- 60 breaths per minute)</value></text>
+					<text id="q_babybreathing_fast"><value>more than 60 breaths per minute</value></text>
+					<text id="q_newbornweight_text"><value>Q404. Please, enter baby's weight (grams)</value></text>
+					<text id="q_newbornheight_text"><value>Q405. Please, enter baby's height (cm)</value></text>
+					<text id="q_newbornheadcircum_text"><value>Q406. Please, enter head circumference (cm)</value></text>
+					<text id="q_cordcondition_text"><value>Q407. What is the condition of the cord?</value></text>
+					<text id="q_cordcondition_normal"><value>Normal</value></text>
+					<text id="q_cordcondition_abnormal"><value>Abnormal</value></text>
+					<text id="q_immuno_bcg_text"><value>Q408. Has the baby received a BCG immunization?</value></text>
+					<text id="q_immuno_bcg_lastdate_text"><value>Q408a. Last BCG date</value></text>
+					<text id="q_immuno_opv_text"><value>Q409. What was the last OPV (oral polio) immunization?</value></text>
+					<text id="q_immuno_opv_none"><value>None</value></text>
+					<text id="q_immuno_opv_0"><value>OPV0</value></text>
+					<text id="q_immuno_opv_1"><value>OPV1</value></text>
+					<text id="q_immuno_opv_2"><value>OPV2</value></text>
+					<text id="q_immuno_opv_3"><value>OPV3</value></text>
+					<text id="q_immuno_opv_lastdate_text"><value>Q410. Last OPV (oral polio vaccine) date</value></text>
+					
+					<text id="q_immuno_penta_text"><value>Q411.  What was the last Pentavalent immunization given?</value></text>
+					<text id="q_immuno_penta_none"><value>None</value></text>
+					<text id="q_immuno_penta_1"><value>Penta 1</value></text>
+					<text id="q_immuno_penta_2"><value>Penta 2</value></text>
+					<text id="q_immuno_penta_3"><value>Penta 3</value></text>
+					<text id="q_immuno_penta_lastdate_text"><value>Q412. Last Penta date</value></text>
+					
+					<text id="q_immuno_ipti_text"><value>Q413. Has the baby received an iPTi (intermittent preventive malaria treatment)?</value></text>
+					<text id="q_immuno_ipti_lastdate_text"><value>Q414. Last iPTi (intermittent preventive malaria treatment) date</value></text>
+					
+					<text id="q_babymumbond_text"><value>Q415. Is there a good baby mother bonding ?</value></text>
+					<text id="q_babymumbond_hint"><value>(hugging etc.)</value></text>
+					
+					<text id="q_babybreastfeed_text"><value>Q416. Is the baby breastfeeding?</value></text>
+					<text id="q_babybreastfeed_yesexcl"><value>Yes, exclusively breastfeeding</value></text>
+					<text id="q_babybreastfeed_yesmix"><value>Yes, mixed</value></text>
+					<text id="q_babybreastfeed_formula"><value>No, formula</value></text>
+					
+					<text id="q_hiv_baby_text"><value>Q417. Has the baby been tested for HIV?</value></text>
+					<text id="q_arv_hiv_baby_text"><value>Q418. Has the ARV (antiretroviral therapy) for the newborn been given if she was HIV+?</value></text>
+					<text id="q_commentsbaby_text"><value>Q419. Do you have any other comments about the condition of the baby?</value></text>
+					
+					<text id="infosection5_text"><value>Final Checklist</value></text>
+					<text id="infoappointment_text"><value>Suggested appointment schedule</value></text>
+					<text id="q_appointmentdate_text"><value>Q501. Give an appointment date for the next visit and write it down on the registration card</value></text>
+					<text id="q_idcard_text"><value>Q502. Check that the registration card is completed and all the data is correct</value></text>
+					<text id="q_idcard_yes"><value>Completed</value></text>
+					<text id="q_idcard_notavail"><value>Sorry, we have run out of registration cards</value></text>
+					
+					<text id="q_location_text"><value>Q503. Where have you performed this visit?</value></text>
+					<text id="q_location_healthpost"><value>Health post</value></text>
+					<text id="q_location_healthcentre"><value>Health centre</value></text>
+					<text id="q_location_home"><value>User's home</value></text>
+					<text id="q_location_other"><value>Other</value></text>
+					<text id="q_gpsdata_text"><value>Q504. Please record the location (using GPS)</value></text>
+					<text id="infoendsession_text"><value>Thank the woman for their cooperation and end the session.</value></text>
+				</translation>
+				<translation lang="Tigrinyan">
+					<text id="yes"><value>እወ</value></text>
+					<text id="no"><value>ኣይፋሉን</value></text>
+					<text id="selectall"><value>ካብ ሓደ ንላዕሊ መልሲ ክህሉዎ ይኽእል እዩ</value></text>
+					<text id="notsure"><value>ርግፀኛ ኣይኮንኩን</value></text>
+					<text id="notavail"><value>የለን</value></text>
+					<text id="notreq"><value>ኣየድልን</value></text>
+					<text id="notexp"><value>አይተፈተሸን</value></text>
+					<text id="immuno_hint"><value>ክታበት ካርድ ብምፍታሽ፣ ሎምዓንቲ ዝተውሃበ መጠንን ዓይነትን ክታበት ይስፈር</value></text>
+					<text id="constraint_inpast"><value>ዝሰፍር ዕለት ናይ ሕሉፍ ክኸውን ኣለዎ</value></text>
+					<text id="constraint_infuture"><value>ዝሰፍር ዕለት ናይ መፃኢ ክኸውን ኣለዎ</value></text>
+					<text id="constraint_greaterthanzero"><value>ዝሰፍር ቁፅሪ ካብ 0 ንላዕሊ ክኸውን ኣለዎ</value></text>
+					<text id="infoprotocol_text"><value>እዚ ዑደት እዚ ኣዶ ንመጀመርያ ግዘ እትረኣየሉ እንተኾይኑ፣ ቅድሚ እዚ ናይ መመዝገቢ ቕጥዒ ይመላእ </value></text>
+
+					<text id="q_consent_text"><value>ሕቶ 101፡ እዛ ተንቀሳቓሲት ስልኪ ንቓለ መሕትት ንክጥቀመላ ፍቓደኛ ዲኺ?</value></text>
+					<text id="infoconsent_text"><value>ተጠቃሚት ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኮይና ፣እታ ተንቀሳቓሲት ስልኪ ኣቕሚጥኪ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቐት ሃቢያ፡፡</value></text>
+					<text id="q_healthpointid_text"><value>ተገልጋሊት ጥዕና ዝተመዝገበትሉ ትካል ኣበይ'ዩ?</value></text>
+					<text id="q_healthpointid_9999"><value>ንልምምድ ጥራሕ</value></text>
+					<text id="q_healthpointid_1006"><value>ዓራ ዓለምሰገዳ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1009"><value>ፍረወይኒ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1002"><value>ገማድ  ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1007"><value>ሃገረሰላም ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1008"><value>መሳኑ (ሕንጣሎ ዋጅራት) ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1000"><value>መሳኑ (ክልተ ኣውላዕሎ) ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1003"><value>ነጋሽ (ዓዲ እኽሊ) ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_50001"><value>ኣብርሃ ወኣፅባሃ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያ</value></text>
+
+					<text id="q_userid_text"><value>ሕቶ103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ</value></text>
+					<text id="q_userid_constraint"><value>ካብ 0 ንላዕሊ ክኸውን ኣለዎ</value></text>
+					
+					<text id="q_yearofbirth_text"><value>ሕቶ 104 ፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ።</value></text>
+					<text id="q_yearofbirth_hint"><value> ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ</value></text>
+					<text id="q_yearofbirth_constraint"><value>ካብ 1900 ዓ/ም ንላዕሊ ክኸውን ኣለዎ </value></text>
+					
+					<text id="q_age_text"><value>ሕቶ 105 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
+					<text id="q_age_constraint"><value>ካብ 0 ንላዕሊ ዝኾነ ቁፅሪ ኣስፍሪ</value></text>
+					<text id="q_photo_text"><value>ሕቶ106፡ ፍቓድ ብምሕታት ንመለለይ ሓበሬታ ዘገልግል ምስሊ እታ ተጠቃሚት ግልጋሎት ጥዕና ውሰዲ።</value></text>
+					<text id="q_photo_hint"><value>እዚ ምስሊ ተጠቃሚት ግልጋሎት ጥዕና ምስ ሕክምና መረዳእታኣ ንምምስኻር ዝጠቅም 'ዩ። ብፍላይ ድማ  እታ  ተጠቃሚት ግልጋሎት  ጥዕና  ናብ ካልእ ትካል እንትዘዋወርን ብኻሊእ በዓል ሞያ ጥዕና ክትሪአ ከላን ዝዓበየ ረብሓ  ኣለዎ።</value></text>
+					<text id="q_pncvisitno_text"><value>ሕቶ107፡ እዚ ክትትል ድሕሪ ወሊድ ኣየናይ ዑደት 'ዩ?</value></text>
+					<text id="q_pncvisitno_1"><value>1ይ ዑደት</value></text>
+					<text id="q_pncvisitno_2"><value>2ይ ዑደት</value></text>
+					<text id="q_pncvisitno_3"><value>3ይ ዑደት</value></text>
+					<text id="q_deliverydate_text"><value>ሕቶ108፡ እዚ ወሊድ ዝተኻየደሉ መዓልቲ መዓዝ ነይሩ? </value></text>
+					
+					<text id="infosection2_text"><value>ክፍሊ 2፡ ናይ ወሊድ ሓፂር መረዳእታ</value></text>
+					
+					<text id="q_deliverynobabies_text"><value>ሕቶ201፡ በዝሒ ዝተወለዱ ህፃናት ክንደይ እዮም?</value></text>
+					<text id="q_deliverynobabies_1"><value>ሓደ</value></text>
+					<text id="q_deliverynobabies_2"><value>ማንታ</value></text>
+					<text id="q_deliverynobabies_3"><value>ሰለስተ</value></text>
+					
+					<text id="q_deliverymode_text"><value>ሕቶ202፡ እቲ ወሊድ ዝተኻየደሉ ብምንታይ ነይሩ?</value></text>
+					<text id="q_deliverymode_normal"><value>ብንቡር</value></text>
+					<text id="q_deliverymode_csection"><value>ብቀሳርያን መጥባሕቲ</value></text>
+					<text id="q_deliverymode_forceps"><value>ብፎርሴፕ</value></text>
+					<text id="q_deliverymode_vacuum"><value>ብቫኪዩም</value></text>
+					
+					<text id="q_deliverysite_text"><value>ሕቶ203፡ እዚ ወሊድ ዝተኻየደሉ ኣበይ ነይሩ?</value></text>
+					<text id="q_deliverysite_home"><value>ኣብ መንበሪ ገዛ</value></text>
+					<text id="q_deliverysite_healthpost"><value>ጥዕና ኬላ</value></text>
+					<text id="q_deliverysite_healthcentre"><value>ጥዕና ጣብያ</value></text>
+					<text id="q_deliverysite_hospital"><value>ሆስፒታል</value></text>
+					<text id="q_deliverysite_other"><value>ኣብ ካሊእ</value></text>
+					
+					<text id="q_birthattendant_text"><value>ሕቶ204፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን ነይሩ?</value></text>
+					<text id="q_birthattendant_midwife"><value>መዋለዳን </value></text>
+					<text id="q_birthattendant_hew"><value>ጥሙር ጥዕና ቤተሰብ ሰራሕተኛ</value></text>
+					<text id="q_birthattendant_trainedbirthattendant"><value>ዝሰልጠነት ፋና ጥዕና </value></text>
+					<text id="q_birthattendant_untrainedbirthattendant"><value>ልምዳዊ መዋልዳን </value></text>
+					<text id="q_birthattendant_relativeorfriend"><value>ቤተሰብ/መሓዛይ/ጎረቤት</value></text>
+					<text id="q_birthattendant_doctor"><value>ዶክተር </value></text>
+					<text id="q_birthattendant_healthofficer"><value>ጥዕና መኮነን</value></text>
+					<text id="q_birthattendant_nurse"><value>ነርስ</value></text>
+					<text id="q_birthattendant_other"><value>ካልእ</value></text>
+					
+					<text id="q_complications_text"><value>ሕቶ205፡ እታ ኣዶ ካብዞም ዝስዕቡ ዝተሓላለኹ ፀገማት ወሊድ ኣየናይ ነይርዋ?</value></text>
+					<text id="q_complications_none"><value>ፀገም ኣይነበራን</value></text>
+					<text id="q_complications_eclampsia"><value>ምስ ጥንሲ ዝተትሓሓዘ ድፍኢት ደም</value></text>
+					<text id="q_complications_infection"><value>ረኽሲ ድሕሪ ወሊድ (ሕርሲ)</value></text>
+					<text id="q_complications_pph"><value>ዘይስሩዕ መድመይቲ ድሕሪ ወሊድ (&gt;500 ሚ.ሊ)</value></text>
+					<text id="q_complications_rupture"><value>ምፍንዳእ ማህፀን</value></text>
+					<text id="q_complications_fistula"><value>ምስ ሕርሲ ዝተትሓሓዘ ፊስቱላ</value></text>
+					<text id="q_complications_dropfoot"><value>ናይ እግሪ ፀገም (Drop foot) </value></text>
+					<text id="q_complications_psychosis"><value>ድሕሪ ወሊድ ዝመፅእ ናይ ስነ ኣእምሮ ፀገም (Puerperal psychosis)</value></text>
+					<text id="q_complications_other"><value>ካልእ</value></text>
+					
+					<text id="q_maternaldeath_text"><value>ሕቶ206፡ ሞት ኣዶ ኣጋጢሙ ድዩ?</value></text>
+					
+					<text id="infosection3_text"><value>ክፍሊ 3፡ ክንክን ኣዶ ድሕሪ ወሊድ</value></text>
+					<text id="q_mothercondition_text"><value>ሕቶ301፡ ሓፈሻዊ ኩነታት ኣዶ እንታይ ይመስል? </value></text>
+					<text id="q_mothercondition_good"><value>ጥዕይቲ</value></text>
+					<text id="q_mothercondition_bad"><value>ጥዕይቲ ኣይኮነትን</value></text>
+					
+					<text id="q_lochiacolour_text"><value>ሕቶ302፡  ድሕሪ ወሊድ ብማህፀን ናይ ዝፈስስ ፈሳሲ ሕብሪ እንታይ ይመስል? </value></text>
+					<text id="q_lochiacolour_rubra"><value>ቀይሕ</value></text>
+					<text id="q_lochiacolour_serosa"><value>ሃምራዊ (ፒንክ)</value></text>
+					<text id="q_lochiacolour_alba"><value>ፃዕዳ</value></text>
+					<text id="q_lochiacolour_none"><value>ምንም ፈሳሲ ኣይወፃን</value></text>
+					
+					<text id="q_lochiaamount_text"><value>ሕቶ303፡ ድሕሪ ወሊድ ብማህፀን ናይ ዝፈስስ ፈሳሲ መጠን ክንደይ ይኣክል</value></text>
+					<text id="q_lochiaamount_excess"><value>ብዙሕ</value></text>
+					<text id="q_lochiaamount_normal"><value>ልሙድ መጠን</value></text>
+					<text id="q_lochiaamount_none"><value>ምንም ፈሳሲ ኣይወፃን</value></text>
+					
+					<text id="q_lochiaodour_text"><value>ሕቶ304፡ ድሕሪ ወሊድ ብማህፀን ናይ ዝፈስስ ፈሳሲ ጨና እንታይ ይመስል?</value></text>
+					<text id="q_lochiaodour_foul"><value>ሕማቕ ጨና</value></text>
+					<text id="q_lochiaodour_normal"><value>ልሙድ</value></text>
+					<text id="q_lochiaodour_none"><value>ምንም ጨና የብሉን</value></text>
+					
+					<text id="q_temperature_text"><value>ሕቶ305፡ ሙቐት መጠን ኣዶ እንታይ ይመስል?</value></text>
+					<text id="q_temperature_normal"><value>ንቡር</value></text>
+					<text id="q_temperature_over37"><value>ልዕሊ 37oC </value></text>
+					<text id="q_temperature_nottaken"><value>ኣይዓቀንኩን</value></text>
+					
+					<text id="q_systolicbp_text"><value>ሕቶ306፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
+					<text id="q_diastolicbp_text"><value>ሕቶ 307፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
+					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም = &gt;140 ወይ  =&lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም = &gt;90 ወይ  =&lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
+					<text id="q_cardiacpulse_text"><value>ሕቶ308፡ ትርታ ልቢ ኣዶ ብደቒቓ መዝግቢ</value></text>
+					<text id="infocardiacpulse_text"><value>እንድሕር ትርግታ ልቢ ብደቒቓ ልዕሊ 100 ወይ ድማ ትሕቲ 50 ኮይኑ፣ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
+					<text id="q_palloranemia_text"><value>ሕቶ309፡  ናይታ ኣዶ ፅፍራ ወይ ውሽጣዊ ቆቢዕ ዓይና ብምርኣይ ካብ ልሙድ ዝተፈለየ ምፅዕዳው (ፓለር) እንተሃሊይዋ ተዓዘቢ (ፓለር ምልክት ዋሕዲ ደም'ዩ ።)</value></text>
+					<text id="q_palloranemia_pallor"><value>እወ (ፓለር ኣለዋ)</value></text>
+					<text id="q_palloranemia_normal"><value>ጥዑይ (ፓለር የብላን)</value></text>
+					<text id="q_palloranemia_notclear"><value>ንምውሳን ግልፂ ኣይኮነለይን</value></text>
+					
+					<text id="q_leakingurine_text"><value>ሕቶ310፡ ናይ ሽንቲ ምንጥብጣብ (ሽንቲ ዘይምቁፅፃር) ምልክት ኣለዋ 'ዶ?</value></text>
+					<text id="q_genitaliaexterna_text"><value>ሕቶ311፡ ኣብ ደጋዊ ኣካል ብልዕቲ ዝቖሰለ/ዝተለሓሓፀ ኣለዎ 'ዶ?</value></text>
+					<text id="q_ironsuppl_text"><value>ሕቶ312፡ እታ ኣዶ መከላኸሊ ዋሕዲ ደም (ኣይረን ክኒን) ሎሚ መዓልቲ ተዋሂብዋ 'ዶ? </value></text>
+					<text id="q_vitasuppl_text"><value>ሕቶ313 እታ ኣዶ ናይ ቫይታሚን ኤ (A) ወሰኽ  ሎሚ መዓልቲ ተዋሂብዋ 'ዶ?</value></text>
+					
+					<text id="q_tetanus_text"><value>ሕቶ314፡ ናይ ኣዶ ቲቲ ክታበት ካርድ ብምፍታሽ፣ ኣዶ ኣየናይ ቲቲ ከም ዝወሰደት ተዓዘቢ?</value></text>
+					<text id="q_tetanus_hint"><value>ሎሚ መዓልቲ ዝተውሃባ መጠን ቲቲ ብምጥቕላል መልሲ ሃቢ</value></text>
+					<text id="q_tetanus_none"><value>ምንም ኣይተውሃባን</value></text>
+					<text id="q_tetanus_tt1"><value>ቲቲ 1 ጥራሕ</value></text>
+					<text id="q_tetanus_tt2"><value>ቲተ 1ን ቲቲ 2ን</value></text>
+					<text id="q_tetanus_tt3"><value>ቲቲ 1፣ ቲቲ 2ን ቲቲ 3ን</value></text>
+					<text id="tetanus_date_constraint"><value>ዕለት ናይ መፃኢ ክኸውን ኣይክእልን</value></text>
+					<text id="q_tt1_text"><value>ሕቶ314ሀ፡ ቲቲ 1 ዝተውሃበሉ ዕለት ማዓዝ ነይሩ?</value></text>
+					<text id="q_tt2_text"><value>ሕቶ314ለ፡ ቲቲ 2 ዝተውሃበሉ ዕለተ መዓዝ ነይሩ?</value></text>
+					
+					<text id="q_fpcounseled_text"><value>ሕቶ315፡ ኣዶ መከላኸሊ ጥንሲ ክትወስድ ከም ዘለዋ ሎማዓንቲ ምኽሪ ተዋሂብዋ 'ዶ?</value></text>
+					<text id="q_fpaccepted_text"><value>ሕቶ316፡ መከላኸሊ ጥንሲ ንክትወስድ ዝተውሃባ ምኽሪ ተቐቢላቶ 'ዶ? </value></text>
+					<text id="q_hiv_text"><value>ሕቶ317፡ ናይ ኤች.ኣይ.ቪ ኩነታትኪ እንታይ 'ዩ?</value></text>
+					<text id="q_hiv_positive"><value>ፖዘቲቭ (ኣለኒ)</value></text>
+					<text id="q_hiv_negative"><value>ነገተቭ (የብለይን)</value></text>
+					<text id="q_hiv_dontknow"><value>ኣይፈልጥን</value></text>
+					<text id="infohiv_text"><value>እንድሕር እታ ኣዶ ናይ ኤች.ኣይ.ቪ ኩነታታ ዘይትፈልጥ ኮይና ሐዚ ንኽትምርመር ምኽሪ ሃብያ</value></text>
+					<text id="q_hivtreatment_text"><value>ሕቶ 318 ፡ ፀረ-ኤች.ኣይ.ቪ መድሓኒት ትወስዲ ኣለኺ'ዶ?</value></text>
+					<text id="q_drugs_text"><value>ሕቶ319፡ ቅድሚ ወሊድኪ ዝኾነ እትወስድዮ (ሐዚ 'ውን ክትወስድዮ እትደልዪ) መድሓኒት ነይሩ 'ዶ?</value></text>
+					<text id="q_drugsdescription_text"><value>ሕቶ320፡ እትወስድዮ/ም መድሓኒት/ታት እንታይ 'ዩ/ዮም?</value></text>
+					<text id="q_drugsdescription_hint"><value>ናይቲ መድሓኒት ሽም ወይ ሕብሪ ክኒን ንምንታይ ምኽንያት ከምእትወስዶን ይፀሓፍ</value></text>
+					<text id="q_commentsmother_text"><value>ብዛዕባ ኩነታት ኣዶ ዝኾነ ርኢቶ ኣለኪ 'ዶ?</value></text>
+					
+					<text id="infosection4_text"><value>ክፍሊ 4፡ ክንክን ህፃን ድሕሪ ወሊድ </value></text>
+					<text id="infosection4_hint"><value>እንድሕር ዝተወለዱ ህፃውንቲ ካብ ሓደ ንላዕሊ ኮይኖም፣ እዚ ዝስዕብ ክፍሊ ነንሕድሕዶም ይመላእ</value></text>
+					
+					<text id="q_babies_text"><value>ዝተወለዱ ህፃናት</value></text>
+								
+					<text id="q_babycondition_text"><value>ሕቶ401፡ ኩነታት ህፃን ድሕሪ ወሊድ እንታይ ይመስል?</value></text>
+					<text id="q_babycondition_good"><value>ጥዑይ</value></text>
+					<text id="q_babycondition_bad"><value>ጥዑይ ኣይኮነን</value></text>
+					<text id="q_babycondition_died"><value>ህፃን ሞይቱ</value></text>
+					
+					<text id="q_deathdate_text"><value>ሕቶ402፡ ህፃን ዝሞተሉ ዕለት መዝግቢ፡፡ </value></text>
+					<text id="q_deathcomments_text"><value>ሕቶ402ሀ፡ ብዛዕባ ምስ ሞት ህፃን ዝተትሓሓዘ ርኢቶ ፀሓፊ፡፡</value></text>
+					<text id="q_babybreathing_text"><value>ሕቶ403፡ ናይቲ ህፃን ኣተነፋፍሳ እንታይ ይመስል?</value></text>
+					<text id="q_babybreathing_normal"><value>ጥዑይ  (30-60 ኣተነፋፍሳ ብደቒቓ)  </value></text>
+					<text id="q_babybreathing_fast"><value>ልዕሊ 60 ኣተነፋፍሳ ብደቒቓ </value></text>
+					<text id="q_newbornweight_text"><value>ሕቶ404፡ ናይቲ ህፃን ክብደት (ብግራም) መዝግቢ</value></text>
+					<text id="q_newbornheight_text"><value>ሕቶ405፡ ናይቲ ህፃን ቁመት(ብሳ.ሜ) መዝግቢ</value></text>
+					<text id="q_newbornheadcircum_text"><value>ሕቶ406፡ ናይቲ ህፃን ዙርያ ርእሲ (ብሳ.ሜ) መዝግቢ</value></text>
+					<text id="q_cordcondition_text"><value>ሕቶ407፡ ኩነታት ዕትብቲ እንታይ ይመስል?</value></text>
+					<text id="q_cordcondition_normal"><value>ጥዑይ</value></text>
+					<text id="q_cordcondition_abnormal"><value>ጥዑይ ኣይኮነን</value></text>
+					<text id="q_immuno_bcg_text"><value>ሕቶ408፡ እቲ ህፃን ቢሲጂ (BCG) ክታበት  ረኺቡ 'ዶ?</value></text>
+					<text id="q_immuno_bcg_lastdate_text"><value>ሕቶ408ሀ፡ ናይ መወዳእታ ቢሲጂ (BCG) ዝወሰደሉ ዕለት</value></text>
+					<text id="q_immuno_opv_text"><value>ሕቶ409፡ ናይ መወዳእታ ዝወሰዶ ክታበት ፖሊዮ ኣየናይ እዩ?</value></text>
+					<text id="q_immuno_opv_none"><value>ምንም ኣይወሰደን</value></text>
+					<text id="q_immuno_opv_0"><value>ፖሊዮ0</value></text>
+					<text id="q_immuno_opv_1"><value>ፖሊዮ1</value></text>
+					<text id="q_immuno_opv_2"><value>ፖሊዮ2</value></text>
+					<text id="q_immuno_opv_3"><value>ፖሊዮ3</value></text>
+					<text id="q_immuno_opv_lastdate_text"><value>ሕቶ410፡ ናይ መወዳእታ ክታበት ፖሊዮ ዝወሰደሉ ዕለት</value></text>
+					
+					<text id="q_immuno_penta_text"><value>ሕቶ411፡ ናይ መወዳእታ ዝወሰዶ ክታበት ፔንታ ኣየናይ እዩ?</value></text>
+					<text id="q_immuno_penta_none"><value>ምንም ኣይወሰደን</value></text>
+					<text id="q_immuno_penta_1"><value>ፔንታ1</value></text>
+					<text id="q_immuno_penta_2"><value>ፔንታ2</value></text>
+					<text id="q_immuno_penta_3"><value>ፔንታ3</value></text>
+					<text id="q_immuno_penta_lastdate_text"><value>Q412. ናይ መወዳእታ ክታበት ፔንታ ዝወሰደሉ ዕለት</value></text>
+					
+					<text id="q_immuno_ipti_text"><value>Q413. እቲ ህፃን iPTi (intermittent preventive malaria treatment) ዝተብሃለ ናይ ዓሶ ህክምና ተዋሂብዎ 'ዶ?</value></text>
+					<text id="q_immuno_ipti_lastdate_text"><value>Q414. እቲ ህፃን iPTi (intermittent preventive malaria treatment) ዝተብሃለ ናይ ዓሶ ህክምና ዝወሰደሉ መዓልቲ መዓዝ እዩ?</value></text>
+					
+					<text id="q_babymumbond_text"><value>ሕቶ415፡ ኣብ መንጎ ህፃንን ኣዶን ዝጠበቐ ርክብ ኣሎ 'ዶ?</value></text>
+					<text id="q_babymumbond_hint"><value>(ከም ምሕቓፍ...)</value></text>
+					
+					<text id="q_babybreastfeed_text"><value>ሕቶ416፡ እቲ ህፃን ፀባ ጡብ ይጠብው ኣሎ 'ዶ?</value></text>
+					<text id="q_babybreastfeed_yesexcl"><value>እወ፣ ፀባ ጡብ ጥራሕ</value></text>
+					<text id="q_babybreastfeed_yesmix"><value>እወ፣ ክልቲኡ</value></text>
+					<text id="q_babybreastfeed_formula"><value>ኣይፋሉን፣ ፀባ (ካብ ፀባ ጡብ ኣዶ ወፃኢ)ን ካልእ ዝተዳለወ ምግብን</value></text>
+					
+					<text id="q_hiv_baby_text"><value>ሕቶ417፡ እንድሕር እታ ኣዶ ኤች.ኣይ.ቪ/ኤድስ  እንተሃልይዋ እቲ ህፃን ናይ ኤች.ኣይ.ቪ ምርመራ ተገይርሉ 'ዶ?</value></text>
+					<text id="q_arv_hiv_baby_text"><value>ሕቶ418፡ እንድሕር እቲ ህፃን ኤች.ኣይ.ቪ ሃልይዎ ፀረ-ኤች.ኣይ.ቪ መድሓኒት ተዋሂብዎ 'ዶ?</value></text>
+					<text id="q_commentsbaby_text"><value>ብዛዕባ እቲ ህፃን ዝኾነ ርኢቶ ኣለኪ 'ዶ?</value></text>
+					
+					<text id="infosection5_text"><value>መረጋገፂ ዝርዝር</value></text>
+					<text id="infoappointment_text"><value>ናይ ክትትል ቆፀሮ ሓበሬታ </value></text>
+					<text id="q_appointmentdate_text"><value>ሕቶ501፡ ናይ ቐፃላይ ክትትል ቖፀሮ ምስ ሃብክያ ኣብ ናይ ሕክምና መለለይ ካርዳ መዝግቢ።</value></text>
+					<text id="q_idcard_text"><value>ሕቶ502፡ እቲ ናይ ሕክምና መለለይ ካርድ ምምሉኡን እቲ ዝሰፈረ መረዳእታ ትኽክለኛ ምዃኑን ኣረጋግፂ</value></text>
+					<text id="q_idcard_yes"><value>እወ፣ ሙሉእ ብሙሉእ ሰፊሩ</value></text>
+					<text id="q_idcard_notavail"><value>ይቕሬታ፣ ናይ መለለይ ካርድ ወዲእና</value></text>
+					
+					<text id="q_location_text"><value>ሕቶ 503 ፡ እዚ ናይ ሕክምና ቖፀሮ ኣበይ ኮይንኺ ኢኺ ኣካይድክዮ?</value></text>
+					<text id="q_location_healthpost"><value>ጥዕና ኬላ</value></text>
+					<text id="q_location_healthcentre"><value>ጥዕና ጣብያ</value></text>
+					<text id="q_location_home"><value>ኣብ ናይ ተሓካሚት ገዛ</value></text>
+					<text id="q_location_other"><value>ኣብ ካልእ</value></text>
+					<text id="q_gpsdata_text"><value>ሕቶ 504 ፡ እዚ ናይ ሕክምና ኣገልግሎት ዝተኻየደሉ ቦታ ንምምልካት ናይ ጂ.ፕ.ኤስ (GPS) ሓበሬታ ውሰዲ</value></text>
+					<text id="infoendsession_text"><value>እታ ኣዶ ንዝገበረትልኪ ምትሕብባር ኣመስጊንኪ ናይ ሎሚ ፃንሒትኪ ፈፅሚ። </value></text>
+				</translation>
+			</itext>
+			<instance>
+				<data id="PNCv1">
+					<startTime/> <!-- hidden from user -->
+					<endTime/> <!-- hidden from user -->
+					<deviceId/> <!-- hidden from user -->
+					<today/> <!-- hidden from user -->
+					<subscriberid/> <!-- hidden from user -->
+					<simid/> <!-- hidden from user -->
+					<phonenumber/> <!-- hidden from user -->
+
+					<infoprotocol/>
+					<q_consent/>
+					<infoconsent/>
+					<q_healthpointid/>
+					<q_userid/>
+					<q_yearofbirth/>
+					<q_age/>
+					<q_photo/>
+					<q_pncvisitno/>
+					
+					<infosection2/>
+					<q_deliverydate/>
+					<q_deliverynobabies/>
+					<q_deliverymode/>
+					<q_deliverysite/>
+					<q_birthattendant/>
+					<q_complications/>
+					<q_maternaldeath/>
+					
+					<infosection3/>
+					<q_mothercondition/>
+					<q_lochiacolour/>
+					<q_lochiaamount/>
+					<q_lochiaodour/>
+					<q_temperature/>
+					<q_systolicbp/>
+					<q_diastolicbp/>
+					<infoBP/>
+					<q_cardiacpulse/>
+					<infocardiacpulse/>
+					<q_palloranemia/>
+					<q_leakingurine/>
+					<q_genitaliaexterna/>
+					<q_ironsuppl/>
+					<q_vitasuppl/>
+					<q_tetanus/>
+					<q_tt1/>
+					<q_tt2/>
+					<q_fpcounseled/>
+					<q_fpaccepted/>
+					<q_hiv/>
+					<infohiv/>
+					<q_hivtreatment/>
+					<q_drugs/>
+					<q_drugsdescription/>
+					<q_commentsmother/>
+					
+					<infosection4/>
+					<q_babies jr:template="">
+						<q_babycondition/>
+						<q_deathdate/>
+						<q_deathcomments/>
+						<q_babybreathing/>
+						<q_newbornweight/>
+						<q_newbornheight/>
+						<q_newbornheadcircum/>
+						<q_cordcondition/>
+						<q_immuno_bcg/>
+						<q_immuno_bcg_lastdate/>
+						<q_immuno_opv/>
+						<q_immuno_opv_lastdate/>
+						<q_immuno_penta/>
+						<q_immuno_penta_lastdate/>
+						<q_immuno_ipti/>
+						<q_immuno_ipti_lastdate/>
+						<q_babymumbond/>
+						<q_babybreastfeed/>
+						<q_hiv_baby/>
+						<q_arv_hiv_baby/>
+						<q_commentsbaby/>
+					</q_babies>
+					
+					<infosection5/>
+					<infoappointment/>
+					<q_appointmentdate/>
+					<q_idcard/>
+					<q_location/>
+					<q_gpsdata/>
+					
+					<infoendsession/>
+				</data>
+			</instance>
+
+			<bind id="startTime" nodeset="/data/startTime" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+			<bind id="endTime" nodeset="/data/endTime" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+			<bind id="deviceId" nodeset="/data/deviceId" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+			<bind id="today" nodeset="/data/today" type="date" jr:preload="date" jr:preloadParams="today"/>
+			<bind id="subscriberid" nodeset="/data/subscriberid" type="string" jr:preload="property" jr:preloadParams="subscriberid"/>
+			<bind id="simid" nodeset="/data/simid" type="string" jr:preload="property" jr:preloadParams="simserial"/>
+			<bind id="phonenumber" nodeset="/data/phonenumber" type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
+
+			<bind id="infoprotocol" nodeset="/data/infoprotocol" readonly="true()" type="string"/>
+			<bind id="q_consent" nodeset="/data/q_consent" required="true()" type="select1"/>
+			<bind id="infoconsent" nodeset="/data/infoconsent" readonly="true()" type="string" relevant="selected(/data/q_consent,'no')"/>
+			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="select1"/>
+			<bind id="q_userid" nodeset="/data/q_userid" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('q_userid_constraint')"/>
+			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
+			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('q_age_constraint')"/>
+			<bind id="q_photo" nodeset="/data/q_photo" type="binary"/>
+			<bind id="q_pncvisitno" nodeset="/data/q_pncvisitno" required="true()" type="select1"/>
+			<bind id="q_deliverydate" nodeset="/data/q_deliverydate" type="date" required="true()" constraint="((now()-.) &gt; 0)" jr:constraintMsg="jr:itext('constraint_inpast')"/>
+			
+			<bind id="infosection2" nodeset="/data/infosection2" readonly="true()" type="string" relevant="selected(/data/q_pncvisitno,'1')"/>
+			<bind id="q_deliverynobabies" nodeset="/data/q_deliverynobabies" type="select1" required="true()" relevant="selected(/data/q_pncvisitno,'1')"/>
+			<bind id="q_deliverymode" nodeset="/data/q_deliverymode" type="select1" required="true()" relevant="selected(/data/q_pncvisitno,'1')"/>
+			<bind id="q_deliverysite" nodeset="/data/q_deliverysite" required="true()" type="select1" relevant="selected(/data/q_pncvisitno,'1')"/>
+			<bind id="q_birthattendant" nodeset="/data/q_birthattendant" required="true()" type="select" relevant="selected(/data/q_pncvisitno,'1')"/>
+			<bind id="q_complications" nodeset="/data/q_complications" required="true()" type="select" relevant="selected(/data/q_pncvisitno,'1')"/>
+			<bind id="q_maternaldeath" nodeset="/data/q_maternaldeath" required="true()" type="select1" relevant="selected(/data/q_pncvisitno,'1')"/>
+			
+			<bind id="infosection3" nodeset="/data/infosection3" readonly="true()" type="string" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_mothercondition" nodeset="/data/q_mothercondition" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_lochiacolour" nodeset="/data/q_lochiacolour" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_lochiaamount" nodeset="/data/q_lochiaamount" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_lochiaodour" nodeset="/data/q_lochiaodour" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_temperature" nodeset="/data/q_temperature" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="infoBP" nodeset="/data/infoBP" readonly="true()" type="string"
+				relevant="(/data/q_systolicbp &gt;= 140) or (/data/q_systolicbp &lt;= 90) or (/data/q_diastolicbp &gt;= 90) or (/data/q_diastolicbp &lt;= 60)"/>
+			<bind id="q_cardiacpulse" nodeset="/data/q_cardiacpulse" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="infocardiacpulse" nodeset="/data/infocardiacpulse" readonly="true()" type="string" relevant="(/data/q_cardiacpulse &gt;= 100) or (/data/q_cardiacpulse &lt;= 50) "/>
+			<bind id="q_palloranemia" nodeset="/data/q_palloranemia" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_leakingurine" nodeset="/data/q_leakingurine" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_genitaliaexterna" nodeset="/data/q_genitaliaexterna" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_ironsuppl" nodeset="/data/q_ironsuppl" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_vitasuppl" nodeset="/data/q_vitasuppl" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_tetanus" nodeset="/data/q_tetanus" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_tt1" nodeset="/data/q_tt1" required="true()" type="date" relevant="not(selected(/data/q_tetanus,'none')) and not(selected(/data/q_maternaldeath,'yes'))" constraint="(now()-.) &gt;= 0" jr:constraintMsg="jr:itext('tetanus_date_constraint')"/>
+			<bind id="q_tt2" nodeset="/data/q_tt2" required="true()" type="date" relevant="not(selected(/data/q_tetanus,'none')) and not(selected(/data/q_tetanus,'tt1')) and not(selected(/data/q_maternaldeath,'yes'))" constraint="(now()-.) &gt;= 0" jr:constraintMsg="jr:itext('tetanus_date_constraint')"/>
+			<bind id="q_fpcounseled" nodeset="/data/q_fpcounseled" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_fpaccepted" nodeset="/data/q_fpaccepted" required="true()" type="select1" relevant="not(selected(/data/q_fpcounseled,'yes')) and not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_hiv" nodeset="q_hiv" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="infohiv" nodeset="/data/infohiv" readonly="true()" type="string" relevant="selected(/data/q_hiv,'dontknow')"/>
+			<bind id="q_hivtreatment" nodeset="/data/q_hivtreatment" required="true()" type="select1" relevant="selected(/data/q_hiv,'positive')"/>
+			<bind id="q_drugs" nodeset="/data/q_drugs" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_drugsdescription" nodeset="/data/q_drugsdescription" type="string" relevant="selected(/data/q_drugs,'yes')"/>
+			<bind id="q_commentsmother" nodeset="/data/q_commentsmother" type="string" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			
+			<bind id="infosection4" nodeset="/data/infosection4" readonly="true()" type="string"/>
+			
+			<bind id="q_babies" nodeset="/data/q_babies"/>
+				<bind id="q_babycondition" nodeset="/data/q_babies/q_babycondition" required="true()" type="select1"/>
+				<bind id="q_deathdate" nodeset="/data/q_babies/q_deathdate" type="date" required="true()" relevant="selected(/data/q_babies/q_babycondition,'died')" constraint="((now()-.) &gt;= 0)" jr:constraintMsg="jr:itext('constraint_inpast')"/>
+				<bind id="q_deathcomments" nodeset="/data/q_babies/q_deathcomments" type="string"  relevant="selected(/data/q_babies/q_babycondition,'died')" />
+				<bind id="q_babybreathing" nodeset="/data/q_babies/q_babybreathing" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_newbornweight" nodeset="/data/q_babies/q_newbornweight" required="true()" type="integer" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_newbornheight" nodeset="/data/q_babies/q_newbornheight" required="true()" type="integer" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_newbornheadcircum" nodeset="/data/q_babies/q_newbornheadcircum" required="true()" type="integer" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_cordcondition" nodeset="/data/q_babies/q_cordcondition" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_immuno_bcg" nodeset="/data/q_babies/q_immuno_bcg" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_immuno_bcg_lastdate" nodeset="/data/q_babies/q_immuno_bcg_lastdate" required="true()" type="date" relevant="not(selected(/data/q_babies/q_immuno_bcg,'none')) and not(selected(/data/q_babies/q_babycondition,'died'))" constraint="((now()-.) &gt;= 0)" jr:constraintMsg="jr:itext('constraint_inpast')"/>
+				<bind id="q_immuno_opv" nodeset="/data/q_babies/q_immuno_opv" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_immuno_opv_lastdate" nodeset="/data/q_babies/q_immuno_opv_lastdate" required="true()" type="date" relevant="not(selected(/data/q_babies/q_immuno_opv,'none')) and not(selected(/data/q_babies/q_babycondition,'died'))" constraint="((now()-.) &gt;= 0)" jr:constraintMsg="jr:itext('constraint_inpast')"/>
+				<bind id="q_immuno_penta" nodeset="/data/q_babies/q_immuno_penta" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_immuno_penta_lastdate" nodeset="/data/q_babies/q_immuno_penta_lastdate" required="true()" type="date" relevant="not(selected(/data/q_babies/q_immuno_penta,'none')) and not(selected(/data/q_babies/q_babycondition,'died'))" constraint="((now()-.) &gt;= 0)" jr:constraintMsg="jr:itext('constraint_inpast')"/>
+				<bind id="q_immuno_ipti" nodeset="/data/q_babies/q_immuno_ipti" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_immuno_ipti_lastdate" nodeset="/data/q_babies/q_immuno_ipti_lastdate" required="true()" type="date" relevant="not(selected(/data/q_babies/q_immuno_ipti,'no')) and not(selected(/data/q_babies/q_babycondition,'died'))" constraint="((now()-.) &gt;= 0)" jr:constraintMsg="jr:itext('constraint_inpast')"/>
+				<bind id="q_babymumbond" nodeset="/data/q_babies/q_babymumbond" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_babybreastfeed" nodeset="/data/q_babies/q_babybreastfeed" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_hiv_baby" nodeset="/data/q_babies/q_hiv_baby" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_arv_hiv_baby" nodeset="/data/q_babies/q_arv_hiv_baby" required="true()" type="select1" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+				<bind id="q_commentsbaby" nodeset="/data/q_babies/q_commentsbaby" type="string" relevant="not(selected(/data/q_babies/q_babycondition,'died'))"/>
+			
+			
+			<bind id="infosection5" nodeset="/data/infosection5" readonly="true()" type="string"/>
+			<bind id="infoappointment" nodeset="/data/infoappointment" calculate="date(/data/q_deliverydate)" type="date" required="true()" readonly="true()"/>
+			<bind id="q_appointmentdate" nodeset="/data/q_appointmentdate" type="date" required="true()" relevant="((now()-/data/q_deliverydate) &gt; 0) and ((now()-/data/q_deliverydate) &lt; 35)"/>
+			<bind id="q_idcard" nodeset="/data/q_idcard" required="true()" type="select1"/>
+			<bind id="q_location" nodeset="/data/q_location" type="select1" required="true()"/>
+			<bind id="q_gpsdata" nodeset="/data/q_gpsdata" type="geopoint" format="gps"
+				relevant="not(selected(/data/q_location,'healthpost')) and not(selected(/data/q_location,'healthcentre'))"/>
+			<bind id="infoendsession" nodeset="/data/infoendsession" readonly="true()" type="string"/>
+		</model>
+	</h:head>
+	<h:body>
+		<input bind="infoprotocol">
+			<label ref="jr:itext('infoprotocol_text')"/>
+		</input>
+		<select1 bind="q_consent">
+			<label ref="jr:itext('q_consent_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<input bind="infoconsent">
+			<label ref="jr:itext('infoconsent_text')"/>
+		</input>
+		<select1 bind="q_healthpointid">
+			<label ref="jr:itext('q_healthpointid_text')"/>
+			<item><label ref="jr:itext('q_healthpointid_9999')"/><value>9999</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1006')"/><value>1006</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1001')"/><value>1001</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1009')"/><value>1009</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1002')"/><value>1002</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1007')"/><value>1007</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1005')"/><value>1005</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1008')"/><value>1008</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1000')"/><value>1000</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1003')"/><value>1003</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1004')"/><value>1004</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50001')"/><value>50001</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50002')"/><value>50002</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50003')"/><value>50003</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50004')"/><value>50004</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50005')"/><value>50005</value></item>
+		</select1>
+		<input bind="q_userid">
+			<label ref="jr:itext('q_userid_text')"/>
+		</input>
+		<input bind="q_yearofbirth">
+			<label ref="jr:itext('q_yearofbirth_text')"/>
+			<hint ref="jr:itext('q_yearofbirth_hint')"/>
+		</input>
+		<input bind="q_age">
+			<label ref="jr:itext('q_age_text')"/>
+		</input>
+		<upload ref="q_photo" mediatype="image/*">
+			<label ref="jr:itext('q_photo_text')"/>
+			<hint ref="jr:itext('q_photo_hint')"/>
+		</upload>
+		<select1 bind="q_pncvisitno">
+			<label ref="jr:itext('q_pncvisitno_text')"/>
+			<item><label ref="jr:itext('q_pncvisitno_1')"/><value>1</value></item>
+			<item><label ref="jr:itext('q_pncvisitno_2')"/><value>2</value></item>
+			<item><label ref="jr:itext('q_pncvisitno_3')"/><value>3</value></item>
+		</select1>
+		<input bind="q_deliverydate" appearance="ethiopicDate">
+			<label ref="jr:itext('q_deliverydate_text')"/>
+		</input>
+		
+		<input bind="infosection2">
+			<label ref="jr:itext('infosection2_text')"/>
+		</input>
+		<select1 bind="q_deliverynobabies">
+			<label ref="jr:itext('q_deliverynobabies_text')"/>
+			<item><label ref="jr:itext('q_deliverynobabies_1')"/><value>1</value></item>
+			<item><label ref="jr:itext('q_deliverynobabies_2')"/><value>2</value></item>
+			<item><label ref="jr:itext('q_deliverynobabies_3')"/><value>3</value></item>
+		</select1>
+		<select1 bind="q_deliverymode">
+			<label ref="jr:itext('q_deliverymode_text')"/>
+			<item><label ref="jr:itext('q_deliverymode_normal')"/><value>normal</value></item>
+			<item><label ref="jr:itext('q_deliverymode_csection')"/><value>csection</value></item>
+			<item><label ref="jr:itext('q_deliverymode_vacuum')"/><value>vacuum</value></item>
+			<item><label ref="jr:itext('q_deliverymode_forceps')"/><value>forceps</value></item>
+		</select1>
+		<select1 bind="q_deliverysite">
+			<label ref="jr:itext('q_deliverysite_text')"/>
+			<item><label ref="jr:itext('q_deliverysite_home')"/><value>home</value></item>
+			<item><label ref="jr:itext('q_deliverysite_healthpost')"/><value>healthpost</value></item>
+			<item><label ref="jr:itext('q_deliverysite_healthcentre')"/><value>healthcentre</value></item>
+			<item><label ref="jr:itext('q_deliverysite_hospital')"/><value>hospital</value></item>
+			<item><label ref="jr:itext('q_deliverysite_other')"/><value>other</value></item>
+		</select1>
+		<select bind="q_birthattendant">
+			<label ref="jr:itext('q_birthattendant_text')"/>
+			<hint ref="jr:itext('selectall')"/>
+			<item><label ref="jr:itext('q_birthattendant_midwife')"/><value>midwife</value></item>
+			<item><label ref="jr:itext('q_birthattendant_hew')"/><value>hew</value></item>
+			<item><label ref="jr:itext('q_birthattendant_trainedbirthattendant')"/><value>trainedbirthattendant</value></item>
+			<item><label ref="jr:itext('q_birthattendant_untrainedbirthattendant')"/><value>untrainedbirthattendant</value></item>
+			<item><label ref="jr:itext('q_birthattendant_relativeorfriend')"/><value>relativeorfriend</value></item>
+			<item><label ref="jr:itext('q_birthattendant_doctor')"/><value>doctor</value></item>
+			<item><label ref="jr:itext('q_birthattendant_healthofficer')"/><value>healthofficer</value></item>
+			<item><label ref="jr:itext('q_birthattendant_nurse')"/><value>nurse</value></item>
+			<item><label ref="jr:itext('q_birthattendant_other')"/><value>other</value></item>
+		</select>
+		<select bind="q_complications">
+			<label ref="jr:itext('q_complications_text')"/>
+			<hint ref="jr:itext('selectall')"/>
+			<item><label ref="jr:itext('q_complications_none')"/><value>none</value></item>
+			<item><label ref="jr:itext('q_complications_eclampsia')"/><value>eclampsia</value></item>
+			<item><label ref="jr:itext('q_complications_infection')"/><value>infection</value></item>
+			<item><label ref="jr:itext('q_complications_pph')"/><value>pph</value></item>
+			<item><label ref="jr:itext('q_complications_rupture')"/><value>rupture</value></item>
+			<item><label ref="jr:itext('q_complications_fistula')"/><value>fistula</value></item>
+			<item><label ref="jr:itext('q_complications_dropfoot')"/><value>dropfoot</value></item>
+			<item><label ref="jr:itext('q_complications_psychosis')"/><value>pychosis</value></item>
+			<item><label ref="jr:itext('q_complications_other')"/><value>other</value></item>
+		</select>
+		<select1 bind="q_maternaldeath">
+			<label ref="jr:itext('q_maternaldeath_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+
+
+		<input bind="infosection3">
+			<label ref="jr:itext('infosection3_text')"/>
+		</input>
+		<select1 bind="q_mothercondition">
+			<label ref="jr:itext('q_mothercondition_text')"/>
+			<item><label ref="jr:itext('q_mothercondition_good')"/><value>good</value></item>
+			<item><label ref="jr:itext('q_mothercondition_bad')"/><value>bad</value></item>
+		</select1>
+		<select1 bind="q_lochiacolour">
+			<label ref="jr:itext('q_lochiacolour_text')"/>
+			<item><label ref="jr:itext('q_lochiacolour_rubra')"/><value>rubra</value></item>
+			<item><label ref="jr:itext('q_lochiacolour_serosa')"/><value>serosa</value></item>
+			<item><label ref="jr:itext('q_lochiacolour_alba')"/><value>alba</value></item>
+			<item><label ref="jr:itext('q_lochiacolour_none')"/><value>none</value></item>
+		</select1>
+		<select1 bind="q_lochiaamount">
+			<label ref="jr:itext('q_lochiaamount_text')"/>
+			<item><label ref="jr:itext('q_lochiaamount_excess')"/><value>excess</value></item>
+			<item><label ref="jr:itext('q_lochiaamount_normal')"/><value>normal</value></item>
+			<item><label ref="jr:itext('q_lochiaamount_none')"/><value>none</value></item>
+		</select1>
+		<select1 bind="q_lochiaodour">
+			<label ref="jr:itext('q_lochiaodour_text')"/>
+			<item><label ref="jr:itext('q_lochiaodour_foul')"/><value>foul</value></item>
+			<item><label ref="jr:itext('q_lochiaodour_normal')"/><value>normal</value></item>
+			<item><label ref="jr:itext('q_lochiaodour_none')"/><value>none</value></item>
+		</select1>
+		<select1 bind="q_temperature">
+			<label ref="jr:itext('q_temperature_text')"/>
+			<item><label ref="jr:itext('q_temperature_normal')"/><value>normal</value></item>
+			<item><label ref="jr:itext('q_temperature_over37')"/><value>over37</value></item>
+			<item><label ref="jr:itext('q_temperature_nottaken')"/><value>nottaken</value></item>
+		</select1>
+		<input bind="q_systolicbp">
+			<label ref="jr:itext('q_systolicbp_text')"/>
+		</input>
+		<input bind="q_diastolicbp">
+			<label ref="jr:itext('q_diastolicbp_text')"/>
+		</input>
+		<input bind="infoBP">
+			<label ref="jr:itext('infoBP_text')"/>
+		</input>
+		<input bind="q_cardiacpulse">
+			<label ref="jr:itext('q_cardiacpulse_text')"/>
+		</input>
+		<input bind="infocardiacpulse">
+			<label ref="jr:itext('infocardiacpulse_text')"/>
+		</input>
+		<select1 bind="q_palloranemia">
+			<label ref="jr:itext('q_palloranemia_text')"/>
+			<item><label ref="jr:itext('q_palloranemia_pallor')"/><value>pallor</value></item>
+			<item><label ref="jr:itext('q_palloranemia_normal')"/><value>normal</value></item>
+			<item><label ref="jr:itext('q_palloranemia_notclear')"/><value>notclear</value></item>
+		</select1>
+		<select1 bind="q_leakingurine">
+			<label ref="jr:itext('q_leakingurine_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+			<item><label ref="jr:itext('notsure')"/><value>notsure</value></item>
+			<item><label ref="jr:itext('notexp')"/><value>notexplored</value></item>
+		</select1>
+		<select1 bind="q_genitaliaexterna">
+			<label ref="jr:itext('q_genitaliaexterna_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+			<item><label ref="jr:itext('notexp')"/><value>notexplored</value></item>
+		</select1>
+		<select1 bind="q_ironsuppl">
+			<label ref="jr:itext('q_ironsuppl_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<select1 bind="q_vitasuppl">
+			<label ref="jr:itext('q_vitasuppl_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<select1 bind="q_tetanus">
+			<label ref="jr:itext('q_tetanus_text')"/>
+			<hint ref="jr:itext('q_tetanus_hint')"/>
+			<item><label ref="jr:itext('q_tetanus_none')"/><value>none</value></item>
+			<item><label ref="jr:itext('q_tetanus_tt1')"/><value>tt1</value></item>
+			<item><label ref="jr:itext('q_tetanus_tt2')"/><value>tt2</value></item>
+			<item><label ref="jr:itext('q_tetanus_tt3')"/><value>tt3</value></item>
+		</select1>
+		<input bind="q_tt1" appearance="ethiopicDate">
+			<label ref="jr:itext('q_tt1_text')"/>
+		</input>
+		<input bind="q_tt2" appearance="ethiopicDate">
+			<label ref="jr:itext('q_tt2_text')"/>
+		</input>
+		<select1 bind="q_fpcounseled">
+			<label ref="jr:itext('q_fpcounseled_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<select1 bind="q_fpaccepted">
+			<label ref="jr:itext('q_fpaccepted_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<select1 bind="q_hiv">
+			<label ref="jr:itext('q_hiv_text')"/>
+			<item><label ref="jr:itext('q_hiv_positive')"/><value>positive</value></item>
+			<item><label ref="jr:itext('q_hiv_negative')"/><value>negative</value></item>
+			<item><label ref="jr:itext('q_hiv_dontknow')"/><value>dontknow</value></item>
+		</select1>
+		<input bind="infohiv">
+			<label ref="jr:itext('infohiv_text')"/>
+		</input>
+		<select1 bind="q_hivtreatment">
+			<label ref="jr:itext('q_hivtreatment_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<select1 bind="q_drugs">
+			<label ref="jr:itext('q_drugs_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<input bind="q_drugsdescription">
+			<label ref="jr:itext('q_drugsdescription_text')"/>
+			<hint ref="jr:itext('q_drugsdescription_hint')"/>
+		</input>
+		<input bind="q_commentsmother">
+			<label ref="jr:itext('q_commentsmother_text')"/>
+		</input>
+		
+		<input bind="infosection4">
+			<label ref="jr:itext('infosection4_text')"/>
+			<hint ref="jr:itext('infosection4_hint')"/>
+		</input>
+		<group>
+			<label ref="jr:itext('q_babies_text')"/>
+			<repeat nodeset="/data/q_babies">
+				<select1 bind="q_babycondition">
+					<label ref="jr:itext('q_babycondition_text')"/>
+					<item><label ref="jr:itext('q_babycondition_good')"/><value>good</value></item>
+					<item><label ref="jr:itext('q_babycondition_bad')"/><value>bad</value></item>
+					<item><label ref="jr:itext('q_babycondition_died')"/><value>died</value></item>
+				</select1>
+				<input bind="q_deathdate" appearance="ethiopicDate">
+					<label ref="jr:itext('q_deathdate_text')"/>
+				</input>
+				<input bind="q_deathcomments">
+					<label ref="jr:itext('q_deathcomments_text')"/>
+				</input>
+				<select1 bind="q_babybreathing">
+					<label ref="jr:itext('q_babybreathing_text')"/>
+					<item><label ref="jr:itext('q_babybreathing_normal')"/><value>normal</value></item>
+					<item><label ref="jr:itext('q_babybreathing_fast')"/><value>fast</value></item>
+				</select1>
+				<input bind="q_newbornweight">
+					<label ref="jr:itext('q_newbornweight_text')"/>
+				</input>
+				<input bind="q_newbornheight">
+					<label ref="jr:itext('q_newbornheight_text')"/>
+				</input>
+				<input bind="q_newbornheadcircum">
+					<label ref="jr:itext('q_newbornheadcircum_text')"/>
+				</input>
+				<select1 bind="q_cordcondition">
+					<label ref="jr:itext('q_cordcondition_text')"/>
+					<item><label ref="jr:itext('q_cordcondition_normal')"/><value>normal</value></item>
+					<item><label ref="jr:itext('q_cordcondition_abnormal')"/><value>abnormal</value></item>
+				</select1>
+				<select1 bind="q_immuno_bcg">
+					<label ref="jr:itext('q_immuno_bcg_text')"/>
+					<hint ref="jr:itext('immuno_hint')"/>
+					<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+					<item><label ref="jr:itext('no')"/><value>no</value></item>
+				</select1>
+				<input bind="q_immuno_bcg_lastdate" appearance="ethiopicDate">
+					<label ref="jr:itext('q_immuno_bcg_lastdate_text')"/>
+				</input>
+				<select1 bind="q_immuno_opv">
+					<label ref="jr:itext('q_immuno_opv_text')"/>
+					<hint ref="jr:itext('immuno_hint')"/>
+					<item><label ref="jr:itext('q_immuno_opv_none')"/><value>none</value></item>
+					<item><label ref="jr:itext('q_immuno_opv_0')"/><value>OPV0</value></item>
+					<item><label ref="jr:itext('q_immuno_opv_1')"/><value>OPV1</value></item>
+					<item><label ref="jr:itext('q_immuno_opv_2')"/><value>OPV2</value></item>
+					<item><label ref="jr:itext('q_immuno_opv_3')"/><value>OPV3</value></item>
+				</select1>
+				<input bind="q_immuno_opv_lastdate" appearance="ethiopicDate">
+					<label ref="jr:itext('q_immuno_opv_lastdate_text')"/>
+				</input>
+				<select1 bind="q_immuno_penta">
+					<label ref="jr:itext('q_immuno_penta_text')"/>
+					<hint ref="jr:itext('immuno_hint')"/>
+					<item><label ref="jr:itext('q_immuno_penta_none')"/><value>none</value></item>
+					<item><label ref="jr:itext('q_immuno_penta_1')"/><value>penta1</value></item>
+					<item><label ref="jr:itext('q_immuno_penta_2')"/><value>penta2</value></item>
+					<item><label ref="jr:itext('q_immuno_penta_3')"/><value>penta3</value></item>
+				</select1>
+				<input bind="q_immuno_penta_lastdate" appearance="ethiopicDate">
+					<label ref="jr:itext('q_immuno_penta_lastdate_text')"/>
+				</input>
+				<select1 bind="q_immuno_ipti">
+					<label ref="jr:itext('q_immuno_ipti_text')"/>
+					<hint ref="jr:itext('immuno_hint')"/>
+					<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+					<item><label ref="jr:itext('no')"/><value>no</value></item>
+				</select1>
+				<input bind="q_immuno_ipti_lastdate" appearance="ethiopicDate">
+					<label ref="jr:itext('q_immuno_ipti_lastdate_text')"/>
+				</input>
+				<select1 bind="q_babymumbond">
+					<label ref="jr:itext('q_babymumbond_text')"/>
+					<hint ref="jr:itext('q_babymumbond_hint')"/>
+					<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+					<item><label ref="jr:itext('no')"/><value>no</value></item>
+				</select1>
+				<select1 bind="q_babybreastfeed">
+					<label ref="jr:itext('q_babybreastfeed_text')"/>
+					<item><label ref="jr:itext('q_babybreastfeed_yesexcl')"/><value>yesexcl</value></item>
+					<item><label ref="jr:itext('q_babybreastfeed_yesmix')"/><value>yesmix</value></item>
+					<item><label ref="jr:itext('q_babybreastfeed_formula')"/><value>formula</value></item>
+				</select1>
+				<select1 bind="q_hiv_baby">
+					<label ref="jr:itext('q_hiv_baby_text')"/>
+					<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+					<item><label ref="jr:itext('no')"/><value>no</value></item>
+					<item><label ref="jr:itext('notreq')"/><value>notreq</value></item>
+				</select1>
+				<select1 bind="q_arv_hiv_baby">
+					<label ref="jr:itext('q_arv_hiv_baby_text')"/>
+					<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+					<item><label ref="jr:itext('no')"/><value>no</value></item>
+					<item><label ref="jr:itext('notreq')"/><value>notreq</value></item>
+				</select1>
+				<input bind="q_commentsbaby">
+					<label ref="jr:itext('q_commentsbaby_text')"/>
+				</input>
+			</repeat>
+		</group>
+			
+		<input bind="infosection5">
+			<label ref="jr:itext('infosection5_text')"/>
+		</input>
+		<input bind="infoappointment" appearance="PNCApptCalculator">
+			<label ref="jr:itext('infoappointment_text')"/>
+		</input>
+		<input bind="q_appointmentdate" appearance="ethiopicDate">
+			<label ref="jr:itext('q_appointmentdate_text')"/>
+		</input>
+		<select1 bind="q_idcard">
+			<label ref="jr:itext('q_idcard_text')"/>
+			<item><label ref="jr:itext('q_idcard_yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('q_idcard_notavail')"/><value>notavail</value></item>
+		</select1>
+		<select1 bind="q_location">
+			<label ref="jr:itext('q_location_text')"/>
+			<item><label ref="jr:itext('q_location_healthpost')"/><value>healthpost</value></item>
+			<item><label ref="jr:itext('q_location_healthcentre')"/><value>healthcentre</value></item>
+			<item><label ref="jr:itext('q_location_home')"/><value>home</value></item>
+			<item><label ref="jr:itext('q_location_other')"/><value>other</value></item>
+		</select1>
+		<input bind="q_gpsdata">
+			<label ref="jr:itext('q_gpsdata_text')"/>
+		</input>
+		<input bind="infoendsession">
+			<label ref="jr:itext('infoendsession_text')"/>
+		</input>
+	</h:body>
+</h:html>

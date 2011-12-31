@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:jr="http://openrosa.org/javarosa">
+	<h:head>
+		<Meta>
+			<UserID/>
+			<DeviceID/>
+			<TimeStartRecorded/>
+			<TimeEndRecorded/>
+		</Meta>
+		<h:title>Registration (ምዝገባ) v6</h:title>
+		<model>
+			<itext>
+				<translation lang="English">
+					<text id="yes"><value>Yes</value></text>
+					<text id="no"><value>No</value></text>
+					<text id="selectone"><value>Select one</value></text>
+					<text id="selectall"><value>Select all that apply</value></text>
+					<text id="checklist_text"><value>Checklist</value></text>
+					<text id="thanks_text"><value>Thank them for their cooperation and end the session.</value></text>
+
+					<text id="q_consent_text"><value>Q101. Do you give me your consent to use phone for interview?</value></text>
+					<text id="infoconsent_text"><value>Put phone down and provide care as normal</value></text>
+
+					<text id="q_healthpointid_text"><value>Q102. Select where the user is being registered</value></text>
+					<text id="q_healthpointid_9999"><value>Practice only</value></text>
+					<text id="q_healthpointid_1006"><value>Ara Alemseged health post</value></text>
+					<text id="q_healthpointid_1001"><value>Ayanlem health post</value></text>
+					<text id="q_healthpointid_1009"><value>Frewoyni health post</value></text>
+					<text id="q_healthpointid_1002"><value>Gemad health post</value></text>
+					<text id="q_healthpointid_1007"><value>Hagerselam health post</value></text>
+					<text id="q_healthpointid_1005"><value>Maynebri health post</value></text>
+					<text id="q_healthpointid_1008"><value>Mesanu - Hintalowajerat health post</value></text>
+					<text id="q_healthpointid_1000"><value>Mesanu - Kilteawelaelo health post</value></text>
+					<text id="q_healthpointid_1003"><value>Negash health post</value></text>
+					<text id="q_healthpointid_1004"><value>Tsadanaele health post</value></text>
+					<text id="q_healthpointid_50001"><value>Abraha Atsbha health centre</value></text>
+					<text id="q_healthpointid_50002"><value>Adigudom health centre</value></text>
+					<text id="q_healthpointid_50003"><value>Agulae health centre</value></text>
+					<text id="q_healthpointid_50004"><value>Hiwane health centre</value></text>
+					<text id="q_healthpointid_50005"><value>Negash health centre</value></text>
+
+					<text id="q_userid_text"><value>Q103. Enter the user's ID</value></text>
+					<text id="q_userid_constraint"><value>Must be greater than 0</value></text>
+					
+					<text id="q_dayofbirth_text"><value>Q104. If known, please enter user's day of birth, if not enter 0</value></text>
+					<text id="q_dayofbirth_hint"><value>Please use the Ethiopian calendar</value></text>
+					<text id="q_dayofbirth_constraint"><value>Please enter a number between 0 and 30</value></text>
+					
+					<text id="q_monthofbirth_text"><value>Q105. Please select user's month of birth</value></text>
+					<text id="q_monthofbirth_0"><value>Not Known</value></text>
+					<text id="q_monthofbirth_1"><value>Meskerem</value></text>
+					<text id="q_monthofbirth_2"><value>Tikimti</value></text>
+					<text id="q_monthofbirth_3"><value>Hidar</value></text>
+					<text id="q_monthofbirth_4"><value>Tahsas</value></text>
+					<text id="q_monthofbirth_5"><value>Tiri</value></text>
+					<text id="q_monthofbirth_6"><value>Yekatit</value></text>
+					<text id="q_monthofbirth_7"><value>Megabit</value></text>
+					<text id="q_monthofbirth_8"><value>Miazia</value></text>
+					<text id="q_monthofbirth_9"><value>Gunbet</value></text>
+					<text id="q_monthofbirth_10"><value>Sene</value></text>
+					<text id="q_monthofbirth_11"><value>Hamle</value></text>
+					<text id="q_monthofbirth_12"><value>Nehase</value></text>
+					<text id="q_monthofbirth_13"><value>Pagumein</value></text>
+
+					<text id="q_yearofbirth_text"><value>Q106. Please enter user's year of birth</value></text>
+					<text id="q_yearofbirth_hint"><value>Please use the Ethiopian calendar</value></text>
+					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
+					
+					<text id="q_age_text"><value>Q107. Enter user's age</value></text>
+					<text id="q_age_constraint"><value>Please enter a number 0 or greater</value></text>
+					
+					<text id="q_username_text"><value>Q108. Enter user's name</value></text>
+					<text id="q_userfathersname_text"><value>Q109. Enter user's fathers name</value></text>
+					<text id="q_usergrandfathersname_text"><value>Q110. Enter user's grandfathers name</value></text>
+
+					<text id="q_sex_text"><value>Q111. Is the user female or male?</value></text>
+					<text id="q_sex_female"><value>Female</value></text>
+					<text id="q_sex_male"><value>Male</value></text>
+
+					<text id="q_photo_text"><value>Q112. Ask for consent to take a photo of the user's head for the purpose of medical record identification.</value></text>
+					<text id="q_photo_hint"><value>Your photo is used to help us identify users and match the correct medical records with the correct person, especially if you are visiting healthcare workers who you may not have had previous contact with</value></text>
+
+					<text id="q_maritalstatus_text"><value>Q113. Are you currently married or living together in union as if married?</value></text>
+					<text id="q_maritalstatus_yes"><value>Yes. Currently married or living together</value></text>
+					<text id="q_maritalstatus_no"><value>No</value></text>
+
+					<text id="q_education_text"><value>Q114. What is the highest level of education you have completed?</value></text>
+					<text id="q_education_illiterate"><value>Illiterate (unable to read and write)</value></text>
+					<text id="q_education_literate"><value>Able to read and write</value></text>
+					<text id="q_education_primary"><value>Primary (1-4 grade)</value></text>
+					<text id="q_education_junior"><value>Junior (5-8 grade)</value></text>
+					<text id="q_education_high"><value>High school (9-12)</value></text>
+					<text id="q_education_college"><value>College degree and above</value></text>
+
+					<text id="q_mobilephone_text"><value>Q115. Do you (or a close relative) have a mobile phone?</value></text>
+					<text id="q_mobilenumber_text"><value>Q116. Please enter mobile phone number</value></text>
+
+					<text id="q_occupation_text"><value>Q117. How do you describe your main occupation?</value></text>
+					<text id="q_occupation_farmer"><value>Farmer</value></text>
+					<text id="q_occupation_labourer"><value>Daily labourer</value></text>
+					<text id="q_occupation_merchant"><value>Merchant</value></text>
+					<text id="q_occupation_empnongov"><value>Employee: non-government</value></text>
+					<text id="q_occupation_empgov"><value>Employee: government</value></text>
+					<text id="q_occupation_student"><value>Student</value></text>
+					<text id="q_occupation_housewife"><value>Housewife</value></text>
+					<text id="q_occupation_nojob"><value>No Job</value></text>
+					<text id="q_occupation_other"><value>Other</value></text>
+
+					<text id="q_houseroof_text"><value>Q118. What is the main material of the roof of your house?</value></text>
+					<text id="q_houseroof_thatch"><value>Thatch, leaf</value></text>
+					<text id="q_houseroof_plastic"><value>Rustic mat, plastic sheet</value></text>
+					<text id="q_houseroof_tin"><value>Corrugated iron</value></text>
+					<text id="q_houseroof_wood"><value>Wood</value></text>
+					<text id="q_houseroof_concrete"><value>Concrete</value></text>
+					<text id="q_houseroof_shingle"><value>Roofing shingles</value></text>
+					<text id="q_houseroof_hidmo"><value>Hidmo</value></text>
+					<text id="q_houseroof_other"><value>Other</value></text>
+
+					<text id="q_housewall_text"><value>Q119. What is the main material of the wall of your house?</value></text>
+					<text id="q_housewall_cane"><value>Cane, trunk, bamboo, reed</value></text>
+					<text id="q_housewall_wood"><value>Wood</value></text>
+					<text id="q_housewall_stonemud"><value>Stone with mud</value></text>
+					<text id="q_housewall_cement"><value>Bricks, cement</value></text>
+					<text id="q_housewall_other"><value>Other</value></text>
+
+					<text id="q_houseelectricity_text"><value>Q120. Do you have eletricity at home?</value></text>
+
+					<text id="q_homeappliances_text"><value>Q121. Do you have any of these objects at home?</value></text>
+					<text id="q_homeappliances_radio"><value>Radio</value></text>
+					<text id="q_homeappliances_television"><value>Television</value></text>
+					<text id="q_homeappliances_bed"><value>Bed</value></text>
+
+					<text id="q_homesanitation_text"><value>Q122. Please describe your main home sanitation type</value></text>
+					<text id="q_homesanitation_pit"><value>Pit latrines</value></text>
+					<text id="q_homesanitation_septic"><value>Septic tanks with soakways</value></text>
+					<text id="q_homesanitation_serviceorbucket"><value>Service or bucket latrines</value></text>
+					<text id="q_homesanitation_bush"><value>Bush</value></text>
+					<text id="q_homesanitation_flush"><value>Flush toilet</value></text>
+					<text id="q_homesanitation_other"><value>Other</value></text>
+
+					<text id="q_homewatersource_text"><value>Q123. Please describe the main water source type for your home</value></text>
+					<text id="q_homewatersource_piped"><value>Pipe Water</value></text>
+					<text id="q_homewatersource_wellprot"><value>Well (protected)</value></text>
+					<text id="q_homewatersource_wellunprot"><value>Well (unprotected)</value></text>
+					<text id="q_homewatersource_stream"><value>Stream</value></text>
+					<text id="q_homewatersource_borehole"><value>Boreholes</value></text>
+
+					<text id="q_homefuelsource_text"><value>Q124. What is the main type of fuel used for cooking at home?</value></text>
+					<text id="q_homefuelsource_open"><value>Open fires (wood and coal)</value></text>
+					<text id="q_homefuelsource_gas"><value>Gas</value></text>
+					<text id="q_homefuelsource_electric"><value>Electricity</value></text>
+					<text id="q_homefuelsource_other"><value>Other</value></text>
+
+					<text id="q_idcard_text"><value>Q201. Check that the registration card is completed and all the data is correct</value></text>
+					<text id="q_idcard_yes"><value>Completed</value></text>
+					<text id="q_idcard_notavail"><value>Sorry, we have run out of registration cards</value></text>
+
+					<text id="q_location_text"><value>Q202. Where have you performed this visit?</value></text>
+					<text id="q_location_healthpost"><value>Health post</value></text>
+					<text id="q_location_healthcentre"><value>Health centre</value></text>
+					<text id="q_location_home"><value>User's home</value></text>
+					<text id="q_location_other"><value>Other</value></text>
+					<text id="q_gpsdata_text"><value>Q203. Please record the location (using GPS)</value></text>
+				</translation>
+				<translation lang="Tigrinyan">
+					<text id="yes"><value>እወ</value></text>
+					<text id="no"><value>ኣይፋሉን</value></text>
+					<text id="selectone"><value>ሓደ ምረፂ/ፅ</value></text>
+					<text id="selectall"><value> ካብ ሓደ ንላዕሊ መልሲ ክህሉዎ ይኽእል እዩ</value></text>
+					<text id="checklist_text"><value>መረጋገፂ</value></text>
+					<text id="thanks_text"><value>ተጠቓማይ ግልጋሎት ጥዕና ብምምስጋን እዚ ቕጥዒ ወዲኢ/እ።</value></text>
+					
+					<text id="q_consent_text"><value>ሕቶ 101. እዛ ተንቓሳቓሲት ስልኪ ንቃለ መሕትት ንኽጥቀመላ ፍቓደኛ ዲኺ/ኻ?</value></text>
+					<text id="infoconsent_text"><value>እታ/ቲ ተጠቓማይ ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኾይና/ኑ እታ ተንቓሳቓሲት ስልኪ ኣቕሚጢኺ/ኻ፣ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቀት ሃቢ/ብ።</value></text>
+					
+					<text id="q_healthpointid_text"><value>ሕቶ 102. እዚ ግልጋሎት ጥዕና ንተጠቃማይ ዝውሃበሉ ዘሎ ጥዕና ትካል(ጥዕና ኬላ ወይ ጥዕና ጣብያ) መዝግቢ/ብ።</value></text>
+					<text id="q_healthpointid_9999"><value>ልምምድ</value></text>
+					<text id="q_healthpointid_1006"><value>ዓራ ኣለም ሰገዳ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1009"><value>ፍረወይኒ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1002"><value>ገማድ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1007"><value>ሃገረሰላም ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1008"><value>መሳኑ ሕንጣሎዋጅራት ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1000"><value>መሳኑ ክልተኣወላዕሎ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1003"><value>ነጋሽ (ዓዲ እኽሊ) ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_50001"><value>ኣብርሃ ኣፅብሃ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያ</value></text>
+					
+					<text id="q_userid_text"><value>ሕቶ 103. መለለይ ቑፅሪ ተጠቃማይ ግልጋሎት ጥዕና መዝጊቢ/ብ።</value></text>
+					<text id="q_userid_constraint"><value>ልዕሊ 0 ክኸውን ኣለዎ</value></text>
+					<text id="q_dayofbirth_text"><value>ሕቶ104. እንድሕር ዝፍለጥ ኮይኑ፣ ተጠቃማይ ግልጋሎት ጥዕና ዝተወለደሉ/ትሉ መዓልቲ መዝጊቢ/ብ። እንድሕር ዘይፍለጥ 0 ተባሂሉ ይመዝገብ።</value></text>
+					<text id="q_dayofbirth_hint"><value>ብኣቆፃፅራ ኢትዮጵያ መዝግቢ/ብ</value></text>
+					<text id="q_dayofbirth_constraint"><value>ዝኣትው ቁፅሪ ኣብ መንጎ 0ን 30ን ክኸውን ኣለዎ</value></text>
+					
+					<text id="q_monthofbirth_text"><value>ሕቶ 105.  ተጠቓማይ ግልጋሎት ጥዕና ዝተወለደሉ/ትሉ ወርሒ?</value></text>
+					<text id="q_monthofbirth_0"><value>ኣይፍለጥን</value></text>
+					<text id="q_monthofbirth_1"><value>መስከረም</value></text>
+					<text id="q_monthofbirth_2"><value>ጥቅምቲ</value></text>
+					<text id="q_monthofbirth_3"><value>ሕዳር</value></text>
+					<text id="q_monthofbirth_4"><value>ታሕሳስ</value></text>
+					<text id="q_monthofbirth_5"><value>ጥሪ</value></text>
+					<text id="q_monthofbirth_6"><value>የካቲት</value></text>
+					<text id="q_monthofbirth_7"><value> መጋቢት</value></text>
+					<text id="q_monthofbirth_8"><value>ሚያዝያ</value></text>
+					<text id="q_monthofbirth_9"><value>ጉንበት</value></text>
+					<text id="q_monthofbirth_10"><value> ሰነ</value></text>
+					<text id="q_monthofbirth_11"><value>ሓምለ</value></text>
+					<text id="q_monthofbirth_12"><value>ነሓሰ</value></text>
+					<text id="q_monthofbirth_13"><value>ጳጉሜን</value></text>
+					
+					<text id="q_yearofbirth_text"><value>ሕቶ 106.  ተጠቓማይ ግልጋሎት ጥዕና ዝተወለደሉ/ትሉ ኣመት ምሕረት?</value></text>
+					<text id="q_yearofbirth_hint"><value>ብኣቆፃፅራ ኢትዮጵያ ይመዝገብ</value></text>
+					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
+					
+					<text id="q_age_text"><value>ሕቶ 107.  ዕድመ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
+					<text id="q_age_constraint"><value>0 ወይ ካብኡ ንላዕሊ ኣእትው</value></text>
+					
+					<text id="q_username_text"><value>ሕቶ 108.  ሽም ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
+					<text id="q_userfathersname_text"><value>ሕቶ 109.  ሽም ኣቦ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
+					<text id="q_usergrandfathersname_text"><value>ሕቶ 110. ሽም ኣቦ ሓጎ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
+					
+					<text id="q_sex_text"><value>ሕቶ 111. ፆታ ተጠቓማይ ግጋሎት ጥዕና?</value></text>
+					<text id="q_sex_female"><value>ኣንስታይ</value></text>
+					<text id="q_sex_male"><value>ተባዕታይ</value></text>
+					
+					<text id="q_photo_text"><value>ሕቶ 112. ምስሊ እቲ/ታ ተጠቓማይ ግልጋሎት ጥዕና ንመፍለይ መንነት ሓቤሬታ ዘገልግል ንምውሳድ ፍቓደኝነት ተጠቃማይ/ሚት ግልጋሎት ጥዕና ብምሕታት ምስሊ እቲ ተጠቓማይ ውስዲ/ድ።</value></text>
+					<text id="q_photo_hint"><value>እዚ ምስሊ ተጠቓማይ/ሚት ግልጋሎት ጥዕና ምስ እቲ ዝተወሰደ መረዳእታ ሕክምና ንምምስኻር ተጠቓማይ እዩ። ብፍላይ ተጠቓማይ ግልጋሎት ጥዕና ናብ ካሊእ ጥዕና ትካል እንተተዛውሩን/ራን ብካሊእ በዓል ሞያ ጥዕና ክረኣን ከሎ ጠቓማይ እዩ</value></text>
+					
+					<text id="q_maritalstatus_text"><value>ሕቶ 113.  ኣብዚ ሐዚ እዋን ባዓል ሓዳር ወይ ምስ ሰብኣይ/ሰበይቲ ከም ሰበኣይን ሰበይትን ትነብሪ/ትነብር'ዶ?</value></text>
+					<text id="q_maritalstatus_yes"><value>እወ በዓል ሓዳር እየ ወይ ምስ ሰብኣይ/ሰበይቲ ከም ሰብኣይን ሰበይትን ብሓደ ይነብር እየ</value></text>
+					<text id="q_maritalstatus_no"><value>ኣይፋሉን ሓደር የብለይን</value></text>
+					
+					<text id="q_education_text"><value>ሕቶ 114.  እቲ ተጠቓማይ ግልጋሎት ጥዕና ዘጠናቃቆ ዝለዓለ ብርኪ ትምህርቲ እንታይ እዩ?</value></text>
+					<text id="q_education_illiterate"><value>ምንባብን ምፅሃፍን ዘይኽእል</value></text>
+					<text id="q_education_literate"><value>ምንባብን ምፅሓፍን ዝኽእል</value></text>
+					<text id="q_education_primary"><value>ቀዳማይ ብርኪ (1-4 ክፍሊ)</value></text>
+					<text id="q_education_junior"><value>ማእኸላይ ብርኪ (5-8 ክፍሊ)</value></text>
+					<text id="q_education_high"><value>ላዕለዋይ ብርኪ (9-12 ክፍሊ)</value></text>
+					<text id="q_education_college"><value>12ተ ክፍሊ ዝወደአን ላዕሊን (ሰርትፍኬት፣ ዲፕሎማን ዲግሪን)</value></text>
+					
+					<text id="q_mobilephone_text"><value>ሕቶ 115.  ንስኻ/ኺ ወይ ናይ ቐረባ ኣባል ስድራ ቤትኹም ስልኪ ኣለኩም'ዶ?</value></text>
+					<text id="q_mobilenumber_text"><value>ሕቶ 116.  ቑፅሪ ተንቀሳቃሲ ስልኪ ይመዝገብ።</value></text>
+					
+					<text id="q_occupation_text"><value>ሕቶ 117. ቀንዲ መተሓዳደርኺ/ኻ ስራሕ እንታይ እዩ?</value></text>
+					<text id="q_occupation_farmer"><value>ገባር</value></text>
+					<text id="q_occupation_labourer"><value>መዓልታዊ ሸቃላይ</value></text>
+					<text id="q_occupation_merchant"><value>ነጋዳይ</value></text>
+					<text id="q_occupation_empnongov"><value>ሰራሕተኛ ኣብ ዘይመንግስታዊ ትካል</value></text>
+					<text id="q_occupation_empgov"><value>ሰራሕተኛ ኣብ መንግስታዊ ትካል</value></text>
+					<text id="q_occupation_student"><value>ተምሃራይ</value></text>
+					<text id="q_occupation_housewife"><value>በዓልቲ ገዛ (የቤት እሜቤት)</value></text>
+					<text id="q_occupation_nojob"><value>ስራሕ የብለይን</value></text>
+					<text id="q_occupation_other"><value>ካልእ</value></text>
+					
+					<text id="q_houseroof_text"><value>ሕቶ 118. ናይ ገዛኹም ጣሪያ/ኽዳን  ብቀንዲ ካብ ምንታይ ዝተሰርሐ እዩ?</value></text>
+					<text id="q_houseroof_thatch"><value>ቆፅሊ/ሳዕሪ</value></text>
+					<text id="q_houseroof_plastic"><value>ላስትክ</value></text>
+					<text id="q_houseroof_tin"><value>ቆርቆሮ</value></text>
+					<text id="q_houseroof_wood"><value>እንጨይቲ</value></text>
+					<text id="q_houseroof_concrete"><value>ስሚንቶ</value></text>
+					<text id="q_houseroof_shingle"><value>ሸንባቆ</value></text>
+					<text id="q_houseroof_hidmo"><value>ህድሞ</value></text>
+					<text id="q_houseroof_other"><value>ካሊእ</value></text>
+					
+					<text id="q_housewall_text"><value>ሕቶ 119 . ናይ ገዛኹም መንደቕ/ ግድግዳ ብቀንዲ ካብ ምንታይ ዝተሰርሐ እዩ?</value></text>
+					<text id="q_housewall_cane"><value>ሸንባቆ</value></text>
+					<text id="q_housewall_wood"><value>እንጨይቲ</value></text>
+					<text id="q_housewall_stonemud"><value>ብእምኒን ጭቃን</value></text>
+					<text id="q_housewall_cement"><value>ብሎኬት/ስሚንቶ</value></text>
+					<text id="q_housewall_other"><value>ካሊእ</value></text>
+					
+					<text id="q_houseelectricity_text"><value>ሕቶ 120.  ኣብ ገዛኹም ናይ ኤሌክትሪክ መብራሕቲ ኣለኩም'ዶ?</value></text>
+					
+					<text id="q_homeappliances_text"><value>ሕቶ 121. ካብዞም ዝስዕቡ ናውቲ ኣብ ገዛኹም ኣየነኦም ኣለውኩም (ካብሓደ ንላዕሊ መልሲ ክህልው ይኽእሉ እዮም)</value></text>
+					<text id="q_homeappliances_radio"><value>ሬድዮ</value></text>
+					<text id="q_homeappliances_television"><value>ቴሌቭዥን</value></text>
+					<text id="q_homeappliances_bed"><value>ዓራት</value></text>
+					
+					<text id="q_homesanitation_text"><value>ሕቶ 122 . መብዛሕትኡ እዋን ኣባላት ስድራ ቤትኹም ብቐንዲ እንታይ ዓይነት ሽንቲ ቤት ትጥቀሙ?</value></text>
+					<text id="q_homesanitation_pit"><value>ጉድጓድ(ተለምዳዊ ሽቓቕ)</value></text>
+					<text id="q_homesanitation_septic"><value>ዘመናዊ ሽቓቕ(መዋሕለሊ ገንኢ ዘለዎ)</value></text>
+					<text id="q_homesanitation_serviceorbucket"><value>ፌስትል</value></text>
+					<text id="q_homesanitation_bush"><value>ገደና/መይዳ/ዱር</value></text>
+					<text id="q_homesanitation_flush"><value>ዘመናዊ ሽቓቕ(መዋህለሊ ገንኢ ዘይብሉ)</value></text>
+					<text id="q_homesanitation_other"><value>ካሊእ</value></text>
+					
+					<text id="q_homewatersource_text"><value>ሕቶ 123. መብዛሕትኡ እዋን ኣባላት ስድራ ቤትኹም ብቐንዲ ዝስተ ማይ ካበይ ይረኽቡ?</value></text>
+					<text id="q_homewatersource_piped"><value>ቧንቧ</value></text>
+					<text id="q_homewatersource_wellprot"><value>ጉድጓድ(ዝተሓለወ)</value></text>
+					<text id="q_homewatersource_wellunprot"><value> ጉድጓድ(ዘይተሓለወ)</value></text>
+					<text id="q_homewatersource_stream"><value>ውሓዚ ማይ</value></text>
+					<text id="q_homewatersource_borehole"><value> ማይ ዳንሲ</value></text>
+					
+					<text id="q_homefuelsource_text"><value>ሕቶ 124. መብዛሕቲኡ እዋን ስድራ ቤትኩም ንመብሰሊ መግቢ ዝትጥቀምሉ ዓይነት ነዳዲ/ሓይሊ እንታይ እዩ?</value></text>
+					<text id="q_homefuelsource_open"><value>እንጨይቲ/ዓኾር</value></text>
+					<text id="q_homefuelsource_gas"><value>ጋዝ</value></text>
+					<text id="q_homefuelsource_electric"><value> ኤለክትሪስቲ</value></text>
+					<text id="q_homefuelsource_other"><value>ካሊእ</value></text>
+					
+					<text id="q_idcard_text"><value>ሕቶ 201.  እቲ ናይ ምዝገባ ካርዲ ሙሉእ ብሙሉእን ብትክክል ዝተመለአ ምዃኑን ዘይምዃኑ ኣረጋግፂ/ፅ።</value></text>
+					<text id="q_idcard_yes"><value>እወ ሙሉእ ብሙሉእን ብትክክልን ተመሊኡ እዩ</value></text>
+					<text id="q_idcard_notavail"><value>ይቅርታ ካርዲ ወዲኢና ኢና</value></text>
+					
+					<text id="q_location_text"><value>ሕቶ 202.  እዚ ግልጋሎት ጥዕና ኣበይ እዩ ተዋሂቡ?</value></text>
+					<text id="q_location_healthpost"><value>ጥዕና ኬላ</value></text>
+					<text id="q_location_healthcentre"><value>ጥዕና ጣብያ</value></text>
+					<text id="q_location_home"><value>ኣብ ገዛ ተጠቓማይ</value></text>
+					<text id="q_location_other"><value>ካሊእ</value></text>
+					
+				<text id="q_gpsdata_text"><value>ሕቶ 203.  ሓቤሬታ ጂ.ፕ.ኤስ መዝግቢ/ብ።</value></text>
+				
+				</translation>
+			</itext>
+			<instance>
+				<data id="RegistrationFormv6">
+					<startTime/> <!-- hidden from user -->
+					<endTime/> <!-- hidden from user -->
+					<deviceId/> <!-- hidden from user -->
+					<today/> <!-- hidden from user -->
+					<subscriberid/> <!-- hidden from user -->
+					<simid/> <!-- hidden from user -->
+					<phonenumber/> <!-- hidden from user -->
+					<q_consent/>
+					<infoconsent/>
+					<q_healthpointid/>
+					<q_userid/>
+					<q_dayofbirth/>
+					<q_monthofbirth/>
+					<q_yearofbirth/>
+					<q_age/>
+					<q_username/>
+					<q_userfathersname/>
+					<q_usergrandfathersname/>
+					<q_sex/>
+					<q_photo/>
+					<q_maritalstatus/>
+					<q_education/>
+					<q_mobilephone/>
+					<q_mobilenumber/>
+					<q_occupation/>
+					<q_houseroof/>
+					<q_housewall/>
+					<q_houseelectricity/>
+					<q_homeappliances/>
+					<q_homesanitation/>
+					<q_homewatersource/>
+					<q_homefuelsource/>
+					<infosection3/>
+					<q_idcard/>
+					<q_location/>
+					<q_gpsdata/>
+					<infoendsession/>
+				</data>
+			</instance>
+			<bind id="startTime" nodeset="/data/startTime" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+			<bind id="endTime" nodeset="/data/endTime" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+			<bind id="deviceId" nodeset="/data/deviceId" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+			<bind id="today" nodeset="/data/today" type="date" jr:preload="date" jr:preloadParams="today"/>
+			<bind id="subscriberid" nodeset="/data/subscriberid" type="string" jr:preload="property" jr:preloadParams="subscriberid"/>
+			<bind id="simid" nodeset="/data/simid" type="string" jr:preload="property" jr:preloadParams="simserial"/>
+			<bind id="phonenumber" nodeset="/data/phonenumber" type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
+
+			<bind id="q_consent" nodeset="/data/q_consent" required="true()" type="select1"/>
+			<bind id="infoconsent" nodeset="/data/infoconsent" readonly="true()" type="string" relevant="selected(/data/q_consent,'no')"/>
+
+			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="select1"/>
+			<bind id="q_userid" nodeset="/data/q_userid" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('q_userid_constraint')"/>
+			
+			<bind id="q_dayofbirth" nodeset="/data/q_dayofbirth" required="true()" type="integer" constraint=". &gt;= 0 and . &lt;= 30" jr:constraintMsg="jr:itext('q_dayofbirth_constraint')"/>
+			<bind id="q_monthofbirth" nodeset="/data/q_monthofbirth" required="true()" type="select1" constraint=". &gt;= 0 and . &lt;= 13"/>
+			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')" />
+			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('q_age_constraint')" />
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string"/>
+			<bind id="q_userfathersname" nodeset="/data/q_userfathersname" required="true()" type="string"/>
+			<bind id="q_usergrandfathersname" nodeset="/data/q_usergrandfathersname" required="true()" type="string"/>
+			<bind id="q_sex" nodeset="/data/q_sex" required="true()" type="select1"/>
+			<bind id="q_photo" nodeset="/data/q_photo" type="binary"/>
+
+			<bind id="q_maritalstatus" nodeset="/data/q_maritalstatus" type="select1"/>
+			<bind id="q_education" nodeset="/data/q_education" type="select1"/>
+			<bind id="q_mobilephone" nodeset="/data/q_mobilephone" type="select1"/>
+			<bind id="q_mobilenumber" nodeset="/data/q_mobilenumber" type="string" relevant="selected(/data/q_mobilephone,'yes')"/>
+			<bind id="q_occupation" nodeset="/data/q_occupation" type="select1"/>
+			<bind id="q_houseroof" nodeset="/data/q_houseroof" type="select1"/>
+			<bind id="q_housewall" nodeset="/data/q_housewall" type="select1"/>
+			<bind id="q_houseelectricity" nodeset="/data/q_houseelectricity" type="select1"/>
+			<bind id="q_homeappliances" nodeset="/data/q_homeappliances" type="select"/>
+			<bind id="q_homesanitation" nodeset="/data/q_homesanitation" type="select1"/>
+			<bind id="q_homewatersource" nodeset="/data/q_homewatersource" type="select1"/>
+			<bind id="q_homefuelsource" nodeset="/data/q_homefuelsource" type="select1"/>
+
+			<bind id="infosection3" nodeset="/data/infosection3" readonly="true()" type="string"/>
+
+			<bind id="q_idcard" nodeset="/data/q_idcard" required="true()" type="select1"/>
+			<bind id="q_location" nodeset="/data/q_location" type="select1" required="true()"/>
+			<bind id="q_gpsdata" nodeset="/data/q_gpsdata" type="geopoint" format="gps"
+				relevant="not(selected(/data/q_location,'healthpost')) and not(selected(/data/q_location,'healthcentre'))"/>
+
+			<bind id="infoendsession" nodeset="/data/infoendsession" type="string" readonly="true()"/>
+		</model>
+	</h:head>
+	<h:body>
+		<select1 bind="q_consent">
+			<label ref="jr:itext('q_consent_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<input bind="infoconsent">
+			<label ref="jr:itext('infoconsent_text')"/>
+		</input>
+		<select1 bind="q_healthpointid">
+			<label ref="jr:itext('q_healthpointid_text')"/>
+			<item><label ref="jr:itext('q_healthpointid_9999')"/><value>9999</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1006')"/><value>1006</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1001')"/><value>1001</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1009')"/><value>1009</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1002')"/><value>1002</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1007')"/><value>1007</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1005')"/><value>1005</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1008')"/><value>1008</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1000')"/><value>1000</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1003')"/><value>1003</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1004')"/><value>1004</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50001')"/><value>50001</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50002')"/><value>50002</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50003')"/><value>50003</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50004')"/><value>50004</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50005')"/><value>50005</value></item>
+		</select1>
+		<input bind="q_userid">
+			<label ref="jr:itext('q_userid_text')"/>
+		</input>
+		<input bind="q_dayofbirth">
+			<label ref="jr:itext('q_dayofbirth_text')"/>
+			<hint ref="jr:itext('q_dayofbirth_hint')"/>
+		</input>
+		<select1 bind="q_monthofbirth">
+			<label ref="jr:itext('q_monthofbirth_text')"/>
+			<item><label ref="jr:itext('q_monthofbirth_0')"/><value>0</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_1')"/><value>1</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_2')"/><value>2</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_3')"/><value>3</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_4')"/><value>4</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_5')"/><value>5</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_6')"/><value>6</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_7')"/><value>7</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_8')"/><value>8</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_9')"/><value>9</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_10')"/><value>10</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_11')"/><value>11</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_12')"/><value>12</value></item>
+			<item><label ref="jr:itext('q_monthofbirth_13')"/><value>13</value></item>
+		</select1>
+		<input bind="q_yearofbirth">
+			<label ref="jr:itext('q_yearofbirth_text')"/>
+			<hint ref="jr:itext('q_yearofbirth_hint')"/>
+		</input>
+		<input bind="q_age">
+			<label ref="jr:itext('q_age_text')"/>
+		</input>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+		</input>
+		<input bind="q_userfathersname">
+			<label ref="jr:itext('q_userfathersname_text')"/>
+		</input>
+		<input bind="q_usergrandfathersname">
+			<label ref="jr:itext('q_usergrandfathersname_text')"/>
+		</input>
+		<select1 bind="q_sex">
+			<label ref="jr:itext('q_sex_text')"/>
+			<item><label ref="jr:itext('q_sex_female')"/><value>female</value></item>
+			<item><label ref="jr:itext('q_sex_male')"/><value>male</value></item>
+		</select1>
+		<upload ref="q_photo" mediatype="image/*">
+			<label ref="jr:itext('q_photo_text')"/>
+			<hint ref="jr:itext('q_photo_hint')"/>
+		</upload>
+		<select1 bind="q_maritalstatus">
+			<label ref="jr:itext('q_maritalstatus_text')"/>
+			<item><label ref="jr:itext('q_maritalstatus_yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('q_maritalstatus_no')"/><value>no</value></item>
+		</select1>
+		<select1 bind="q_education">
+			<label ref="jr:itext('q_education_text')"/>
+			<item><label ref="jr:itext('q_education_illiterate')"/><value>illiterate</value></item>
+			<item><label ref="jr:itext('q_education_literate')"/><value>literate</value></item>
+			<item><label ref="jr:itext('q_education_primary')"/><value>primary</value></item>
+			<item><label ref="jr:itext('q_education_junior')"/><value>junior</value></item>
+			<item><label ref="jr:itext('q_education_high')"/><value>high</value></item>
+			<item><label ref="jr:itext('q_education_college')"/><value>college</value></item>
+		</select1>
+		<select1 bind="q_mobilephone">
+			<label ref="jr:itext('q_mobilephone_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<input bind="q_mobilenumber">
+			<label ref="jr:itext('q_mobilenumber_text')"/>
+		</input>
+		<select1 bind="q_occupation">
+			<label ref="jr:itext('q_occupation_text')"/>
+			<hint ref="jr:itext('selectone')"/>
+			<item><label ref="jr:itext('q_occupation_farmer')"/><value>farmer</value></item>
+			<item><label ref="jr:itext('q_occupation_labourer')"/><value>labourer</value></item>
+			<item><label ref="jr:itext('q_occupation_merchant')"/><value>merchant</value></item>
+			<item><label ref="jr:itext('q_occupation_empnongov')"/><value>empnongov</value></item>
+			<item><label ref="jr:itext('q_occupation_empgov')"/><value>empgov</value></item>
+			<item><label ref="jr:itext('q_occupation_student')"/><value>student</value></item>
+			<item><label ref="jr:itext('q_occupation_housewife')"/><value>housewife</value></item>
+			<item><label ref="jr:itext('q_occupation_nojob')"/><value>nojob</value></item>
+			<item><label ref="jr:itext('q_occupation_other')"/><value>other</value></item>
+		</select1>
+		<select1 bind="q_houseroof">
+			<label ref="jr:itext('q_houseroof_text')"/>
+			<hint ref="jr:itext('selectone')"/>
+			<item><label ref="jr:itext('q_houseroof_thatch')"/><value>thatch</value></item>
+			<item><label ref="jr:itext('q_houseroof_plastic')"/><value>plastic</value></item>
+			<item><label ref="jr:itext('q_houseroof_tin')"/><value>tin</value></item>
+			<item><label ref="jr:itext('q_houseroof_wood')"/><value>wood</value></item>
+			<item><label ref="jr:itext('q_houseroof_concrete')"/><value>concrete</value></item>
+			<item><label ref="jr:itext('q_houseroof_shingle')"/><value>shingle</value></item>
+			<item><label ref="jr:itext('q_houseroof_hidmo')"/><value>hidmo</value></item>
+			<item><label ref="jr:itext('q_houseroof_other')"/><value>other</value></item>
+		</select1>
+		<select1 bind="q_housewall">
+			<label ref="jr:itext('q_housewall_text')"/>
+			<hint ref="jr:itext('selectone')"/>
+			<item><label ref="jr:itext('q_housewall_cane')"/><value>cane</value></item>
+			<item><label ref="jr:itext('q_housewall_wood')"/><value>wood</value></item>
+			<item><label ref="jr:itext('q_housewall_stonemud')"/><value>stonemud</value></item>
+			<item><label ref="jr:itext('q_housewall_cement')"/><value>cement</value></item>
+			<item><label ref="jr:itext('q_housewall_other')"/><value>other</value></item>
+		</select1>
+		<select1 bind="q_houseelectricity">
+			<label ref="jr:itext('q_houseelectricity_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<select bind="q_homeappliances">
+			<label ref="jr:itext('q_homeappliances_text')"/>
+			<hint ref="jr:itext('selectall')"/>
+			<item><label ref="jr:itext('q_homeappliances_radio')"/><value>radio</value></item>
+			<item><label ref="jr:itext('q_homeappliances_television')"/><value>television</value></item>
+			<item><label ref="jr:itext('q_homeappliances_bed')"/><value>bed</value></item>
+		</select>
+		<select1 bind="q_homesanitation">
+			<label ref="jr:itext('q_homesanitation_text')"/>
+			<hint ref="jr:itext('selectone')"/>
+			<item><label ref="jr:itext('q_homesanitation_pit')"/><value>pit</value></item>
+			<item><label ref="jr:itext('q_homesanitation_septic')"/><value>septic</value></item>
+			<item><label ref="jr:itext('q_homesanitation_serviceorbucket')"/><value>serviceorbucket</value></item>
+			<item><label ref="jr:itext('q_homesanitation_bush')"/><value>bush</value></item>
+			<item><label ref="jr:itext('q_homesanitation_flush')"/><value>flush</value></item>
+			<item><label ref="jr:itext('q_homesanitation_other')"/><value>other</value></item>
+		</select1>
+		<select1 bind="q_homewatersource">
+			<label ref="jr:itext('q_homewatersource_text')"/>
+			<hint ref="jr:itext('selectone')"/>
+			<item><label ref="jr:itext('q_homewatersource_piped')"/><value>piped</value></item>
+			<item><label ref="jr:itext('q_homewatersource_wellprot')"/><value>wellprot</value></item>
+			<item><label ref="jr:itext('q_homewatersource_wellunprot')"/><value>wellunprot</value></item>
+			<item><label ref="jr:itext('q_homewatersource_stream')"/><value>stream</value></item>
+			<item><label ref="jr:itext('q_homewatersource_borehole')"/><value>borehole</value></item>
+		</select1>
+		<select1 bind="q_homefuelsource">
+			<label ref="jr:itext('q_homefuelsource_text')"/>
+			<hint ref="jr:itext('selectone')"/>
+			<item><label ref="jr:itext('q_homefuelsource_open')"/><value>open</value></item>
+			<item><label ref="jr:itext('q_homefuelsource_gas')"/><value>gas</value></item>
+			<item><label ref="jr:itext('q_homefuelsource_electric')"/><value>electric</value></item>
+			<item><label ref="jr:itext('q_homefuelsource_other')"/><value>other</value></item>
+		</select1>
+		<input bind="infosection3">
+			<label ref="jr:itext('checklist_text')"/>
+		</input>
+		<select1 bind="q_idcard">
+			<label ref="jr:itext('q_idcard_text')"/>
+			<item><label ref="jr:itext('q_idcard_yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('q_idcard_notavail')"/><value>notavail</value></item>
+		</select1>
+		<select1 bind="q_location">
+			<label ref="jr:itext('q_location_text')"/>
+			<item><label ref="jr:itext('q_location_healthpost')"/><value>healthpost</value></item>
+			<item><label ref="jr:itext('q_location_healthcentre')"/><value>healthcentre</value></item>
+			<item><label ref="jr:itext('q_location_home')"/><value>home</value></item>
+			<item><label ref="jr:itext('q_location_other')"/><value>other</value></item>
+		</select1>
+		<input bind="q_gpsdata">
+			<label ref="jr:itext('q_gpsdata_text')"/>
+		</input>
+		<input bind="infoendsession">
+			<label ref="jr:itext('thanks_text')"/>
+		</input>
+	</h:body>
+</h:html>
