@@ -2,7 +2,10 @@
 <h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	xmlns:jr="http://openrosa.org/javarosa">
 	<!-- Protocol for Digital Campus Maternal Care project
-		for more information visit: http://digital-campus.org -->
+		for more information visit: http://digital-campus.org 
+		License:
+		Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) 
+		http://creativecommons.org/licenses/by-nc-sa/3.0/-->
 	<h:head>
 		<h:title>PNC (ክትትል ድሕሪ ወሊድ) v2</h:title>
 		<model>
