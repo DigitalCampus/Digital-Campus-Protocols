@@ -8,7 +8,7 @@
 			<TimeStartRecorded/>
 			<TimeEndRecorded/>
 		</Meta>
-		<h:title>Registration (ምዝገባ) v6</h:title>
+		<h:title>Registration (ምዝገባ) v7</h:title>
 		<model>
 			<itext>
 				<translation lang="English">
@@ -318,7 +318,7 @@
 				</translation>
 			</itext>
 			<instance>
-				<data id="RegistrationFormv6">
+				<data id="RegistrationFormv7">
 					<startTime/> <!-- hidden from user -->
 					<endTime/> <!-- hidden from user -->
 					<deviceId/> <!-- hidden from user -->

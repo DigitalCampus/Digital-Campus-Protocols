@@ -8,7 +8,7 @@
 			<TimeStartRecorded/>
 			<TimeEndRecorded/>
 		</Meta>
-		<h:title>ANC Lab Test (ላብራቶሪ ምርመራ) v5</h:title>
+		<h:title>ANC Lab Test (ላብራቶሪ ምርመራ) v6</h:title>
 		<model>
 			<itext>
 				<translation lang="English">
@@ -149,7 +149,7 @@
 				</translation>
 			</itext>
 			<instance>
-				<data id="ANCLabTestv5">
+				<data id="ANCLabTestv6">
 					<startTime/> <!-- hidden from user -->
 					<endTime/> <!-- hidden from user -->
 					<deviceId/> <!-- hidden from user -->

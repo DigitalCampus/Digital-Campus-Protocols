@@ -8,7 +8,7 @@
 			<TimeStartRecorded/>
 			<TimeEndRecorded/>
 		</Meta>
-		<h:title>ANC Transfer (መዘዋወሪ) v7</h:title>
+		<h:title>ANC Transfer (መዘዋወሪ) v8</h:title>
 		<model>
 			<itext>
 				<translation lang="English">
@@ -280,7 +280,7 @@
 				</translation>
 			</itext>
 			<instance>
-				<data id="ANCTransferv7">
+				<data id="ANCTransferv8">
 					<startTime/> <!-- hidden from user -->
 					<endTime/> <!-- hidden from user -->
 					<deviceId/> <!-- hidden from user -->
