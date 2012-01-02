@@ -191,8 +191,64 @@
 					<text id="q_newbornsex_text"><value>Q503. What is the sex of the newborn?</value></text>
 					<text id="q_newbornsex_male"><value>Male</value></text>
 					<text id="q_newbornsex_female"><value>Female</value></text>
-					<text id="q_apgar1min_text"><value>Q504. Enter the APGAR score at 1st minute</value></text>
-					<text id="q_apgar5min_text"><value>Q505. Enter the APGAR score at 5 minutes</value></text>
+					
+					<text id="q_apgar1min_group:label"><value>APGAR score: 1st minute</value></text>
+					
+					<text id="q_apgar1min_heart:label"><value>Q504a. Heart Rate</value></text>
+					<text id="q_apgar1min_heart_0:label"><value>Absent</value></text>
+					<text id="q_apgar1min_heart_1:label"><value>&lt;100/min</value></text>
+					<text id="q_apgar1min_heart_2:label"><value>&gt;100/min</value></text>
+					
+					<text id="q_apgar1min_breathing:label"><value>Q504b. Respiration</value></text>
+					<text id="q_apgar1min_breathing_0:label"><value>Absent</value></text>
+					<text id="q_apgar1min_breathing_1:label"><value>Weak</value></text>
+					<text id="q_apgar1min_breathing_2:label"><value>Good Cry</value></text>
+					
+					<text id="q_apgar1min_muscle:label"><value>Q504c. Muscle Tone</value></text>
+					<text id="q_apgar1min_muscle_0:label"><value>Flaccid</value></text>
+					<text id="q_apgar1min_muscle_1:label"><value>Some Flexion</value></text>
+					<text id="q_apgar1min_muscle_2:label"><value>Well Flexed</value></text>
+					
+					<text id="q_apgar1min_reflex:label"><value>Q504d. Reflexes</value></text>
+					<text id="q_apgar1min_reflex_0:label"><value>No response</value></text>
+					<text id="q_apgar1min_reflex_1:label"><value>Grimace</value></text>
+					<text id="q_apgar1min_reflex_2:label"><value>Cough/Sneeze</value></text>
+					
+					<text id="q_apgar1min_colour:label"><value>Q504e. Colour</value></text>
+					<text id="q_apgar1min_colour_0:label"><value>Pale/blue</value></text>
+					<text id="q_apgar1min_colour_1:label"><value>Blue extremities</value></text>
+					<text id="q_apgar1min_colour_2:label"><value>Completely pink</value></text>
+					
+					<text id="q_apgar1min_text"><value>APGAR score at 1st minute:</value></text>
+					
+					<text id="q_apgar5min_group:label"><value>APGAR score: 5 minutes</value></text>
+					<text id="q_apgar5min_heart:label"><value>Q505a. Heart Rate</value></text>
+					<text id="q_apgar5min_heart_0:label"><value>Absent</value></text>
+					<text id="q_apgar5min_heart_1:label"><value>&lt;100/min</value></text>
+					<text id="q_apgar5min_heart_2:label"><value>&gt;100/min</value></text>
+					
+					<text id="q_apgar5min_breathing:label"><value>Q505b. Respiration</value></text>
+					<text id="q_apgar5min_breathing_0:label"><value>Absent</value></text>
+					<text id="q_apgar5min_breathing_1:label"><value>Weak</value></text>
+					<text id="q_apgar5min_breathing_2:label"><value>Good Cry</value></text>
+					
+					<text id="q_apgar5min_muscle:label"><value>Q505c. Muscle Tone</value></text>
+					<text id="q_apgar5min_muscle_0:label"><value>Flaccid</value></text>
+					<text id="q_apgar5min_muscle_1:label"><value>Some Flexion</value></text>
+					<text id="q_apgar5min_muscle_2:label"><value>Well Flexed</value></text>
+					
+					<text id="q_apgar5min_reflex:label"><value>Q505d. Reflexes</value></text>
+					<text id="q_apgar5min_reflex_0:label"><value>No response</value></text>
+					<text id="q_apgar5min_reflex_1:label"><value>Grimace</value></text>
+					<text id="q_apgar5min_reflex_2:label"><value>Cough/Sneeze</value></text>
+					
+					<text id="q_apgar5min_colour:label"><value>Q505e. Colour</value></text>
+					<text id="q_apgar5min_colour_0:label"><value>Pale/blue</value></text>
+					<text id="q_apgar5min_colour_1:label"><value>Blue extremities</value></text>
+					<text id="q_apgar5min_colour_2:label"><value>Completely pink</value></text>
+					
+					<text id="q_apgar5min_text"><value>APGAR score at 5 minutes:</value></text>
+					
 					<text id="q_newbornresuscitation_text"><value>Q506. Did the newborn need to be resuscitated?</value></text>
 					<text id="q_newbornweight_text"><value>Q507. Enter newborn's weight (grams)</value></text>
 					<text id="q_newbornhead_text"><value>Q508. Enter newborn's head circumference (cm)</value></text>
@@ -409,8 +465,64 @@
 					<text id="q_newbornsex_text"><value>ሕቶ503፡ ፆታ እቲ ህፃን እንታይ 'ዩ?</value></text>
 					<text id="q_newbornsex_male"><value>ኣንስታይ</value></text>
 					<text id="q_newbornsex_female"><value>ተባዕታይ</value></text>
-					<text id="q_apgar1min_text"><value>ሕቶ504፡ ናይ ሓደ ደቒቓ ኣፕጋር (APGAR) ውፅኢት ፀሓፊ</value></text>
-					<text id="q_apgar5min_text"><value>ሕቶ505፡ ናይ 5 ደቒቓ ኣፕጋር (APGAR) ውፅኢት ፀሓፊ</value></text>
+					
+					<text id="q_apgar1min_group:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar1min_heart:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_heart_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_heart_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_heart_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar1min_breathing:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_breathing_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_breathing_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_breathing_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar1min_muscle:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_muscle_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_muscle_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_muscle_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar1min_reflex:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_reflex_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_reflex_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_reflex_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar1min_colour:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_colour_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_colour_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_colour_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar1min_text"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar5min_group:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_heart:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_heart_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_heart_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_heart_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar5min_breathing:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_breathing_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_breathing_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_breathing_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar5min_muscle:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_muscle_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_muscle_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_muscle_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar5min_reflex:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_reflex_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_reflex_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_reflex_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar5min_colour:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_colour_0:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_colour_1:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_colour_2:label"><value>TODO: translate</value></text>
+					
+					<text id="q_apgar5min_text"><value>TODO: translate</value></text>
+					
 					<text id="q_newbornresuscitation_text"><value>ሕቶ506፡ እቲ ህፃን ዝጠበቐ (ናብ ጥዑይ ክሳብ ዝምለስ) ክንክን የድልዮ 'ዶ ነይሩ?</value></text>
 					<text id="q_newbornweight_text"><value>ሕቶ507. ናይቲ ህፃን ክብደት (ብግራም) መዝግቢ  </value></text>
 					<text id="q_newbornhead_text"><value>ሕቶ508፡ ናይቲ ህፃን ዙርያ ርእሲ (ብሳ.ሜ) መዝግቢ</value></text>
@@ -515,8 +627,20 @@
 					<q_deliveries jr:template="">
 						<q_livebirth/>
 						<q_newbornsex/>
+						<q_apgar1min_heart/>
+						<q_apgar1min_breathing/>
+						<q_apgar1min_muscle/>
+						<q_apgar1min_reflex/>
+						<q_apgar1min_colour/>
 						<q_apgar1min/>
+						<q_apgar1min_result/>
+						<q_apgar5min_heart/>
+						<q_apgar5min_breathing/>
+						<q_apgar5min_muscle/>
+						<q_apgar5min_reflex/>
+						<q_apgar5min_colour/>
 						<q_apgar5min/>
+						<q_apgar5min_result/>
 						<q_newbornresuscitation/>
 						<q_newbornweight/>
 						<q_newbornhead/>
@@ -610,8 +734,31 @@
 			<bind id="q_deliveries" nodeset="/data/q_deliveries"/>
 				<bind id="q_livebirth" nodeset="/data/q_deliveries/q_livebirth" required="true()" type="select1"/>
 				<bind id="q_newbornsex" nodeset="/data/q_deliveries/q_newbornsex" required="true()" type="select1"/>
-				<bind id="q_apgar1min" nodeset="/data/q_deliveries/q_apgar1min" required="true()" type="int"/>
-				<bind id="q_apgar5min" nodeset="/data/q_deliveries/q_apgar5min" required="true()" type="int"/>
+				
+				<bind id="q_apgar1min_heart" nodeset="/data/q_deliveries/q_apgar1min_heart" required="true()" type="select1"/>
+				<bind id="q_apgar1min_breathing" nodeset="/data/q_deliveries/q_apgar1min_breathing" required="true()" type="select1"/>
+				<bind id="q_apgar1min_muscle" nodeset="/data/q_deliveries/q_apgar1min_muscle" required="true()" type="select1"/>
+				<bind id="q_apgar1min_reflex" nodeset="/data/q_deliveries/q_apgar1min_reflex" required="true()" type="select1"/>
+				<bind id="q_apgar1min_colour" nodeset="/data/q_deliveries/q_apgar1min_colour" required="true()" type="select1"/>
+				<bind id="q_apgar1min_result" nodeset="/data/q_deliveries/q_apgar1min" calculate="/data/q_deliveries/q_apgar1min_heart + 
+																								/data/q_deliveries/q_apgar1min_breathing +
+																								/data/q_deliveries/q_apgar1min_muscle +
+																								/data/q_deliveries/q_apgar1min_reflex + 
+																								/data/q_deliveries/q_apgar1min_colour" type="int"/>
+				<bind id="q_apgar1min" nodeset="/data/q_deliveries/q_apgar1min" type="string" readonly="true()"/>
+				
+				<bind id="q_apgar5min_heart" nodeset="/data/q_deliveries/q_apgar5min_heart" required="true()" type="select1"/>
+				<bind id="q_apgar5min_breathing" nodeset="/data/q_deliveries/q_apgar5min_breathing" required="true()" type="select1"/>
+				<bind id="q_apgar5min_muscle" nodeset="/data/q_deliveries/q_apgar5min_muscle" required="true()" type="select1"/>
+				<bind id="q_apgar5min_reflex" nodeset="/data/q_deliveries/q_apgar5min_reflex" required="true()" type="select1"/>
+				<bind id="q_apgar5min_colour" nodeset="/data/q_deliveries/q_apgar5min_colour" required="true()" type="select1"/>
+				<bind id="q_apgar5min_result" nodeset="/data/q_deliveries/q_apgar5min" calculate="/data/q_deliveries/q_apgar5min_heart + 
+																								/data/q_deliveries/q_apgar5min_breathing +
+																								/data/q_deliveries/q_apgar5min_muscle +
+																								/data/q_deliveries/q_apgar5min_reflex + 
+																								/data/q_deliveries/q_apgar5min_colour" type="int"/>
+				<bind id="q_apgar5min" nodeset="/data/q_deliveries/q_apgar5min" type="string" readonly="true()"/>
+				
 				<bind id="q_newbornresuscitation" nodeset="/data/q_deliveries/q_newbornresuscitation" required="true()" type="select1"/>
 				<bind id="q_newbornweight" nodeset="/data/q_deliveries/q_newbornweight" required="true()" type="int"/>
 				<bind id="q_newbornhead" nodeset="/data/q_deliveries/q_newbornhead" required="true()" type="int"/>
@@ -923,12 +1070,79 @@
 					<item><label ref="jr:itext('q_newbornsex_male')"/><value>male</value></item>
 					<item><label ref="jr:itext('q_newbornsex_female')"/><value>female</value></item>
 				</select1>
-				<input bind="q_apgar1min">
-					<label ref="jr:itext('q_apgar1min_text')"/>
-				</input>
-				<input bind="q_apgar5min">
-					<label ref="jr:itext('q_apgar5min_text')"/>
-				</input>
+				<group>
+					<label ref="jr:itext('q_apgar1min_group:label')"/>
+					<select1 bind="q_apgar1min_heart">
+						<label ref="jr:itext('q_apgar1min_heart:label')"/>
+						<item><label ref="jr:itext('q_apgar1min_heart_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar1min_heart_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar1min_heart_2:label')"/><value>2</value></item>
+					</select1>
+					<select1 bind="q_apgar1min_breathing">
+						<label ref="jr:itext('q_apgar1min_breathing:label')"/>
+						<item><label ref="jr:itext('q_apgar1min_breathing_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar1min_breathing_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar1min_breathing_2:label')"/><value>2</value></item>
+					</select1>
+					<select1 bind="q_apgar1min_muscle">
+						<label ref="jr:itext('q_apgar1min_muscle:label')"/>
+						<item><label ref="jr:itext('q_apgar1min_muscle_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar1min_muscle_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar1min_muscle_2:label')"/><value>2</value></item>
+					</select1>
+					<select1 bind="q_apgar1min_reflex">
+						<label ref="jr:itext('q_apgar1min_reflex:label')"/>
+						<item><label ref="jr:itext('q_apgar1min_reflex_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar1min_reflex_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar1min_reflex_2:label')"/><value>2</value></item>
+					</select1>
+					<select1 bind="q_apgar1min_colour">
+						<label ref="jr:itext('q_apgar1min_colour:label')"/>
+						<item><label ref="jr:itext('q_apgar1min_colour_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar1min_colour_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar1min_colour_2:label')"/><value>2</value></item>
+					</select1>
+					<input bind="q_apgar1min">
+						<label ref="jr:itext('q_apgar1min_text')"/>
+					</input>
+				</group>
+				
+				<group>
+					<label ref="jr:itext('q_apgar5min_group:label')"/>
+					<select1 bind="q_apgar5min_heart">
+						<label ref="jr:itext('q_apgar5min_heart:label')"/>
+						<item><label ref="jr:itext('q_apgar5min_heart_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar5min_heart_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar5min_heart_2:label')"/><value>2</value></item>
+					</select1>
+					<select1 bind="q_apgar5min_breathing">
+						<label ref="jr:itext('q_apgar5min_breathing:label')"/>
+						<item><label ref="jr:itext('q_apgar5min_breathing_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar5min_breathing_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar5min_breathing_2:label')"/><value>2</value></item>
+					</select1>
+					<select1 bind="q_apgar5min_muscle">
+						<label ref="jr:itext('q_apgar5min_muscle:label')"/>
+						<item><label ref="jr:itext('q_apgar5min_muscle_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar5min_muscle_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar5min_muscle_2:label')"/><value>2</value></item>
+					</select1>
+					<select1 bind="q_apgar5min_reflex">
+						<label ref="jr:itext('q_apgar5min_reflex:label')"/>
+						<item><label ref="jr:itext('q_apgar5min_reflex_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar5min_reflex_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar5min_reflex_2:label')"/><value>2</value></item>
+					</select1>
+					<select1 bind="q_apgar5min_colour">
+						<label ref="jr:itext('q_apgar5min_colour:label')"/>
+						<item><label ref="jr:itext('q_apgar5min_colour_0:label')"/><value>0</value></item>
+						<item><label ref="jr:itext('q_apgar5min_colour_1:label')"/><value>1</value></item>
+						<item><label ref="jr:itext('q_apgar5min_colour_2:label')"/><value>2</value></item>
+					</select1>
+					<input bind="q_apgar5min">
+						<label ref="jr:itext('q_apgar5min_text')"/>
+					</input>
+				</group>
 				<select1 bind="q_newbornresuscitation">
 					<label ref="jr:itext('q_newbornresuscitation_text')"/>
 					<item><label ref="jr:itext('yes')"/><value>yes</value></item>
