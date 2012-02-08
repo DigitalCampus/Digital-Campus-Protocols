@@ -40,7 +40,8 @@
 					<text id="q_healthpointid_50003"><value>Agulae health centre</value></text>
 					<text id="q_healthpointid_50004"><value>Hiwane health centre</value></text>
 					<text id="q_healthpointid_50005"><value>Negash health centre</value></text>
-
+					<text id="q_healthpointid_70001"><value>Ayder Referal Hospital</value></text>
+					
 					<text id="q_userid_text"><value>Q103. Enter the user's ID</value></text>
 					<text id="q_userid_constraint"><value>Must be greater than 0</value></text>
 					<text id="q_yearofbirth_text"><value>Q104. Please enter user's year of birth</value></text>
@@ -312,6 +313,7 @@
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_70001"><value>todo: translate</value></text>
 					
 					<text id="q_userid_text"><value>ሕቶ103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ </value></text>
 					<text id="q_userid_constraint"><value>ካብ 0 ንላዕሊ ክኸውን ኣለዎ</value></text>
@@ -812,6 +814,7 @@
 			<item><label ref="jr:itext('q_healthpointid_50003')"/><value>50003</value></item>
 			<item><label ref="jr:itext('q_healthpointid_50004')"/><value>50004</value></item>
 			<item><label ref="jr:itext('q_healthpointid_50005')"/><value>50005</value></item>
+			<item><label ref="jr:itext('q_healthpointid_70001')"/><value>70001</value></item>
 		</select1>
 		<input bind="q_userid">
 			<label ref="jr:itext('q_userid_text')"/>
