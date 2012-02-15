@@ -74,7 +74,7 @@
 					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
 					
 					<text id="q_age_text"><value>Q107. Enter user's age</value></text>
-					<text id="q_age_constraint"><value>Please enter a number 0 or greater</value></text>
+					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
 					
 					<text id="q_username_text"><value>Q108. Enter user's name</value></text>
 					<text id="q_userfathersname_text"><value>Q109. Enter user's fathers name</value></text>
@@ -226,7 +226,7 @@
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					
 					<text id="q_age_text"><value>ሕቶ 107.  ዕድመ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
-					<text id="q_age_constraint"><value>0 ወይ ካብኡ ንላዕሊ ኣእትው</value></text>
+					<text id="q_age_constraint"><value>TODO: translate</value></text>
 					
 					<text id="q_username_text"><value>ሕቶ 108.  ሽም ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
 					<text id="q_userfathersname_text"><value>ሕቶ 109.  ሽም ኣቦ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
@@ -382,7 +382,10 @@
 			<bind id="q_dayofbirth" nodeset="/data/q_dayofbirth" required="true()" type="integer" constraint=". &gt;= 0 and . &lt;= 30" jr:constraintMsg="jr:itext('q_dayofbirth_constraint')"/>
 			<bind id="q_monthofbirth" nodeset="/data/q_monthofbirth" required="true()" type="select1" constraint=". &gt;= 0 and . &lt;= 13"/>
 			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')" />
-			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('q_age_constraint')" />
+			
+			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
+			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
+			
 			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string"/>
 			<bind id="q_userfathersname" nodeset="/data/q_userfathersname" required="true()" type="string"/>
 			<bind id="q_usergrandfathersname" nodeset="/data/q_usergrandfathersname" required="true()" type="string"/>
