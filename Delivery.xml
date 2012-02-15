@@ -110,16 +110,16 @@
 					<text id="q_deliverydate_constraint"><value>Delivery date cannot be in the future</value></text>
 					<text id="q_deliverytime_text"><value>Q306. Enter the time of delivery</value></text>
 					
-					<text id="q_birthattendant_text"><value>Q307. Who was/were the birth attendant/s?</value></text>
-					<text id="q_birthattendant_midwife"><value>Midwife</value></text>
-					<text id="q_birthattendant_hew"><value>Health extension worker</value></text>
-					<text id="q_birthattendant_trainedbirthattendant"><value>Trained traditional birth attendant</value></text>
-					<text id="q_birthattendant_untrainedbirthattendant"><value>Untrained traditional birth attendant </value></text>
-					<text id="q_birthattendant_relativeorfriend"><value>Relative or friend </value></text>
-					<text id="q_birthattendant_doctor"><value>Doctor</value></text>
-					<text id="q_birthattendant_healthofficer"><value>Health officer </value></text>
-					<text id="q_birthattendant_nurse"><value>Nurse</value></text>
-					<text id="q_birthattendant_other"><value>Other</value></text>
+					<text id="q_whoattended_text"><value>Q307. Who was/were the birth attendant/s?</value></text>
+					<text id="q_whoattended_midwife"><value>Midwife</value></text>
+					<text id="q_whoattended_hew"><value>Health extension worker</value></text>
+					<text id="q_whoattended_trainedbirthattendant"><value>Trained traditional birth attendant</value></text>
+					<text id="q_whoattended_untrainedbirthattendant"><value>Untrained traditional birth attendant </value></text>
+					<text id="q_whoattended_relativeorfriend"><value>Relative or friend </value></text>
+					<text id="q_whoattended_doctor"><value>Doctor</value></text>
+					<text id="q_whoattended_healthofficer"><value>Health officer </value></text>
+					<text id="q_whoattended_nurse"><value>Nurse</value></text>
+					<text id="q_whoattended_other"><value>Other</value></text>
 					
 					<text id="q_vaginaldelivery_text"><value>Q308. Did a spontaneous vaginal delivery (SVD) happen?</value></text>
 					
@@ -383,16 +383,16 @@
 					<text id="q_deliverydate_constraint"><value>TODO: translate</value></text>
 					<text id="q_deliverytime_text"><value>ሕቶ306፡ እዚ ወሊድ ዝተኻየደሉ ሰዓት ፀሓፊ፡፡</value></text>
 					
-					<text id="q_birthattendant_text"><value>ሕቶ307፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን 'ዩ/ያ፡፡</value></text>
-					<text id="q_birthattendant_midwife"><value>መዋለዳን </value></text>
-					<text id="q_birthattendant_hew"><value>ጥሙር ጥዕና ቤተሰብ ሰራሕተኛ</value></text>
-					<text id="q_birthattendant_trainedbirthattendant"><value>ዝሰልጠነት ፋና ጥዕና </value></text>
-					<text id="q_birthattendant_untrainedbirthattendant"><value>ልምዳዊ መዋለዲት </value></text>
-					<text id="q_birthattendant_relativeorfriend"><value>ቤተሰብ/መሓዛይ/ጎረቤት</value></text>
-					<text id="q_birthattendant_doctor"><value>ዶክተር</value></text>
-					<text id="q_birthattendant_healthofficer"><value>ጥዕና መኮነን</value></text>
-					<text id="q_birthattendant_nurse"><value>ነርስ</value></text>
-					<text id="q_birthattendant_other"><value>ካልእ </value></text>
+					<text id="q_whoattended_text"><value>ሕቶ307፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን 'ዩ/ያ፡፡</value></text>
+					<text id="q_whoattended_midwife"><value>መዋለዳን </value></text>
+					<text id="q_whoattended_hew"><value>ጥሙር ጥዕና ቤተሰብ ሰራሕተኛ</value></text>
+					<text id="q_whoattended_trainedbirthattendant"><value>ዝሰልጠነት ፋና ጥዕና </value></text>
+					<text id="q_whoattended_untrainedbirthattendant"><value>ልምዳዊ መዋለዲት </value></text>
+					<text id="q_whoattended_relativeorfriend"><value>ቤተሰብ/መሓዛይ/ጎረቤት</value></text>
+					<text id="q_whoattended_doctor"><value>ዶክተር</value></text>
+					<text id="q_whoattended_healthofficer"><value>ጥዕና መኮነን</value></text>
+					<text id="q_whoattended_nurse"><value>ነርስ</value></text>
+					<text id="q_whoattended_other"><value>ካልእ </value></text>
 					
 					<text id="q_vaginaldelivery_text"><value>ሕቶ308፡ እቲ ወሊድ ንቡር/ ብዘይምንም ሓገዝ መሳርሒ (SVD) ዝተኻየደ ድዩ ነይሩ?</value></text>
 					
@@ -593,7 +593,7 @@
 					<q_maternaldeath/>
 					<q_deliverydate/>
 					<q_deliverytime/>
-					<q_birthattendant/>
+					<q_whoattended/>
 					<q_vaginaldelivery/>
 					<q_placenta/>
 					<q_vacuumforceps/>
@@ -701,7 +701,7 @@
 			<bind id="q_maternaldeath" nodeset="/data/q_maternaldeath" required="true()" type="select1"/>
 			<bind id="q_deliverydate" nodeset="/data/q_deliverydate" required="true()" type="date" constraint="((now()-.) &gt;= 0)" jr:constraintMsg="jr:itext('q_deliverydate_constraint')"/>
 			<bind id="q_deliverytime" nodeset="/data/q_deliverytime" required="true()" type="time"/>
-			<bind id="q_birthattendant" nodeset="/data/q_birthattendant" required="true()" type="select"/>
+			<bind id="q_whoattended" nodeset="/data/q_whoattended" required="true()" type="select"/>
 			<bind id="q_vaginaldelivery" nodeset="/data/q_vaginaldelivery" required="true()" type="select1"/>
 			<bind id="q_placenta" nodeset="/data/q_placenta" required="true()" type="select1"/>
 			<bind id="q_vacuumforceps" nodeset="/data/q_vacuumforceps" required="true()" type="select1"/>
@@ -909,18 +909,18 @@
 		<input bind="q_deliverytime">
 			<label ref="jr:itext('q_deliverytime_text')"/>
 		</input>
-		<select bind="q_birthattendant">
-			<label ref="jr:itext('q_birthattendant_text')"/>
+		<select bind="q_whoattended">
+			<label ref="jr:itext('q_whoattended_text')"/>
 			<hint ref="jr:itext('selectall')"/>
-			<item><label ref="jr:itext('q_birthattendant_midwife')"/><value>midwife</value></item>
-			<item><label ref="jr:itext('q_birthattendant_hew')"/><value>hew</value></item>
-			<item><label ref="jr:itext('q_birthattendant_trainedbirthattendant')"/><value>trainedbirthattendant</value></item>
-			<item><label ref="jr:itext('q_birthattendant_untrainedbirthattendant')"/><value>untrainedbirthattendant</value></item>
-			<item><label ref="jr:itext('q_birthattendant_relativeorfriend')"/><value>relativeorfriend</value></item>
-			<item><label ref="jr:itext('q_birthattendant_doctor')"/><value>doctor</value></item>
-			<item><label ref="jr:itext('q_birthattendant_healthofficer')"/><value>healthofficer</value></item>
-			<item><label ref="jr:itext('q_birthattendant_nurse')"/><value>nurse</value></item>
-			<item><label ref="jr:itext('q_birthattendant_other')"/><value>other</value></item>
+			<item><label ref="jr:itext('q_whoattended_midwife')"/><value>midwife</value></item>
+			<item><label ref="jr:itext('q_whoattended_hew')"/><value>hew</value></item>
+			<item><label ref="jr:itext('q_whoattended_trainedbirthattendant')"/><value>trainedbirthattendant</value></item>
+			<item><label ref="jr:itext('q_whoattended_untrainedbirthattendant')"/><value>untrainedbirthattendant</value></item>
+			<item><label ref="jr:itext('q_whoattended_relativeorfriend')"/><value>relativeorfriend</value></item>
+			<item><label ref="jr:itext('q_whoattended_doctor')"/><value>doctor</value></item>
+			<item><label ref="jr:itext('q_whoattended_healthofficer')"/><value>healthofficer</value></item>
+			<item><label ref="jr:itext('q_whoattended_nurse')"/><value>nurse</value></item>
+			<item><label ref="jr:itext('q_whoattended_other')"/><value>other</value></item>
 		</select>
 		<select1 bind="q_vaginaldelivery">
 			<label ref="jr:itext('q_vaginaldelivery_text')"/>

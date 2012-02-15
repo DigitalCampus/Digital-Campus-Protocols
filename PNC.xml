@@ -83,16 +83,16 @@
 					<text id="q_deliverysite_hospital"><value>Hospital</value></text>
 					<text id="q_deliverysite_other"><value>Other</value></text>
 					
-					<text id="q_birthattendant_text"><value>Q204. Who was/were the birth attendant/s?</value></text>
-					<text id="q_birthattendant_midwife"><value>Midwife</value></text>
-					<text id="q_birthattendant_hew"><value>Health extension worker</value></text>
-					<text id="q_birthattendant_trainedbirthattendant"><value>Trained traditional birth attendant</value></text>
-					<text id="q_birthattendant_untrainedbirthattendant"><value>Untrained traditional birth attendant </value></text>
-					<text id="q_birthattendant_relativeorfriend"><value>Relative or friend </value></text>
-					<text id="q_birthattendant_doctor"><value>Doctor</value></text>
-					<text id="q_birthattendant_healthofficer"><value>Health officer </value></text>
-					<text id="q_birthattendant_nurse"><value>Nurse</value></text>
-					<text id="q_birthattendant_other"><value>Other</value></text>
+					<text id="q_whoattended_text"><value>Q204. Who was/were the birth attendant/s?</value></text>
+					<text id="q_whoattended_midwife"><value>Midwife</value></text>
+					<text id="q_whoattended_hew"><value>Health extension worker</value></text>
+					<text id="q_whoattended_trainedbirthattendant"><value>Trained traditional birth attendant</value></text>
+					<text id="q_whoattended_untrainedbirthattendant"><value>Untrained traditional birth attendant </value></text>
+					<text id="q_whoattended_relativeorfriend"><value>Relative or friend </value></text>
+					<text id="q_whoattended_doctor"><value>Doctor</value></text>
+					<text id="q_whoattended_healthofficer"><value>Health officer </value></text>
+					<text id="q_whoattended_nurse"><value>Nurse</value></text>
+					<text id="q_whoattended_other"><value>Other</value></text>
 					
 					<text id="q_complications_text"><value>Q205. Please select if there were any complications during delivery</value></text>
 					<text id="q_complications_none"><value>None</value></text>
@@ -313,16 +313,16 @@
 					<text id="q_deliverysite_hospital"><value>ሆስፒታል</value></text>
 					<text id="q_deliverysite_other"><value>ኣብ ካሊእ</value></text>
 					
-					<text id="q_birthattendant_text"><value>ሕቶ204፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን ነይሩ?</value></text>
-					<text id="q_birthattendant_midwife"><value>መዋለዳን </value></text>
-					<text id="q_birthattendant_hew"><value>ጥሙር ጥዕና ቤተሰብ ሰራሕተኛ</value></text>
-					<text id="q_birthattendant_trainedbirthattendant"><value>ዝሰልጠነት ፋና ጥዕና </value></text>
-					<text id="q_birthattendant_untrainedbirthattendant"><value>ልምዳዊ መዋልዳን </value></text>
-					<text id="q_birthattendant_relativeorfriend"><value>ቤተሰብ/መሓዛይ/ጎረቤት</value></text>
-					<text id="q_birthattendant_doctor"><value>ዶክተር </value></text>
-					<text id="q_birthattendant_healthofficer"><value>ጥዕና መኮነን</value></text>
-					<text id="q_birthattendant_nurse"><value>ነርስ</value></text>
-					<text id="q_birthattendant_other"><value>ካልእ</value></text>
+					<text id="q_whoattended_text"><value>ሕቶ204፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን ነይሩ?</value></text>
+					<text id="q_whoattended_midwife"><value>መዋለዳን </value></text>
+					<text id="q_whoattended_hew"><value>ጥሙር ጥዕና ቤተሰብ ሰራሕተኛ</value></text>
+					<text id="q_whoattended_trainedbirthattendant"><value>ዝሰልጠነት ፋና ጥዕና </value></text>
+					<text id="q_whoattended_untrainedbirthattendant"><value>ልምዳዊ መዋልዳን </value></text>
+					<text id="q_whoattended_relativeorfriend"><value>ቤተሰብ/መሓዛይ/ጎረቤት</value></text>
+					<text id="q_whoattended_doctor"><value>ዶክተር </value></text>
+					<text id="q_whoattended_healthofficer"><value>ጥዕና መኮነን</value></text>
+					<text id="q_whoattended_nurse"><value>ነርስ</value></text>
+					<text id="q_whoattended_other"><value>ካልእ</value></text>
 					
 					<text id="q_complications_text"><value>ሕቶ205፡ እታ ኣዶ ካብዞም ዝስዕቡ ዝተሓላለኹ ፀገማት ወሊድ ኣየናይ ነይርዋ?</value></text>
 					<text id="q_complications_none"><value>ፀገም ኣይነበራን</value></text>
@@ -495,7 +495,7 @@
 					<q_deliverynobabies/>
 					<q_deliverymode/>
 					<q_deliverysite/>
-					<q_birthattendant/>
+					<q_whoattended/>
 					<q_complications/>
 					<q_maternaldeath/>
 					
@@ -588,7 +588,7 @@
 			<bind id="q_deliverynobabies" nodeset="/data/q_deliverynobabies" type="select1" required="true()" relevant="selected(/data/q_pncvisitno,'1')"/>
 			<bind id="q_deliverymode" nodeset="/data/q_deliverymode" type="select1" required="true()" relevant="selected(/data/q_pncvisitno,'1')"/>
 			<bind id="q_deliverysite" nodeset="/data/q_deliverysite" required="true()" type="select1" relevant="selected(/data/q_pncvisitno,'1')"/>
-			<bind id="q_birthattendant" nodeset="/data/q_birthattendant" required="true()" type="select" relevant="selected(/data/q_pncvisitno,'1')"/>
+			<bind id="q_whoattended" nodeset="/data/q_whoattended" required="true()" type="select" relevant="selected(/data/q_pncvisitno,'1')"/>
 			<bind id="q_complications" nodeset="/data/q_complications" required="true()" type="select" relevant="selected(/data/q_pncvisitno,'1')"/>
 			<bind id="q_maternaldeath" nodeset="/data/q_maternaldeath" required="true()" type="select1" relevant="selected(/data/q_pncvisitno,'1')"/>
 			
@@ -737,18 +737,18 @@
 			<item><label ref="jr:itext('q_deliverysite_hospital')"/><value>hospital</value></item>
 			<item><label ref="jr:itext('q_deliverysite_other')"/><value>other</value></item>
 		</select1>
-		<select bind="q_birthattendant">
-			<label ref="jr:itext('q_birthattendant_text')"/>
+		<select bind="q_whoattended">
+			<label ref="jr:itext('q_whoattended_text')"/>
 			<hint ref="jr:itext('selectall')"/>
-			<item><label ref="jr:itext('q_birthattendant_midwife')"/><value>midwife</value></item>
-			<item><label ref="jr:itext('q_birthattendant_hew')"/><value>hew</value></item>
-			<item><label ref="jr:itext('q_birthattendant_trainedbirthattendant')"/><value>trainedbirthattendant</value></item>
-			<item><label ref="jr:itext('q_birthattendant_untrainedbirthattendant')"/><value>untrainedbirthattendant</value></item>
-			<item><label ref="jr:itext('q_birthattendant_relativeorfriend')"/><value>relativeorfriend</value></item>
-			<item><label ref="jr:itext('q_birthattendant_doctor')"/><value>doctor</value></item>
-			<item><label ref="jr:itext('q_birthattendant_healthofficer')"/><value>healthofficer</value></item>
-			<item><label ref="jr:itext('q_birthattendant_nurse')"/><value>nurse</value></item>
-			<item><label ref="jr:itext('q_birthattendant_other')"/><value>other</value></item>
+			<item><label ref="jr:itext('q_whoattended_midwife')"/><value>midwife</value></item>
+			<item><label ref="jr:itext('q_whoattended_hew')"/><value>hew</value></item>
+			<item><label ref="jr:itext('q_whoattended_trainedbirthattendant')"/><value>trainedbirthattendant</value></item>
+			<item><label ref="jr:itext('q_whoattended_untrainedbirthattendant')"/><value>untrainedbirthattendant</value></item>
+			<item><label ref="jr:itext('q_whoattended_relativeorfriend')"/><value>relativeorfriend</value></item>
+			<item><label ref="jr:itext('q_whoattended_doctor')"/><value>doctor</value></item>
+			<item><label ref="jr:itext('q_whoattended_healthofficer')"/><value>healthofficer</value></item>
+			<item><label ref="jr:itext('q_whoattended_nurse')"/><value>nurse</value></item>
+			<item><label ref="jr:itext('q_whoattended_other')"/><value>other</value></item>
 		</select>
 		<select bind="q_complications">
 			<label ref="jr:itext('q_complications_text')"/>
