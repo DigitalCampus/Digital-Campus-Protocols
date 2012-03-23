@@ -108,7 +108,12 @@
 					
 					<text id="q_deliverydate_text"><value>Q305. Enter the date of delivery</value></text>
 					<text id="q_deliverydate_constraint"><value>Delivery date cannot be in the future</value></text>
-					<text id="q_deliverytime_text"><value>Q306. Enter the time of delivery</value></text>
+					
+					<text id="q_deliverytime_text"><value>Q306. Select the approximate time of delivery</value></text>
+					<text id="q_deliverytime_morning"><value>Morning</value></text>
+					<text id="q_deliverytime_afternoon"><value>Afternoon</value></text>
+					<text id="q_deliverytime_evening"><value>Evening</value></text>
+					<text id="q_deliverytime_night"><value>Night</value></text>
 					
 					<text id="q_whoattended_text"><value>Q307. Who was/were the birth attendant/s?</value></text>
 					<text id="q_whoattended_midwife"><value>Midwife</value></text>
@@ -381,7 +386,12 @@
 					
 					<text id="q_deliverydate_text"><value>ሕቶ305፡ እዚ ወሊድ ዝተኻየደሉ መዓልቲ ፀሓፊ፡፡</value></text>
 					<text id="q_deliverydate_constraint"><value>TODO: translate</value></text>
-					<text id="q_deliverytime_text"><value>ሕቶ306፡ እዚ ወሊድ ዝተኻየደሉ ሰዓት ፀሓፊ፡፡</value></text>
+					
+					<text id="q_deliverytime_text"><value>TODO: translate: Q306. Select the approximate time of delivery</value></text>
+					<text id="q_deliverytime_morning"><value>TODO: translate: Morning</value></text>
+					<text id="q_deliverytime_afternoon"><value>TODO: translate: Afternoon</value></text>
+					<text id="q_deliverytime_evening"><value>TODO: translate: Evening</value></text>
+					<text id="q_deliverytime_night"><value>TODO: translate: Night</value></text>
 					
 					<text id="q_whoattended_text"><value>ሕቶ307፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን 'ዩ/ያ፡፡</value></text>
 					<text id="q_whoattended_midwife"><value>መዋለዳን </value></text>
@@ -700,7 +710,7 @@
 			<bind id="q_deliverysite" nodeset="/data/q_deliverysite" required="true()" type="select1"/>
 			<bind id="q_maternaldeath" nodeset="/data/q_maternaldeath" required="true()" type="select1"/>
 			<bind id="q_deliverydate" nodeset="/data/q_deliverydate" required="true()" type="date" constraint="((now()-.) &gt;= 0)" jr:constraintMsg="jr:itext('q_deliverydate_constraint')"/>
-			<bind id="q_deliverytime" nodeset="/data/q_deliverytime" required="true()" type="time"/>
+			<bind id="q_deliverytime" nodeset="/data/q_deliverytime" required="true()" type="select1"/>
 			<bind id="q_whoattended" nodeset="/data/q_whoattended" required="true()" type="select"/>
 			<bind id="q_vaginaldelivery" nodeset="/data/q_vaginaldelivery" required="true()" type="select1"/>
 			<bind id="q_placenta" nodeset="/data/q_placenta" required="true()" type="select1"/>
@@ -906,9 +916,13 @@
 		<input bind="q_deliverydate" appearance="ethiopicDate">
 			<label ref="jr:itext('q_deliverydate_text')"/>
 		</input>
-		<input bind="q_deliverytime">
+		<select1 bind="q_deliverytime">
 			<label ref="jr:itext('q_deliverytime_text')"/>
-		</input>
+			<item><label ref="jr:itext('q_deliverytime_morning')"/><value>morning</value></item>
+			<item><label ref="jr:itext('q_deliverytime_afternoon')"/><value>afternoon</value></item>
+			<item><label ref="jr:itext('q_deliverytime_evening')"/><value>evening</value></item>
+			<item><label ref="jr:itext('q_deliverytime_night')"/><value>night</value></item>
+		</select1>
 		<select bind="q_whoattended">
 			<label ref="jr:itext('q_whoattended_text')"/>
 			<hint ref="jr:itext('selectall')"/>
