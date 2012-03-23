@@ -85,7 +85,7 @@
 					<text id="q_infantdeath_29daysto1year"><value>between 29 days and 1 year</value></text>
 					<text id="q_infantdeath_1to5years"><value>between 1 and 5 years of age</value></text>
 					<text id="q_infantdeath_6ormore"><value>aged 6 years or more</value></text>
-					<text id="q_abortion_text"><value>Q208. How many abortions have you ever had?  </value></text>
+					<text id="q_abortion_text"><value>Q208. How many abortions (induced or spontaneous) have you ever had?  </value></text>
 					<text id="q_livingchildren_text"><value>Q209. How many living children do you have?</value></text>
 
 					<text id="infopregnancyrisks_text"><value>Now, I will ask if you had any of the following problems or risks with your previous pregnancies. </value></text>
@@ -220,7 +220,7 @@
 					<text id="q_infantdeath_29daysto1year"><value>ድሕሪ ወሊድ ካብ 29 መዓልቱ ክሳብ 1ዓመት </value></text>
 					<text id="q_infantdeath_1to5years"><value>ድሕሪ ወሊድ ካብ 1 ጀሚሩ ክሳብ 5 ዓመት </value></text>
 					<text id="q_infantdeath_6ormore"><value>ድሕሪ 6ተ ዓመት </value></text>
-					<text id="q_abortion_text"><value>ሕቶ 208 ፡ ክሳብ ሐዚ ምንፃል ጥንሲ ክንደይ ሻዕ ኣጋጢሙኪ ይፈልጥ? </value></text>
+					<text id="q_abortion_text"><value>TODO: translate</value></text>
 					<text id="q_livingchildren_text"><value>ሕቶ 209 ፡ ክሳብ ሐዚ ብሂወት ዘለው ደቂኺ ክንደይ'ዪም? </value></text>
 					<text id="infopregnancyrisks_text"><value>ሐዚ ኣብ ዝሓለፉ ጥንስታትኪ ብዛዓባ ኣጋጢሞምኺ ዝፈልጡ ናይ ጥዕና ፀገማት/ሓደጋታትን ክሓተኪ እየ፡፡</value></text>
 					<text id="q_preeclampsia_text"><value>ሕቶ 210 ፡ ኣብ ዝሓለፉ ናይ ጥንሲታትኪ ዝለዓለ ፀቕጢ ደም ኣጋጢመኪ'ዶ ነይሩ? </value></text>
