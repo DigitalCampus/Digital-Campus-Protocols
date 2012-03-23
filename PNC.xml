@@ -179,8 +179,8 @@
 					<text id="q_babies_text"><value>Babies delivered</value></text>
 					
 					<text id="q_babycondition_text"><value>Q401. What is the baby's general condition?</value></text>
-					<text id="q_babycondition_good"><value>Good</value></text>
-					<text id="q_babycondition_bad"><value>Bad</value></text>
+					<text id="q_babycondition_well"><value>Well</value></text>
+					<text id="q_babycondition_notwell"><value>Not well</value></text>
 					<text id="q_babycondition_died"><value>Unfortunately the baby has died</value></text>
 					
 					<text id="q_deathdate_text"><value>Q402. Please enter the date of death</value></text>
@@ -407,8 +407,8 @@
 					<text id="q_babies_text"><value>ዝተወለዱ ህፃናት</value></text>
 								
 					<text id="q_babycondition_text"><value>ሕቶ401፡ ኩነታት ህፃን ድሕሪ ወሊድ እንታይ ይመስል?</value></text>
-					<text id="q_babycondition_good"><value>ጥዑይ</value></text>
-					<text id="q_babycondition_bad"><value>ጥዑይ ኣይኮነን</value></text>
+					<text id="q_babycondition_well"><value>TODO: translate</value></text>
+					<text id="q_babycondition_notwell"><value>TODO: translate</value></text>
 					<text id="q_babycondition_died"><value>ህፃን ሞይቱ</value></text>
 					
 					<text id="q_deathdate_text"><value>ሕቶ402፡ ህፃን ዝሞተሉ ዕለት መዝግቢ፡፡ </value></text>
@@ -907,8 +907,8 @@
 			<repeat nodeset="/data/q_babies">
 				<select1 bind="q_babycondition">
 					<label ref="jr:itext('q_babycondition_text')"/>
-					<item><label ref="jr:itext('q_babycondition_good')"/><value>good</value></item>
-					<item><label ref="jr:itext('q_babycondition_bad')"/><value>bad</value></item>
+					<item><label ref="jr:itext('q_babycondition_well')"/><value>well</value></item>
+					<item><label ref="jr:itext('q_babycondition_notwell')"/><value>notwell</value></item>
 					<item><label ref="jr:itext('q_babycondition_died')"/><value>died</value></item>
 				</select1>
 				<input bind="q_deathdate" appearance="ethiopicDate">
