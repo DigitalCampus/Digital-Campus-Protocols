@@ -29,7 +29,7 @@
 
 					<text id="q_healthpointid_text"><value>Q102. Select where the user was registered</value></text>
 					<text id="q_healthpointid_9999"><value>Practice only</value></text>
-					<text id="q_healthpointid_1006"><value>Ara Alemseged health post</value></text>
+					<text id="q_healthpointid_1006"><value>Arasegeda health post</value></text>
 					<text id="q_healthpointid_1001"><value>Ayanlem health post</value></text>
 					<text id="q_healthpointid_1009"><value>Frewoyni health post</value></text>
 					<text id="q_healthpointid_1002"><value>Gemad health post</value></text>
@@ -37,7 +37,7 @@
 					<text id="q_healthpointid_1005"><value>Maynebri health post</value></text>
 					<text id="q_healthpointid_1008"><value>Mesanu - Hintalowajerat health post</value></text>
 					<text id="q_healthpointid_1000"><value>Mesanu - Kilteawelaelo health post</value></text>
-					<text id="q_healthpointid_1003"><value>Negash health post</value></text>
+					<text id="q_healthpointid_1003"><value>Adiekli health post</value></text>
 					<text id="q_healthpointid_1004"><value>Tsadanaele health post</value></text>
 					<text id="q_healthpointid_50001"><value>Abraha Atsbha health centre</value></text>
 					<text id="q_healthpointid_50002"><value>Adigudom health centre</value></text>
@@ -259,7 +259,7 @@
 					<text id="infoconsent_text"><value>ተጠቃሚት ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኮይና ፣እታ ተንቀሳቓሲት ስልኪ ኣቕሚጥኪ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቐት ሃቢያ፡፡</value></text>
 					<text id="q_healthpointid_text"><value>ተገልጋሊት ጥዕና ዝተመዝገበትሉ ትካል ኣበይ'ዩ?</value></text>
 					<text id="q_healthpointid_9999"><value>ንልምምድ ጥራሕ</value></text>
-					<text id="q_healthpointid_1006"><value>ዓራ ዓለምሰገዳ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1006"><value>TODO: translate: Arasegeda health post</value></text>
 					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1009"><value>ፍረወይኒ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1002"><value>ገማድ  ጥዕና ኬላ</value></text>
@@ -267,7 +267,7 @@
 					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1008"><value>መሳኑ (ሕንጣሎ ዋጅራት) ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1000"><value>መሳኑ (ክልተ ኣውላዕሎ) ጥዕና ኬላ</value></text>
-					<text id="q_healthpointid_1003"><value>ነጋሽ (ዓዲ እኽሊ) ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1003"><value>TODO: translate: Adiekli health post</value></text>
 					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_50001"><value>ኣብርሃ ወኣፅባሃ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ</value></text>

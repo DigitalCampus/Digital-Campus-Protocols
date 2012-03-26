@@ -29,7 +29,7 @@
 
 					<text id="q_healthpointid_text"><value>Q102. Select where the user is being registered</value></text>
 					<text id="q_healthpointid_9999"><value>Practice only</value></text>
-					<text id="q_healthpointid_1006"><value>Ara Alemseged health post</value></text>
+					<text id="q_healthpointid_1006"><value>Arasegeda health post</value></text>
 					<text id="q_healthpointid_1001"><value>Ayanlem health post</value></text>
 					<text id="q_healthpointid_1009"><value>Frewoyni health post</value></text>
 					<text id="q_healthpointid_1002"><value>Gemad health post</value></text>
@@ -37,7 +37,7 @@
 					<text id="q_healthpointid_1005"><value>Maynebri health post</value></text>
 					<text id="q_healthpointid_1008"><value>Mesanu - Hintalowajerat health post</value></text>
 					<text id="q_healthpointid_1000"><value>Mesanu - Kilteawelaelo health post</value></text>
-					<text id="q_healthpointid_1003"><value>Negash health post</value></text>
+					<text id="q_healthpointid_1003"><value>Adiekli health post</value></text>
 					<text id="q_healthpointid_1004"><value>Tsadanaele health post</value></text>
 					<text id="q_healthpointid_50001"><value>Abraha Atsbha health centre</value></text>
 					<text id="q_healthpointid_50002"><value>Adigudom health centre</value></text>
@@ -116,11 +116,9 @@
 
 					<text id="q_houseroof_text"><value>Q118. What is the main material of the roof of your house?</value></text>
 					<text id="q_houseroof_thatch"><value>Thatch, leaf</value></text>
-					<text id="q_houseroof_plastic"><value>Rustic mat, plastic sheet</value></text>
 					<text id="q_houseroof_tin"><value>Corrugated iron</value></text>
 					<text id="q_houseroof_wood"><value>Wood</value></text>
 					<text id="q_houseroof_concrete"><value>Concrete</value></text>
-					<text id="q_houseroof_shingle"><value>Roofing shingles</value></text>
 					<text id="q_houseroof_hidmo"><value>Hidmo</value></text>
 					<text id="q_houseroof_other"><value>Other</value></text>
 
@@ -140,10 +138,10 @@
 
 					<text id="q_homesanitation_text"><value>Q122. Please describe your main home sanitation type</value></text>
 					<text id="q_homesanitation_pit"><value>Pit latrines</value></text>
-					<text id="q_homesanitation_septic"><value>Septic tanks with soakways</value></text>
+					<text id="q_homesanitation_vip"><value>Ventilated improved pit latrine (VIP)</value></text>
 					<text id="q_homesanitation_serviceorbucket"><value>Service or bucket latrines</value></text>
 					<text id="q_homesanitation_bush"><value>Bush</value></text>
-					<text id="q_homesanitation_flush"><value>Flush toilet</value></text>
+					<text id="q_homesanitation_flush"><value>Flush toilet (with septic tank or with out)</value></text>
 					<text id="q_homesanitation_other"><value>Other</value></text>
 
 					<text id="q_homewatersource_text"><value>Q123. Please describe the main water source type for your home</value></text>
@@ -152,6 +150,7 @@
 					<text id="q_homewatersource_wellunprot"><value>Well (unprotected)</value></text>
 					<text id="q_homewatersource_stream"><value>Stream</value></text>
 					<text id="q_homewatersource_borehole"><value>Boreholes</value></text>
+					<text id="q_homewatersource_other"><value>Other</value></text>
 
 					<text id="q_homefuelsource_text"><value>Q124. What is the main type of fuel used for cooking at home?</value></text>
 					<text id="q_homefuelsource_open"><value>Open fires (wood and coal)</value></text>
@@ -183,7 +182,7 @@
 					
 					<text id="q_healthpointid_text"><value>ሕቶ 102. እዚ ግልጋሎት ጥዕና ንተጠቃማይ ዝውሃበሉ ዘሎ ጥዕና ትካል(ጥዕና ኬላ ወይ ጥዕና ጣብያ) መዝግቢ/ብ።</value></text>
 					<text id="q_healthpointid_9999"><value>ልምምድ</value></text>
-					<text id="q_healthpointid_1006"><value>ዓራ ኣለም ሰገዳ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1006"><value>TODO: translate: Arasegeda health post</value></text>
 					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1009"><value>ፍረወይኒ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1002"><value>ገማድ ጥዕና ኬላ</value></text>
@@ -191,7 +190,7 @@
 					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1008"><value>መሳኑ ሕንጣሎዋጅራት ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1000"><value>መሳኑ ክልተኣወላዕሎ ጥዕና ኬላ</value></text>
-					<text id="q_healthpointid_1003"><value>ነጋሽ (ዓዲ እኽሊ) ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1003"><value>TODO: translate: Adiekli health post</value></text>
 					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_50001"><value>ኣብርሃ ኣፅብሃ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ</value></text>
@@ -269,11 +268,9 @@
 					
 					<text id="q_houseroof_text"><value>ሕቶ 118. ናይ ገዛኹም ጣሪያ/ኽዳን  ብቀንዲ ካብ ምንታይ ዝተሰርሐ እዩ?</value></text>
 					<text id="q_houseroof_thatch"><value>ቆፅሊ/ሳዕሪ</value></text>
-					<text id="q_houseroof_plastic"><value>ላስትክ</value></text>
 					<text id="q_houseroof_tin"><value>ቆርቆሮ</value></text>
 					<text id="q_houseroof_wood"><value>እንጨይቲ</value></text>
 					<text id="q_houseroof_concrete"><value>ስሚንቶ</value></text>
-					<text id="q_houseroof_shingle"><value>ሸንባቆ</value></text>
 					<text id="q_houseroof_hidmo"><value>ህድሞ</value></text>
 					<text id="q_houseroof_other"><value>ካሊእ</value></text>
 					
@@ -293,10 +290,10 @@
 					
 					<text id="q_homesanitation_text"><value>ሕቶ 122 . መብዛሕትኡ እዋን ኣባላት ስድራ ቤትኹም ብቐንዲ እንታይ ዓይነት ሽንቲ ቤት ትጥቀሙ?</value></text>
 					<text id="q_homesanitation_pit"><value>ጉድጓድ(ተለምዳዊ ሽቓቕ)</value></text>
-					<text id="q_homesanitation_septic"><value>ዘመናዊ ሽቓቕ(መዋሕለሊ ገንኢ ዘለዎ)</value></text>
+					<text id="q_homesanitation_vip"><value>TODO: translate: Ventilated improved pit latrine (VIP)</value></text>
 					<text id="q_homesanitation_serviceorbucket"><value>ፌስትል</value></text>
 					<text id="q_homesanitation_bush"><value>ገደና/መይዳ/ዱር</value></text>
-					<text id="q_homesanitation_flush"><value>ዘመናዊ ሽቓቕ(መዋህለሊ ገንኢ ዘይብሉ)</value></text>
+					<text id="q_homesanitation_flush"><value>TODO: translate: Flush toilet (with septic tank or with out)</value></text>
 					<text id="q_homesanitation_other"><value>ካሊእ</value></text>
 					
 					<text id="q_homewatersource_text"><value>ሕቶ 123. መብዛሕትኡ እዋን ኣባላት ስድራ ቤትኹም ብቐንዲ ዝስተ ማይ ካበይ ይረኽቡ?</value></text>
@@ -305,6 +302,7 @@
 					<text id="q_homewatersource_wellunprot"><value> ጉድጓድ(ዘይተሓለወ)</value></text>
 					<text id="q_homewatersource_stream"><value>ውሓዚ ማይ</value></text>
 					<text id="q_homewatersource_borehole"><value> ማይ ዳንሲ</value></text>
+					<text id="q_homewatersource_other"><value>TODO: translate: Other</value></text>
 					
 					<text id="q_homefuelsource_text"><value>ሕቶ 124. መብዛሕቲኡ እዋን ስድራ ቤትኩም ንመብሰሊ መግቢ ዝትጥቀምሉ ዓይነት ነዳዲ/ሓይሊ እንታይ እዩ?</value></text>
 					<text id="q_homefuelsource_open"><value>እንጨይቲ/ዓኾር</value></text>
@@ -397,7 +395,7 @@
 			<bind id="q_maritalstatus" nodeset="/data/q_maritalstatus" type="select1"/>
 			<bind id="q_education" nodeset="/data/q_education" type="select1"/>
 			<bind id="q_mobilephone" nodeset="/data/q_mobilephone" type="select1"/>
-			<bind id="q_mobilenumber" nodeset="/data/q_mobilenumber" type="string" relevant="selected(/data/q_mobilephone,'yes')"/>
+			<bind id="q_mobilenumber" nodeset="/data/q_mobilenumber" type="integer" relevant="selected(/data/q_mobilephone,'yes')"/>
 			<bind id="q_occupation" nodeset="/data/q_occupation" type="select1"/>
 			<bind id="q_houseroof" nodeset="/data/q_houseroof" type="select1"/>
 			<bind id="q_housewall" nodeset="/data/q_housewall" type="select1"/>
@@ -537,11 +535,9 @@
 			<label ref="jr:itext('q_houseroof_text')"/>
 			<hint ref="jr:itext('selectone')"/>
 			<item><label ref="jr:itext('q_houseroof_thatch')"/><value>thatch</value></item>
-			<item><label ref="jr:itext('q_houseroof_plastic')"/><value>plastic</value></item>
 			<item><label ref="jr:itext('q_houseroof_tin')"/><value>tin</value></item>
 			<item><label ref="jr:itext('q_houseroof_wood')"/><value>wood</value></item>
 			<item><label ref="jr:itext('q_houseroof_concrete')"/><value>concrete</value></item>
-			<item><label ref="jr:itext('q_houseroof_shingle')"/><value>shingle</value></item>
 			<item><label ref="jr:itext('q_houseroof_hidmo')"/><value>hidmo</value></item>
 			<item><label ref="jr:itext('q_houseroof_other')"/><value>other</value></item>
 		</select1>
@@ -570,7 +566,7 @@
 			<label ref="jr:itext('q_homesanitation_text')"/>
 			<hint ref="jr:itext('selectone')"/>
 			<item><label ref="jr:itext('q_homesanitation_pit')"/><value>pit</value></item>
-			<item><label ref="jr:itext('q_homesanitation_septic')"/><value>septic</value></item>
+			<item><label ref="jr:itext('q_homesanitation_vip')"/><value>vip</value></item>
 			<item><label ref="jr:itext('q_homesanitation_serviceorbucket')"/><value>serviceorbucket</value></item>
 			<item><label ref="jr:itext('q_homesanitation_bush')"/><value>bush</value></item>
 			<item><label ref="jr:itext('q_homesanitation_flush')"/><value>flush</value></item>
@@ -584,6 +580,7 @@
 			<item><label ref="jr:itext('q_homewatersource_wellunprot')"/><value>wellunprot</value></item>
 			<item><label ref="jr:itext('q_homewatersource_stream')"/><value>stream</value></item>
 			<item><label ref="jr:itext('q_homewatersource_borehole')"/><value>borehole</value></item>
+			<item><label ref="jr:itext('q_homewatersource_other')"/><value>borehole</value></item>
 		</select1>
 		<select1 bind="q_homefuelsource">
 			<label ref="jr:itext('q_homefuelsource_text')"/>
