@@ -61,9 +61,9 @@
 					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
 					
-					<text id="q_photo_text"><value>Q106. Ask for consent to take a photo of the user's head for the purpose of medical record identification.</value></text>
-					<text id="q_photo_hint"><value>Your photo is used to help us identify users and match the correct medical records with the correct person, especially if you are visiting healthcare workers who you may not have had previous contact with</value></text>
-
+					<text id="q_username_text"><value>Q106. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
+					
 					<text id="infosection2_text"><value>Now I will ask you about different signs you may have noticed in your pregnancy. Tell me if you have had any of them in the past weeks</value></text>
 					<text id="q_abdominalpain_text"><value>Q201. Have you had any severe abdominal pain or cramps in the past weeks?</value></text>
 					<text id="q_bleeding_text"><value>Q202. Have you noticed any bleeding or blood stain on your clothes in the past weeks?</value></text>
@@ -289,7 +289,7 @@
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ  </value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና  ጣብያ  </value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያነጋሽ ጥዕና ጣብያ</value></text>
-					<text id="q_healthpointid_70001"><value>todo: translate</value></text>
+					<text id="q_healthpointid_70001"><value>TODO: translate</value></text>
 				
 					<text id="q_userid_text"><value>ሕቶ 103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ።</value></text>
 					<text id="q_userid_constraint"><value>ልዕሊ 0 ክኸውን ኣለዎ</value></text>
@@ -299,10 +299,10 @@
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					<text id="q_age_text"><value>ሕቶ 105 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
 					<text id="q_age_constraint"><value>TODO: translate</value></text>
-					<text id="q_photo_text"><value>ሕቶ 106 ፡ ፍቓደኛነታ ብምሕታት ንመለለይ ሓበሬታ ዘገልግል ምስሊ እታ ተጠቃሚት ግልጋሎት ጥዕና  ውሰዲ።</value></text>
-				
-					<text id="q_photo_hint"><value>እዚ ምስሊ ተጠቃሚት ግልጋሎት ጥዕና ምስ ሕክምና መረዳእታኣ ንምምስኻር ዝጠቅም'ዩ። ብፍላይ ድማ እታ ተጠቃሚት ግልጋሎት ጥዕና ናብ ካልእ ትካል እንትዘዋወርን ብኻሊእ በዓል ሞያ ጥዕና ክትሪአ ከላን ዝዓበየ ረብሓ ኣለዎ።</value></text>
-				
+					
+					<text id="q_username_text"><value>TODO: translate: Q106. Enter user's name</value></text>
+					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+
 					<text id="infosection2_text"><value>ሐዚ ኣብ ግዜ ጥንሲ ከጋጥሙ ካብ ዝኽእሉ ዝተፈላለዩ ምልክታት ጥንሲ ኣብ ዝሓለፉ ሰሙናት ኣየነኦም ከም ዘጋጠሙኺ ክትነግርኒ ኢኺ።</value></text>
 					<text id="q_abdominalpain_text"><value>ሕቶ 201 ፡ ኣብ ዝሓለፈ ሰሙናት ሓያል ናይ ከብዲ ቃንዛ ወይ ቁርፀት ኣጋጢሙኪ'ዶ ነይሩ?</value></text>
 					<text id="q_bleeding_text"><value>ሕቶ 202 ፡ ኣብ ዝሓለፉ ሰሙናት መድመይቲ ወይ ኣብ ክዳንኪ ዝተፀየቐ ደም'ዶ ኣጋጢሙኪ ነይሩ ?</value></text>
@@ -456,7 +456,7 @@
 					<text id="q_height_nottaken"><value>ቁመት ኣይዓቀንኩን</value></text>
 					<text id="q_systolicbp_text"><value>ሕቶ 403 ፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
 					<text id="q_diastolicbp_text"><value>ሕቶ 404 ፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
-					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም = &gt;140 ወይ =&lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም = &gt;90 ወይ =&lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
+					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም &gt;140 ወይ &lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም &gt;90 ወይ &lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					<text id="q_palloranemia_text"><value>ሕቶ 405 ፡ ናይታ ኣዶ ፅፍራ ወይ ውሽጣዊ ቆቢዕ ዓይና ብምርኣይ ካብ ልሙድ ዝተፈለየ ምፅዕዳው (ፓለር) እንተሃሊይዋ ተዓዘቢ (ፓለር ምልክት ዋሕዲ ደም'ዩ ።)</value></text>
 					<text id="q_palloranemia_pallor"><value>እወ (ፓለር ኣለዋ)</value></text>
 					<text id="q_palloranemia_normal"><value>ጥዑይ (ፓለር የብላን)</value></text>
@@ -514,7 +514,7 @@
 					<q_userid/>
 					<q_yearofbirth/>
 					<q_age/>
-					<q_photo/>
+					<q_username/>
 					<infosection2/>
 					<q_abdominalpain/>
 					<q_bleeding/>
@@ -621,7 +621,7 @@
 			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
 			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
 			
-			<bind id="q_photo" nodeset="/data/q_photo" type="binary"/>
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 
 			<bind id="infosectionpreg" nodeset="/data/infosectionpreg" readonly="true()" type="string"/>
 			<bind id="q_abdominalpain" nodeset="/data/q_abdominalpain" required="true()" type="select1"/>
@@ -784,10 +784,10 @@
 		<input bind="q_age">
 			<label ref="jr:itext('q_age_text')"/>
 		</input>
-		<upload ref="q_photo" mediatype="image/*">
-			<label ref="jr:itext('q_photo_text')"/>
-			<hint ref="jr:itext('q_photo_hint')"/>
-		</upload>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
+		</input>
 		<input bind="infosection2">
 			<label ref="jr:itext('infosection2_text')"/>
 		</input>

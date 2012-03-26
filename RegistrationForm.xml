@@ -85,9 +85,6 @@
 					<text id="q_sex_female"><value>Female</value></text>
 					<text id="q_sex_male"><value>Male</value></text>
 
-					<text id="q_photo_text"><value>Q112. Ask for consent to take a photo of the user's head for the purpose of medical record identification.</value></text>
-					<text id="q_photo_hint"><value>Your photo is used to help us identify users and match the correct medical records with the correct person, especially if you are visiting healthcare workers who you may not have had previous contact with</value></text>
-
 					<text id="q_maritalstatus_text"><value>Q113. Are you currently married or living together in union as if married?</value></text>
 					<text id="q_maritalstatus_yes"><value>Yes. Currently married or living together</value></text>
 					<text id="q_maritalstatus_no"><value>No</value></text>
@@ -237,9 +234,6 @@
 					<text id="q_sex_female"><value>ኣንስታይ</value></text>
 					<text id="q_sex_male"><value>ተባዕታይ</value></text>
 					
-					<text id="q_photo_text"><value>ሕቶ 112. ምስሊ እቲ/ታ ተጠቓማይ ግልጋሎት ጥዕና ንመፍለይ መንነት ሓቤሬታ ዘገልግል ንምውሳድ ፍቓደኝነት ተጠቃማይ/ሚት ግልጋሎት ጥዕና ብምሕታት ምስሊ እቲ ተጠቓማይ ውስዲ/ድ።</value></text>
-					<text id="q_photo_hint"><value>እዚ ምስሊ ተጠቓማይ/ሚት ግልጋሎት ጥዕና ምስ እቲ ዝተወሰደ መረዳእታ ሕክምና ንምምስኻር ተጠቓማይ እዩ። ብፍላይ ተጠቓማይ ግልጋሎት ጥዕና ናብ ካሊእ ጥዕና ትካል እንተተዛውሩን/ራን ብካሊእ በዓል ሞያ ጥዕና ክረኣን ከሎ ጠቓማይ እዩ</value></text>
-					
 					<text id="q_maritalstatus_text"><value>ሕቶ 113.  ኣብዚ ሐዚ እዋን ባዓል ሓዳር ወይ ምስ ሰብኣይ/ሰበይቲ ከም ሰበኣይን ሰበይትን ትነብሪ/ትነብር'ዶ?</value></text>
 					<text id="q_maritalstatus_yes"><value>እወ በዓል ሓዳር እየ ወይ ምስ ሰብኣይ/ሰበይቲ ከም ሰብኣይን ሰበይትን ብሓደ ይነብር እየ</value></text>
 					<text id="q_maritalstatus_no"><value>ኣይፋሉን ሓደር የብለይን</value></text>
@@ -345,7 +339,6 @@
 					<q_userfathersname/>
 					<q_usergrandfathersname/>
 					<q_sex/>
-					<q_photo/>
 					<q_maritalstatus/>
 					<q_education/>
 					<q_mobilephone/>
@@ -390,12 +383,11 @@
 			<bind id="q_userfathersname" nodeset="/data/q_userfathersname" required="true()" type="string"/>
 			<bind id="q_usergrandfathersname" nodeset="/data/q_usergrandfathersname" required="true()" type="string"/>
 			<bind id="q_sex" nodeset="/data/q_sex" required="true()" type="select1"/>
-			<bind id="q_photo" nodeset="/data/q_photo" type="binary"/>
 
 			<bind id="q_maritalstatus" nodeset="/data/q_maritalstatus" type="select1"/>
 			<bind id="q_education" nodeset="/data/q_education" type="select1"/>
 			<bind id="q_mobilephone" nodeset="/data/q_mobilephone" type="select1"/>
-			<bind id="q_mobilenumber" nodeset="/data/q_mobilenumber" type="integer" relevant="selected(/data/q_mobilephone,'yes')"/>
+			<bind id="q_mobilenumber" nodeset="/data/q_mobilenumber" type="decimal" relevant="selected(/data/q_mobilephone,'yes')"/>
 			<bind id="q_occupation" nodeset="/data/q_occupation" type="select1"/>
 			<bind id="q_houseroof" nodeset="/data/q_houseroof" type="select1"/>
 			<bind id="q_housewall" nodeset="/data/q_housewall" type="select1"/>
@@ -491,11 +483,7 @@
 			<label ref="jr:itext('q_sex_text')"/>
 			<item><label ref="jr:itext('q_sex_female')"/><value>female</value></item>
 			<item><label ref="jr:itext('q_sex_male')"/><value>male</value></item>
-		</select1>
-		<upload ref="q_photo" mediatype="image/*">
-			<label ref="jr:itext('q_photo_text')"/>
-			<hint ref="jr:itext('q_photo_hint')"/>
-		</upload>
+		</select1> 	
 		<select1 bind="q_maritalstatus">
 			<label ref="jr:itext('q_maritalstatus_text')"/>
 			<item><label ref="jr:itext('q_maritalstatus_yes')"/><value>yes</value></item>

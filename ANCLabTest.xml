@@ -52,7 +52,8 @@
 					
 					<text id="q_age_text"><value>Q104. Enter user's age</value></text>
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
-					
+					<text id="q_username_text"><value>Q105. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
 					<text id="q_healthcenter_text"><value>Q105. Select the health centre where these lab tests were done</value></text>
 					<text id="q_healthcenter_50001"><value>Abraha Atsbha</value></text>
 					<text id="q_healthcenter_50002"><value>Adigudom</value></text>
@@ -123,8 +124,9 @@
 					
 					<text id="q_age_text"><value>ሕቶ 104፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና? </value></text>
 					<text id="q_age_constraint"><value>TODO: translate</value></text>
-					
-					<text id="q_healthcenter_text"><value>ሕቶ105፡ እዚ ናይ ላብራቶሪ ምርመራ ዝተኻየደሉ ጥዕና ጣብያ መዝግቢ፡፡ </value></text>
+					<text id="q_username_text"><value>TODO: translate: Q105. Enter user's name</value></text>
+					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					<text id="q_healthcenter_text"><value>ሕቶ106፡ እዚ ናይ ላብራቶሪ ምርመራ ዝተኻየደሉ ጥዕና ጣብያ መዝግቢ፡፡ </value></text>
 					<text id="q_healthcenter_50001"><value>ኣብርሃ ወኣፅብሃ ጥዕና ጣብያ  </value></text>
 					<text id="q_healthcenter_50002"><value>ዓዲጉደም ጥዕና ጣብያ </value></text>
 					<text id="q_healthcenter_50003"><value>ኣጉላዕ ጥዕና ጣብያ </value></text>
@@ -170,6 +172,7 @@
 					<q_userid/>
 					<q_yearofbirth/>
 					<q_age/>
+					<q_username/>
 					<q_healthcenter/>
 					<q_dateoftest/>
 
@@ -204,6 +207,7 @@
 			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
 			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
 			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 			
 			<bind id="q_healthcenter" nodeset="/data/q_healthcenter" required="true()" type="select1"/>
 			<bind id="q_dateoftest" nodeset="/data/q_dateoftest" required="true()" type="date"/>
@@ -256,6 +260,10 @@
 		</input>
 		<input bind="q_age">
 			<label ref="jr:itext('q_age_text')"/>
+		</input>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
 		</input>
 		<select1 bind="q_healthcenter">
 			<label ref="jr:itext('q_healthcenter_text')"/>

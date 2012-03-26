@@ -7,6 +7,12 @@
 		Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) 
 		http://creativecommons.org/licenses/by-nc-sa/3.0/-->
 	<h:head>
+		<Meta>
+			<UserID/>
+			<DeviceID/>
+			<TimeStartRecorded/>
+			<TimeEndRecorded/>
+		</Meta>
 		<h:title>Delivery (ወሊድ) v3</h:title>
 		<model>
 			<itext>
@@ -19,7 +25,6 @@
 					<text id="notreq"><value>Not required</value></text>
 					<text id="constraint_greaterthanzero"><value>Please enter a number greater than 0</value></text>
 					
-					<text id="infocheckup_text"><value>If this is the first time the women has been seen, please complete a registration and first visit protocol, before completing this protocol</value></text>
 					<text id="q_consent_text"><value>Q101. Do you give me your consent to use phone for interview?</value></text>
 					<text id="infoconsent_text"><value>Put phone down and provide care as normal</value></text>
 
@@ -49,8 +54,8 @@
 					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
 					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
-					<text id="q_photo_text"><value>Q106. Ask for consent to take a photo of the user's head for the purpose of medical record identification.</value></text>
-					<text id="q_photo_hint"><value>Your photo is used to help us identify users and match the correct medical records with the correct person, especially if you are visiting healthcare workers who you may not have had previous contact with</value></text>
+					<text id="q_username_text"><value>Q106. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
 					
 					<text id="infosection2_text"><value>Information related to the labor process</value></text>
 					<text id="q_laboronsettime_text"><value>Q201. Did a prolonged labor (>24h) happen?</value></text>
@@ -297,7 +302,6 @@
 					<text id="notreq"><value>ኣየድልን</value></text>
 					<text id="constraint_greaterthanzero"><value>ካብ 0 ንላዕሊ ዝኾነ ቁፅሪ ኣእትው</value></text>
 					
-					<text id="infocheckup_text"><value>እታ ኣዶ ብጥዕና በዓል ሞያ እትረአ ዘላ ንመጀመሪታ ግዘኣ እንተድኣ ኮይና፣  ናይ መመዝገቢን 1ይ ዑደት ክትትል ጥንሲን ቕጥዒታት ቕድሚ እዚ ቕጥዒ ይመላእ፡፡</value></text>
 					<text id="q_consent_text"><value>ሕቶ 101፡ እዛ ተንቀሳቓሲት ስልኪ ንቓለ መሕትት ንክጥቀመላ ፍቓደኛ ዲኺ?</value></text>
 					<text id="infoconsent_text"><value>ተጠቃሚት ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኮይና ፣እታ ተንቀሳቓሲት ስልኪ ኣቕሚጥኪ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቐት ሃቢያ፡፡</value></text>
 					
@@ -327,8 +331,8 @@
 					<text id="q_yearofbirth_constraint"><value>ካብ 1900 ዓ/ም ንላዕሊ ክኸውን ኣለዎ</value></text>
 					<text id="q_age_text"><value>ሕቶ 105 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
 					<text id="q_age_constraint"><value>TODO: translate</value></text>
-					<text id="q_photo_text"><value>ሕቶ106፡ ፍቓድ ብምሕታት ንመለለይ ሓበሬታ ዘገልግል ምስሊ እታ ተጠቃሚት ግልጋሎት ጥዕና ውሰዲ።</value></text>
-					<text id="q_photo_hint"><value> እዚ ምስሊ ተጠቃሚት ግልጋሎት ጥዕና ምስ ሕክምና መረዳእታኣ ንምምስኻር ዝጠቅም 'ዩ። ብፍላይ ድማ  እታ  ተጠቃሚት ግልጋሎት  ጥዕና  ናብ ካልእ ትካል እንትዘዋወርን ብኻሊእ በዓል ሞያ ጥዕና ክትሪአ ከላን ዝዓበየ ረብሓ  ኣለዎ።</value></text>
+					<text id="q_username_text"><value>TODO: translate: Q106. Enter user's name</value></text>
+					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
 					
 					<text id="infosection2_text"><value>ናይ ሕርሲ መረዳእታ</value></text>
 					<text id="q_laboronsettime_text"><value>ሕቶ201፡ ዝተደናጎየ ሕርሲ ነይሩዋ 'ዶ?</value></text>
@@ -580,14 +584,13 @@
 					<simid/> <!-- hidden from user -->
 					<phonenumber/> <!-- hidden from user -->
 
-					<infocheckup/>
 					<q_consent/>
 					<infoconsent/>
 					<q_healthpointid/>
 					<q_userid/>
 					<q_yearofbirth/>
 					<q_age/>
-					<q_photo/>
+					<q_username/>
 					
 					<infosection2/>
 					<q_laboronsettime/>
@@ -686,7 +689,6 @@
 			<bind id="simid" nodeset="/data/simid" type="string" jr:preload="property" jr:preloadParams="simserial"/>
 			<bind id="phonenumber" nodeset="/data/phonenumber" type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
 
-			<bind id="infocheckup" nodeset="/data/infocheckup" readonly="true()" type="string"/>
 			<bind id="q_consent" nodeset="/data/q_consent" required="true()" type="select1"/>
 			<bind id="infoconsent" nodeset="/data/infoconsent" readonly="true()" type="string" relevant="selected(/data/q_consent,'no')"/>
 			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="select1"/>
@@ -694,8 +696,7 @@
 			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
 			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
 			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
-			
-			<bind id="q_photo" nodeset="/data/q_photo" type="binary"/>
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 			
 			<bind id="infosection2" nodeset="/data/infosection2" readonly="true()" type="string"/>
 			<bind id="q_laboronsettime" nodeset="/data/q_laboronsettime" required="true()" type="select1"/>
@@ -797,9 +798,6 @@
 		</model>
 	</h:head>
 	<h:body>
-		<input bind="infocheckup">
-			<label ref="jr:itext('infocheckup_text')"/>
-		</input>
 		<select1 bind="q_consent">
 			<label ref="jr:itext('q_consent_text')"/>
 			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
@@ -838,10 +836,10 @@
 		<input bind="q_age">
 			<label ref="jr:itext('q_age_text')"/>
 		</input>
-		<upload ref="q_photo" mediatype="image/*">
-			<label ref="jr:itext('q_photo_text')"/>
-			<hint ref="jr:itext('q_photo_hint')"/>
-		</upload>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
+		</input>
 		
 		<input bind="infosection2">
 			<label ref="jr:itext('infosection2_text')"/>

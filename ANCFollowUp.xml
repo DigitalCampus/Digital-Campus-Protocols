@@ -59,9 +59,9 @@
 					
 					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
+					<text id="q_username_text"><value>Q106. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
 					
-					<text id="q_photo_text"><value>Q106. Ask for consent to take a photo of the user's head for the purpose of medical record identification.</value></text>
-					<text id="q_photo_hint"><value>Your photo is used to help us identify users and match the correct medical records with the correct person, especially if you are visiting healthcare workers who you may not have had previous contact with</value></text>
 					<text id="q_followupno_text"><value>Q107. Which antenatalcare visit is this?</value></text>
 					<text id="q_followupno_2"><value>2nd visit</value></text>
 					<text id="q_followupno_3"><value>3rd visit</value></text>
@@ -223,8 +223,8 @@
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					<text id="q_age_text"><value>ሕቶ 105 ፡  ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
 					<text id="q_age_constraint"><value>TODO: translate</value></text>
-					<text id="q_photo_text"><value>ሕቶ 106 ፡ ፍቓደኛነታ ብምሕታት ንመለለይ ሓበሬታ ዘገልግል ምስሊ እታ ተጠቃሚት ግልጋሎት ጥዕና ውሰዲ።</value></text>
-					<text id="q_photo_hint"><value>እዚ ምስሊ ተጠቃሚት ግልጋሎት ጥዕና ምስ ሕክምና መረዳእታኣ ንምምስኻር ዝጠቅም'ዩ። ብፍላይ ድማ  እታ  ተጠቃሚት ግልጋሎት  ጥዕና  ናብ ካልእ ትካል እንትዘዋወርን ብኻሊእ በዓል ሞያ ጥዕና ክትሪአ ከላን ዝዓበየ ረብሓ  ኣለዎ።</value></text>
+					<text id="q_username_text"><value>TODO: translate: Q106. Enter user's name</value></text>
+					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
 					<text id="q_followupno_text"><value>ሕቶ 107 ፡ እዚ ዑደት ክትትል ክንክን ቅድመ ወሊድ መበል ክንደይ እዩ?</value></text>
 					<text id="q_followupno_2"><value>2ይ ክትትል ክንክን ቅድመ ወሊድ </value></text>
 					<text id="q_followupno_3"><value>3ይ ክትትል ክንክን ቅድመ ወሊድ </value></text>
@@ -360,7 +360,7 @@
 					<q_userid/>
 					<q_yearofbirth/>
 					<q_age/>
-					<q_photo/>
+					<q_username/>
 					<infoprotocol/>
 					<q_followupno/>
 					<infosection2/>
@@ -448,8 +448,8 @@
 			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
 			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
 			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 			
-			<bind id="q_photo" nodeset="/data/q_photo" type="binary"/>
 			<bind id="infoprotocol" nodeset="/data/infoprotocol" readonly="true()" type="string"/>
 			<bind id="q_followupno" nodeset="/data/q_followupno" required="true()" type="select1"/>
 
@@ -573,10 +573,10 @@
 		<input bind="q_age">
 			<label ref="jr:itext('q_age_text')"/>
 		</input>
-		<upload ref="q_photo" mediatype="image/*">
-			<label ref="jr:itext('q_photo_text')"/>
-			<hint ref="jr:itext('q_photo_hint')"/>
-		</upload>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
+		</input>
 		<input bind="infoprotocol">
 			<label ref="jr:itext('infoprotocol_text')"/>
 		</input>
