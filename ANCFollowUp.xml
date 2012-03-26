@@ -85,6 +85,7 @@
 					<text id="infomisopristol_text"><value>Explain women postpartum hemorrhage (excessive bleeding (&gt;500ml) after childbirth); and inform her about the availability of misoprostol that can be used to prevent bleeding (even if she may deliver at home)</value></text>
 					
 					<text id="q_lmp_text"><value>Q208. When was your last menstrual period (LMP) approximately?</value></text>
+					<text id="q_lmp_hint"><value>If the exact date is not known, please enter an approximation</value></text>
 					<text id="q_lmp_constraint"><value>LMP entered should be between today and 9 months ago</value></text>
 					
 					<text id="q_edd_text"><value>The EDD has been calculated as follows:</value></text>
@@ -247,6 +248,7 @@
 					<text id="infomisopristol_text"><value>ነታ ኣዶ ብዛዕባ ዘይስሩዕ መድመይቲ [ድሕሪ ምውላድ ዘጋጥም ዝበዝሐ መድመይቲ (ልዕሊ 500 ሚ.ሊ)] ምስ ኣብ ራህራህክላ ነዚ መድመይቲ ክከላኸል ዝኽእል ሚሶፕሮስቶል ዝበሃል መድሓኒት (ዋላ ኣብ ገዝኣ እንተወለደት) ክትረክብ ከምእትኽእል ሓብርላ።</value></text>
 					
 					<text id="q_lmp_text"><value>ሕቶ 208፡ ናይ ኣዴታትኪ (ወርሓዊ ፅግያ) ንመወዳእታ ግዜ ዝረኣኽሉ መዓዝ ነርሩ? </value></text>
+					<text id="q_lmp_hint"><value>TODO: translate: If the exact date is not known, please enter an approximation</value></text>
 					<text id="q_lmp_constraint"><value>ናይ መወዳእታ ወርሓዊ ፅግያ ዝተርኣየሉ ኣብ መንጎ ሎሚ መዓልትን ዝሓለፉ 9 ኣዋርሕን ክኸውን ኣለዎ</value></text>
 					<text id="q_edd_text"><value>ሕቶ231፡ ንክትወልድ ትፅቢት ዝግበረሉ መዓልቲ (EDD) ኣብዚ ዝስዕብ እዋን ይኸውን</value></text>
 					
@@ -630,6 +632,7 @@
 		</input>
 		<input bind="q_lmp" appearance="ethiopicDate">
 			<label ref="jr:itext('q_lmp_text')"/>
+			<hint ref="jr:itext('q_lmp_hint')"/>
 		</input>
 		<input bind="q_edd" appearance="ethiopicEDD">
 			<label ref="jr:itext('q_edd_text')"/>

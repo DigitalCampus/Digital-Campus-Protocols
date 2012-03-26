@@ -135,6 +135,7 @@
 					<text id="q_fpmethod_othertraditional"><value>Other traditional methods</value></text>
 					
 					<text id="q_lmp_text"><value>Q230. When was your last menstrual period (LMP) approximately?</value></text>
+					<text id="q_lmp_hint"><value>If the exact date is not known, please enter an approximation</value></text>
 					<text id="q_lmp_constraint"><value>LMP entered should be between today and 9 months ago</value></text>
 					
 					<text id="q_edd_text"><value>Q231. The EDD has been calculated as follows:</value></text>
@@ -375,6 +376,7 @@
 					<text id="q_fpmethod_othertraditional"><value>ካልኦት ባህላዊ ሜላታት </value></text>
 				
 					<text id="q_lmp_text"><value>ሕቶ 230፡ ናይ ኣዴታትኪ (ወርሓዊ ፅግያ) ንመወዳእታ ግዜ ዝረኣኽሉ መዓዝ'ዩ?</value></text>
+					<text id="q_lmp_hint"><value>TODO: translate: If the exact date is not known, please enter an approximation</value></text>
 					<text id="q_lmp_constraint"><value>ናይ መወዳእታ ወርሓዊ ፅግያ ዝተርኣየሉ ኣብ መንጎ ሎሚ መዓልትን ዝሓለፉ 9 ኣዋርሕን ክኸውን ኣለዎ</value></text>
 					
 					<text id="q_edd_text"><value>ሕቶ231፡ ንክትወልድ ትፅቢት ዝግበረሉ መዓልቲ (EDD) ኣብዚ ዝስዕብ እዋን ይኸውን</value></text>
@@ -951,6 +953,7 @@
 		</select>
 		<input bind="q_lmp" appearance="ethiopicDate">
 			<label ref="jr:itext('q_lmp_text')"/>
+			<hint ref="jr:itext('q_lmp_hint')"/>
 		</input>
 		<input bind="q_edd" appearance="ethiopicEDD">
 			<label ref="jr:itext('q_edd_text')"/>

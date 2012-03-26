@@ -77,6 +77,7 @@
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
 					
 					<text id="q_username_text"><value>Q108. Enter user's name</value></text>
+					<text id="q_name_hint"><value>Please enter in Tigrinyan text</value></text>
 					<text id="q_userfathersname_text"><value>Q109. Enter user's fathers name</value></text>
 					<text id="q_usergrandfathersname_text"><value>Q110. Enter user's grandfathers name</value></text>
 
@@ -229,6 +230,7 @@
 					<text id="q_age_constraint"><value>TODO: translate</value></text>
 					
 					<text id="q_username_text"><value>ሕቶ 108.  ሽም ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
+					<text id="q_name_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
 					<text id="q_userfathersname_text"><value>ሕቶ 109.  ሽም ኣቦ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
 					<text id="q_usergrandfathersname_text"><value>ሕቶ 110. ሽም ኣቦ ሓጎ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
 					
@@ -477,12 +479,15 @@
 		</input>
 		<input bind="q_username">
 			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_name_hint')"/>
 		</input>
 		<input bind="q_userfathersname">
 			<label ref="jr:itext('q_userfathersname_text')"/>
+			<hint ref="jr:itext('q_name_hint')"/>
 		</input>
 		<input bind="q_usergrandfathersname">
 			<label ref="jr:itext('q_usergrandfathersname_text')"/>
+			<hint ref="jr:itext('q_name_hint')"/>
 		</input>
 		<select1 bind="q_sex">
 			<label ref="jr:itext('q_sex_text')"/>
