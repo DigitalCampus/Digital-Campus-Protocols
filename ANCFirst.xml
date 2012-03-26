@@ -710,7 +710,7 @@
 			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			<bind id="infoBP" nodeset="/data/infoBP" readonly="true()" type="string"
-				relevant="(/data/q_systolicbp &gt;= 140) or (/data/q_systolicbp &lt;= 90) or (/data/q_diastolicbp &gt;= 90) or (/data/q_diastolicbp &lt;= 60)"/>
+				relevant="(/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60)"/>
 			<bind id="q_palloranemia" nodeset="/data/q_palloranemia" required="true()" type="select1"/>
 
 			<bind id="q_cardiacpulse" nodeset="/data/q_cardiacpulse" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>

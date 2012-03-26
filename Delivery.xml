@@ -458,7 +458,7 @@
 					
 					<text id="q_systolicbp_text"><value>ሕቶ405፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
 					<text id="q_diastolicbp_text"><value>ሕቶ 406፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
-					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም = &gt;140/ =&lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም = &gt;90/=&lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
+					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም &gt;140/&lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም &gt;90/&lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					
 					<text id="q_breastfeeding_text"><value>ሕቶ407፡ እታ ኣዶ ድሕሪ ወሊድ ሽዑ ንሽዑ ምጥባው ጡብ ክትጅምር ከምዘለዋ ምኽሪ ተዋሂብዋ 'ዶ?</value></text>
 					<text id="q_advicedangersigns_text"><value>ሕቶ408፡ ብዛዕባ ኣብ ኣዶ ወይ እቲ ህፃን ከጋጥሙ ዝኽእሉ ናይ ሓደጋ ምልክታት ከምኡ 'ውን እታ ኣዶ ተሎ ምንቅስቓስ ክትጅምር ከምዘለዋ ምኽሪ ተዋሂብዋ 'ዶ?</value></text>
@@ -734,7 +734,7 @@
 			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			<bind id="infoBP" nodeset="/data/infoBP" readonly="true()" type="string"
-				relevant="(/data/q_systolicbp &gt;= 140) or (/data/q_systolicbp &lt;= 90) or (/data/q_diastolicbp &gt;= 90) or (/data/q_diastolicbp &lt;= 60)"/>
+				relevant="(/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60)"/>
 			<bind id="q_breastfeeding" nodeset="/data/q_breastfeeding" required="true()" type="select1"/>
 			<bind id="q_advicedangersigns" nodeset="/data/q_advicedangersigns" required="true()" type="select1"/>
 			<bind id="q_advicefeeding" nodeset="/data/q_advicefeeding" required="true()" type="select1"/>

@@ -372,7 +372,7 @@
 					
 					<text id="q_systolicbp_text"><value>ሕቶ306፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
 					<text id="q_diastolicbp_text"><value>ሕቶ 307፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
-					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም = &gt;140 ወይ  =&lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም = &gt;90 ወይ  =&lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
+					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም &gt;140 ወይ  &lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም &gt;90 ወይ  &lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					<text id="q_cardiacpulse_text"><value>ሕቶ308፡ ትርታ ልቢ ኣዶ ብደቒቓ መዝግቢ</value></text>
 					<text id="infocardiacpulse_text"><value>እንድሕር ትርግታ ልቢ ብደቒቓ ልዕሊ 100 ወይ ድማ ትሕቲ 50 ኮይኑ፣ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					<text id="q_palloranemia_text"><value>ሕቶ309፡  ናይታ ኣዶ ፅፍራ ወይ ውሽጣዊ ቆቢዕ ዓይና ብምርኣይ ካብ ልሙድ ዝተፈለየ ምፅዕዳው (ፓለር) እንተሃሊይዋ ተዓዘቢ (ፓለር ምልክት ዋሕዲ ደም'ዩ ።)</value></text>
@@ -607,7 +607,7 @@
 			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="infoBP" nodeset="/data/infoBP" readonly="true()" type="string"
-				relevant="(/data/q_systolicbp &gt;= 140) or (/data/q_systolicbp &lt;= 90) or (/data/q_diastolicbp &gt;= 90) or (/data/q_diastolicbp &lt;= 60)"/>
+				relevant="(/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60)"/>
 			<bind id="q_cardiacpulse" nodeset="/data/q_cardiacpulse" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="infocardiacpulse" nodeset="/data/infocardiacpulse" readonly="true()" type="string" relevant="(/data/q_cardiacpulse &gt;= 100) or (/data/q_cardiacpulse &lt;= 50) "/>
 			<bind id="q_palloranemia" nodeset="/data/q_palloranemia" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
