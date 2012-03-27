@@ -202,7 +202,7 @@
 			<bind id="simid" nodeset="/data/simid" type="string" jr:preload="property" jr:preloadParams="simserial"/>
 			<bind id="phonenumber" nodeset="/data/phonenumber" type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
 
-			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="select1"/>
+			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="integer"/>
 			<bind id="q_userid" nodeset="/data/q_userid" required="true()" type="integer" constraint=". &gt; 0"  jr:constraintMsg="jr:itext('q_userid_constraint')"/>
 			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
 			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
