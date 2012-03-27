@@ -115,8 +115,8 @@
 					
 					<text id="infosection3_text"><value>Section 3: PNC (Mother)</value></text>
 					<text id="q_mothercondition_text"><value>Q301. What is the general condition of the mother? </value></text>
-					<text id="q_mothercondition_good"><value>Good</value></text>
-					<text id="q_mothercondition_bad"><value>Bad</value></text>
+					<text id="q_mothercondition_well"><value>Well</value></text>
+					<text id="q_mothercondition_notwell"><value>Not well</value></text>
 					
 					<text id="q_lochiacolour_text"><value>Q302. What is the lochia or vaginal discharge colour?</value></text>
 					<text id="q_lochiacolour_rubra"><value>Red (Lochia rubra)</value></text>
@@ -181,6 +181,8 @@
 					
 					<text id="infosection4_text"><value>Section 4: PNC (Baby)</value></text>
 					<text id="infosection4_hint"><value>Repeat the next section of questions for every baby who was delivered</value></text>
+					
+					<text id="q_nobabies_text"><value>How many babies were delivered?</value></text>
 					
 					<text id="q_babies_text"><value>Babies delivered</value></text>
 					
@@ -346,8 +348,8 @@
 					
 					<text id="infosection3_text"><value>ክፍሊ 3፡ ክንክን ኣዶ ድሕሪ ወሊድ</value></text>
 					<text id="q_mothercondition_text"><value>ሕቶ301፡ ሓፈሻዊ ኩነታት ኣዶ እንታይ ይመስል? </value></text>
-					<text id="q_mothercondition_good"><value>ጥዕይቲ</value></text>
-					<text id="q_mothercondition_bad"><value>ጥዕይቲ ኣይኮነትን</value></text>
+					<text id="q_mothercondition_well"><value>TODO: translate: well</value></text>
+					<text id="q_mothercondition_notwell"><value>TODO: translate: well</value></text>
 					
 					<text id="q_lochiacolour_text"><value>ሕቶ302፡  ድሕሪ ወሊድ ብማህፀን ናይ ዝፈስስ ፈሳሲ ሕብሪ እንታይ ይመስል? </value></text>
 					<text id="q_lochiacolour_rubra"><value>ቀይሕ</value></text>
@@ -410,6 +412,8 @@
 					
 					<text id="infosection4_text"><value>ክፍሊ 4፡ ክንክን ህፃን ድሕሪ ወሊድ </value></text>
 					<text id="infosection4_hint"><value>እንድሕር ዝተወለዱ ህፃውንቲ ካብ ሓደ ንላዕሊ ኮይኖም፣ እዚ ዝስዕብ ክፍሊ ነንሕድሕዶም ይመላእ</value></text>
+					
+					<text id="q_nobabies_text"><value>TODO: translate: How many babies were delivered?</value></text>
 					
 					<text id="q_babies_text"><value>ዝተወለዱ ህፃናት</value></text>
 								
@@ -535,7 +539,8 @@
 					<q_commentsmother/>
 					
 					<infosection4/>
-					<q_babies jr:template="">
+					<q_nobabies/>
+					<q_babies>
 						<q_babycondition/>
 						<q_deathdate/>
 						<q_deathcomments/>
@@ -628,7 +633,7 @@
 			<bind id="q_commentsmother" nodeset="/data/q_commentsmother" type="string" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			
 			<bind id="infosection4" nodeset="/data/infosection4" readonly="true()" type="string"/>
-			
+			<bind id="q_nobabies" nodeset="/data/q_nobabies" required="true()" type="int" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			<bind id="q_babies" nodeset="/data/q_babies"/>
 				<bind id="q_babycondition" nodeset="/data/q_babies/q_babycondition" required="true()" type="select1"/>
 				<bind id="q_deathdate" nodeset="/data/q_babies/q_deathdate" type="date" required="true()" relevant="selected(/data/q_babies/q_babycondition,'died')" constraint="((now()-.) &gt;= 0)" jr:constraintMsg="jr:itext('constraint_inpast')"/>
@@ -781,8 +786,8 @@
 		</input>
 		<select1 bind="q_mothercondition">
 			<label ref="jr:itext('q_mothercondition_text')"/>
-			<item><label ref="jr:itext('q_mothercondition_good')"/><value>good</value></item>
-			<item><label ref="jr:itext('q_mothercondition_bad')"/><value>bad</value></item>
+			<item><label ref="jr:itext('q_mothercondition_well')"/><value>well</value></item>
+			<item><label ref="jr:itext('q_mothercondition_notwell')"/><value>notwell</value></item>
 		</select1>
 		<select1 bind="q_lochiacolour">
 			<label ref="jr:itext('q_lochiacolour_text')"/>
@@ -908,9 +913,12 @@
 			<label ref="jr:itext('infosection4_text')"/>
 			<hint ref="jr:itext('infosection4_hint')"/>
 		</input>
+		<input ref="/data/q_nobabies">
+			<label ref="jr:itext('q_nobabies_text')"/>
+		</input>
 		<group>
 			<label ref="jr:itext('q_babies_text')"/>
-			<repeat nodeset="/data/q_babies">
+			<repeat nodeset="/data/q_babies" jr:count="/data/q_nobabies" jr:noAddRemove="true()">
 				<select1 bind="q_babycondition">
 					<label ref="jr:itext('q_babycondition_text')"/>
 					<item><label ref="jr:itext('q_babycondition_well')"/><value>well</value></item>

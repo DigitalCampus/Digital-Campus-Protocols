@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	xmlns:jr="http://openrosa.org/javarosa">
+<h:html xmlns="http://www.w3.org/2002/xforms" 
+		xmlns:h="http://www.w3.org/1999/xhtml" 
+		xmlns:ev="http://www.w3.org/2001/xml-events" 
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:jr="http://openrosa.org/javarosa">
 	<!-- Protocol for Digital Campus Maternal Care project
 		for more information visit: http://digital-campus.org 
 		License:
@@ -195,9 +198,10 @@
 					<text id="q_gestationalage_text"><value>Q501. What was the newborn's gestational age?</value></text>
 					<text id="q_gestationalage_term"><value>Term (&gt;= 37 weeks)</value></text>
 					<text id="q_gestationalage_preterm"><value>Preterm (&lt; 37 weeks)</value></text>
-					<text id="infosectiontuples_text"><value>Repeat the next section of questions for each baby in this delivery</value></text>
+					<text id="q_nobabies_text"><value>How many babies were delivered?</value></text>
 					
 					<text id="q_deliveries_text"><value>Babies delivered</value></text>
+					
 					<text id="q_livebirth_text"><value>Q502. Please, enter if it was a live birth</value></text>
 					<text id="q_newbornsex_text"><value>Q503. What is the sex of the newborn?</value></text>
 					<text id="q_newbornsex_male"><value>Male</value></text>
@@ -474,7 +478,7 @@
 					<text id="q_gestationalage_text"><value>ሕቶ501፡ እቲ ህፃን ኣብ ክንደይ ዕድመ ጥንሲ (ብሰሙናት) 'ዩ ተወሊዱ?</value></text>
 					<text id="q_gestationalage_term"><value>ኣብ ግዚኡ (=&gt;37 ሰሙናት) </value></text>
 					<text id="q_gestationalage_preterm"><value>ቅድሚ ግዚኡ (&lt; 37 ሰሙናት) </value></text>
-					<text id="infosectiontuples_text"><value>እንድሕር እቶም ዕሸላት ማንታ ወይ ካብኡ ንላዕሊ ኮይኖም፣ እዚ ቕጥዒ (ክፍሊ 5 ጥራሕ) ነንሕድሕዶም ይመላእ</value></text>
+					<text id="q_nobabies_text"><value>TODO: translate: How many babies were delivered?</value></text>
 					
 					<text id="q_deliveries_text"><value>ዝተወለዱ ህፃናት</value></text>
 					<text id="q_livebirth_text"><value>ሕቶ502፡ እቲ ህፃን ብሂወት ድዩ ተወሊዱ?</value></text>
@@ -638,8 +642,8 @@
 					
 					<infosection5/>
 					<q_gestationalage/>
-					<infosectiontuples/>
-					<q_deliveries jr:template="">
+					<q_nobabies/>
+					<q_deliveries>
 						<q_livebirth/>
 						<q_newbornsex/>
 						<q_apgar1min_heart/>
@@ -744,7 +748,7 @@
 			
 			<bind id="infosection5" nodeset="/data/infosection5" readonly="true()" type="string"/>
 			<bind id="q_gestationalage" nodeset="/data/q_gestationalage" required="true()" type="select1"/>
-			<bind id="infosectiontuples" nodeset="/data/infosectiontuples" readonly="true()" type="string"/>
+			<bind id="q_nobabies" nodeset="/data/q_nobabies" required="true()" type="int" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			
 			<bind id="q_deliveries" nodeset="/data/q_deliveries"/>
 				<bind id="q_livebirth" nodeset="/data/q_deliveries/q_livebirth" required="true()" type="select1"/>
@@ -1070,13 +1074,13 @@
 			<item><label ref="jr:itext('q_gestationalage_term')"/><value>term</value></item>
 			<item><label ref="jr:itext('q_gestationalage_preterm')"/><value>preterm</value></item>
 		</select1>
-		<input bind="infosectiontuples">
-			<label ref="jr:itext('infosectiontuples_text')"/>
+		<input ref="/data/q_nobabies">
+			<label ref="jr:itext('q_nobabies_text')"/>
 		</input>
 		
 		<group>
 			<label ref="jr:itext('q_deliveries_text')"/>
-			<repeat nodeset="/data/q_deliveries">
+			<repeat nodeset="/data/q_deliveries" jr:count="/data/q_nobabies" jr:noAddRemove="true()">
 				<select1 bind="q_livebirth">
 					<label ref="jr:itext('q_livebirth_text')"/>
 					<item><label ref="jr:itext('yes')"/><value>yes</value></item>
