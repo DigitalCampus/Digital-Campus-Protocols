@@ -184,7 +184,7 @@
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ  </value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና  ጣብያ  </value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያነጋሽ ጥዕና ጣብያ</value></text>
-					<text id="q_healthpointid_70001"><value>todo: translate</value></text>
+					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
 					
 					<text id="q_userid_text"><value>ሕቶ 103 ፡  መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ።</value></text>
 					<text id="q_userid_constraint"><value>ልዕሊ 0 ክኸውን ኣለዎ</value></text>
@@ -194,7 +194,7 @@
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					
 					<text id="q_age_text"><value>ሕቶ 105 ፡  ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
-					<text id="q_age_constraint"><value>TODO: translate</value></text>
+					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
 					<text id="q_username_text"><value>TODO: translate: Q106. Enter user's name</value></text>
 					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
 					

@@ -282,7 +282,7 @@
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያ</value></text>
-					<text id="q_healthpointid_70001"><value>todo: translate</value></text>
+					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
 
 					<text id="q_userid_text"><value>ሕቶ103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ</value></text>
 					<text id="q_userid_constraint"><value>ካብ 0 ንላዕሊ ክኸውን ኣለዎ</value></text>
@@ -292,7 +292,7 @@
 					<text id="q_yearofbirth_constraint"><value>ካብ 1900 ዓ/ም ንላዕሊ ክኸውን ኣለዎ </value></text>
 					
 					<text id="q_age_text"><value>ሕቶ 105 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
-					<text id="q_age_constraint"><value>TODO: translate</value></text>
+					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
 					<text id="q_username_text"><value>TODO: translate: Q106. Enter user's name</value></text>
 					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
 					
@@ -349,7 +349,7 @@
 					<text id="infosection3_text"><value>ክፍሊ 3፡ ክንክን ኣዶ ድሕሪ ወሊድ</value></text>
 					<text id="q_mothercondition_text"><value>ሕቶ301፡ ሓፈሻዊ ኩነታት ኣዶ እንታይ ይመስል? </value></text>
 					<text id="q_mothercondition_well"><value>TODO: translate: well</value></text>
-					<text id="q_mothercondition_notwell"><value>TODO: translate: well</value></text>
+					<text id="q_mothercondition_notwell"><value>TODO: translate: not well</value></text>
 					
 					<text id="q_lochiacolour_text"><value>ሕቶ302፡  ድሕሪ ወሊድ ብማህፀን ናይ ዝፈስስ ፈሳሲ ሕብሪ እንታይ ይመስል? </value></text>
 					<text id="q_lochiacolour_rubra"><value>ቀይሕ</value></text>
@@ -418,8 +418,8 @@
 					<text id="q_babies_text"><value>ዝተወለዱ ህፃናት</value></text>
 								
 					<text id="q_babycondition_text"><value>ሕቶ401፡ ኩነታት ህፃን ድሕሪ ወሊድ እንታይ ይመስል?</value></text>
-					<text id="q_babycondition_well"><value>TODO: translate</value></text>
-					<text id="q_babycondition_notwell"><value>TODO: translate</value></text>
+					<text id="q_babycondition_well"><value>TODO: translate: well</value></text>
+					<text id="q_babycondition_notwell"><value>TODO: translate: not well</value></text>
 					<text id="q_babycondition_died"><value>ህፃን ሞይቱ</value></text>
 					
 					<text id="q_deathdate_text"><value>ሕቶ402፡ ህፃን ዝሞተሉ ዕለት መዝግቢ፡፡ </value></text>

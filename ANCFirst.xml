@@ -289,7 +289,7 @@
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ  </value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና  ጣብያ  </value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያነጋሽ ጥዕና ጣብያ</value></text>
-					<text id="q_healthpointid_70001"><value>TODO: translate</value></text>
+					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
 				
 					<text id="q_userid_text"><value>ሕቶ 103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ።</value></text>
 					<text id="q_userid_constraint"><value>ልዕሊ 0 ክኸውን ኣለዎ</value></text>
@@ -298,7 +298,7 @@
 					<text id="q_yearofbirth_hint"><value> ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ</value></text>
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					<text id="q_age_text"><value>ሕቶ 105 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
-					<text id="q_age_constraint"><value>TODO: translate</value></text>
+					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
 					
 					<text id="q_username_text"><value>TODO: translate: Q106. Enter user's name</value></text>
 					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
@@ -332,7 +332,7 @@
 					<text id="q_infantdeath_29daysto1year"><value>ድሕሪ ወሊድ ካብ 29 መዓልቱ ክሳብ 1ዓመት </value></text>
 					<text id="q_infantdeath_1to5years"><value>ድሕሪ ወሊድ ካብ 1 ጀሚሩ ክሳብ 5 ዓመት</value></text>
 					<text id="q_infantdeath_6ormore"><value>ድሕሪ 6ተ ዓመት</value></text>
-					<text id="q_abortion_text"><value>TODO: translate</value></text>
+					<text id="q_abortion_text"><value>TODO: translate: Q214. How many abortions (induced or spontaneous) have you ever had?</value></text>
 					<text id="q_livingchildren_text"><value>ሕቶ 215 ፡ ክሳብ ሐዚ ብሂወት ዘለው ደቂኺ ክንደይ'ዪም?</value></text>
 
 					<text id="infopregnancyrisks_text"><value>ሐዚ ኣብ ዝሓለፉ ጥንስታትኪ ብዛዐባ ኣጋጢሞምኺ ዝፈልጡ ናይ ጥዕና ፀገማት/ሓደጋታትን ክሓተኪ እየ፡፡</value></text>
