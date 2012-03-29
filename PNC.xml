@@ -71,25 +71,20 @@
 					
 					<text id="infosection2_text"><value>Section 2: Delivery Summary</value></text>
 					
-					<text id="q_deliverynobabies_text"><value>Q201. Number of babies delivered</value></text>
-					<text id="q_deliverynobabies_1"><value>singleton</value></text>
-					<text id="q_deliverynobabies_2"><value>twins</value></text>
-					<text id="q_deliverynobabies_3"><value>triplets</value></text>
-					
-					<text id="q_deliverymode_text"><value>Q202. Delivery mode</value></text>
+					<text id="q_deliverymode_text"><value>Q201. Delivery mode</value></text>
 					<text id="q_deliverymode_normal"><value>Normal</value></text>
 					<text id="q_deliverymode_csection"><value>C-section</value></text>
 					<text id="q_deliverymode_forceps"><value>Forceps</value></text>
 					<text id="q_deliverymode_vacuum"><value>Vacuum</value></text>
 					
-					<text id="q_deliverysite_text"><value>Q203. Where did the delivery take place?</value></text>
+					<text id="q_deliverysite_text"><value>Q202. Where did the delivery take place?</value></text>
 					<text id="q_deliverysite_home"><value>Home</value></text>
 					<text id="q_deliverysite_healthpost"><value>Health Post</value></text>
 					<text id="q_deliverysite_healthcentre"><value>Health Centre</value></text>
 					<text id="q_deliverysite_hospital"><value>Hospital</value></text>
 					<text id="q_deliverysite_other"><value>Other</value></text>
 					
-					<text id="q_whoattended_text"><value>Q204. Who was/were the birth attendant/s?</value></text>
+					<text id="q_whoattended_text"><value>Q203. Who was/were the birth attendant/s?</value></text>
 					<text id="q_whoattended_midwife"><value>Midwife</value></text>
 					<text id="q_whoattended_hew"><value>Health extension worker</value></text>
 					<text id="q_whoattended_trainedbirthattendant"><value>Trained traditional birth attendant</value></text>
@@ -100,7 +95,7 @@
 					<text id="q_whoattended_nurse"><value>Nurse</value></text>
 					<text id="q_whoattended_other"><value>Other</value></text>
 					
-					<text id="q_complications_text"><value>Q205. Please select if there were any complications during delivery</value></text>
+					<text id="q_complications_text"><value>Q204. Please select if there were any complications during delivery</value></text>
 					<text id="q_complications_none"><value>None</value></text>
 					<text id="q_complications_eclampsia"><value>Eclampsia</value></text>
 					<text id="q_complications_infection"><value>Puerperal infection-sepsis</value></text>
@@ -111,7 +106,7 @@
 					<text id="q_complications_psychosis"><value>Puerperal psychosis</value></text>
 					<text id="q_complications_other"><value>Other</value></text>
 					
-					<text id="q_maternaldeath_text"><value>Q206. Did maternal death occur?</value></text>
+					<text id="q_maternaldeath_text"><value>Q205. Did maternal death occur?</value></text>
 					
 					<text id="infosection3_text"><value>Section 3: PNC (Mother)</value></text>
 					<text id="q_mothercondition_text"><value>Q301. What is the general condition of the mother? </value></text>
@@ -304,25 +299,20 @@
 					
 					<text id="infosection2_text"><value>ክፍሊ 2፡ ናይ ወሊድ ሓፂር መረዳእታ</value></text>
 					
-					<text id="q_deliverynobabies_text"><value>ሕቶ201፡ በዝሒ ዝተወለዱ ህፃናት ክንደይ እዮም?</value></text>
-					<text id="q_deliverynobabies_1"><value>ሓደ</value></text>
-					<text id="q_deliverynobabies_2"><value>ማንታ</value></text>
-					<text id="q_deliverynobabies_3"><value>ሰለስተ</value></text>
-					
-					<text id="q_deliverymode_text"><value>ሕቶ202፡ እቲ ወሊድ ዝተኻየደሉ ብምንታይ ነይሩ?</value></text>
+					<text id="q_deliverymode_text"><value>ሕቶ201፡ እቲ ወሊድ ዝተኻየደሉ ብምንታይ ነይሩ?</value></text>
 					<text id="q_deliverymode_normal"><value>ብንቡር</value></text>
 					<text id="q_deliverymode_csection"><value>ብቀሳርያን መጥባሕቲ</value></text>
 					<text id="q_deliverymode_forceps"><value>ብፎርሴፕ</value></text>
 					<text id="q_deliverymode_vacuum"><value>ብቫኪዩም</value></text>
 					
-					<text id="q_deliverysite_text"><value>ሕቶ203፡ እዚ ወሊድ ዝተኻየደሉ ኣበይ ነይሩ?</value></text>
+					<text id="q_deliverysite_text"><value>ሕቶ202፡ እዚ ወሊድ ዝተኻየደሉ ኣበይ ነይሩ?</value></text>
 					<text id="q_deliverysite_home"><value>ኣብ መንበሪ ገዛ</value></text>
 					<text id="q_deliverysite_healthpost"><value>ጥዕና ኬላ</value></text>
 					<text id="q_deliverysite_healthcentre"><value>ጥዕና ጣብያ</value></text>
 					<text id="q_deliverysite_hospital"><value>ሆስፒታል</value></text>
 					<text id="q_deliverysite_other"><value>ኣብ ካሊእ</value></text>
 					
-					<text id="q_whoattended_text"><value>ሕቶ204፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን ነይሩ?</value></text>
+					<text id="q_whoattended_text"><value>ሕቶ203፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን ነይሩ?</value></text>
 					<text id="q_whoattended_midwife"><value>መዋለዳን </value></text>
 					<text id="q_whoattended_hew"><value>ጥሙር ጥዕና ቤተሰብ ሰራሕተኛ</value></text>
 					<text id="q_whoattended_trainedbirthattendant"><value>ዝሰልጠነት ፋና ጥዕና </value></text>
@@ -333,7 +323,7 @@
 					<text id="q_whoattended_nurse"><value>ነርስ</value></text>
 					<text id="q_whoattended_other"><value>ካልእ</value></text>
 					
-					<text id="q_complications_text"><value>ሕቶ205፡ እታ ኣዶ ካብዞም ዝስዕቡ ዝተሓላለኹ ፀገማት ወሊድ ኣየናይ ነይርዋ?</value></text>
+					<text id="q_complications_text"><value>ሕቶ204፡ እታ ኣዶ ካብዞም ዝስዕቡ ዝተሓላለኹ ፀገማት ወሊድ ኣየናይ ነይርዋ?</value></text>
 					<text id="q_complications_none"><value>ፀገም ኣይነበራን</value></text>
 					<text id="q_complications_eclampsia"><value>ምስ ጥንሲ ዝተትሓሓዘ ድፍኢት ደም</value></text>
 					<text id="q_complications_infection"><value>ረኽሲ ድሕሪ ወሊድ (ሕርሲ)</value></text>
@@ -344,7 +334,7 @@
 					<text id="q_complications_psychosis"><value>ድሕሪ ወሊድ ዝመፅእ ናይ ስነ ኣእምሮ ፀገም (Puerperal psychosis)</value></text>
 					<text id="q_complications_other"><value>ካልእ</value></text>
 					
-					<text id="q_maternaldeath_text"><value>ሕቶ206፡ ሞት ኣዶ ኣጋጢሙ ድዩ?</value></text>
+					<text id="q_maternaldeath_text"><value>ሕቶ205፡ ሞት ኣዶ ኣጋጢሙ ድዩ?</value></text>
 					
 					<text id="infosection3_text"><value>ክፍሊ 3፡ ክንክን ኣዶ ድሕሪ ወሊድ</value></text>
 					<text id="q_mothercondition_text"><value>ሕቶ301፡ ሓፈሻዊ ኩነታት ኣዶ እንታይ ይመስል? </value></text>
@@ -503,7 +493,6 @@
 					
 					<infosection2/>
 					<q_deliverydate/>
-					<q_deliverynobabies/>
 					<q_deliverymode/>
 					<q_deliverysite/>
 					<q_whoattended/>
@@ -596,7 +585,6 @@
 			<bind id="q_deliverydate" nodeset="/data/q_deliverydate" type="date" required="true()" constraint="((now()-.) &gt; 0)" jr:constraintMsg="jr:itext('constraint_inpast')"/>
 			
 			<bind id="infosection2" nodeset="/data/infosection2" readonly="true()" type="string" relevant="selected(/data/q_pncvisitno,'1')"/>
-			<bind id="q_deliverynobabies" nodeset="/data/q_deliverynobabies" type="select1" required="true()" relevant="selected(/data/q_pncvisitno,'1')"/>
 			<bind id="q_deliverymode" nodeset="/data/q_deliverymode" type="select1" required="true()" relevant="selected(/data/q_pncvisitno,'1')"/>
 			<bind id="q_deliverysite" nodeset="/data/q_deliverysite" required="true()" type="select1" relevant="selected(/data/q_pncvisitno,'1')"/>
 			<bind id="q_whoattended" nodeset="/data/q_whoattended" required="true()" type="select" relevant="selected(/data/q_pncvisitno,'1')"/>
@@ -727,12 +715,6 @@
 		<input bind="infosection2">
 			<label ref="jr:itext('infosection2_text')"/>
 		</input>
-		<select1 bind="q_deliverynobabies">
-			<label ref="jr:itext('q_deliverynobabies_text')"/>
-			<item><label ref="jr:itext('q_deliverynobabies_1')"/><value>1</value></item>
-			<item><label ref="jr:itext('q_deliverynobabies_2')"/><value>2</value></item>
-			<item><label ref="jr:itext('q_deliverynobabies_3')"/><value>3</value></item>
-		</select1>
 		<select1 bind="q_deliverymode">
 			<label ref="jr:itext('q_deliverymode_text')"/>
 			<item><label ref="jr:itext('q_deliverymode_normal')"/><value>normal</value></item>
