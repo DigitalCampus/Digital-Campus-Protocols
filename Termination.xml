@@ -25,11 +25,8 @@
 					<text id="selectall"><value>Select all that apply</value></text>
 					<text id="checklist_text"><value>Checklist</value></text>
 					<text id="thanks_text"><value>Thank the woman for their cooperation and end the session.</value></text>
-					<text id="constraint_zerotototalpreg"><value>Please enter a number between 0 and the total number of pregnancies</value></text>
-					<text id="constraint_zerotototallive"><value>Please enter a number between 0 and the total number of live births</value></text>
-					<text id="constraint_greaterthanzero"><value>Please enter a number greater than 0</value></text>
 					
-					<text id="infoprotocol_text"><value>This protocol should be filled out only when a patient is transferred between health centres/post so that important information is not missed to help guarantee good care</value></text>
+					<text id="infoprotocol_text"><value>This protocol should be filled out when a pregnancy has ended prematurely or unexpectedly.</value></text>
 					<text id="q_consent_text"><value>Q101. Do you give me your consent to use phone for interview?</value></text>
 					<text id="infoconsent_text"><value>Put phone down and provide care as normal</value></text>
 					<text id="q_healthpointid_text"><value>Q102. Select where the user was registered</value></text>
