@@ -71,6 +71,27 @@
 					<text id="q_terminationtype_abortion_unsafe"><value>Induced abortion (unsafe)</value></text>
 					<text id="q_terminationtype_mat_death"><value>Maternal death</value></text>
 					
+					<text id="q_terminationdate_text"><value>Q202. Termination date:</value></text>
+					<text id="q_terminationdate_constraint"><value>Please enter a date before or equal to today</value></text>
+					
+					<text id="q_procedure_text"><value>Q203. Procedure:</value></text>
+					<text id="q_procedure_notapplic"><value>N/A (not applicable)</value></text>
+					<text id="q_procedure_dilation"><value>D &amp; C (Dilation &amp; curettage)</value></text>
+					<text id="q_procedure_vacuum"><value>MVA (manual vacuum aspiration)</value></text>
+					<text id="q_procedure_misoprostol"><value>Misoprostol given</value></text>
+
+					<text id="q_majorcomplicat_text"><value>Q204. Major Complications:</value></text>
+					<text id="q_majorcomplicat_bleed"><value>Bleeding</value></text>
+					<text id="q_majorcomplicat_sepsis"><value>Sepsis/infection</value></text>
+					<text id="q_majorcomplicat_eclampsia"><value>Eclampsia</value></text>
+					<text id="q_majorcomplicat_perforations"><value>Perforations</value></text>
+					<text id="q_majorcomplicat_none"><value>None</value></text>
+					
+					<text id="q_referral_text"><value>Q205. Was the woman referred to a health centre or hospital?</value></text>
+					<text id="q_fpcounseled_text"><value>Q206. Was family planning counseled? </value></text>
+					<text id="q_fpaccepted_text"><value>Q207. Was family planning accepted?? </value></text>
+					<text id="q_comments_text"><value>Q208. Comments</value></text>
+					
 					<text id="q_gpsdata_text"><value>Q301. Please record the location (using GPS)</value></text>
 
 				</translation>
@@ -130,10 +151,32 @@
 
 			<bind id="infosection2" nodeset="/data/infosection2" readonly="true()" type="string"/>
 			<bind id="q_terminationtype" nodeset="/data/q_terminationtype" required="true()" type="select1"/>
-
+			<bind id="q_terminationdate" nodeset="/data/q_terminationdate" required="true()" type="date" 
+					constraint="((now()-.) &gt;= 0)" 
+					jr:constraintMsg="jr:itext('q_terminationdate_constraint')"
+					relevant="not(selected(/data/q_terminationtype,'mat_death'))"/>
+					
+			<bind id="q_procedure" nodeset="/data/q_procedure" required="true()" type="select1"
+					relevant="not(selected(/data/q_terminationtype,'mat_death'))"/>
+					
+			<bind id="q_majorcomplicat" nodeset="/data/q_majorcomplicat" required="true()" type="select1"
+					relevant="not(selected(/data/q_terminationtype,'mat_death'))"/>
+			
+			<bind id="q_referral" nodeset="/data/q_referral" required="true()" type="select1"
+					relevant="not(selected(/data/q_terminationtype,'mat_death'))"/>
+					
+			<bind id="q_fpcounseled" nodeset="/data/q_fpcounseled" required="true()" type="select1"
+					relevant="not(selected(/data/q_terminationtype,'mat_death'))"/>
+					
+			<bind id="q_fpaccepted" nodeset="/data/q_fpaccepted" required="true()" type="select1"
+					relevant="not(selected(/data/q_terminationtype,'mat_death')) and selected(/data/q_fpcounseled,'yes')"/>
+					
+			<bind id="q_comments" nodeset="/data/q_comments" type="string"/>
+						
 			<bind id="infosection3" nodeset="/data/infosection3" readonly="true()" type="string"/>
 			<bind id="q_gpsdata" nodeset="/data/q_gpsdata" type="geopoint" format="gps" />
-			<bind id="infoendsession" nodeset="/data/infoendsession" readonly="true()" type="string"/>
+			<bind id="infoendsession" nodeset="/data/infoendsession" readonly="true()" type="string" 
+					relevant="not(selected(/data/q_terminationtype,'mat_death'))"/>
 		</model>
 	</h:head>
 	<h:body>
@@ -192,7 +235,42 @@
 			<item><label ref="jr:itext('q_terminationtype_abortion_unsafe')"/><value>abortion_unsafe</value></item>
 			<item><label ref="jr:itext('q_terminationtype_mat_death')"/><value>mat_death</value></item>
 		</select1>
-
+		<input bind="q_terminationdate" appearance="ethiopicDate">
+			<label ref="jr:itext('q_terminationdate_text')"/>
+		</input>
+		<select1 bind="q_procedure">
+			<label ref="jr:itext('q_procedure_text')"/>
+			<item><label ref="jr:itext('q_procedure_notapplic')"/><value>notapplic</value></item>
+			<item><label ref="jr:itext('q_procedure_dilation')"/><value>dilation</value></item>
+			<item><label ref="jr:itext('q_procedure_vacuum')"/><value>vacuum</value></item>
+			<item><label ref="jr:itext('q_procedure_misoprostol')"/><value>misoprostol</value></item>
+		</select1>
+		<select1 bind="q_majorcomplicat">
+			<label ref="jr:itext('q_majorcomplicat_text')"/>
+			<item><label ref="jr:itext('q_majorcomplicat_bleed')"/><value>bleeding</value></item>
+			<item><label ref="jr:itext('q_majorcomplicat_sepsis')"/><value>sepsis</value></item>
+			<item><label ref="jr:itext('q_majorcomplicat_eclampsia')"/><value>eclampsia</value></item>
+			<item><label ref="jr:itext('q_majorcomplicat_perforations')"/><value>perforations</value></item>
+			<item><label ref="jr:itext('q_majorcomplicat_none')"/><value>none</value></item>
+		</select1>
+		<select1 bind="q_referral">
+			<label ref="jr:itext('q_referral_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<select1 bind="q_fpcounseled">
+			<label ref="jr:itext('q_fpcounseled_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<select1 bind="q_fpaccepted">
+			<label ref="jr:itext('q_fpaccepted_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<input bind="q_comments">
+			<label ref="jr:itext('q_comments_text')"/>
+		</input>
 		<input bind="infosection3">
 			<label ref="jr:itext('checklist_text')"/>
 		</input>
