@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:jr="http://openrosa.org/javarosa">
+	<!-- Protocol for Digital Campus Maternal Care project
+		for more information visit: http://digital-campus.org 
+		License:
+		Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) 
+		http://creativecommons.org/licenses/by-nc-sa/3.0/-->
+	<h:head>
+		<Meta>
+			<UserID/>
+			<DeviceID/>
+			<TimeStartRecorded/>
+			<TimeEndRecorded/>
+		</Meta>
+		<h:title>Termination (TODO:Translate) v1</h:title>
+		<model>
+			<itext>
+				<translation lang="English">
+					<text id="yes"><value>Yes</value></text>
+					<text id="no"><value>No</value></text>
+					<text id="notsure"><value>Not sure</value></text>
+					<text id="dontknow"><value>Don't know</value></text>
+					<text id="selectone"><value>Select one</value></text>
+					<text id="selectall"><value>Select all that apply</value></text>
+					<text id="checklist_text"><value>Checklist</value></text>
+					<text id="thanks_text"><value>Thank the woman for their cooperation and end the session.</value></text>
+					<text id="constraint_zerotototalpreg"><value>Please enter a number between 0 and the total number of pregnancies</value></text>
+					<text id="constraint_zerotototallive"><value>Please enter a number between 0 and the total number of live births</value></text>
+					<text id="constraint_greaterthanzero"><value>Please enter a number greater than 0</value></text>
+					
+					<text id="infoprotocol_text"><value>This protocol should be filled out only when a patient is transferred between health centres/post so that important information is not missed to help guarantee good care</value></text>
+					<text id="q_consent_text"><value>Q101. Do you give me your consent to use phone for interview?</value></text>
+					<text id="infoconsent_text"><value>Put phone down and provide care as normal</value></text>
+					<text id="q_healthpointid_text"><value>Q102. Select where the user was registered</value></text>
+					<text id="q_healthpointid_9999"><value>Practice only</value></text>
+					<text id="q_healthpointid_1006"><value>Arasegeda health post</value></text>
+					<text id="q_healthpointid_1001"><value>Ayanlem health post</value></text>
+					<text id="q_healthpointid_1009"><value>Frewoyni health post</value></text>
+					<text id="q_healthpointid_1002"><value>Gemad health post</value></text>
+					<text id="q_healthpointid_1007"><value>Hagerselam health post</value></text>
+					<text id="q_healthpointid_1005"><value>Maynebri health post</value></text>
+					<text id="q_healthpointid_1008"><value>Mesanu - Hintalowajerat health post</value></text>
+					<text id="q_healthpointid_1000"><value>Mesanu - Kilteawelaelo health post</value></text>
+					<text id="q_healthpointid_1003"><value>Adiekli health post</value></text>
+					<text id="q_healthpointid_1004"><value>Tsadanaele health post</value></text>
+					<text id="q_healthpointid_50001"><value>Abraha Atsbha health centre</value></text>
+					<text id="q_healthpointid_50002"><value>Adigudom health centre</value></text>
+					<text id="q_healthpointid_50003"><value>Agulae health centre</value></text>
+					<text id="q_healthpointid_50004"><value>Hiwane health centre</value></text>
+					<text id="q_healthpointid_50005"><value>Negash health centre</value></text>
+					<text id="q_healthpointid_70001"><value>Ayder Referal Hospital</value></text>
+					
+					<text id="q_userid_text"><value>Q103. Enter the user's ID </value></text>
+					<text id="q_userid_constraint"><value>Must be greater than 0</value></text>
+					
+					<text id="q_yearofbirth_text"><value>Q104. Please enter user's year of birth</value></text>
+					<text id="q_yearofbirth_hint"><value>Please use the Ethiopian calendar</value></text>
+					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
+					
+					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
+					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
+					<text id="q_username_text"><value>Q106. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
+
+					<text id="infosection2_text"><value>Section 2: Pregnancy termination data</value></text>
+					
+					<text id="q_terminationtype_text"><value>Q201. Termination type:</value></text>
+					<text id="q_terminationtype_abortion_spont"><value>Spontaneous abortion (miscarriage)</value></text>
+					<text id="q_terminationtype_abortion_elect"><value>Elective abortion</value></text>
+					<text id="q_terminationtype_abortion_unsafe"><value>Induced abortion (unsafe)</value></text>
+					<text id="q_terminationtype_mat_death"><value>Maternal death</value></text>
+					
+					<text id="q_gpsdata_text"><value>Q301. Please record the location (using GPS)</value></text>
+
+				</translation>
+			</itext>
+			<instance>
+				<data id="Terminationv1">
+					<startTime/> <!-- hidden from user -->
+					<endTime/> <!-- hidden from user -->
+					<deviceId/> <!-- hidden from user -->
+					<today/> <!-- hidden from user -->
+					<subscriberid/> <!-- hidden from user -->
+					<simid/> <!-- hidden from user -->
+					<phonenumber/> <!-- hidden from user -->
+
+					<infoprotocol/>
+					<q_consent/>
+					<infoconsent/>
+					<q_healthpointid/>
+					<q_userid/>
+					<q_yearofbirth/>
+					<q_age/>
+					<q_username/>
+
+					<infosection2/>
+					<q_terminationtype/>
+					<q_terminationdate/>
+					<q_procedure/>
+					<q_majorcomplicat/>
+					<q_referral/>
+					<q_fpcounseled/>
+					<q_fpaccepted/>
+					<q_comments/>
+					
+					<infosection3/>
+					<q_gpsdata/>
+					<infoendsession/>
+				</data>
+			</instance>
+			<bind id="startTime" nodeset="/data/startTime" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+			<bind id="endTime" nodeset="/data/endTime" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+			<bind id="deviceId" nodeset="/data/deviceId" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+			<bind id="today" nodeset="/data/today" type="date" jr:preload="date" jr:preloadParams="today"/>
+			<bind id="subscriberid" nodeset="/data/subscriberid" type="string" jr:preload="property" jr:preloadParams="subscriberid"/>
+			<bind id="simid" nodeset="/data/simid" type="string" jr:preload="property" jr:preloadParams="simserial"/>
+			<bind id="phonenumber" nodeset="/data/phonenumber" type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
+
+			<bind id="infoprotocol" nodeset="/data/infoprotocol" readonly="true()" type="string"/>
+			<bind id="q_consent" nodeset="/data/q_consent" required="true()" type="select1"/>
+			<bind id="infoconsent" nodeset="/data/infoconsent" readonly="true()" type="string" relevant="selected(/data/q_consent,'no')"/>
+
+			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="integer"/>
+			<bind id="q_userid" nodeset="/data/q_userid" required="true()" type="integer" constraint=". &gt; 0"  jr:constraintMsg="jr:itext('q_userid_constraint')"/>
+			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
+			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
+			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
+
+			<bind id="infosection2" nodeset="/data/infosection2" readonly="true()" type="string"/>
+			<bind id="q_terminationtype" nodeset="/data/q_terminationtype" required="true()" type="select1"/>
+
+			<bind id="infosection3" nodeset="/data/infosection3" readonly="true()" type="string"/>
+			<bind id="q_gpsdata" nodeset="/data/q_gpsdata" type="geopoint" format="gps" />
+			<bind id="infoendsession" nodeset="/data/infoendsession" readonly="true()" type="string"/>
+		</model>
+	</h:head>
+	<h:body>
+		<input bind="infoprotocol">
+			<label ref="jr:itext('infoprotocol_text')"/>
+		</input>
+		<select1 bind="q_consent">
+			<label ref="jr:itext('q_consent_text')"/>
+			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
+			<item><label ref="jr:itext('no')"/><value>no</value></item>
+		</select1>
+		<input bind="infoconsent">
+			<label ref="jr:itext('infoconsent_text')"/>
+		</input>
+		<select1 bind="q_healthpointid">
+			<label ref="jr:itext('q_healthpointid_text')"/>
+			<item><label ref="jr:itext('q_healthpointid_9999')"/><value>9999</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1006')"/><value>1006</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1001')"/><value>1001</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1009')"/><value>1009</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1002')"/><value>1002</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1007')"/><value>1007</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1005')"/><value>1005</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1008')"/><value>1008</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1000')"/><value>1000</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1003')"/><value>1003</value></item>
+			<item><label ref="jr:itext('q_healthpointid_1004')"/><value>1004</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50001')"/><value>50001</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50002')"/><value>50002</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50003')"/><value>50003</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50004')"/><value>50004</value></item>
+			<item><label ref="jr:itext('q_healthpointid_50005')"/><value>50005</value></item>
+			<item><label ref="jr:itext('q_healthpointid_70001')"/><value>70001</value></item>
+		</select1>
+		<input bind="q_userid">
+			<label ref="jr:itext('q_userid_text')"/>
+		</input>
+		<input bind="q_yearofbirth">
+			<label ref="jr:itext('q_yearofbirth_text')"/>
+			<hint ref="jr:itext('q_yearofbirth_hint')"/>
+		</input>
+		<input bind="q_age">
+			<label ref="jr:itext('q_age_text')"/>
+		</input>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
+		</input>
+		<input bind="infosection2">
+			<label ref="jr:itext('infosection2_text')"/>
+		</input>
+		<select1 bind="q_terminationtype">
+			<label ref="jr:itext('q_terminationtype_text')"/>
+			<item><label ref="jr:itext('q_terminationtype_abortion_spont')"/><value>abortion_spont</value></item>
+			<item><label ref="jr:itext('q_terminationtype_abortion_elect')"/><value>abortion_elec</value></item>
+			<item><label ref="jr:itext('q_terminationtype_abortion_unsafe')"/><value>abortion_unsafe</value></item>
+			<item><label ref="jr:itext('q_terminationtype_mat_death')"/><value>mat_death</value></item>
+		</select1>
+
+		<input bind="infosection3">
+			<label ref="jr:itext('checklist_text')"/>
+		</input>
+		<input bind="q_gpsdata">
+			<label ref="jr:itext('q_gpsdata_text')"/>
+		</input>
+		<input bind="infoendsession">
+			<label ref="jr:itext('thanks_text')"/>
+		</input>
+	</h:body>
+</h:html>
