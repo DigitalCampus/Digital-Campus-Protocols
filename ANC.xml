@@ -180,14 +180,23 @@
 					
 					<text id="q_tetanus_text"><value>Q306. Check the woman's tetanus toxoid immunization card. Which TT doses has the woman received?</value></text>
 					<text id="q_tetanus_hint"><value>Include any doses given today</value></text>
+					<text id="q_tetanus_nocard"><value>Card not available</value></text>
 					<text id="q_tetanus_none"><value>None</value></text>
 					<text id="q_tetanus_tt1"><value>TT1 only</value></text>
 					<text id="q_tetanus_tt2"><value>TT1 and TT2</value></text>
 					<text id="q_tetanus_tt3"><value>TT1, TT2 and TT3</value></text>
+					<text id="q_tetanus_tt4"><value>TT1, TT2, TT3 and TT4</value></text>
+					<text id="q_tetanus_tt5"><value>TT1, TT2, TT3, TT4 and TT5</value></text>
 					<text id="tetanus_date_constraint"><value>Date cannot be in the future</value></text>
 					<text id="q_tt1_text"><value>Q306a. When was the TT1 given?</value></text>
 					<text id="q_tt2_text"><value>Q306b. When was the TT2 given?</value></text>
 					<text id="q_tt2_constraint"><value>Date for TT2 must be between the date for TT1 and today</value></text>
+					<text id="q_tt3_text"><value>Q306c. When was the TT3 given?</value></text>
+					<text id="q_tt3_constraint"><value>Date for TT3 must be between the date for TT2 and today</value></text>
+					<text id="q_tt4_text"><value>Q306d. When was the TT4 given?</value></text>
+					<text id="q_tt4_constraint"><value>Date for TT4 must be between the date for TT3 and today</value></text>
+					<text id="q_tt5_text"><value>Q306d. When was the TT5 given?</value></text>
+					<text id="q_tt5_constraint"><value>Date for TT5 must be between the date for TT4 and today</value></text>
 					
 					<text id="q_irontablets_text"><value>Q307. Have you been taking iron tablets before coming to this visit?</value></text>
 					<text id="q_irongiven_text"><value>Q308. Please remember to give iron tablets to the woman in this appointment</value></text>
@@ -425,14 +434,23 @@
 					
 					<text id="q_tetanus_text"><value>?ሕቶ306፡ ናይ ቴታነስ ክታበት ካርዲ ብምፍታሽ ኣዶ ኣየናይ ብርኪ ቲቲ (TT) ከምዝወሰደት ኣረጋግፂ፡፡</value></text>
 					<text id="q_tetanus_hint"><value>ሎሚዓንቲ ዝተውሃባ መጠን ይጠቓለል</value></text>
+					<text id="q_tetanus_nocard"><value>TODO: translate: Card not available</value></text>
 					<text id="q_tetanus_none"><value>ኣይወሰደትን</value></text>
 					<text id="q_tetanus_tt1"><value>ቲቲ 1 ጥራሕ</value></text>
 					<text id="q_tetanus_tt2"><value>ቲቲ 1ን ቲቲ 2ን</value></text>
 					<text id="q_tetanus_tt3"><value>ቲቲ 1፣ ቲቲ 2ን ቲቲ 3ን </value></text>
+					<text id="q_tetanus_tt4"><value>TODO: translate: TT1, TT2, TT3 and TT4</value></text>
+					<text id="q_tetanus_tt5"><value>TODO: translate: TT1, TT2, TT3, TT4 and TT5</value></text>
 					<text id="tetanus_date_constraint"><value>ዝፀሓፍ መዓልቲ ናይ መፃኢ ዕለት ክኸውን የብሉን</value></text>
 					<text id="q_tt1_text"><value>ሕቶ306ሀ፡ ቲቲ 1 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
 					<text id="q_tt2_text"><value>ሕቶ306ለ፡ ቲቲ 2 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
-					<text id="q_tt2_constraint"><value>TODO: translate</value></text>
+					<text id="q_tt2_constraint"><value>TODO: translate: Date for TT2 must be between the date for TT1 and today</value></text>
+					<text id="q_tt3_text"><value>TODO: translate: Q306c. When was the TT3 given?</value></text>
+					<text id="q_tt3_constraint"><value>TODO: translate: Date for TT3 must be between the date for TT2 and today</value></text>
+					<text id="q_tt4_text"><value>TODO: translate: Q306d. When was the TT4 given?</value></text>
+					<text id="q_tt4_constraint"><value>TODO: translate: Date for TT4 must be between the date for TT3 and today</value></text>
+					<text id="q_tt5_text"><value>TODO: translate: Q306d. When was the TT5 given?</value></text>
+					<text id="q_tt5_constraint"><value>TODO: translate: Date for TT5 must be between the date for TT4 and today</value></text>
 					
 					<text id="q_irontablets_text"><value>ሕቶ 307 ፡ መከላኸሊ ዋሕዲ ደም (ኣይረን ክኒን) ትወስዲ ኣለኺ'ዶ?</value></text>
 					<text id="q_irongiven_text"><value>ሕቶ 308 ፡ ንጥሙር ጥዕና ቤተሰብ ሰራሕተኛ፡- ኣብ ናይ ሐዚ ክትትል ዑደት፣ ነታ ኣዶ መከላኸሊ ዋሕዲ ደም (ኣይረን) ንምሃብ ኣስታውሲ፡፡</value></text>
@@ -574,6 +592,9 @@
 					<q_tetanus/>
 					<q_tt1/>
 					<q_tt2/>
+					<q_tt3/>
+					<q_tt4/>
+					<q_tt5/>
 					<q_irontablets/>
 					<q_irongiven/>
 					<q_hiv/>
@@ -694,9 +715,22 @@
 			<bind id="q_bednets" nodeset="/data/q_bednets" required="true()" type="select1"/>
 			
 			<bind id="q_tetanus" nodeset="/data/q_tetanus" required="true()" type="select1"/>
-			<bind id="q_tt1" nodeset="/data/q_tt1" required="true()" type="date" relevant="not(selected(/data/q_tetanus,'none'))" constraint="(now()-.) &gt;= 0" jr:constraintMsg="jr:itext('tetanus_date_constraint')"/>
-			<bind id="q_tt2" nodeset="/data/q_tt2" required="true()" type="date" relevant="not(selected(/data/q_tetanus,'none')) and not(selected(/data/q_tetanus,'tt1'))" constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt1) &gt; 0)" jr:constraintMsg="jr:itext('q_tt2_constraint')"/>
-			
+			<bind id="q_tt1" nodeset="/data/q_tt1" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt1') or selected(/data/q_tetanus,'tt2') or selected(/data/q_tetanus,'tt3') or selected(/data/q_tetanus,'tt4') or selected(/data/q_tetanus,'tt5')" 
+				constraint="(now()-.) &gt;= 0" jr:constraintMsg="jr:itext('tetanus_date_constraint')"/>
+			<bind id="q_tt2" nodeset="/data/q_tt2" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt2') or selected(/data/q_tetanus,'tt3') or selected(/data/q_tetanus,'tt4') or selected(/data/q_tetanus,'tt5')" 
+				constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt1) &gt; 0)" jr:constraintMsg="jr:itext('q_tt2_constraint')"/>
+			<bind id="q_tt3" nodeset="/data/q_tt3" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt3') or selected(/data/q_tetanus,'tt4') or selected(/data/q_tetanus,'tt5')" 
+				constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt2) &gt; 0)" jr:constraintMsg="jr:itext('q_tt3_constraint')"/>
+			<bind id="q_tt4" nodeset="/data/q_tt4" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt4') or selected(/data/q_tetanus,'tt5')" 
+				constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt3) &gt; 0)" jr:constraintMsg="jr:itext('q_tt4_constraint')"/>
+			<bind id="q_tt5" nodeset="/data/q_tt5" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt5')" 
+				constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt4) &gt; 0)" jr:constraintMsg="jr:itext('q_tt5_constraint')"/>
+					
 			<bind id="q_irontablets" nodeset="/data/q_irontablets" required="true()" type="select1"/>
 			<bind id="q_irongiven" nodeset="/data/q_irongiven" required="true()" type="select1"/>
 
@@ -1051,16 +1085,28 @@
 		<select1 bind="q_tetanus">
 			<label ref="jr:itext('q_tetanus_text')"/>
 			<hint ref="jr:itext('q_tetanus_hint')"/>
+			<item><label ref="jr:itext('q_tetanus_nocard')"/><value>nocard</value></item>
 			<item><label ref="jr:itext('q_tetanus_none')"/><value>none</value></item>
 			<item><label ref="jr:itext('q_tetanus_tt1')"/><value>tt1</value></item>
 			<item><label ref="jr:itext('q_tetanus_tt2')"/><value>tt2</value></item>
 			<item><label ref="jr:itext('q_tetanus_tt3')"/><value>tt3</value></item>
+			<item><label ref="jr:itext('q_tetanus_tt4')"/><value>tt4</value></item>
+			<item><label ref="jr:itext('q_tetanus_tt5')"/><value>tt5</value></item>
 		</select1>
 		<input bind="q_tt1" appearance="ethiopicDate">
 			<label ref="jr:itext('q_tt1_text')"/>
 		</input>
 		<input bind="q_tt2" appearance="ethiopicDate">
 			<label ref="jr:itext('q_tt2_text')"/>
+		</input>
+		<input bind="q_tt3" appearance="ethiopicDate">
+			<label ref="jr:itext('q_tt3_text')"/>
+		</input>
+		<input bind="q_tt4" appearance="ethiopicDate">
+			<label ref="jr:itext('q_tt4_text')"/>
+		</input>
+		<input bind="q_tt5" appearance="ethiopicDate">
+			<label ref="jr:itext('q_tt5_text')"/>
 		</input>
 		<select1 bind="q_irontablets">
 			<label ref="jr:itext('q_irontablets_text')"/>
