@@ -182,7 +182,9 @@
 					<text id="q_anemia_text"><value>Q404. Are there any signs of anemia (pallor)?</value></text>
 					
 					<text id="q_systolicbp_text"><value>Q405. Measure blood pressure and enter the Systolic Blood Pressure in mmHg</value></text>
+					<text id="q_systolicbp_hint"><value>Enter 0 if your equipment is not working</value></text>
 					<text id="q_diastolicbp_text"><value>Q406. Enter the Diastolic Blood pressure in mmHg.</value></text>
+					<text id="q_diastolicbp_hint"><value>Enter 0 if your equipment is not working</value></text>
 					<text id="infoBP_text"><value>Please check blood pressure again if you find: a) systolic BP greater than 140 or less than 90 ; b) diastolic BP greater than 90 or less than 60</value></text>
 					
 					<text id="q_breastfeeding_text"><value>Q407. Has the mother been advised on immediate breast feeding?</value></text>
@@ -461,7 +463,9 @@
 					<text id="q_anemia_text"><value>ሕቶ404፡ እታ ኣዶ ናይ ዋሕዲ ደም ምልክት (ካብ ዝተለመደ ምፅዕዳው) ኣለዋ 'ዶ?</value></text>
 					
 					<text id="q_systolicbp_text"><value>ሕቶ405፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
+					<text id="q_systolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
 					<text id="q_diastolicbp_text"><value>ሕቶ 406፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
+					<text id="q_diastolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
 					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም &gt;140/&lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም &gt;90/&lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					
 					<text id="q_breastfeeding_text"><value>ሕቶ407፡ እታ ኣዶ ድሕሪ ወሊድ ሽዑ ንሽዑ ምጥባው ጡብ ክትጅምር ከምዘለዋ ምኽሪ ተዋሂብዋ 'ዶ?</value></text>
@@ -735,10 +739,10 @@
 			<bind id="infocardiacpulse" nodeset="/data/infocardiacpulse" readonly="true()" type="string" relevant="(/data/q_cardiacpulse &gt;= 100) or (/data/q_cardiacpulse &lt;= 50)"/>
 			<bind id="q_temperature" nodeset="/data/q_temperature" required="true()" type="select1"/>
 			<bind id="q_anemia" nodeset="/data/q_anemia" required="true()" type="select1"/>
-			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
-			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
+			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
+			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			<bind id="infoBP" nodeset="/data/infoBP" readonly="true()" type="string"
-				relevant="(/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60)"/>
+				relevant="(/data/q_systolicbp != 0  and /data/q_diastolicbp != 0 ) and ((/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60))"/>
 			<bind id="q_breastfeeding" nodeset="/data/q_breastfeeding" required="true()" type="select1"/>
 			<bind id="q_advicedangersigns" nodeset="/data/q_advicedangersigns" required="true()" type="select1"/>
 			<bind id="q_advicefeeding" nodeset="/data/q_advicefeeding" required="true()" type="select1"/>
@@ -1024,9 +1028,11 @@
 		</select1>
 		<input bind="q_systolicbp">
 			<label ref="jr:itext('q_systolicbp_text')"/>
+			<hint ref="jr:itext('q_systolicbp_hint')"/>
 		</input>
 		<input bind="q_diastolicbp">
 			<label ref="jr:itext('q_diastolicbp_text')"/>
+			<hint ref="jr:itext('q_diastolicbp_hint')"/>
 		</input>
 		<input bind="infoBP">
 			<label ref="jr:itext('infoBP_text')"/>

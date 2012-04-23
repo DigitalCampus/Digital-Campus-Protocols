@@ -135,7 +135,9 @@
 					<text id="q_temperature_nottaken"><value>Not taken</value></text>
 					
 					<text id="q_systolicbp_text"><value>Q306. Measure blood pressure and enter the Systolic Blood Pressure in mmHg</value></text>
+					<text id="q_systolicbp_hint"><value>Enter 0 if your equipment is not working</value></text>
 					<text id="q_diastolicbp_text"><value>Q307. Enter the Diastolic Blood pressure in mmHg.</value></text>
+					<text id="q_diastolicbp_hint"><value>Enter 0 if your equipment is not working</value></text>
 					<text id="infoBP_text"><value>Please check blood pressure again if you find: a) systolic BP greater than 140 or less than 90 ; b) diastolic BP greater than 90 or less than 60</value></text>
 					
 					<text id="q_cardiacpulse_text"><value>Q308. Take pulse and enter pulse per minute.</value></text>
@@ -363,7 +365,9 @@
 					<text id="q_temperature_nottaken"><value>ኣይዓቀንኩን</value></text>
 					
 					<text id="q_systolicbp_text"><value>ሕቶ306፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
+					<text id="q_systolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
 					<text id="q_diastolicbp_text"><value>ሕቶ 307፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
+					<text id="q_diastolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
 					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም &gt;140 ወይ  &lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም &gt;90 ወይ  &lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					<text id="q_cardiacpulse_text"><value>ሕቶ308፡ ትርታ ልቢ ኣዶ ብደቒቓ መዝግቢ</value></text>
 					<text id="infocardiacpulse_text"><value>እንድሕር ትርግታ ልቢ ብደቒቓ ልዕሊ 100 ወይ ድማ ትሕቲ 50 ኮይኑ፣ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
@@ -597,10 +601,10 @@
 			<bind id="q_lochiaamount" nodeset="/data/q_lochiaamount" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="q_lochiaodour" nodeset="/data/q_lochiaodour" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="q_temperature" nodeset="/data/q_temperature" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
-			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
-			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" required="true()" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" required="true()" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="infoBP" nodeset="/data/infoBP" readonly="true()" type="string"
-				relevant="(/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60)"/>
+				relevant="(/data/q_systolicbp != 0  and /data/q_diastolicbp != 0 ) and ((/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60))"/>
 			<bind id="q_cardiacpulse" nodeset="/data/q_cardiacpulse" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="infocardiacpulse" nodeset="/data/infocardiacpulse" readonly="true()" type="string" relevant="(/data/q_cardiacpulse &gt;= 100) or (/data/q_cardiacpulse &lt;= 50) "/>
 			<bind id="q_palloranemia" nodeset="/data/q_palloranemia" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
@@ -798,9 +802,11 @@
 		</select1>
 		<input bind="q_systolicbp">
 			<label ref="jr:itext('q_systolicbp_text')"/>
+			<hint ref="jr:itext('q_systolicbp_hint')"/>
 		</input>
 		<input bind="q_diastolicbp">
 			<label ref="jr:itext('q_diastolicbp_text')"/>
+			<hint ref="jr:itext('q_diastolicbp_hint')"/>
 		</input>
 		<input bind="infoBP">
 			<label ref="jr:itext('infoBP_text')"/>

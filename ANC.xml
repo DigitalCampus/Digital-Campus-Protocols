@@ -216,7 +216,9 @@
 					<text id="q_height_below150"><value>below 150 cm</value></text>
 					<text id="q_height_nottaken"><value>I didn't take height measurement</value></text>
 					<text id="q_systolicbp_text"><value>Q403. Measure blood pressure and enter the Systolic Blood Pressure in mmHg</value></text>
+					<text id="q_systolicbp_hint"><value>Enter 0 if your equipment is not working</value></text>
 					<text id="q_diastolicbp_text"><value>Q404. Enter the Diastolic Blood pressure in mmHg.</value></text>
+					<text id="q_diastolicbp_hint"><value>Enter 0 if your equipment is not working</value></text>
 					<text id="infoBP_text"><value>Please check blood pressure again if you find: a) systolic BP greater than 140 or less than 90 ; b) diastolic BP greater than 90 or less than 60</value></text>
 					<text id="q_palloranemia_text"><value>Q405. Please look carefully at the woman's nails and eyes and observe if they show a significant pallor (suggestive of anemia)</value></text>
 					<text id="q_palloranemia_pallor"><value>Yes, pallor</value></text>
@@ -459,7 +461,9 @@
 					<text id="q_height_below150"><value>ትሕቲ 150 ሳ.ሜ</value></text>
 					<text id="q_height_nottaken"><value>ቁመት ኣይዓቀንኩን</value></text>
 					<text id="q_systolicbp_text"><value>ሕቶ 403 ፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
+					<text id="q_systolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
 					<text id="q_diastolicbp_text"><value>ሕቶ 404 ፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
+					<text id="q_diastolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
 					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም &gt;140 ወይ &lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም &gt;90 ወይ &lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					<text id="q_palloranemia_text"><value>ሕቶ 405 ፡ ናይታ ኣዶ ፅፍራ ወይ ውሽጣዊ ቆቢዕ ዓይና ብምርኣይ ካብ ልሙድ ዝተፈለየ ምፅዕዳው (ፓለር) እንተሃሊይዋ ተዓዘቢ (ፓለር ምልክት ዋሕዲ ደም'ዩ ።)</value></text>
 					<text id="q_palloranemia_pallor"><value>እወ (ፓለር ኣለዋ)</value></text>
@@ -713,10 +717,10 @@
 			<bind id="q_weight" nodeset="/data/q_weight" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			<bind id="q_height" nodeset="/data/q_height" required="true()" type="select1"/>
 
-			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
-			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
+			<bind id="q_systolicbp" nodeset="/data/q_systolicbp" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
+			<bind id="q_diastolicbp" nodeset="/data/q_diastolicbp" type="integer" constraint=". &gt;= 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
 			<bind id="infoBP" nodeset="/data/infoBP" readonly="true()" type="string"
-				relevant="(/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60)"/>
+				relevant="(/data/q_systolicbp != 0  and /data/q_diastolicbp != 0 ) and ((/data/q_systolicbp &gt; 140) or (/data/q_systolicbp &lt; 90) or (/data/q_diastolicbp &gt; 90) or (/data/q_diastolicbp &lt; 60))"/>
 			<bind id="q_palloranemia" nodeset="/data/q_palloranemia" required="true()" type="select1"/>
 
 			<bind id="q_cardiacpulse" nodeset="/data/q_cardiacpulse" required="true()" type="integer" constraint=". &gt; 0" jr:constraintMsg="jr:itext('constraint_greaterthanzero')"/>
@@ -1121,9 +1125,11 @@
 		</select1>
 		<input bind="q_systolicbp">
 			<label ref="jr:itext('q_systolicbp_text')"/>
+			<hint ref="jr:itext('q_systolicbp_hint')"/>
 		</input>
 		<input bind="q_diastolicbp">
 			<label ref="jr:itext('q_diastolicbp_text')"/>
+			<hint ref="jr:itext('q_diastolicbp_hint')"/>
 		</input>
 		<input bind="infoBP">
 			<label ref="jr:itext('infoBP_text')"/>
