@@ -47,33 +47,52 @@
 					<text id="q_healthpointid_70001"><value>Ayder Referal Hospital</value></text>
 					
 					<text id="q_subkebele_text"><value>Q103. Please select the users tabia (sub-kebele)</value></text>
-					<text id="q_subkebele_100000"><value></value></text>
-					<text id="q_subkebele_100001"><value></value></text>
-					<text id="q_subkebele_100002"><value></value></text>
+					<text id="q_subkebele_100000"><value>Mesanu - Kilteawelaelo:</value></text>
+					<text id="q_subkebele_100001"><value>Mesanu - Kilteawelaelo:</value></text>
+					<text id="q_subkebele_100002"><value>Mesanu - Kilteawelaelo: </value></text>
+					<text id="q_subkebele_100003"><value>Mesanu - Kilteawelaelo: </value></text>
 					
-					<text id="q_subkebele_100100"><value>Adi weroma</value></text>
-					<text id="q_subkebele_100101"><value>Maytewaru</value></text>
-					<text id="q_subkebele_100102"><value>Girdada</value></text>
-					<text id="q_subkebele_100103"><value>Hawza</value></text>
+					<text id="q_subkebele_100100"><value>Ayanlem: Adi weroma</value></text>
+					<text id="q_subkebele_100101"><value>Ayanlem: Maytewaru</value></text>
+					<text id="q_subkebele_100102"><value>Ayanlem: Girdada</value></text>
+					<text id="q_subkebele_100103"><value>Ayanlem: Hawza</value></text>
 					
-					<text id="q_subkebele_100200"><value>Tsahlo</value></text>
-					<text id="q_subkebele_100201"><value>Dereba Wehabit</value></text>
-					<text id="q_subkebele_100202"><value>Qokuay</value></text>
+					<text id="q_subkebele_100200"><value>Gemad: Tsahlo</value></text>
+					<text id="q_subkebele_100201"><value>Gemad: Dereba Wehabit</value></text>
+					<text id="q_subkebele_100202"><value>Gemad: Qokuay</value></text>
 					
-					<text id="q_subkebele_100300"><value>Adi Kesho</value></text>
-					<text id="q_subkebele_100301"><value>Adi Ekli</value></text>
-					<text id="q_subkebele_100302"><value>Meago</value></text>
-					<text id="q_subkebele_100303"><value>Kalhabele</value></text>
+					<text id="q_subkebele_100300"><value>Adiekli: Adi Kesho</value></text>
+					<text id="q_subkebele_100301"><value>Adiekli: Adi Ekli</value></text>
+					<text id="q_subkebele_100302"><value>Adiekli: Meago</value></text>
+					<text id="q_subkebele_100303"><value>Adiekli: Kalhabele</value></text>
 					
-					<text id="q_subkebele_100400"><value>Tsaeda-naele</value></text>
-					<text id="q_subkebele_100401"><value>Gua Gua</value></text>
-					<text id="q_subkebele_100402"><value>Mayweyni</value></text>
-					<text id="q_subkebele_100403"><value>Adi Abagie</value></text>
+					<text id="q_subkebele_100400"><value>Tsadanaele: Tsaeda-naele</value></text>
+					<text id="q_subkebele_100401"><value>Tsadanaele: Gua Gua</value></text>
+					<text id="q_subkebele_100402"><value>Tsadanaele: Mayweyni</value></text>
+					<text id="q_subkebele_100403"><value>Tsadanaele: Adi Abagie</value></text>
 					
-					<text id="q_subkebele_100500"><value></value></text>
-					<text id="q_subkebele_100501"><value></value></text>
-					<text id="q_subkebele_100502"><value></value></text>
-					<text id="q_subkebele_100503"><value></value></text>
+					<text id="q_subkebele_100500"><value>Maynebri: Maynebri</value></text>
+					<text id="q_subkebele_100501"><value>Maynebri: Sef’o</value></text>
+					<text id="q_subkebele_100502"><value>Maynebri: Adi ba’ekel</value></text>
+					<text id="q_subkebele_100503"><value>Maynebri: La’eley weste</value></text>
+					
+					<text id="q_subkebele_100600"><value>Arasegeda: Ara</value></text>
+					<text id="q_subkebele_100601"><value>Arasegeda: Asegeda</value></text>
+					<text id="q_subkebele_100602"><value>Arasegeda: Hidmo mayhaidi </value></text>
+					<text id="q_subkebele_100603"><value>Arasegeda: Adi hana</value></text>
+					
+					<text id="q_subkebele_100700"><value>Hagerselam: Munguda</value></text>
+					<text id="q_subkebele_100701"><value>Hagerselam: Belesat</value></text>
+					<text id="q_subkebele_100702"><value>Hagerselam: Afgol ajeraro</value></text>
+					
+					<text id="q_subkebele_100800"><value>Mesanu - Hintalowajerat: Durombesa</value></text>
+					<text id="q_subkebele_100801"><value>Mesanu - Hintalowajerat: Ma’ara</value></text>
+					<text id="q_subkebele_100802"><value>Mesanu - Hintalowajerat: Manda</value></text>
+					
+					<text id="q_subkebele_100900"><value>Frewoyni: Mayni</value></text>
+					<text id="q_subkebele_100901"><value>Frewoyni: Korkora</value></text>
+					<text id="q_subkebele_100902"><value>Frewoyni: Aybeto</value></text>
+					<text id="q_subkebele_100903"><value>Frewoyni: Melekuse</value></text>
 					
 					<text id="q_subkebele_000000"><value>Other</value></text>
 					
@@ -230,6 +249,54 @@
 					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
 					
 					<text id="q_subkebele_text"><value>TODO: Translate: Q103. Please select the patients tabia (sub-kebele)</value></text>
+					<text id="q_subkebele_100000"><value>መሳኑ ክልተኣወላዕሎ:</value></text>
+					<text id="q_subkebele_100001"><value>መሳኑ ክልተኣወላዕሎ:</value></text>
+					<text id="q_subkebele_100002"><value>መሳኑ ክልተኣወላዕሎ: </value></text>
+					<text id="q_subkebele_100003"><value>መሳኑ ክልተኣወላዕሎ: </value></text>
+					
+					<text id="q_subkebele_100100"><value>ኣይናለም: ዓዲ ወሮማ</value></text>
+					<text id="q_subkebele_100101"><value>ኣይናለም: ማይ ትዋሩ</value></text>
+					<text id="q_subkebele_100102"><value>ኣይናለም: ግርዳዳ</value></text>
+					<text id="q_subkebele_100103"><value>ኣይናለም: ሓውዛ</value></text>
+					
+					<text id="q_subkebele_100200"><value>ገማድ: ፃሕሎ</value></text>
+					<text id="q_subkebele_100201"><value>ገማድ: ደረባ ወሃቢት</value></text>
+					<text id="q_subkebele_100202"><value>ገማድ: ኮዃይ</value></text>
+					
+					<text id="q_subkebele_100300"><value>Adiekli: ዓዲ ቀሾ</value></text>
+					<text id="q_subkebele_100301"><value>Adiekli: ዓዲ እኽሊ</value></text>
+					<text id="q_subkebele_100302"><value>Adiekli: መዓጎ</value></text>
+					<text id="q_subkebele_100303"><value>Adiekli: ቃል ሓበለ</value></text>
+					
+					<text id="q_subkebele_100400"><value>ፃዕዳ ናዕለ: ፃዕዳ ናዕለ</value></text>
+					<text id="q_subkebele_100401"><value>ፃዕዳ ናዕለ: ጓጓ</value></text>
+					<text id="q_subkebele_100402"><value>ፃዕዳ ናዕለ: ማይ ወይኒ</value></text>
+					<text id="q_subkebele_100403"><value>ፃዕዳ ናዕለ: ዓዲ ኣባጊዕ</value></text>
+					
+					<text id="q_subkebele_100500"><value>ማይነብሪ: ማይነብሪ</value></text>
+					<text id="q_subkebele_100501"><value>ማይነብሪ: ሰፍኦ</value></text>
+					<text id="q_subkebele_100502"><value>ማይነብሪ: ዓዲ ባዕኸል</value></text>
+					<text id="q_subkebele_100503"><value>ማይነብሪ: ላዕላይ ወስተ</value></text>
+					
+					<text id="q_subkebele_100600"><value>Arasegeda: ዓራ</value></text>
+					<text id="q_subkebele_100601"><value>Arasegeda: ዓሰገዳ</value></text>
+					<text id="q_subkebele_100602"><value>Arasegeda: ህድሞ ማይሃይዲ</value></text>
+					<text id="q_subkebele_100603"><value>Arasegeda: ዓዲ ሓና</value></text>
+					
+					<text id="q_subkebele_100700"><value>ሃገረሰላም: ሙንጉዳ</value></text>
+					<text id="q_subkebele_100701"><value>ሃገረሰላም: በለሳት</value></text>
+					<text id="q_subkebele_100702"><value>ሃገረሰላም: ኣፍጎል ኣጀራሮ</value></text>
+					
+					<text id="q_subkebele_100800"><value>መሳኑ ሕንጣሎዋጅራት: ድሮምበሳ</value></text>
+					<text id="q_subkebele_100801"><value>መሳኑ ሕንጣሎዋጅራት: ማዓራ</value></text>
+					<text id="q_subkebele_100802"><value>መሳኑ ሕንጣሎዋጅራት: ማንዳ</value></text>
+					
+					<text id="q_subkebele_100900"><value>ፍረወይኒ: ማይኒ</value></text>
+					<text id="q_subkebele_100901"><value>ፍረወይኒ: ቆርቆራ</value></text>
+					<text id="q_subkebele_100902"><value>ፍረወይኒ: ዓይበቶ</value></text>
+					<text id="q_subkebele_100903"><value>ፍረወይኒ: መለኩሰ</value></text>
+					
+					<text id="q_subkebele_000000"><value>TODO: translate: Other</value></text>
 					
 					<text id="q_username_text"><value>ሕቶ 104.  ሽም ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
 					<text id="q_name_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
@@ -480,6 +547,11 @@
 		
 		<select1 bind="q_subkebele">
 			<label ref="jr:itext('q_subkebele_text')"/>
+			<item><label ref="jr:itext('q_subkebele_100000')"/><value>100000</value></item>
+			<item><label ref="jr:itext('q_subkebele_100001')"/><value>100001</value></item>
+			<item><label ref="jr:itext('q_subkebele_100002')"/><value>100002</value></item>
+			<item><label ref="jr:itext('q_subkebele_100003')"/><value>100003</value></item>
+			
 			<item><label ref="jr:itext('q_subkebele_100100')"/><value>100100</value></item>
 			<item><label ref="jr:itext('q_subkebele_100101')"/><value>100101</value></item>
 			<item><label ref="jr:itext('q_subkebele_100102')"/><value>100102</value></item>
@@ -488,6 +560,39 @@
 			<item><label ref="jr:itext('q_subkebele_100200')"/><value>100200</value></item>
 			<item><label ref="jr:itext('q_subkebele_100201')"/><value>100201</value></item>
 			<item><label ref="jr:itext('q_subkebele_100202')"/><value>100202</value></item>
+			
+			<item><label ref="jr:itext('q_subkebele_100300')"/><value>100300</value></item>
+			<item><label ref="jr:itext('q_subkebele_100301')"/><value>100301</value></item>
+			<item><label ref="jr:itext('q_subkebele_100302')"/><value>100302</value></item>
+			<item><label ref="jr:itext('q_subkebele_100303')"/><value>100303</value></item>
+			
+			<item><label ref="jr:itext('q_subkebele_100400')"/><value>100400</value></item>
+			<item><label ref="jr:itext('q_subkebele_100401')"/><value>100401</value></item>
+			<item><label ref="jr:itext('q_subkebele_100402')"/><value>100402</value></item>
+			<item><label ref="jr:itext('q_subkebele_100403')"/><value>100403</value></item>
+			
+			<item><label ref="jr:itext('q_subkebele_100500')"/><value>100500</value></item>
+			<item><label ref="jr:itext('q_subkebele_100501')"/><value>100501</value></item>
+			<item><label ref="jr:itext('q_subkebele_100502')"/><value>100502</value></item>
+			<item><label ref="jr:itext('q_subkebele_100503')"/><value>100503</value></item>
+			
+			<item><label ref="jr:itext('q_subkebele_100600')"/><value>100600</value></item>
+			<item><label ref="jr:itext('q_subkebele_100601')"/><value>100601</value></item>
+			<item><label ref="jr:itext('q_subkebele_100602')"/><value>100602</value></item>
+			<item><label ref="jr:itext('q_subkebele_100603')"/><value>100603</value></item>
+			
+			<item><label ref="jr:itext('q_subkebele_100700')"/><value>100700</value></item>
+			<item><label ref="jr:itext('q_subkebele_100701')"/><value>100701</value></item>
+			<item><label ref="jr:itext('q_subkebele_100702')"/><value>100702</value></item>
+			
+			<item><label ref="jr:itext('q_subkebele_100800')"/><value>100800</value></item>
+			<item><label ref="jr:itext('q_subkebele_100801')"/><value>100801</value></item>
+			<item><label ref="jr:itext('q_subkebele_100802')"/><value>100802</value></item>
+			
+			<item><label ref="jr:itext('q_subkebele_100900')"/><value>100900</value></item>
+			<item><label ref="jr:itext('q_subkebele_100901')"/><value>100901</value></item>
+			<item><label ref="jr:itext('q_subkebele_100902')"/><value>100902</value></item>
+			<item><label ref="jr:itext('q_subkebele_100903')"/><value>100903</value></item>
 		</select1>
 		
 	

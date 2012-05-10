@@ -398,7 +398,7 @@
 					<text id="q_maternaldeath_text"><value>ሕቶ304፡ ሞት ኤደ ኣጋጢሙ 'ድዩ? </value></text>
 					
 					<text id="q_deliverydate_text"><value>ሕቶ305፡ እዚ ወሊድ ዝተኻየደሉ መዓልቲ ፀሓፊ፡፡</value></text>
-					<text id="q_deliverydate_constraint"><value>TODO: translate</value></text>
+					<text id="q_deliverydate_constraint"><value>TODO: translate: Delivery date cannot be in the future</value></text>
 					
 					<text id="q_deliverytime_text"><value>TODO: translate: Q306. Select the approximate time of delivery</value></text>
 					<text id="q_deliverytime_morning"><value>TODO: translate: Morning</value></text>
