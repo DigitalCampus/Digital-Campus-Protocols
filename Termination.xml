@@ -51,14 +51,16 @@
 					<text id="q_userid_text"><value>Q103. Enter the user's ID </value></text>
 					<text id="q_userid_constraint"><value>Must be greater than 0</value></text>
 					
-					<text id="q_yearofbirth_text"><value>Q104. Please enter user's year of birth</value></text>
+					<text id="q_username_text"><value>Q104. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
+					
+					<text id="q_yearofbirth_text"><value>Q105. Please enter user's year of birth</value></text>
 					<text id="q_yearofbirth_hint"><value>Please use the Ethiopian calendar</value></text>
 					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
 					
-					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
+					<text id="q_age_text"><value>Q106. Enter user's age</value></text>
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
-					<text id="q_username_text"><value>Q106. Enter user's name</value></text>
-					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
+					
 
 					<text id="infosection2_text"><value>Section 2: Pregnancy termination data</value></text>
 					
@@ -108,10 +110,10 @@
 					<infoconsent/>
 					<q_healthpointid/>
 					<q_userid/>
+					<q_username/>
 					<q_yearofbirth/>
 					<q_age/>
-					<q_username/>
-
+					
 					<infosection2/>
 					<q_terminationtype/>
 					<q_terminationdate/>
@@ -141,10 +143,10 @@
 
 			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="integer"/>
 			<bind id="q_userid" nodeset="/data/q_userid" required="true()" type="integer" constraint=". &gt; 0"  jr:constraintMsg="jr:itext('q_userid_constraint')"/>
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
 			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
 			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
-			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 
 			<bind id="infosection2" nodeset="/data/infosection2" readonly="true()" type="string"/>
 			<bind id="q_terminationtype" nodeset="/data/q_terminationtype" required="true()" type="select1"/>
@@ -211,16 +213,16 @@
 		<input bind="q_userid">
 			<label ref="jr:itext('q_userid_text')"/>
 		</input>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
+		</input>
 		<input bind="q_yearofbirth">
 			<label ref="jr:itext('q_yearofbirth_text')"/>
 			<hint ref="jr:itext('q_yearofbirth_hint')"/>
 		</input>
 		<input bind="q_age">
 			<label ref="jr:itext('q_age_text')"/>
-		</input>
-		<input bind="q_username">
-			<label ref="jr:itext('q_username_text')"/>
-			<hint ref="jr:itext('q_username_hint')"/>
 		</input>
 		<input bind="infosection2">
 			<label ref="jr:itext('infosection2_text')"/>

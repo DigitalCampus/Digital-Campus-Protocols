@@ -46,22 +46,24 @@
 					<text id="q_userid_text"><value>Q102. Enter the user's ID </value></text>
 					<text id="q_userid_constraint"><value>Must be greater than 0</value></text>
 					
-					<text id="q_yearofbirth_text"><value>Q103. Please enter user's year of birth</value></text>
+					<text id="q_username_text"><value>Q103. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
+					
+					<text id="q_yearofbirth_text"><value>Q104. Please enter user's year of birth</value></text>
 					<text id="q_yearofbirth_hint"><value>Please use the Ethiopian calendar</value></text>
 					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
 					
-					<text id="q_age_text"><value>Q104. Enter user's age</value></text>
+					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
-					<text id="q_username_text"><value>Q105. Enter user's name</value></text>
-					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
-					<text id="q_healthcenter_text"><value>Q105. Select the health centre where these lab tests were done</value></text>
+					
+					<text id="q_healthcenter_text"><value>Q106. Select the health centre where these lab tests were done</value></text>
 					<text id="q_healthcenter_50001"><value>Abraha Atsbha</value></text>
 					<text id="q_healthcenter_50002"><value>Adigudom</value></text>
 					<text id="q_healthcenter_50003"><value>Agulae</value></text>
 					<text id="q_healthcenter_50004"><value>Hiwane</value></text>
 					<text id="q_healthcenter_50005"><value>Negash</value></text>
 					
-					<text id="q_dateoftest_text"><value>Q106. Enter the date on which these lab tests were done</value></text>
+					<text id="q_dateoftest_text"><value>Q107. Enter the date on which these lab tests were done</value></text>
 					<text id="infosection2_text"><value>Section 2: Lab Analysis</value></text>
 					<text id="q_stoolexamination_text"><value>Q201. Stool examination results</value></text>
 					<text id="q_urineanalysis_text"><value>Q202. Enter urine analysis results</value></text>
@@ -118,21 +120,23 @@
 					<text id="q_userid_text"><value>ሕቶ 102 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ </value></text>
 					<text id="q_userid_constraint"><value>ልዕሊ 0 ክኸውን ኣለዎ</value></text>
 					
-					<text id="q_yearofbirth_text"><value>ሕቶ 103 ፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ። </value></text>
+					<text id="q_username_text"><value>TODO: translate: Q103. Enter user's name</value></text>
+					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					
+					<text id="q_yearofbirth_text"><value>ሕቶ 104 ፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ። </value></text>
 					<text id="q_yearofbirth_hint"><value> ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ </value></text>
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					
-					<text id="q_age_text"><value>ሕቶ 104፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና? </value></text>
+					<text id="q_age_text"><value>ሕቶ 105፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና? </value></text>
 					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
-					<text id="q_username_text"><value>TODO: translate: Q105. Enter user's name</value></text>
-					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					
 					<text id="q_healthcenter_text"><value>ሕቶ106፡ እዚ ናይ ላብራቶሪ ምርመራ ዝተኻየደሉ ጥዕና ጣብያ መዝግቢ፡፡ </value></text>
 					<text id="q_healthcenter_50001"><value>ኣብርሃ ወኣፅብሃ ጥዕና ጣብያ  </value></text>
 					<text id="q_healthcenter_50002"><value>ዓዲጉደም ጥዕና ጣብያ </value></text>
 					<text id="q_healthcenter_50003"><value>ኣጉላዕ ጥዕና ጣብያ </value></text>
 					<text id="q_healthcenter_50004"><value>ሒዋነ ጥዕና ጣብያ </value></text>
 					<text id="q_healthcenter_50005"><value>ነጋሽ ጥዕና ጣብያ </value></text>
-					<text id="q_dateoftest_text"><value>ሕቶ106፡ እዚ ናይ ላብራቶሪ ምርመራ ዝተኻየደሉ ዕለት ፀሓፊ፡፡ </value></text>
+					<text id="q_dateoftest_text"><value>ሕቶ107፡ እዚ ናይ ላብራቶሪ ምርመራ ዝተኻየደሉ ዕለት ፀሓፊ፡፡ </value></text>
 					<text id="infosection2_text"><value>ክፍሊ 2፡ ናይ ላብራቶሪ ትንተና </value></text>
 					<text id="q_stoolexamination_text"><value>ሕቶ 201፡ ናይ ሰገራ ምርመራ ውፅኢት ፀሓፊ (ብቛንቛ ኢንግሊሽ ይፀሓፍ) </value></text>
 					<text id="q_urineanalysis_text"><value>ሕቶ 202፡ ናይ ሽንቲ ምርመራ ውፅኢት ፀሓፊ (ብቛንቛ ኢንግሊሽ ይፀሓፍ) </value></text>
@@ -170,9 +174,10 @@
 
 					<q_healthpointid/>
 					<q_userid/>
+					<q_username/>
 					<q_yearofbirth/>
 					<q_age/>
-					<q_username/>
+					
 					<q_healthcenter/>
 					<q_dateoftest/>
 
@@ -204,10 +209,11 @@
 
 			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="integer"/>
 			<bind id="q_userid" nodeset="/data/q_userid" required="true()" type="integer" constraint=". &gt; 0"  jr:constraintMsg="jr:itext('q_userid_constraint')"/>
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
 			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
 			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
-			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
+			
 			
 			<bind id="q_healthcenter" nodeset="/data/q_healthcenter" required="true()" type="select1"/>
 			<bind id="q_dateoftest" nodeset="/data/q_dateoftest" required="true()" type="date"/>
@@ -254,16 +260,16 @@
 		<input bind="q_userid">
 			<label ref="jr:itext('q_userid_text')"/>
 		</input>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
+		</input>
 		<input bind="q_yearofbirth">
 			<label ref="jr:itext('q_yearofbirth_text')"/>
 			<hint ref="jr:itext('q_yearofbirth_hint')"/>
 		</input>
 		<input bind="q_age">
 			<label ref="jr:itext('q_age_text')"/>
-		</input>
-		<input bind="q_username">
-			<label ref="jr:itext('q_username_text')"/>
-			<hint ref="jr:itext('q_username_hint')"/>
 		</input>
 		<select1 bind="q_healthcenter">
 			<label ref="jr:itext('q_healthcenter_text')"/>

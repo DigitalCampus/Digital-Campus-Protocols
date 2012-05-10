@@ -55,19 +55,21 @@
 					<text id="q_userid_text"><value>Q103. Enter the user's ID</value></text>
 					<text id="q_userid_constraint"><value>Must be greater than 0</value></text>
 					
-					<text id="q_yearofbirth_text"><value>Q104. Please enter user's year of birth</value></text>
+					<text id="q_username_text"><value>Q104. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
+					
+					<text id="q_yearofbirth_text"><value>Q105. Please enter user's year of birth</value></text>
 					<text id="q_yearofbirth_hint"><value>Please use the Ethiopian calendar</value></text>
 					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
 					
-					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
+					<text id="q_age_text"><value>Q106. Enter user's age</value></text>
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
-					<text id="q_username_text"><value>Q106. Enter user's name</value></text>
-					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
-					<text id="q_pncvisitno_text"><value>Q108. Which postnatalcare visit is this?</value></text>
+					
+					<text id="q_pncvisitno_text"><value>Q107. Which postnatalcare visit is this?</value></text>
 					<text id="q_pncvisitno_1"><value>1st visit</value></text>
 					<text id="q_pncvisitno_2"><value>2nd visit</value></text>
 					<text id="q_pncvisitno_3"><value>3rd visit</value></text>
-					<text id="q_deliverydate_text"><value>Q109. Delivery date</value></text>
+					<text id="q_deliverydate_text"><value>Q108. Delivery date</value></text>
 					
 					<text id="infosection2_text"><value>Section 2: Delivery Summary</value></text>
 					
@@ -155,13 +157,23 @@
 					
 					<text id="q_tetanus_text"><value>Q314. Check the woman's tetanus toxoid immunization card. Which TT doses has the woman received?</value></text>
 					<text id="q_tetanus_hint"><value>Include any doses given today</value></text>
+					<text id="q_tetanus_nocard"><value>Card not available or dates not known</value></text>
 					<text id="q_tetanus_none"><value>None</value></text>
 					<text id="q_tetanus_tt1"><value>TT1 only</value></text>
 					<text id="q_tetanus_tt2"><value>TT1 and TT2</value></text>
 					<text id="q_tetanus_tt3"><value>TT1, TT2 and TT3</value></text>
+					<text id="q_tetanus_tt4"><value>TT1, TT2, TT3 and TT4</value></text>
+					<text id="q_tetanus_tt5"><value>TT1, TT2, TT3, TT4 and TT5</value></text>
 					<text id="tetanus_date_constraint"><value>Date cannot be in the future</value></text>
 					<text id="q_tt1_text"><value>Q314a. When was the TT1 given?</value></text>
 					<text id="q_tt2_text"><value>Q314b. When was the TT2 given?</value></text>
+					<text id="q_tt2_constraint"><value>Date for TT2 must be between the date for TT1 and today</value></text>
+					<text id="q_tt3_text"><value>Q314c. When was the TT3 given?</value></text>
+					<text id="q_tt3_constraint"><value>Date for TT3 must be between the date for TT2 and today</value></text>
+					<text id="q_tt4_text"><value>Q314d. When was the TT4 given?</value></text>
+					<text id="q_tt4_constraint"><value>Date for TT4 must be between the date for TT3 and today</value></text>
+					<text id="q_tt5_text"><value>Q314d. When was the TT5 given?</value></text>
+					<text id="q_tt5_constraint"><value>Date for TT5 must be between the date for TT4 and today</value></text>
 					
 					<text id="q_fpcounseled_text"><value>Q315. Was family planning advice given today? </value></text>
 					<text id="q_fpaccepted_text"><value>Q316. Was family planning advice accepted? </value></text>
@@ -243,7 +255,8 @@
 					<text id="q_location_healthcentre"><value>Health centre</value></text>
 					<text id="q_location_home"><value>User's home</value></text>
 					<text id="q_location_other"><value>Other</value></text>
-					<text id="q_gpsdata_text"><value>Q504. Please record the location (using GPS)</value></text>
+					<text id="q_visitdate_text"><value>Q504. Please enter the date of this visit</value></text>
+					<text id="q_gpsdata_text"><value>Q505. Please record the location (using GPS)</value></text>
 					<text id="infoendsession_text"><value>Thank the woman for their cooperation and end the session.</value></text>
 				</translation>
 				<translation lang="Tigrinyan">
@@ -284,20 +297,22 @@
 					<text id="q_userid_text"><value>ሕቶ103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ</value></text>
 					<text id="q_userid_constraint"><value>ካብ 0 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					
-					<text id="q_yearofbirth_text"><value>ሕቶ 104 ፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ።</value></text>
+					<text id="q_username_text"><value>TODO: translate: Q104. Enter user's name</value></text>
+					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					
+					<text id="q_yearofbirth_text"><value>ሕቶ 105፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ።</value></text>
 					<text id="q_yearofbirth_hint"><value> ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ</value></text>
 					<text id="q_yearofbirth_constraint"><value>ካብ 1900 ዓ/ም ንላዕሊ ክኸውን ኣለዎ </value></text>
 					
 					<text id="q_age_text"><value>ሕቶ 105 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
 					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
-					<text id="q_username_text"><value>TODO: translate: Q106. Enter user's name</value></text>
-					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
 					
-					<text id="q_pncvisitno_text"><value>ሕቶ107፡ እዚ ክትትል ድሕሪ ወሊድ ኣየናይ ዑደት 'ዩ?</value></text>
+					
+					<text id="q_pncvisitno_text"><value>ሕቶ106፡ እዚ ክትትል ድሕሪ ወሊድ ኣየናይ ዑደት 'ዩ?</value></text>
 					<text id="q_pncvisitno_1"><value>1ይ ዑደት</value></text>
 					<text id="q_pncvisitno_2"><value>2ይ ዑደት</value></text>
 					<text id="q_pncvisitno_3"><value>3ይ ዑደት</value></text>
-					<text id="q_deliverydate_text"><value>ሕቶ108፡ እዚ ወሊድ ዝተኻየደሉ መዓልቲ መዓዝ ነይሩ? </value></text>
+					<text id="q_deliverydate_text"><value>ሕቶ107፡ እዚ ወሊድ ዝተኻየደሉ መዓልቲ መዓዝ ነይሩ? </value></text>
 					
 					<text id="infosection2_text"><value>ክፍሊ 2፡ ናይ ወሊድ ሓፂር መረዳእታ</value></text>
 					
@@ -382,14 +397,24 @@
 					<text id="q_vitasuppl_text"><value>ሕቶ313 እታ ኣዶ ናይ ቫይታሚን ኤ (A) ወሰኽ  ሎሚ መዓልቲ ተዋሂብዋ 'ዶ?</value></text>
 					
 					<text id="q_tetanus_text"><value>ሕቶ314፡ ናይ ኣዶ ቲቲ ክታበት ካርድ ብምፍታሽ፣ ኣዶ ኣየናይ ቲቲ ከም ዝወሰደት ተዓዘቢ?</value></text>
-					<text id="q_tetanus_hint"><value>ሎሚ መዓልቲ ዝተውሃባ መጠን ቲቲ ብምጥቕላል መልሲ ሃቢ</value></text>
-					<text id="q_tetanus_none"><value>ምንም ኣይተውሃባን</value></text>
+					<text id="q_tetanus_hint"><value>ሎሚዓንቲ ዝተውሃባ መጠን ይጠቓለል</value></text>
+					<text id="q_tetanus_nocard"><value>TODO: translate: Card not available or dates not known</value></text>
+					<text id="q_tetanus_none"><value>ኣይወሰደትን</value></text>
 					<text id="q_tetanus_tt1"><value>ቲቲ 1 ጥራሕ</value></text>
-					<text id="q_tetanus_tt2"><value>ቲተ 1ን ቲቲ 2ን</value></text>
-					<text id="q_tetanus_tt3"><value>ቲቲ 1፣ ቲቲ 2ን ቲቲ 3ን</value></text>
-					<text id="tetanus_date_constraint"><value>ዕለት ናይ መፃኢ ክኸውን ኣይክእልን</value></text>
-					<text id="q_tt1_text"><value>ሕቶ314ሀ፡ ቲቲ 1 ዝተውሃበሉ ዕለት ማዓዝ ነይሩ?</value></text>
-					<text id="q_tt2_text"><value>ሕቶ314ለ፡ ቲቲ 2 ዝተውሃበሉ ዕለተ መዓዝ ነይሩ?</value></text>
+					<text id="q_tetanus_tt2"><value>ቲቲ 1ን ቲቲ 2ን</value></text>
+					<text id="q_tetanus_tt3"><value>ቲቲ 1፣ ቲቲ 2ን ቲቲ 3ን </value></text>
+					<text id="q_tetanus_tt4"><value>TODO: translate: TT1, TT2, TT3 and TT4</value></text>
+					<text id="q_tetanus_tt5"><value>TODO: translate: TT1, TT2, TT3, TT4 and TT5</value></text>
+					<text id="tetanus_date_constraint"><value>ዝፀሓፍ መዓልቲ ናይ መፃኢ ዕለት ክኸውን የብሉን</value></text>
+					<text id="q_tt1_text"><value>ሕቶ314ሀ፡ ቲቲ 1 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
+					<text id="q_tt2_text"><value>ሕቶ314ለ፡ ቲቲ 2 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
+					<text id="q_tt2_constraint"><value>TODO: translate: Date for TT2 must be between the date for TT1 and today</value></text>
+					<text id="q_tt3_text"><value>TODO: translate: Q314c. When was the TT3 given?</value></text>
+					<text id="q_tt3_constraint"><value>TODO: translate: Date for TT3 must be between the date for TT2 and today</value></text>
+					<text id="q_tt4_text"><value>TODO: translate: Q314d. When was the TT4 given?</value></text>
+					<text id="q_tt4_constraint"><value>TODO: translate: Date for TT4 must be between the date for TT3 and today</value></text>
+					<text id="q_tt5_text"><value>TODO: translate: Q314d. When was the TT5 given?</value></text>
+					<text id="q_tt5_constraint"><value>TODO: translate: Date for TT5 must be between the date for TT4 and today</value></text>
 					
 					<text id="q_fpcounseled_text"><value>ሕቶ315፡ ኣዶ መከላኸሊ ጥንሲ ክትወስድ ከም ዘለዋ ሎማዓንቲ ምኽሪ ተዋሂብዋ 'ዶ?</value></text>
 					<text id="q_fpaccepted_text"><value>ሕቶ316፡ መከላኸሊ ጥንሲ ንክትወስድ ዝተውሃባ ምኽሪ ተቐቢላቶ 'ዶ? </value></text>
@@ -471,7 +496,8 @@
 					<text id="q_location_healthcentre"><value>ጥዕና ጣብያ</value></text>
 					<text id="q_location_home"><value>ኣብ ናይ ተሓካሚት ገዛ</value></text>
 					<text id="q_location_other"><value>ኣብ ካልእ</value></text>
-					<text id="q_gpsdata_text"><value>ሕቶ 504 ፡ እዚ ናይ ሕክምና ኣገልግሎት ዝተኻየደሉ ቦታ ንምምልካት ናይ ጂ.ፕ.ኤስ (GPS) ሓበሬታ ውሰዲ</value></text>
+					<text id="q_visitdate_text"><value>TODO: translate: Q504. Please enter the date of this visit</value></text>
+					<text id="q_gpsdata_text"><value>ሕቶ 505 ፡ እዚ ናይ ሕክምና ኣገልግሎት ዝተኻየደሉ ቦታ ንምምልካት ናይ ጂ.ፕ.ኤስ (GPS) ሓበሬታ ውሰዲ</value></text>
 					<text id="infoendsession_text"><value>እታ ኣዶ ንዝገበረትልኪ ምትሕብባር ኣመስጊንኪ ናይ ሎሚ ፃንሒትኪ ፈፅሚ። </value></text>
 				</translation>
 			</itext>
@@ -490,9 +516,9 @@
 					<infoconsent/>
 					<q_healthpointid/>
 					<q_userid/>
+					<q_username/>
 					<q_yearofbirth/>
 					<q_age/>
-					<q_username/>
 					<q_pncvisitno/>
 					
 					<infosection2/>
@@ -522,6 +548,9 @@
 					<q_tetanus/>
 					<q_tt1/>
 					<q_tt2/>
+					<q_tt3/>
+					<q_tt4/>
+					<q_tt5/>
 					<q_fpcounseled/>
 					<q_fpaccepted/>
 					<q_hiv/>
@@ -562,6 +591,7 @@
 					<q_appointmentdate/>
 					<q_idcard/>
 					<q_location/>
+					<q_visitdate/>
 					<q_gpsdata/>
 					
 					<infoendsession/>
@@ -612,9 +642,24 @@
 			<bind id="q_genitaliaexterna" nodeset="/data/q_genitaliaexterna" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="q_ironsuppl" nodeset="/data/q_ironsuppl" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="q_vitasuppl" nodeset="/data/q_vitasuppl" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
+			
 			<bind id="q_tetanus" nodeset="/data/q_tetanus" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
-			<bind id="q_tt1" nodeset="/data/q_tt1" required="true()" type="date" relevant="not(selected(/data/q_tetanus,'none')) and not(selected(/data/q_maternaldeath,'yes'))" constraint="(now()-.) &gt;= 0" jr:constraintMsg="jr:itext('tetanus_date_constraint')"/>
-			<bind id="q_tt2" nodeset="/data/q_tt2" required="true()" type="date" relevant="not(selected(/data/q_tetanus,'none')) and not(selected(/data/q_tetanus,'tt1')) and not(selected(/data/q_maternaldeath,'yes'))" constraint="(now()-.) &gt;= 0" jr:constraintMsg="jr:itext('tetanus_date_constraint')"/>
+			<bind id="q_tt1" nodeset="/data/q_tt1" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt1') or selected(/data/q_tetanus,'tt2') or selected(/data/q_tetanus,'tt3') or selected(/data/q_tetanus,'tt4') or selected(/data/q_tetanus,'tt5')" 
+				constraint="(now()-.) &gt;= 0" jr:constraintMsg="jr:itext('tetanus_date_constraint')"/>
+			<bind id="q_tt2" nodeset="/data/q_tt2" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt2') or selected(/data/q_tetanus,'tt3') or selected(/data/q_tetanus,'tt4') or selected(/data/q_tetanus,'tt5')" 
+				constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt1) &gt; 0)" jr:constraintMsg="jr:itext('q_tt2_constraint')"/>
+			<bind id="q_tt3" nodeset="/data/q_tt3" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt3') or selected(/data/q_tetanus,'tt4') or selected(/data/q_tetanus,'tt5')" 
+				constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt2) &gt; 0)" jr:constraintMsg="jr:itext('q_tt3_constraint')"/>
+			<bind id="q_tt4" nodeset="/data/q_tt4" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt4') or selected(/data/q_tetanus,'tt5')" 
+				constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt3) &gt; 0)" jr:constraintMsg="jr:itext('q_tt4_constraint')"/>
+			<bind id="q_tt5" nodeset="/data/q_tt5" required="true()" type="date" 
+				relevant="selected(/data/q_tetanus,'tt5')" 
+				constraint="((now()-.) &gt;= 0) and ((. - /data/q_tt4) &gt; 0)" jr:constraintMsg="jr:itext('q_tt5_constraint')"/>
+			
 			<bind id="q_fpcounseled" nodeset="/data/q_fpcounseled" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="q_fpaccepted" nodeset="/data/q_fpaccepted" required="true()" type="select1" relevant="not(selected(/data/q_fpcounseled,'yes')) and not(selected(/data/q_maternaldeath,'yes'))"/>
 			<bind id="q_hiv" nodeset="q_hiv" required="true()" type="select1" relevant="not(selected(/data/q_maternaldeath,'yes'))"/>
@@ -655,6 +700,7 @@
 			<bind id="q_appointmentdate" nodeset="/data/q_appointmentdate" type="date" required="true()" relevant="((now()-/data/q_deliverydate) &gt; 0) and ((now()-/data/q_deliverydate) &lt; 35)"/>
 			<bind id="q_idcard" nodeset="/data/q_idcard" required="true()" type="select1"/>
 			<bind id="q_location" nodeset="/data/q_location" type="select1" required="true()"/>
+			<bind id="q_visitdate" nodeset="/data/q_visitdate" type="date" required="true()"/>
 			<bind id="q_gpsdata" nodeset="/data/q_gpsdata" type="geopoint" format="gps"
 				relevant="not(selected(/data/q_location,'healthpost')) and not(selected(/data/q_location,'healthcentre'))"/>
 			<bind id="infoendsession" nodeset="/data/infoendsession" readonly="true()" type="string"/>
@@ -695,16 +741,16 @@
 		<input bind="q_userid">
 			<label ref="jr:itext('q_userid_text')"/>
 		</input>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
+		</input>
 		<input bind="q_yearofbirth">
 			<label ref="jr:itext('q_yearofbirth_text')"/>
 			<hint ref="jr:itext('q_yearofbirth_hint')"/>
 		</input>
 		<input bind="q_age">
 			<label ref="jr:itext('q_age_text')"/>
-		</input>
-		<input bind="q_username">
-			<label ref="jr:itext('q_username_text')"/>
-			<hint ref="jr:itext('q_username_hint')"/>
 		</input>
 		<select1 bind="q_pncvisitno">
 			<label ref="jr:itext('q_pncvisitno_text')"/>
@@ -846,19 +892,31 @@
 			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
 			<item><label ref="jr:itext('no')"/><value>no</value></item>
 		</select1>
-		<select1 bind="q_tetanus">
+				<select1 bind="q_tetanus">
 			<label ref="jr:itext('q_tetanus_text')"/>
 			<hint ref="jr:itext('q_tetanus_hint')"/>
+			<item><label ref="jr:itext('q_tetanus_nocard')"/><value>nocard</value></item>
 			<item><label ref="jr:itext('q_tetanus_none')"/><value>none</value></item>
 			<item><label ref="jr:itext('q_tetanus_tt1')"/><value>tt1</value></item>
 			<item><label ref="jr:itext('q_tetanus_tt2')"/><value>tt2</value></item>
 			<item><label ref="jr:itext('q_tetanus_tt3')"/><value>tt3</value></item>
+			<item><label ref="jr:itext('q_tetanus_tt4')"/><value>tt4</value></item>
+			<item><label ref="jr:itext('q_tetanus_tt5')"/><value>tt5</value></item>
 		</select1>
 		<input bind="q_tt1" appearance="ethiopicDate">
 			<label ref="jr:itext('q_tt1_text')"/>
 		</input>
 		<input bind="q_tt2" appearance="ethiopicDate">
 			<label ref="jr:itext('q_tt2_text')"/>
+		</input>
+		<input bind="q_tt3" appearance="ethiopicDate">
+			<label ref="jr:itext('q_tt3_text')"/>
+		</input>
+		<input bind="q_tt4" appearance="ethiopicDate">
+			<label ref="jr:itext('q_tt4_text')"/>
+		</input>
+		<input bind="q_tt5" appearance="ethiopicDate">
+			<label ref="jr:itext('q_tt5_text')"/>
 		</input>
 		<select1 bind="q_fpcounseled">
 			<label ref="jr:itext('q_fpcounseled_text')"/>
@@ -1030,6 +1088,9 @@
 			<item><label ref="jr:itext('q_location_home')"/><value>home</value></item>
 			<item><label ref="jr:itext('q_location_other')"/><value>other</value></item>
 		</select1>
+		<input bind="q_visitdate" appearance="ethiopicDate">
+			<label ref="jr:itext('q_visitdate_text')"/>
+		</input>
 		<input bind="q_gpsdata">
 			<label ref="jr:itext('q_gpsdata_text')"/>
 		</input>

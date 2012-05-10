@@ -54,15 +54,15 @@
 					<text id="q_userid_text"><value>Q103. Enter the user's ID </value></text>
 					<text id="q_userid_constraint"><value>Must be greater than 0</value></text>
 					
-					<text id="q_yearofbirth_text"><value>Q104. Please enter user's year of birth</value></text>
+					<text id="q_username_text"><value>Q104. Enter user's name</value></text>
+					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
+					
+					<text id="q_yearofbirth_text"><value>Q105. Please enter user's year of birth</value></text>
 					<text id="q_yearofbirth_hint"><value>Please use the Ethiopian calendar</value></text>
 					<text id="q_yearofbirth_constraint"><value>Please enter a year greater than 1900</value></text>
 					
-					<text id="q_age_text"><value>Q105. Enter user's age</value></text>
+					<text id="q_age_text"><value>Q106. Enter user's age</value></text>
 					<text id="q_age_constraint"><value>The age does not appear to be consistent with the year of birth, please check.</value></text>
-					
-					<text id="q_username_text"><value>Q106. Enter user's name</value></text>
-					<text id="q_username_hint"><value>Please enter in Tigrinyan text</value></text>
 					
 					<text id="q_firstvisit_text"><value>Q107. Is this the first time you have seen this mother in relation to this preganancy?</value></text>
 					
@@ -180,7 +180,7 @@
 					
 					<text id="q_tetanus_text"><value>Q306. Check the woman's tetanus toxoid immunization card. Which TT doses has the woman received?</value></text>
 					<text id="q_tetanus_hint"><value>Include any doses given today</value></text>
-					<text id="q_tetanus_nocard"><value>Card not available</value></text>
+					<text id="q_tetanus_nocard"><value>Card not available or dates not known</value></text>
 					<text id="q_tetanus_none"><value>None</value></text>
 					<text id="q_tetanus_tt1"><value>TT1 only</value></text>
 					<text id="q_tetanus_tt2"><value>TT1 and TT2</value></text>
@@ -265,7 +265,9 @@
 					<text id="q_location_healthcentre"><value>Health centre</value></text>
 					<text id="q_location_home"><value>User's home</value></text>
 					<text id="q_location_other"><value>Other</value></text>
-					<text id="q_gpsdata_text"><value>Q504. Please record the location (using GPS)</value></text>
+					
+					<text id="q_visitdate_text"><value>Q504. Please enter the date of this visit</value></text>
+					<text id="q_gpsdata_text"><value>Q505. Please record the location (using GPS)</value></text>
 					<text id="infohealthcenterapp_text"><value>Please explain to the woman to set an appointment at the health centre for lab tests and delivery interview with the midwife. If any uncontrolled disease or danger signs related to the pregnancy have been detected now, try that the appointment at the health centre is being made as soon as possible</value></text>
 					<text id="infoendsession_text"><value>Thank the woman for their cooperation and end the session.</value></text>
 
@@ -307,14 +309,14 @@
 					<text id="q_userid_text"><value>ሕቶ 103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ።</value></text>
 					<text id="q_userid_constraint"><value>ልዕሊ 0 ክኸውን ኣለዎ</value></text>
 					
-					<text id="q_yearofbirth_text"><value>ሕቶ 104 ፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ።</value></text>
+					<text id="q_username_text"><value>TODO: translate: Q104. Enter user's name</value></text>
+					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					
+					<text id="q_yearofbirth_text"><value>ሕቶ 105፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ።</value></text>
 					<text id="q_yearofbirth_hint"><value> ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ</value></text>
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
-					<text id="q_age_text"><value>ሕቶ 105 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
+					<text id="q_age_text"><value>ሕቶ 106 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
 					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
-					
-					<text id="q_username_text"><value>TODO: translate: Q106. Enter user's name</value></text>
-					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
 
 					<text id="q_firstvisit_text"><value>TODO: translate: Q107. Is this the first time you have seen this mother in relation to this preganancy?</value></text>
 					
@@ -434,7 +436,7 @@
 					
 					<text id="q_tetanus_text"><value>?ሕቶ306፡ ናይ ቴታነስ ክታበት ካርዲ ብምፍታሽ ኣዶ ኣየናይ ብርኪ ቲቲ (TT) ከምዝወሰደት ኣረጋግፂ፡፡</value></text>
 					<text id="q_tetanus_hint"><value>ሎሚዓንቲ ዝተውሃባ መጠን ይጠቓለል</value></text>
-					<text id="q_tetanus_nocard"><value>TODO: translate: Card not available</value></text>
+					<text id="q_tetanus_nocard"><value>TODO: translate: Card not available or dates not known</value></text>
 					<text id="q_tetanus_none"><value>ኣይወሰደትን</value></text>
 					<text id="q_tetanus_tt1"><value>ቲቲ 1 ጥራሕ</value></text>
 					<text id="q_tetanus_tt2"><value>ቲቲ 1ን ቲቲ 2ን</value></text>
@@ -518,7 +520,8 @@
 					<text id="q_location_healthcentre"><value>ጥዕና ጣብያ</value></text>
 					<text id="q_location_home"><value>ኣብ ናይ ተጠቃሚት ግልጋሎት ጥዕና ገዛ</value></text>
 					<text id="q_location_other"><value>ኣብ ካልእ</value></text>
-					<text id="q_gpsdata_text"><value>ሕቶ 504 ፡ ክትትል ክንክን ቅድመ ወሊድ ዝተኻየደሉ ቦታ ንምምልካት ናይ ጂ.ፕ.ኤስ (GPS) ሓበሬታ ውሰዲ </value></text>
+					<text id="q_visitdate_text"><value>TODO: translate: Q504. Please enter the date of this visit</value></text>
+					<text id="q_gpsdata_text"><value>ሕቶ 505 ፡ ክትትል ክንክን ቅድመ ወሊድ ዝተኻየደሉ ቦታ ንምምልካት ናይ ጂ.ፕ.ኤስ (GPS) ሓበሬታ ውሰዲ </value></text>
 					<text id="infohealthcenterapp_text"><value>እታ ኣዶ ናይ ላበራቶሪ ምርመራ ንክትገብርን ምስ መዋልዳን ንክትመኻኸርን ናብ ጥዕና ጣብያ እትኸደሉ ቆፀሮ ንኽትሕዝ ግለፅላ። ኣብ ናይ ሐዚ ክትትልኪ እታ ኣደ ካብ ዓቕሚኺ ንላዕሊ ዝኾነ ሕማም ወይድማ ናይ ሓደጋ ምልክታት እንተሃሊየምዋ እቲ ናብ ጥዕና ጣብያ እትኸደሉ ግዜ ብቕልጡፍ ክኸውን ከምዘለዎ ኣገንዝብያ።</value></text>
 					<text id="infoendsession_text"><value>እታ ኣዶ ንዝገበረትልኪ ምትሕብባር ኣመስጊንኪ ናይ ሎሚ ክትትልኪ ፈፅሚ።</value></text>
 				
@@ -538,9 +541,10 @@
 					<infoconsent/>
 					<q_healthpointid/>
 					<q_userid/>
+					<q_username/>
 					<q_yearofbirth/>
 					<q_age/>
-					<q_username/>
+					
 					<q_firstvisit/>
 					<infosection2/>
 					<q_abdominalpain/>
@@ -627,7 +631,7 @@
 					<infoappointment/>
 					<q_appointmentdate/>
 					<q_idcard/>
-
+					<q_visitdate/>
 					<q_location/>
 					<q_gpsdata/>
 					<infohealthcenterapp/>
@@ -647,11 +651,11 @@
 
 			<bind id="q_healthpointid" nodeset="/data/q_healthpointid" required="true()" type="integer"/>
 			<bind id="q_userid" nodeset="/data/q_userid" required="true()" type="integer" constraint=". &gt; 0"  jr:constraintMsg="jr:itext('q_userid_constraint')"/>
+			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 			<bind id="q_yearofbirth" nodeset="/data/q_yearofbirth" required="true()" type="integer" constraint=". &gt; 1900" jr:constraintMsg="jr:itext('q_yearofbirth_constraint')"/>
 			<!-- Constraint on age checks that the value given is roughly consistent with the (Ethiopian calendar) year of birth entered  - within around 3 years either way -->
 			<bind id="q_age" nodeset="/data/q_age" required="true()" type="integer" constraint="((now() div 365.25) - (/data/q_yearofbirth -1962)) &lt; (. + 4) and ((now() div 365.25) - (/data/q_yearofbirth -1962)) &gt; (. - 3)" jr:constraintMsg="jr:itext('q_age_constraint')" />
 			
-			<bind id="q_username" nodeset="/data/q_username" required="true()" type="string" />
 			<bind id="q_firstvisit" nodeset="/data/q_firstvisit" required="true()" type="string" />
 			
 			<bind id="infosectionpreg" nodeset="/data/infosectionpreg" readonly="true()" type="string"/>
@@ -781,7 +785,7 @@
 			<bind id="infoappointment" nodeset="/data/infoappointment" calculate="date(/data/q_lmp)" type="date" required="true()" readonly="true()"/>
 			<bind id="q_appointmentdate" nodeset="/data/q_appointmentdate" type="date" required="true()" relevant="((now()-/data/q_lmp) &gt; 0) and ((now()-/data/q_lmp) &lt; 252)"/>
 			<bind id="q_idcard" nodeset="/data/q_idcard" required="true()" type="select1"/>
-
+			<bind id="q_visitdate" nodeset="/data/q_visitdate" type="date" required="true()"/>
 			<bind id="q_location" nodeset="/data/q_location" type="select1" required="true()"/>
 			<bind id="q_gpsdata" nodeset="/data/q_gpsdata" type="geopoint" format="gps"
 				relevant="not(selected(/data/q_location,'healthpost')) and not(selected(/data/q_location,'healthcentre'))"/>
@@ -821,6 +825,10 @@
 		<input bind="q_userid">
 			<label ref="jr:itext('q_userid_text')"/>
 		</input>
+		<input bind="q_username">
+			<label ref="jr:itext('q_username_text')"/>
+			<hint ref="jr:itext('q_username_hint')"/>
+		</input>
 		<input bind="q_yearofbirth">
 			<label ref="jr:itext('q_yearofbirth_text')"/>
 			<hint ref="jr:itext('q_yearofbirth_hint')"/>
@@ -828,10 +836,7 @@
 		<input bind="q_age">
 			<label ref="jr:itext('q_age_text')"/>
 		</input>
-		<input bind="q_username">
-			<label ref="jr:itext('q_username_text')"/>
-			<hint ref="jr:itext('q_username_hint')"/>
-		</input>
+		
 		<select1 bind="q_firstvisit">
 			<label ref="jr:itext('q_firstvisit_text')"/>
 			<item><label ref="jr:itext('yes')"/><value>yes</value></item>
@@ -1240,6 +1245,7 @@
 			<item><label ref="jr:itext('q_idcard_yes')"/><value>yes</value></item>
 			<item><label ref="jr:itext('q_idcard_notavail')"/><value>notavail</value></item>
 		</select1>
+		
 		<select1 bind="q_location">
 			<label ref="jr:itext('q_location_text')"/>
 			<item><label ref="jr:itext('q_location_healthpost')"/><value>healthpost</value></item>
@@ -1247,6 +1253,9 @@
 			<item><label ref="jr:itext('q_location_home')"/><value>home</value></item>
 			<item><label ref="jr:itext('q_location_other')"/><value>other</value></item>
 		</select1>
+		<input bind="q_visitdate" appearance="ethiopicDate">
+			<label ref="jr:itext('q_visitdate_text')"/>
+		</input>
 		<input bind="q_gpsdata">
 			<label ref="jr:itext('q_gpsdata_text')"/>
 		</input>
