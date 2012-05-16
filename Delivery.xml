@@ -27,6 +27,7 @@
 					<text id="notavail"><value>Not available</value></text>
 					<text id="notreq"><value>Not required</value></text>
 					<text id="constraint_greaterthanzero"><value>Please enter a number greater than 0</value></text>
+					<text id="nottaken"><value>Enter 0 if measurement not taken</value></text>
 					
 					<text id="q_consent_text"><value>Q101. Do you give me your consent to use phone for interview?</value></text>
 					<text id="infoconsent_text"><value>Put phone down and provide care as normal</value></text>
@@ -199,8 +200,10 @@
 					
 					<text id="infosection5_text"><value>Immediate postdelivery newborn health status (first 6 hours)</value></text>
 					<text id="q_gestationalage_text"><value>Q501. What was the newborn's gestational age?</value></text>
-					<text id="q_gestationalage_term"><value>Term (&gt;= 37 weeks)</value></text>
+					<text id="q_gestationalage_term"><value>Term (between 37 and 42 weeks)</value></text>
 					<text id="q_gestationalage_preterm"><value>Preterm (&lt; 37 weeks)</value></text>
+					<text id="q_gestationalage_postterm"><value>Postterm (&gt; 42 weeks)</value></text>
+					
 					<text id="q_nobabies_text"><value>How many babies were delivered?</value></text>
 					
 					<text id="q_deliveries_text"><value>Babies delivered</value></text>
@@ -273,7 +276,7 @@
 					<text id="q_ttceyeointment_text"><value>Q509. Has TTC eye ointment been given?</value></text>
 					<text id="q_bcgimmuno_text"><value>Q510. Has BCG  immunization been given?</value></text>
 					<text id="q_polio0immuno_text"><value>Q511. Has Polio 0 immunization (first dose) been given?</value></text>
-					<text id="infoimmunocard_text"><value>Please write the immunizations given in the newborn's card</value></text>
+					<text id="infoimmunocard_text"><value>Please write the immunizations given in the newborn's immunization card</value></text>
 					<text id="q_vitamink_text"><value>Q512. Has Vitamin K been given?</value></text>
 					<text id="q_babymombond_text"><value>Q513. Is there a good baby mother bonding (hugging or body attachment for warming)?</value></text>
 					<text id="q_babybreathing_text"><value>Q514. How is the baby breathing?</value></text>
@@ -309,6 +312,7 @@
 					<text id="notavail"><value>የለን</value></text>
 					<text id="notreq"><value>ኣየድልን</value></text>
 					<text id="constraint_greaterthanzero"><value>ካብ 0 ንላዕሊ ዝኾነ ቁፅሪ ኣእትው</value></text>
+					<text id="nottaken"><value>TODO: translate: Enter 0 if measurement not taken</value></text>
 					
 					<text id="q_consent_text"><value>ሕቶ 101፡ እዛ ተንቀሳቓሲት ስልኪ ንቓለ መሕትት ንክጥቀመላ ፍቓደኛ ዲኺ?</value></text>
 					<text id="infoconsent_text"><value>ተጠቃሚት ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኮይና ፣እታ ተንቀሳቓሲት ስልኪ ኣቕሚጥኪ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቐት ሃቢያ፡፡</value></text>
@@ -482,9 +486,11 @@
 					<text id="q_arvmom_notknown"><value>ኩነታት  ኤች.ኣይ.ቪ  ኣዶ ኣይፍለጥን </value></text>
 					
 					<text id="infosection5_text"><value>ድሕሪ ወሊድ ኣብ ውሽጢ 6 ሰዓታት ዝነበረ ኩነታት ጥዕና ህፃን</value></text>
-					<text id="q_gestationalage_text"><value>ሕቶ501፡ እቲ ህፃን ኣብ ክንደይ ዕድመ ጥንሲ (ብሰሙናት) 'ዩ ተወሊዱ?</value></text>
-					<text id="q_gestationalage_term"><value>ኣብ ግዚኡ (=&gt;37 ሰሙናት) </value></text>
+					<text id="q_gestationalage_text"><value>ሕቶ501፡ እቲ ህፃን ኣብ ክንደይ ዕድመ ጥንሲ (ብሰሙናት) 'ዩ ተወሊዱ?</value></text>					
+					<text id="q_gestationalage_term"><value>TODO: translate: Term (between 37 and 42 weeks)</value></text>
 					<text id="q_gestationalage_preterm"><value>ቅድሚ ግዚኡ (&lt; 37 ሰሙናት) </value></text>
+					<text id="q_gestationalage_postterm"><value>TODO: translate: Postterm (&gt; 42 weeks)</value></text>
+					
 					<text id="q_nobabies_text"><value>TODO: translate: How many babies were delivered?</value></text>
 					
 					<text id="q_deliveries_text"><value>ዝተወለዱ ህፃናት</value></text>
@@ -556,7 +562,7 @@
 					<text id="q_ttceyeointment_text"><value>ሕቶ509፡ ነቲ ህፃን ቲቲሲ (TTC) ናይ ዓይኒ መድሓኒት ተዋሂብዎ 'ዶ?</value></text>
 					<text id="q_bcgimmuno_text"><value>ሕቶ510፡ ነቲ ህፃን ቢሲጂ (BCG) ክታበት ተዋሂብዎ 'ዶ?</value></text>
 					<text id="q_polio0immuno_text"><value>ሕቶ511፡ ነቲ ህፃን ፖሊዮ 0 (1ይ መጠን) ክታበት ተዋሂብዎ 'ዶ?</value></text>
-					<text id="infoimmunocard_text"><value>እቲ ህፃን ዝወሰዶም ዓይነት ክታበታት ኣብ ካርዱ ይፀሓፉ</value></text>
+					<text id="infoimmunocard_text"><value>TODO: translate: Please write the immunizations given in the newborn's immunization card</value></text>
 					<text id="q_vitamink_text"><value>ሕቶ512፡ ነቲ ህፃን ቫይታሚን ከይ (Vit-K) ተዋሂብዎ 'ዶ?</value></text>
 					<text id="q_babymombond_text"><value>ሕቶ513፡ ኣብ መንጎ ህፃንን ኣዶን ዝጠበቐ ርክብ (ምቖት ንምርካብ ምሕቓፍ) ኣሎ 'ዶ?</value></text>
 					<text id="q_babybreathing_text"><value>ሕቶ514፡ ናይቲ ህፃን ኣተነፋፍሳ ኩነታት ከመይ 'ዩ?</value></text>
@@ -1086,6 +1092,7 @@
 			<label ref="jr:itext('q_gestationalage_text')"/>
 			<item><label ref="jr:itext('q_gestationalage_term')"/><value>term</value></item>
 			<item><label ref="jr:itext('q_gestationalage_preterm')"/><value>preterm</value></item>
+			<item><label ref="jr:itext('q_gestationalage_postterm')"/><value>postterm</value></item>
 		</select1>
 		<input ref="/data/q_nobabies">
 			<label ref="jr:itext('q_nobabies_text')"/>
@@ -1187,6 +1194,7 @@
 				</input>
 				<input bind="q_newbornhead">
 					<label ref="jr:itext('q_newbornhead_text')"/>
+					<hint ref="jr:itext('nottaken')"/>
 				</input>
 				<select1 bind="q_ttceyeointment">
 					<label ref="jr:itext('q_ttceyeointment_text')"/>

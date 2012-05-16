@@ -593,6 +593,8 @@
 			<item><label ref="jr:itext('q_subkebele_100901')"/><value>100901</value></item>
 			<item><label ref="jr:itext('q_subkebele_100902')"/><value>100902</value></item>
 			<item><label ref="jr:itext('q_subkebele_100903')"/><value>100903</value></item>
+			
+			<item><label ref="jr:itext('q_subkebele_000000')"/><value>000000</value></item>
 		</select1>
 		
 	

@@ -28,6 +28,7 @@
 					<text id="constraint_inpast"><value>The date entered must be in the past</value></text>
 					<text id="constraint_infuture"><value>The date entered must be in the future</value></text>
 					<text id="constraint_greaterthanzero"><value>Please enter a number greater than 0</value></text>
+					<text id="nottaken"><value>Enter 0 if measurement not taken</value></text>
 					
 					<text id="infoprotocol_text"><value>If this is the first time the women has been seen, please complete a registration protocol first</value></text>
 					<text id="q_consent_text"><value>Q101. Do you give me your consent to use phone for interview?</value></text>
@@ -120,6 +121,7 @@
 					<text id="q_lochiacolour_serosa"><value>Pink-brownish (lochia serosa)</value></text>
 					<text id="q_lochiacolour_alba"><value>White (lochia alba)</value></text>
 					<text id="q_lochiacolour_none"><value>None</value></text>
+					<text id="q_lochiacolour_notclear"><value>Not clear to me</value></text>
 					
 					<text id="q_lochiaamount_text"><value>Q303. What is the lochia or vaginal discharge amount?</value></text>
 					<text id="q_lochiaamount_excess"><value>Excess</value></text>
@@ -272,7 +274,8 @@
 					<text id="constraint_infuture"><value>ዝሰፍር ዕለት ናይ መፃኢ ክኸውን ኣለዎ</value></text>
 					<text id="constraint_greaterthanzero"><value>ዝሰፍር ቁፅሪ ካብ 0 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					<text id="infoprotocol_text"><value>እዚ ዑደት እዚ ኣዶ ንመጀመርያ ግዘ እትረኣየሉ እንተኾይኑ፣ ቅድሚ እዚ ናይ መመዝገቢ ቕጥዒ ይመላእ </value></text>
-
+					<text id="nottaken"><value>TODO: translate: Enter 0 if measurement not taken</value></text>
+					
 					<text id="q_consent_text"><value>ሕቶ 101፡ እዛ ተንቀሳቓሲት ስልኪ ንቓለ መሕትት ንክጥቀመላ ፍቓደኛ ዲኺ?</value></text>
 					<text id="infoconsent_text"><value>ተጠቃሚት ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኮይና ፣እታ ተንቀሳቓሲት ስልኪ ኣቕሚጥኪ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቐት ሃቢያ፡፡</value></text>
 					<text id="q_healthpointid_text"><value>ተገልጋሊት ጥዕና ዝተመዝገበትሉ ትካል ኣበይ'ዩ?</value></text>
@@ -363,6 +366,7 @@
 					<text id="q_lochiacolour_serosa"><value>ሃምራዊ (ፒንክ)</value></text>
 					<text id="q_lochiacolour_alba"><value>ፃዕዳ</value></text>
 					<text id="q_lochiacolour_none"><value>ምንም ፈሳሲ ኣይወፃን</value></text>
+					<text id="q_lochiacolour_notclear"><value>TODO: translate: Not clear to me</value></text>
 					
 					<text id="q_lochiaamount_text"><value>ሕቶ303፡ ድሕሪ ወሊድ ብማህፀን ናይ ዝፈስስ ፈሳሲ መጠን ክንደይ ይኣክል</value></text>
 					<text id="q_lochiaamount_excess"><value>ብዙሕ</value></text>
@@ -827,6 +831,7 @@
 			<item><label ref="jr:itext('q_lochiacolour_serosa')"/><value>serosa</value></item>
 			<item><label ref="jr:itext('q_lochiacolour_alba')"/><value>alba</value></item>
 			<item><label ref="jr:itext('q_lochiacolour_none')"/><value>none</value></item>
+			<item><label ref="jr:itext('q_lochiacolour_notclear')"/><value>notclear</value></item>
 		</select1>
 		<select1 bind="q_lochiaamount">
 			<label ref="jr:itext('q_lochiaamount_text')"/>
@@ -984,12 +989,15 @@
 				</select1>
 				<input bind="q_newbornweight">
 					<label ref="jr:itext('q_newbornweight_text')"/>
+					<hint ref="jr:itext('nottaken')"/>
 				</input>
 				<input bind="q_newbornheight">
 					<label ref="jr:itext('q_newbornheight_text')"/>
+					<hint ref="jr:itext('nottaken')"/>
 				</input>
 				<input bind="q_newbornheadcircum">
 					<label ref="jr:itext('q_newbornheadcircum_text')"/>
+					<hint ref="jr:itext('nottaken')"/>
 				</input>
 				<select1 bind="q_cordcondition">
 					<label ref="jr:itext('q_cordcondition_text')"/>
