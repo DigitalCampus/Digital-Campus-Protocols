@@ -47,10 +47,10 @@
 					<text id="q_healthpointid_70001"><value>Ayder Referal Hospital</value></text>
 					
 					<text id="q_subkebele_text"><value>Q103. Please select the users tabia (sub-kebele)</value></text>
-					<text id="q_subkebele_100000"><value>Mesanu - Kilteawelaelo:</value></text>
-					<text id="q_subkebele_100001"><value>Mesanu - Kilteawelaelo:</value></text>
-					<text id="q_subkebele_100002"><value>Mesanu - Kilteawelaelo: </value></text>
-					<text id="q_subkebele_100003"><value>Mesanu - Kilteawelaelo: </value></text>
+					<text id="q_subkebele_100000"><value>Mesanu - Kilteawelaelo: Addis Alem</value></text>
+					<text id="q_subkebele_100001"><value>Mesanu - Kilteawelaelo: Adenguar</value></text>
+					<text id="q_subkebele_100002"><value>Mesanu - Kilteawelaelo: Birki</value></text>
+					<text id="q_subkebele_100003"><value>Mesanu - Kilteawelaelo: Laelay Agulae</value></text>
 					
 					<text id="q_subkebele_100100"><value>Ayanlem: Adi weroma</value></text>
 					<text id="q_subkebele_100101"><value>Ayanlem: Maytewaru</value></text>
@@ -249,10 +249,10 @@
 					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
 					
 					<text id="q_subkebele_text"><value>TODO: Translate: Q103. Please select the patients tabia (sub-kebele)</value></text>
-					<text id="q_subkebele_100000"><value>መሳኑ ክልተኣወላዕሎ:</value></text>
-					<text id="q_subkebele_100001"><value>መሳኑ ክልተኣወላዕሎ:</value></text>
-					<text id="q_subkebele_100002"><value>መሳኑ ክልተኣወላዕሎ: </value></text>
-					<text id="q_subkebele_100003"><value>መሳኑ ክልተኣወላዕሎ: </value></text>
+					<text id="q_subkebele_100000"><value>መሳኑ ክልተኣወላዕሎ: ኣዲስ ኣለም</value></text>
+					<text id="q_subkebele_100001"><value>መሳኑ ክልተኣወላዕሎ: ኣደንጓር</value></text>
+					<text id="q_subkebele_100002"><value>መሳኑ ክልተኣወላዕሎ: ብርኪ</value></text>
+					<text id="q_subkebele_100003"><value>መሳኑ ክልተኣወላዕሎ: ላዕላይ ኣጉላዕ</value></text>
 					
 					<text id="q_subkebele_100100"><value>ኣይናለም: ዓዲ ወሮማ</value></text>
 					<text id="q_subkebele_100101"><value>ኣይናለም: ማይ ትዋሩ</value></text>

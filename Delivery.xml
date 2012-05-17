@@ -240,7 +240,7 @@
 					<text id="q_apgar1min_colour_1:label"><value>Blue extremities</value></text>
 					<text id="q_apgar1min_colour_2:label"><value>Completely pink</value></text>
 					
-					<text id="q_apgar1min_text"><value>APGAR score at 1st minute:</value></text>
+					<text id="q_apgar1min_text"><value>APGAR score at 1st minute: <output value="/data/q_deliveries/q_apgar1min_result"/></value></text>
 					
 					<text id="q_apgar5min_group:label"><value>APGAR score: 5 minutes</value></text>
 					<text id="q_apgar5min_heart:label"><value>Q505a. Heart Rate</value></text>
@@ -268,7 +268,7 @@
 					<text id="q_apgar5min_colour_1:label"><value>Blue extremities</value></text>
 					<text id="q_apgar5min_colour_2:label"><value>Completely pink</value></text>
 					
-					<text id="q_apgar5min_text"><value>APGAR score at 5 minutes:</value></text>
+					<text id="q_apgar5min_text"><value>APGAR score at 5 minutes: <output value="/data/q_deliveries/q_apgar5min_result"/></value></text>
 					
 					<text id="q_newbornresuscitation_text"><value>Q506. Did the newborn need to be resuscitated?</value></text>
 					<text id="q_newbornweight_text"><value>Q507. Enter newborn's weight (grams)</value></text>
@@ -526,7 +526,7 @@
 					<text id="q_apgar1min_colour_1:label"><value>TODO: translate</value></text>
 					<text id="q_apgar1min_colour_2:label"><value>TODO: translate</value></text>
 					
-					<text id="q_apgar1min_text"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_text"><value>TODO: translate: <output value="/data/q_deliveries/q_apgar1min_result"/></value></text>
 					
 					<text id="q_apgar5min_group:label"><value>TODO: translate</value></text>
 					<text id="q_apgar5min_heart:label"><value>TODO: translate</value></text>
@@ -554,7 +554,7 @@
 					<text id="q_apgar5min_colour_1:label"><value>TODO: translate</value></text>
 					<text id="q_apgar5min_colour_2:label"><value>TODO: translate</value></text>
 					
-					<text id="q_apgar5min_text"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_text"><value>TODO: translate: <output value="/data/q_deliveries/q_apgar5min_result"/></value></text>
 					
 					<text id="q_newbornresuscitation_text"><value>ሕቶ506፡ እቲ ህፃን ዝጠበቐ (ናብ ጥዑይ ክሳብ ዝምለስ) ክንክን የድልዮ 'ዶ ነይሩ?</value></text>
 					<text id="q_newbornweight_text"><value>ሕቶ507. ናይቲ ህፃን ክብደት (ብግራም) መዝግቢ  </value></text>
@@ -775,7 +775,7 @@
 				<bind id="q_apgar1min_muscle" nodeset="/data/q_deliveries/q_apgar1min_muscle" required="true()" type="select1"/>
 				<bind id="q_apgar1min_reflex" nodeset="/data/q_deliveries/q_apgar1min_reflex" required="true()" type="select1"/>
 				<bind id="q_apgar1min_colour" nodeset="/data/q_deliveries/q_apgar1min_colour" required="true()" type="select1"/>
-				<bind id="q_apgar1min_result" nodeset="/data/q_deliveries/q_apgar1min" calculate="/data/q_deliveries/q_apgar1min_heart + 
+				<bind id="q_apgar1min_result" nodeset="/data/q_deliveries/q_apgar1min_result" calculate="/data/q_deliveries/q_apgar1min_heart + 
 																								/data/q_deliveries/q_apgar1min_breathing +
 																								/data/q_deliveries/q_apgar1min_muscle +
 																								/data/q_deliveries/q_apgar1min_reflex + 
@@ -787,7 +787,7 @@
 				<bind id="q_apgar5min_muscle" nodeset="/data/q_deliveries/q_apgar5min_muscle" required="true()" type="select1"/>
 				<bind id="q_apgar5min_reflex" nodeset="/data/q_deliveries/q_apgar5min_reflex" required="true()" type="select1"/>
 				<bind id="q_apgar5min_colour" nodeset="/data/q_deliveries/q_apgar5min_colour" required="true()" type="select1"/>
-				<bind id="q_apgar5min_result" nodeset="/data/q_deliveries/q_apgar5min" calculate="/data/q_deliveries/q_apgar5min_heart + 
+				<bind id="q_apgar5min_result" nodeset="/data/q_deliveries/q_apgar5min_result" calculate="/data/q_deliveries/q_apgar5min_heart + 
 																								/data/q_deliveries/q_apgar5min_breathing +
 																								/data/q_deliveries/q_apgar5min_muscle +
 																								/data/q_deliveries/q_apgar5min_reflex + 
