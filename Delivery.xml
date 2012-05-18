@@ -566,10 +566,10 @@
 					<text id="q_vitamink_text"><value>ሕቶ512፡ ነቲ ህፃን ቫይታሚን ከይ (Vit-K) ተዋሂብዎ 'ዶ?</value></text>
 					<text id="q_babymombond_text"><value>ሕቶ513፡ ኣብ መንጎ ህፃንን ኣዶን ዝጠበቐ ርክብ (ምቖት ንምርካብ ምሕቓፍ) ኣሎ 'ዶ?</value></text>
 					<text id="q_babybreathing_text"><value>ሕቶ514፡ ናይቲ ህፃን ኣተነፋፍሳ ኩነታት ከመይ 'ዩ?</value></text>
-					<text id="q_babybreathing_less60"><value>TODO: translate</value></text>
+					<text id="q_babybreathing_less60"><value>ትሕቲ 60 ትንፋሽ/ደቒቓ </value></text>
 					<text id="q_babybreathing_more60"><value>ልዕሊ 60 ምትንፋስ ኣብ ደቒቓ</value></text>
-					<text id="q_newbornhiv_text"><value>TODO: translate</value></text>
-					<text id="q_newbornhiv_hint"><value>TODO: translate</value></text>
+					<text id="q_newbornhiv_text"><value>ሕ515፡ ህፃን ምርመራ ኤች. ኣይ.ቪ ተኻይዱሉ 'ዶ? </value></text>
+					<text id="q_newbornhiv_hint"><value>እዚ ምርመራ ዝካየድ ኣዶ ህፃን ኣብ ደማ  ኤች.ኣይ.ቪ እንተሃሊይዋ ጥራሕ እዩ</value></text>
 					<text id="q_arvnewbornhiv_text"><value>ሕቶ516፡ እንድሕር ኣዶ እቲ ህፃን ኤች.ኣይ.ቪ ኣለዋ፣ ነቲ ህፃን ፀረ- ኤች.ኣይ.ቪ መድሓኒት ተዋሂብዎ 'ዶ? </value></text>
 					<text id="q_arvnewbornhiv_hivnegative"><value>ኣዶ ኤች.ኣይ.ቪ የብላን </value></text>
 					<text id="q_arvnewbornhiv_notknown"><value>ኩነታት ኤች.ኣይ.ቪ ኣዶ ኣይፍለጥን</value></text>
