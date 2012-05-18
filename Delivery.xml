@@ -312,14 +312,14 @@
 					<text id="notavail"><value>የለን</value></text>
 					<text id="notreq"><value>ኣየድልን</value></text>
 					<text id="constraint_greaterthanzero"><value>ካብ 0 ንላዕሊ ዝኾነ ቁፅሪ ኣእትው</value></text>
-					<text id="nottaken"><value>TODO: translate: Enter 0 if measurement not taken</value></text>
+					<text id="nottaken"><value>ዓቐን እንተዘይተወሲዱ 0 ይፀሓፍ</value></text>
 					
 					<text id="q_consent_text"><value>ሕቶ 101፡ እዛ ተንቀሳቓሲት ስልኪ ንቓለ መሕትት ንክጥቀመላ ፍቓደኛ ዲኺ?</value></text>
 					<text id="infoconsent_text"><value>ተጠቃሚት ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኮይና ፣እታ ተንቀሳቓሲት ስልኪ ኣቕሚጥኪ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቐት ሃቢያ፡፡</value></text>
 					
 					<text id="q_healthpointid_text"><value>ሕቶ102 ፡ እትሰርሕሉ ጥዕና ኬላ/ ጣብያ መዝግቢ</value></text>
 					<text id="q_healthpointid_9999"><value>ልምምድ</value></text>
-					<text id="q_healthpointid_1006"><value>TODO: translate: Arasegeda health post</value></text>
+					<text id="q_healthpointid_1006"><value>ዓራሰገዳ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1009"><value>ፍረወይኒ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1002"><value>ገማድ  ጥዕና ኬላ</value></text>
@@ -327,24 +327,24 @@
 					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1008"><value>መሳኑ (ሕንጣሎ ዋጅራት) ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1000"><value>መሳኑ (ክልተ ኣውላዕሎ) ጥዕና ኬላ</value></text>
-					<text id="q_healthpointid_1003"><value>TODO: translate: Adiekli health post</value></text>
+					<text id="q_healthpointid_1003"><value>ዓዲእኽሊ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_50001"><value>ኣብርሃ ወኣፅባሃ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያ</value></text>
-					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
+					<text id="q_healthpointid_70001"><value>ዓይደር ሪፈራል ሆስፒታል </value></text>
 					
 					<text id="q_userid_text"><value>ሕቶ103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ </value></text>
 					<text id="q_userid_constraint"><value>ካብ 0 ንላዕሊ ክኸውን ኣለዎ</value></text>
-					<text id="q_username_text"><value>TODO: translate: Q104. Enter user's name</value></text>
-					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					<text id="q_username_text"><value>ሕ104፡ ሽም ተጠቃሚ</value></text>
+					<text id="q_username_hint"><value>ብትግርኛ ይፀሓፍ</value></text>
 					<text id="q_yearofbirth_text"><value>ሕቶ 104 ፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ።</value></text>
 					<text id="q_yearofbirth_hint"><value>ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ</value></text>
 					<text id="q_yearofbirth_constraint"><value>ካብ 1900 ዓ/ም ንላዕሊ ክኸውን ኣለዎ</value></text>
 					<text id="q_age_text"><value>ሕቶ 106 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
-					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
+					<text id="q_age_constraint"><value>ዕድመ ምስ ትውልዲ ዓ/ም ኣይጠዓዓምን </value></text>
 					
 					
 					<text id="infosection2_text"><value>ናይ ሕርሲ መረዳእታ</value></text>
@@ -402,13 +402,13 @@
 					<text id="q_maternaldeath_text"><value>ሕቶ304፡ ሞት ኤደ ኣጋጢሙ 'ድዩ? </value></text>
 					
 					<text id="q_deliverydate_text"><value>ሕቶ305፡ እዚ ወሊድ ዝተኻየደሉ መዓልቲ ፀሓፊ፡፡</value></text>
-					<text id="q_deliverydate_constraint"><value>TODO: translate: Delivery date cannot be in the future</value></text>
+					<text id="q_deliverydate_constraint"><value>ወሊድ መዓልቲ ናይ መፃኢ ዕለት ክኸውን ኣይኽእልን </value></text>
 					
-					<text id="q_deliverytime_text"><value>TODO: translate: Q306. Select the approximate time of delivery</value></text>
-					<text id="q_deliverytime_morning"><value>TODO: translate: Morning</value></text>
-					<text id="q_deliverytime_afternoon"><value>TODO: translate: Afternoon</value></text>
-					<text id="q_deliverytime_evening"><value>TODO: translate: Evening</value></text>
-					<text id="q_deliverytime_night"><value>TODO: translate: Night</value></text>
+					<text id="q_deliverytime_text"><value>ተቐራራቢ ናይ ወሊድ መዓልቲ ይፀሓፍ </value></text>
+					<text id="q_deliverytime_morning"><value>ንጉሆ </value></text>
+					<text id="q_deliverytime_afternoon"><value>ድሕሪ ሰዓት </value></text>
+					<text id="q_deliverytime_evening"><value>ምሸት </value></text>
+					<text id="q_deliverytime_night"><value>ለይቲ </value></text>
 					
 					<text id="q_whoattended_text"><value>ሕቶ307፡ እታ ኣዶ ንክትወልድ ብሞያ ዝሓገዛ መን 'ዩ/ያ፡፡</value></text>
 					<text id="q_whoattended_midwife"><value>መዋለዳን </value></text>
@@ -470,9 +470,9 @@
 					<text id="q_anemia_text"><value>ሕቶ404፡ እታ ኣዶ ናይ ዋሕዲ ደም ምልክት (ካብ ዝተለመደ ምፅዕዳው) ኣለዋ 'ዶ?</value></text>
 					
 					<text id="q_systolicbp_text"><value>ሕቶ405፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
-					<text id="q_systolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
+					<text id="q_systolicbp_hint"><value>ግልጋሎት መውሃቢ መሳርሒኺ እንድሕር ዘይሰርሕ 0 ይፀሓፍ </value></text>
 					<text id="q_diastolicbp_text"><value>ሕቶ 406፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
-					<text id="q_diastolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
+					<text id="q_diastolicbp_hint"><value>ግልጋሎት መውሃቢ መሳርሒኺ እንድሕር ዘይሰርሕ 0 ይፀሓፍ </value></text>
 					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም &gt;140/&lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም &gt;90/&lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					
 					<text id="q_breastfeeding_text"><value>ሕቶ407፡ እታ ኣዶ ድሕሪ ወሊድ ሽዑ ንሽዑ ምጥባው ጡብ ክትጅምር ከምዘለዋ ምኽሪ ተዋሂብዋ 'ዶ?</value></text>
@@ -487,11 +487,11 @@
 					
 					<text id="infosection5_text"><value>ድሕሪ ወሊድ ኣብ ውሽጢ 6 ሰዓታት ዝነበረ ኩነታት ጥዕና ህፃን</value></text>
 					<text id="q_gestationalage_text"><value>ሕቶ501፡ እቲ ህፃን ኣብ ክንደይ ዕድመ ጥንሲ (ብሰሙናት) 'ዩ ተወሊዱ?</value></text>					
-					<text id="q_gestationalage_term"><value>TODO: translate: Term (between 37 and 42 weeks)</value></text>
+					<text id="q_gestationalage_term"><value>ስሩዕ ዕድመ ጥንሲ (37-42 ሰሙናት)</value></text>
 					<text id="q_gestationalage_preterm"><value>ቅድሚ ግዚኡ (&lt; 37 ሰሙናት) </value></text>
-					<text id="q_gestationalage_postterm"><value>TODO: translate: Postterm (&gt; 42 weeks)</value></text>
+					<text id="q_gestationalage_postterm"><value>ዝደንጎየ ዕድመ ጥንሲ (ልዕሊ 42 ሰሙናት)</value></text>
 					
-					<text id="q_nobabies_text"><value>TODO: translate: How many babies were delivered?</value></text>
+					<text id="q_nobabies_text"><value>ክንደይ ቆልዑ ተገላጊልኪ? </value></text>
 					
 					<text id="q_deliveries_text"><value>ዝተወለዱ ህፃናት</value></text>
 					<text id="q_livebirth_text"><value>ሕቶ502፡ እቲ ህፃን ብሂወት ድዩ ተወሊዱ?</value></text>
@@ -499,62 +499,62 @@
 					<text id="q_newbornsex_male"><value>ኣንስታይ</value></text>
 					<text id="q_newbornsex_female"><value>ተባዕታይ</value></text>
 					
-					<text id="q_apgar1min_group:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_group:label"><value>APGAR ዓቐን፡ 1ይ ደቒቓ </value></text>
+
+					<text id="q_apgar1min_heart:label"><value>ሕ504ሀ፡ ትርግታ ልቢ </value></text>
+					<text id="q_apgar1min_heart_0:label"><value>ኣይስማዕን </value></text>
+					<text id="q_apgar1min_heart_1:label"><value> ትሕቲ 100/ደቒቓ </value></text>
+					<text id="q_apgar1min_heart_2:label"><value>100/ደቒቓን ልዕሊኡን </value></text>
 					
-					<text id="q_apgar1min_heart:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_heart_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_heart_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_heart_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_breathing:label"><value>ሕ504ለ፡ ኣተነፋፍሳ </value></text>
+					<text id="q_apgar1min_breathing_0:label"><value>ኣየተንፍስን </value></text>
+					<text id="q_apgar1min_breathing_1:label"><value>ድኹም </value></text>
+					<text id="q_apgar1min_breathing_2:label"><value>ፅቡቕ፣ ይበክይ </value></text>
 					
-					<text id="q_apgar1min_breathing:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_breathing_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_breathing_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_breathing_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_muscle:label"><value>ሕቶ504ሐ፡ ምንቅስቓስ ጭዋደ</value></text>
+					<text id="q_apgar1min_muscle_0:label"><value>ኣይንቀሳቐስን</value></text>
+					<text id="q_apgar1min_muscle_1:label"><value>ቁሩብ ይንቀሳቀስ</value></text>
+					<text id="q_apgar1min_muscle_2:label"><value>ፅቡቐ ይንቀሳቐስ</value></text>
 					
-					<text id="q_apgar1min_muscle:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_muscle_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_muscle_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_muscle_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_reflex:label"><value>ሕ504መ፡ ግብረ-መልሲ</value></text>
+					<text id="q_apgar1min_reflex_0:label"><value>ግብረ-መልሲ የብሉን</value></text>
+					<text id="q_apgar1min_reflex_1:label"><value>ገፁ ይጨማደድ</value></text>
+					<text id="q_apgar1min_reflex_2:label"><value>ይስዕል/የሀንጥስ</value></text>
 					
-					<text id="q_apgar1min_reflex:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_reflex_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_reflex_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_reflex_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_colour:label"><value>ሕ504ረ፡ ሕብሪ ቆርበት</value></text>
+					<text id="q_apgar1min_colour_0:label"><value>መንጫሕ/ሰማያዊ</value></text>
+					<text id="q_apgar1min_colour_1:label"><value>መሓዉሩ ሰማያዊ</value></text>
+					<text id="q_apgar1min_colour_2:label"><value>ሙሉእ ብሙሉእ መንጫሕ</value></text>
 					
-					<text id="q_apgar1min_colour:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_colour_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_colour_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar1min_colour_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar1min_text"><value>APGAR ውፅኢት፡ ኣብ 1ይ ደቒቓ: <output value="/data/q_deliveries/q_apgar1min_result"/></value></text>
 					
-					<text id="q_apgar1min_text"><value>TODO: translate: <output value="/data/q_deliveries/q_apgar1min_result"/></value></text>
+					<text id="q_apgar5min_group:label"><value>APGAR ዓቐን: 5 ደቒቓ </value></text>
+					<text id="q_apgar5min_heart:label"><value>ሕ505ሀ፡ ትርግታ ልቢ</value></text>
+					<text id="q_apgar5min_heart_0:label"><value>ኣይስማዕን</value></text>
+					<text id="q_apgar5min_heart_1:label"><value>ትሕቲ 100/ደቒቓ </value></text>
+					<text id="q_apgar5min_heart_2:label"><value>100/ደቒቓን ልዕሊኡን </value></text>
 					
-					<text id="q_apgar5min_group:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_heart:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_heart_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_heart_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_heart_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_breathing:label"><value>ሕ505ለ፡ ኣተነፋፍሳ </value></text>
+					<text id="q_apgar5min_breathing_0:label"><value>ኣየተንፍስን </value></text>
+					<text id="q_apgar5min_breathing_1:label"><value>ድኹም </value></text>
+					<text id="q_apgar5min_breathing_2:label"><value>ፅቡቕ፣ ይበክይ </value></text>
 					
-					<text id="q_apgar5min_breathing:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_breathing_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_breathing_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_breathing_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_muscle:label"><value>ሕ505ሐ፡ ምንቅስቓስ ጭዋደ</value></text>
+					<text id="q_apgar5min_muscle_0:label"><value>ኣይንቀሳቐስን</value></text>
+					<text id="q_apgar5min_muscle_1:label"><value>ቁሩብ ይንቀሳቐስ</value></text>
+					<text id="q_apgar5min_muscle_2:label"><value>ፅቡቕ ይንቀሳቐስ</value></text>
 					
-					<text id="q_apgar5min_muscle:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_muscle_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_muscle_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_muscle_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_reflex:label"><value>ሕ505መ፡ ግብረ-መልሲ</value></text>
+					<text id="q_apgar5min_reflex_0:label"><value>ግብረ-መልሲ የብሉን</value></text>
+					<text id="q_apgar5min_reflex_1:label"><value>ገፁ ይጨማደድ</value></text>
+					<text id="q_apgar5min_reflex_2:label"><value>ይስዕል/የሀንጥስ</value></text>
 					
-					<text id="q_apgar5min_reflex:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_reflex_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_reflex_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_reflex_2:label"><value>TODO: translate</value></text>
+					<text id="q_apgar5min_colour:label"><value>ሕ505፡ ሕብሪ ቆርበት </value></text>
+					<text id="q_apgar5min_colour_0:label"><value>መንጫሕ/ሰማያዊ</value></text>
+					<text id="q_apgar5min_colour_1:label"><value>መሓውሩ ሰማያዊ</value></text>
+					<text id="q_apgar5min_colour_2:label"><value>ሙሉእ ብሙሉእ ሰማያዊ</value></text>
 					
-					<text id="q_apgar5min_colour:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_colour_0:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_colour_1:label"><value>TODO: translate</value></text>
-					<text id="q_apgar5min_colour_2:label"><value>TODO: translate</value></text>
-					
-					<text id="q_apgar5min_text"><value>TODO: translate: <output value="/data/q_deliveries/q_apgar5min_result"/></value></text>
+					<text id="q_apgar5min_text"><value>APGAR ውፅኢት፡ ኣብ 5ይ ደቒቓ : <output value="/data/q_deliveries/q_apgar5min_result"/></value></text>	
 					
 					<text id="q_newbornresuscitation_text"><value>ሕቶ506፡ እቲ ህፃን ዝጠበቐ (ናብ ጥዑይ ክሳብ ዝምለስ) ክንክን የድልዮ 'ዶ ነይሩ?</value></text>
 					<text id="q_newbornweight_text"><value>ሕቶ507. ናይቲ ህፃን ክብደት (ብግራም) መዝግቢ  </value></text>
@@ -562,7 +562,7 @@
 					<text id="q_ttceyeointment_text"><value>ሕቶ509፡ ነቲ ህፃን ቲቲሲ (TTC) ናይ ዓይኒ መድሓኒት ተዋሂብዎ 'ዶ?</value></text>
 					<text id="q_bcgimmuno_text"><value>ሕቶ510፡ ነቲ ህፃን ቢሲጂ (BCG) ክታበት ተዋሂብዎ 'ዶ?</value></text>
 					<text id="q_polio0immuno_text"><value>ሕቶ511፡ ነቲ ህፃን ፖሊዮ 0 (1ይ መጠን) ክታበት ተዋሂብዎ 'ዶ?</value></text>
-					<text id="infoimmunocard_text"><value>TODO: translate: Please write the immunizations given in the newborn's immunization card</value></text>
+					<text id="infoimmunocard_text"><value>ክታበት ካርዲ ብምርኣይ ህፃን ዝወሰዶም ዓይነት ክታበት ይፀሓፍ</value></text>
 					<text id="q_vitamink_text"><value>ሕቶ512፡ ነቲ ህፃን ቫይታሚን ከይ (Vit-K) ተዋሂብዎ 'ዶ?</value></text>
 					<text id="q_babymombond_text"><value>ሕቶ513፡ ኣብ መንጎ ህፃንን ኣዶን ዝጠበቐ ርክብ (ምቖት ንምርካብ ምሕቓፍ) ኣሎ 'ዶ?</value></text>
 					<text id="q_babybreathing_text"><value>ሕቶ514፡ ናይቲ ህፃን ኣተነፋፍሳ ኩነታት ከመይ 'ዩ?</value></text>
@@ -586,7 +586,7 @@
 					<text id="q_location_healthcentre"><value>ጥዕና ጣብያ</value></text>
 					<text id="q_location_home"><value>ኣብ ናይ ተሓካሚት ገዛ </value></text>
 					<text id="q_location_other"><value>ካልእ</value></text>
-					<text id="q_visitdate_text"><value>TODO: translate: Q604. Please enter the date of this visit</value></text>
+					<text id="q_visitdate_text"><value>ሕ604፡ ሎሚዓንቲ ክትትል ዝተኻየደሉ ዕለት ይፀሓፍ </value></text>
 					<text id="q_gpsdata_text"><value>ሕቶ 605፡ እዚ ናይ ሕክምና ኣገልግሎት ዝተኻየደሉ ቦታ ንምምልካት ናይ ጂ.ፕ.ኤስ (GPS) ሓበሬታ ውሰዲ</value></text>
 					<text id="infoendsession_text"><value>እታ ኣዶ ንዝገበረትልኪ ምትሕብባር ኣመስጊንኪ ናይ ሎሚ ፃንሒትኪ ፈፅሚ።</value></text>
 					

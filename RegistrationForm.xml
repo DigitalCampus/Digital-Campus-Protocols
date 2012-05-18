@@ -231,7 +231,7 @@
 					
 					<text id="q_healthpointid_text"><value>ሕቶ 102. እዚ ግልጋሎት ጥዕና ንተጠቃማይ ዝውሃበሉ ዘሎ ጥዕና ትካል(ጥዕና ኬላ ወይ ጥዕና ጣብያ) መዝግቢ/ብ።</value></text>
 					<text id="q_healthpointid_9999"><value>ልምምድ</value></text>
-					<text id="q_healthpointid_1006"><value>TODO: translate: Arasegeda health post</value></text>
+					<text id="q_healthpointid_1006"><value>ዓራሰገዳ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1009"><value>ፍረወይኒ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1002"><value>ገማድ ጥዕና ኬላ</value></text>
@@ -239,16 +239,16 @@
 					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1008"><value>መሳኑ ሕንጣሎዋጅራት ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_1000"><value>መሳኑ ክልተኣወላዕሎ ጥዕና ኬላ</value></text>
-					<text id="q_healthpointid_1003"><value>TODO: translate: Adiekli health post</value></text>
+					<text id="q_healthpointid_1003"><value>ዓዲእኽሊ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ</value></text>
 					<text id="q_healthpointid_50001"><value>ኣብርሃ ኣፅብሃ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና ጣብያ</value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያ</value></text>
-					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
+					<text id="q_healthpointid_70001"><value>ዓይደር ሪፈራል ሆስፒታል </value></text>
 					
-					<text id="q_subkebele_text"><value>TODO: Translate: Q103. Please select the patients tabia (sub-kebele)</value></text>
+					<text id="q_subkebele_text"><value>ሕ103፡ ናይ ተጠቃሚ ጣብያ </value></text>
 					<text id="q_subkebele_100000"><value>መሳኑ ክልተኣወላዕሎ: ኣዲስ ኣለም</value></text>
 					<text id="q_subkebele_100001"><value>መሳኑ ክልተኣወላዕሎ: ኣደንጓር</value></text>
 					<text id="q_subkebele_100002"><value>መሳኑ ክልተኣወላዕሎ: ብርኪ</value></text>
@@ -263,10 +263,10 @@
 					<text id="q_subkebele_100201"><value>ገማድ: ደረባ ወሃቢት</value></text>
 					<text id="q_subkebele_100202"><value>ገማድ: ኮዃይ</value></text>
 					
-					<text id="q_subkebele_100300"><value>Adiekli: ዓዲ ቀሾ</value></text>
-					<text id="q_subkebele_100301"><value>Adiekli: ዓዲ እኽሊ</value></text>
-					<text id="q_subkebele_100302"><value>Adiekli: መዓጎ</value></text>
-					<text id="q_subkebele_100303"><value>Adiekli: ቃል ሓበለ</value></text>
+					<text id="q_subkebele_100300"><value>ዓዲእኽሊ: ዓዲ ቀሾ</value></text>
+					<text id="q_subkebele_100301"><value>ዓዲእኽሊ: ዓዲ እኽሊ</value></text>
+					<text id="q_subkebele_100302"><value>ዓዲእኽሊ: መዓጎ</value></text>
+					<text id="q_subkebele_100303"><value>ዓዲእኽሊ: ቃል ሓበለ</value></text>
 					
 					<text id="q_subkebele_100400"><value>ፃዕዳ ናዕለ: ፃዕዳ ናዕለ</value></text>
 					<text id="q_subkebele_100401"><value>ፃዕዳ ናዕለ: ጓጓ</value></text>
@@ -278,10 +278,10 @@
 					<text id="q_subkebele_100502"><value>ማይነብሪ: ዓዲ ባዕኸል</value></text>
 					<text id="q_subkebele_100503"><value>ማይነብሪ: ላዕላይ ወስተ</value></text>
 					
-					<text id="q_subkebele_100600"><value>Arasegeda: ዓራ</value></text>
-					<text id="q_subkebele_100601"><value>Arasegeda: ዓሰገዳ</value></text>
-					<text id="q_subkebele_100602"><value>Arasegeda: ህድሞ ማይሃይዲ</value></text>
-					<text id="q_subkebele_100603"><value>Arasegeda: ዓዲ ሓና</value></text>
+					<text id="q_subkebele_100600"><value>ዓራሰገዳ: ዓራ</value></text>
+					<text id="q_subkebele_100601"><value>ዓራሰገዳ: ዓሰገዳ</value></text>
+					<text id="q_subkebele_100602"><value>ዓራሰገዳ: ህድሞ ማይሃይዲ</value></text>
+					<text id="q_subkebele_100603"><value>ዓራሰገዳ: ዓዲ ሓና</value></text>
 					
 					<text id="q_subkebele_100700"><value>ሃገረሰላም: ሙንጉዳ</value></text>
 					<text id="q_subkebele_100701"><value>ሃገረሰላም: በለሳት</value></text>
@@ -296,10 +296,10 @@
 					<text id="q_subkebele_100902"><value>ፍረወይኒ: ዓይበቶ</value></text>
 					<text id="q_subkebele_100903"><value>ፍረወይኒ: መለኩሰ</value></text>
 					
-					<text id="q_subkebele_000000"><value>TODO: translate: Other</value></text>
+					<text id="q_subkebele_000000"><value>ካልእ</value></text>
 					
 					<text id="q_username_text"><value>ሕቶ 104.  ሽም ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
-					<text id="q_name_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					<text id="q_name_hint"><value>ብትግርኛ ይፀሓፍ</value></text>
 					<text id="q_userfathersname_text"><value>ሕቶ 105.  ሽም ኣቦ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
 					<text id="q_usergrandfathersname_text"><value>ሕቶ 106. ሽም ኣቦ ሓጎ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
 					
@@ -330,7 +330,7 @@
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					
 					<text id="q_age_text"><value>ሕቶ 111.  ዕድመ ተጠቓማይ ግልጋሎት ጥዕና?</value></text>
-					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
+					<text id="q_age_constraint"><value>ዕድመ ምስ ትውልዲ ዓ/ም ኣይጠዓዓምን </value></text>
 				
 					
 					<text id="q_sex_text"><value>ሕቶ 112. ፆታ ተጠቓማይ ግጋሎት ጥዕና?</value></text>
@@ -387,10 +387,10 @@
 					
 					<text id="q_homesanitation_text"><value>ሕቶ 122 . መብዛሕትኡ እዋን ኣባላት ስድራ ቤትኹም ብቐንዲ እንታይ ዓይነት ሽንቲ ቤት ትጥቀሙ?</value></text>
 					<text id="q_homesanitation_pit"><value>ጉድጓድ(ተለምዳዊ ሽቓቕ)</value></text>
-					<text id="q_homesanitation_vip"><value>TODO: translate: Ventilated improved pit latrine (VIP)</value></text>
+					<text id="q_homesanitation_vip"><value>ዝተመሓየሸ ሽቓቕ </value></text>
 					<text id="q_homesanitation_serviceorbucket"><value>ፌስትል</value></text>
 					<text id="q_homesanitation_bush"><value>ገደና/መይዳ/ዱር</value></text>
-					<text id="q_homesanitation_flush"><value>TODO: translate: Flush toilet (with septic tank or with out)</value></text>
+					<text id="q_homesanitation_flush"><value>ብማይ ዝሰርሕ ሽቓቕ(መጠራቐሚ ገንኢ ዘለዎ ወይ ዘይብሉ)</value></text>
 					<text id="q_homesanitation_other"><value>ካሊእ</value></text>
 					
 					<text id="q_homewatersource_text"><value>ሕቶ 123. መብዛሕትኡ እዋን ኣባላት ስድራ ቤትኹም ብቐንዲ ዝስተ ማይ ካበይ ይረኽቡ?</value></text>
@@ -399,7 +399,7 @@
 					<text id="q_homewatersource_wellunprot"><value> ጉድጓድ(ዘይተሓለወ)</value></text>
 					<text id="q_homewatersource_stream"><value>ውሓዚ ማይ</value></text>
 					<text id="q_homewatersource_borehole"><value> ማይ ዳንሲ</value></text>
-					<text id="q_homewatersource_other"><value>TODO: translate: Other</value></text>
+					<text id="q_homewatersource_other"><value>ካልእ</value></text>	
 					
 					<text id="q_homefuelsource_text"><value>ሕቶ 124. መብዛሕቲኡ እዋን ስድራ ቤትኩም ንመብሰሊ መግቢ ዝትጥቀምሉ ዓይነት ነዳዲ/ሓይሊ እንታይ እዩ?</value></text>
 					<text id="q_homefuelsource_open"><value>እንጨይቲ/ዓኾር</value></text>
@@ -416,7 +416,7 @@
 					<text id="q_location_healthcentre"><value>ጥዕና ጣብያ</value></text>
 					<text id="q_location_home"><value>ኣብ ገዛ ተጠቓማይ</value></text>
 					<text id="q_location_other"><value>ካሊእ</value></text>
-					<text id="q_visitdate_text"><value>TODO: translate: Q203. Please enter the date of this visit</value></text>
+					<text id="q_visitdate_text"><value>ሕ203፡ ሎሚዓንቲ ክትትል ዝተኻየደሉ ዕለት ይፀሓፍ </value></text>
 					<text id="q_gpsdata_text"><value>ሕቶ 204.  ሓቤሬታ ጂ.ፕ.ኤስ መዝግቢ/ብ።</value></text>
 				
 				</translation>

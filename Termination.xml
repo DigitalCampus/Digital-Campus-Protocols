@@ -13,7 +13,7 @@
 			<TimeStartRecorded/>
 			<TimeEndRecorded/>
 		</Meta>
-		<h:title>Termination (TODO:Translate) v1</h:title>
+		<h:title>Termination (ምቁራፅ ጥንሲ) v1</h:title>
 		<model>
 			<itext>
 				<translation lang="English">
@@ -92,6 +92,82 @@
 					<text id="q_comments_text"><value>Q208. Comments</value></text>
 					
 					<text id="q_gpsdata_text"><value>Q301. Please record the location (using GPS)</value></text>
+
+				</translation>
+				<translation lang="Tigrinyan">
+					<text id="yes"><value>እወ</value></text>
+					<text id="no"><value>ኣይፋሉን</value></text>
+					<text id="notsure"><value>ርግፀኛ ኣይኮንኩን</value></text>
+					<text id="dontknow"><value>ኣይፈልጥን</value></text>
+					<text id="selectone"><value>ሓደ ምረፂ</value></text>
+					<text id="selectall"><value>ካብ ሓደ ንላዕሊ መልሲ ክህሉዎ ይኽእል እዩ</value></text>
+					<text id="checklist_text"><value>መረጋገፂ ዝርዝር</value></text>
+					<text id="thanks_text"><value>እታ ኣዶ ንዝገበረትልኪ ምትሕብባር ኣመስጊንኪ ናይ ሎሚ ክትትልኪ ፈፅሚ።</value></text>
+					
+					<text id="infoprotocol_text"><value>This protocol should be filled out when a pregnancy has ended prematurely or unexpectedly.</value></text>
+					<text id="q_consent_text"><value>ሕቶ 101፡ እዛ ተንቀሳቓሲት ስልኪ ንቓለ መሕትት ንክጥቀመላ ፍቓደኛ ዲኺ?</value></text>
+					<text id="infoconsent_text"><value>ተጠቃሚት ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኮይና ፣እታ ተንቀሳቓሲት ስልኪ ኣቕሚጥኪ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቐት ሃቢያ፡፡</value></text>
+					
+					<text id="q_healthpointid_text"><value>ሕቶ102 ፡ እትሰርሕሉ ጥዕና ኬላ/ ጣብያ መዝግቢ</value></text>
+					<text id="q_healthpointid_9999"><value>ልምምድ</value></text>
+					<text id="q_healthpointid_1006"><value>ዓራሰገዳ ጥዕና ኬላ </value></text>
+					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1009"><value>ፍረወይኒ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1002"><value>ገማድ  ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1007"><value>ሃገረሰላም ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1008"><value>መሳኑ (ሕንጣሎ ዋጅራት) ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1000"><value>መሳኑ (ክልተ ኣውላዕሎ) ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_1003"><value>ዓዲእኽሊ ጥዕና ኬላ </value></text>
+					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ</value></text>
+					<text id="q_healthpointid_50001"><value>ኣብርሃ ወኣፅባሃ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያ</value></text>
+					<text id="q_healthpointid_70001"><value>ዓይደር ሪፈራል ሆስፒታል </value></text>
+					
+					<text id="q_userid_text"><value>ሕቶ103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ </value></text>
+					<text id="q_userid_constraint"><value>ካብ 0 ንላዕሊ ክኸውን ኣለዎ</value></text>
+					<text id="q_username_text"><value>ሕ104፡ ሽም ተጠቃሚ</value></text>
+					<text id="q_username_hint"><value>ብትግርኛ ይፀሓፍ</value></text>
+					<text id="q_yearofbirth_text"><value>ሕቶ 104 ፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ።</value></text>
+					<text id="q_yearofbirth_hint"><value>ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ</value></text>
+					<text id="q_yearofbirth_constraint"><value>ካብ 1900 ዓ/ም ንላዕሊ ክኸውን ኣለዎ</value></text>
+					<text id="q_age_text"><value>ሕቶ 106 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
+					<text id="q_age_constraint"><value>ዕድመ ምስ ትውልዲ ዓ/ም ኣይጠዓዓምን </value></text>
+					
+
+					<text id="infosection2_text"><value>ክፍሊ 2፡ መረዳእታ ምቁራፅ ጥንሲ </value></text>
+
+					<text id="q_terminationtype_text"><value>ሕ201፡ ዓይነት ምቁራፅ ጥንሲ፡ </value></text>
+					<text id="q_terminationtype_abortion_spont"><value>ብባዕሉ ዝተነፀለ ጥንሲ</value></text>
+					<text id="q_terminationtype_abortion_elect"><value>ብጥንቃቐ ዝተነፀለ ጥንሲ(safe abortion)</value></text>
+					<text id="q_terminationtype_abortion_unsafe"><value>ዝተነኻኸአ/ጥንቃቐ ዝጎደሎ ምንፃል ጥንሲ(unsafe abortion)</value></text>
+					<text id="q_terminationtype_mat_death"><value>ሞት ኣዶ</value></text>
+					
+					<text id="q_terminationdate_text"><value>ሕ202፡ ጥንሲ ዝተቛረፀሉ ዕለት፡</value></text>
+					<text id="q_terminationdate_constraint"><value>ዝፀሓፍ ዕለት ቅድሚ ሎሚዓንቲ ወይ ሎሚዓንቲ ክኸውን ኣለዎ </value></text>
+					
+					<text id="q_procedure_text"><value>ሕ203፡ ኸይዲ ምንፃል ጥንሲ?፡</value></text>
+					<text id="q_procedure_notapplic"><value>ኣይምልከን</value></text>
+					<text id="q_procedure_dilation"><value>ከፊትካ ምፅራግ(ዳይሌሽንን ከዩሪቴጅን)</value></text>
+					<text id="q_procedure_vacuum"><value>ኤም.ቪ.ኤ(MVA)</value></text>
+					<text id="q_procedure_misoprostol"><value>ሚሶፕሮስቶል ተዋሂባ</value></text>
+					
+					<text id="q_majorcomplicat_text"><value>ሕ204፡ ቀንዲ ሳዕብየን/መሕለኽቲ፡</value></text>
+					<text id="q_majorcomplicat_bleed"><value>መድመይቲ</value></text>
+					<text id="q_majorcomplicat_sepsis"><value>ረኽሲ</value></text>
+					<text id="q_majorcomplicat_eclampsia"><value>ምስ ጥንሲ ዝተትሓሓዘ ድፍኢት ደም</value></text>
+					<text id="q_majorcomplicat_perforations"><value>ምንኳል ማህፀን</value></text>
+					<text id="q_majorcomplicat_none"><value>ሳዕብየን የለን</value></text>
+					
+					<text id="q_referral_text"><value>ሕ205፡  ኣዶ ናብ ጥዕና ጣብያ ወይ ሆስፒታል ስልጣን ንላዕሊ ተባሂላ 'ዶ?</value></text>
+					<text id="q_fpcounseled_text"><value>ሕ206፡ ስለ ምጣነ ስድራ ምኽሪ ተዋሂብዋ 'ዶ? </value></text>
+					<text id="q_fpaccepted_text"><value>ሕ207፡ ምጣነ ስድራ ንምጥቃም ተስማዕሚዓ 'ዶ? </value></text>
+					<text id="q_comments_text"><value>ሕ208፡ ሪኢቶ</value></text>
+					
+					<text id="q_gpsdata_text"><value>ሕቶ 301፡ እዚ ናይ ሕክምና ኣገልግሎት ዝተኻየደሉ ቦታ ንምምልካት ናይ ጂ.ፕ.ኤስ (GPS) ሓበሬታ ውሰዲ</value></text>
 
 				</translation>
 			</itext>

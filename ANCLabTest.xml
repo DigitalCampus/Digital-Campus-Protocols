@@ -100,7 +100,7 @@
 					
 					<text id="q_healthpointid_text"><value>ሕቶ 102 ፡ እዚ ግልጋሎት ጥዕና ዝወሃበሉ ዘሎ ጥዕና ትካል መዝግቢ</value></text>
 					<text id="q_healthpointid_9999"><value>ልምምድ</value></text>
-					<text id="q_healthpointid_1006"><value>TODO: translate: Arasegeda health post</value></text>
+					<text id="q_healthpointid_1006"><value>ዓራሰገዳ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1009"><value>ፍረወይኒጥዕና  ኬላ</value></text>
 					<text id="q_healthpointid_1002"><value>ገማድ ጥዕና ኬላ </value></text>
@@ -108,27 +108,27 @@
 					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና  ኬላ</value></text>
 					<text id="q_healthpointid_1008"><value>መሳኑ  (ሕንጣሎ  ዋጅራት ) ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1000"><value>መሳኑ (ክልተ ኣውላዕሎ) ጥዕና ኬላ</value></text>
-					<text id="q_healthpointid_1003"><value>TODO: translate: Adiekli health post</value></text>
+					<text id="q_healthpointid_1003"><value>ዓዲእኽሊ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ   </value></text>
 					<text id="q_healthpointid_50001"><value>ኣብርሃ ወኣፅብሃ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ  </value></text>
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ  </value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና  ጣብያ  </value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያ</value></text>
-					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
+					<text id="q_healthpointid_70001"><value>ዓይደር ሪፈራል ሆስፒታል </value></text>
 					
 					<text id="q_userid_text"><value>ሕቶ 102 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ </value></text>
 					<text id="q_userid_constraint"><value>ልዕሊ 0 ክኸውን ኣለዎ</value></text>
 					
-					<text id="q_username_text"><value>TODO: translate: Q103. Enter user's name</value></text>
-					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					<text id="q_username_text"><value>ሕ103፡ ሽም ተጠቃሚ</value></text>
+					<text id="q_username_hint"><value>ብትግርኛ ይፀሓፍ</value></text>
 					
 					<text id="q_yearofbirth_text"><value>ሕቶ 104 ፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ። </value></text>
 					<text id="q_yearofbirth_hint"><value> ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ </value></text>
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					
 					<text id="q_age_text"><value>ሕቶ 105፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና? </value></text>
-					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
+					<text id="q_age_constraint"><value>ዕድመ ምስ ትውልዲ ዓ/ም ኣይጠዓዓምን </value></text>
 					
 					<text id="q_healthcenter_text"><value>ሕቶ106፡ እዚ ናይ ላብራቶሪ ምርመራ ዝተኻየደሉ ጥዕና ጣብያ መዝግቢ፡፡ </value></text>
 					<text id="q_healthcenter_50001"><value>ኣብርሃ ወኣፅብሃ ጥዕና ጣብያ  </value></text>

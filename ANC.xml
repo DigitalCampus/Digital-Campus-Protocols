@@ -13,7 +13,7 @@
 			<TimeStartRecorded/>
 			<TimeEndRecorded/>
 		</Meta>
-		<h:title>ANC (Todo: translate) v9</h:title>
+		<h:title>ANC (ክትትል ቅድሚ ወሊድ) v9</h:title>
 		<model>
 			<itext>
 				<translation lang="English">
@@ -289,7 +289,7 @@
 					<text id="infoconsent_text"><value>ተጠቃሚት ግልጋሎት ጥዕና ፍቓደኛ እንድሕር ዘይኮይና ፣እታ ተንቀሳቓሲት ስልኪ ኣቕሚጥኪ እቲ ልሙድ ዝኾነ ግልጋሎት ጥዕና ብወረቐት ሃቢያ።</value></text>
 					<text id="q_healthpointid_text"><value>ሕቶ 102 ፡ እዚ ግልጋሎት ጥዕና ዝወሃበሉ ዘሎ ጥዕና ትካል መዝግቢ</value></text>
 					<text id="q_healthpointid_9999"><value>ልምምድ</value></text>
-					<text id="q_healthpointid_1006"><value>TODO: translate: Arasegeda health post</value></text>
+					<text id="q_healthpointid_1006"><value>ዓራሰገዳ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1001"><value>ኣይናለም ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1009"><value>ፍረወይኒጥዕና  ኬላ</value></text>
 					<text id="q_healthpointid_1002"><value>ገማድ ጥዕና ኬላ </value></text>
@@ -297,28 +297,28 @@
 					<text id="q_healthpointid_1005"><value>ማይነብሪ ጥዕና  ኬላ</value></text>
 					<text id="q_healthpointid_1008"><value>መሳኑ  (ሕንጣሎ  ዋጅራት ) ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1000"><value>መሳኑ (ክልተ ኣውላዕሎ) ጥዕና ኬላ</value></text>
-					<text id="q_healthpointid_1003"><value>TODO: translate: Adiekli health post</value></text>
+					<text id="q_healthpointid_1003"><value>ዓዲእኽሊ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_1004"><value>ፃዕዳ ናዕለ ጥዕና ኬላ   </value></text>
 					<text id="q_healthpointid_50001"><value>ኣብርሃ ወኣፅብሃ ጥዕና ኬላ </value></text>
 					<text id="q_healthpointid_50002"><value>ዓዲጉዶም ጥዕና ጣብያ  </value></text>
 					<text id="q_healthpointid_50003"><value>ኣጉላዕ ጥዕና ጣብያ  </value></text>
 					<text id="q_healthpointid_50004"><value>ሕዋነ ጥዕና  ጣብያ  </value></text>
 					<text id="q_healthpointid_50005"><value>ነጋሽ ጥዕና ጣብያነጋሽ ጥዕና ጣብያ</value></text>
-					<text id="q_healthpointid_70001"><value>TODO: translate: Ayder Referal Hospita</value></text>
+					<text id="q_healthpointid_70001"><value>ዓይደር ሪፈራል ሆስፒታል </value></text>
 				
 					<text id="q_userid_text"><value>ሕቶ 103 ፡ መለለይ ቑፅሪ ተጠቃሚት ግልጋሎት ጥዕና መዝግቢ።</value></text>
 					<text id="q_userid_constraint"><value>ልዕሊ 0 ክኸውን ኣለዎ</value></text>
 					
-					<text id="q_username_text"><value>TODO: translate: Q104. Enter user's name</value></text>
-					<text id="q_username_hint"><value>TODO: translate: Please enter in Tigrinyan text</value></text>
+					<text id="q_username_text"><value>ሕ104፡ ሽም ተጠቃሚ</value></text>
+					<text id="q_username_hint"><value>ብትግርኛ ይፀሓፍ</value></text>
 					
 					<text id="q_yearofbirth_text"><value>ሕቶ 105፡ ተጠቃሚት ግልጋሎት ጥዕና ዝተወለደትሉ ዓ/ም መዝግቢ።</value></text>
 					<text id="q_yearofbirth_hint"><value> ብአቆፃፅራ ኢትዮጵያ ይፀሓፍ</value></text>
 					<text id="q_yearofbirth_constraint"><value>ዝፀሓፍ ዓ/ም ካብ 1900 ንላዕሊ ክኸውን ኣለዎ</value></text>
 					<text id="q_age_text"><value>ሕቶ 106 ፡ ዕድመ ተጠቃሚት ግልጋሎት ጥዕና?</value></text>
-					<text id="q_age_constraint"><value>TODO: translate: The age does not appear to be consistent with the year of birth, please check.</value></text>
+					<text id="q_age_constraint"><value>ዕድመ ምስ ትውልዲ ዓ/ም ኣይጠዓዓምን </value></text>
 
-					<text id="q_firstvisit_text"><value>TODO: translate: Q107. Is this the first time you have seen this mother in relation to this preganancy?</value></text>
+					<text id="q_firstvisit_text"><value>ጥንሲ ብዝተመልከተ፣ ንኣዶ እትገብርላ ዘለኺ ግልጋሎት ንመጀመርታ እዋን ድዩ? </value></text>
 					
 					<text id="infosection2_text"><value>ሐዚ ኣብ ግዜ ጥንሲ ከጋጥሙ ካብ ዝኽእሉ ዝተፈላለዩ ምልክታት ጥንሲ ኣብ ዝሓለፉ ሰሙናት ኣየነኦም ከም ዘጋጠሙኺ ክትነግርኒ ኢኺ።</value></text>
 					<text id="q_abdominalpain_text"><value>ሕቶ 201 ፡ ኣብ ዝሓለፈ ሰሙናት ሓያል ናይ ከብዲ ቃንዛ ወይ ቁርፀት ኣጋጢሙኪ'ዶ ነይሩ?</value></text>
@@ -349,7 +349,7 @@
 					<text id="q_infantdeath_29daysto1year"><value>ድሕሪ ወሊድ ካብ 29 መዓልቱ ክሳብ 1ዓመት </value></text>
 					<text id="q_infantdeath_1to5years"><value>ድሕሪ ወሊድ ካብ 1 ጀሚሩ ክሳብ 5 ዓመት</value></text>
 					<text id="q_infantdeath_6ormore"><value>ድሕሪ 6ተ ዓመት</value></text>
-					<text id="q_abortion_text"><value>TODO: translate: Q214. How many abortions (induced or spontaneous) have you ever had?</value></text>
+					<text id="q_abortion_text"><value>ሕቶ 214 ፡ ክሳብ ሐዚ ምንፃል ጥንሲ (ብባዕሉ ዝኸደ ወይ ዝተነኻኸአ) ክንደይ ግዘ ኣጋጢሙኪ? </value></text>
 					<text id="q_livingchildren_text"><value>ሕቶ 215 ፡ ክሳብ ሐዚ ብሂወት ዘለው ደቂኺ ክንደይ'ዪም?</value></text>
 
 					<text id="infopregnancyrisks_text"><value>ሐዚ ኣብ ዝሓለፉ ጥንስታትኪ ብዛዐባ ኣጋጢሞምኺ ዝፈልጡ ናይ ጥዕና ፀገማት/ሓደጋታትን ክሓተኪ እየ፡፡</value></text>
@@ -393,7 +393,7 @@
 					<text id="q_fpmethod_othertraditional"><value>ካልኦት ባህላዊ ሜላታት </value></text>
 				
 					<text id="q_lmp_text"><value>ሕቶ 230፡ ናይ ኣዴታትኪ (ወርሓዊ ፅግያ) ንመወዳእታ ግዜ ዝረኣኽሉ መዓዝ'ዩ?</value></text>
-					<text id="q_lmp_hint"><value>TODO: translate: If the exact date is not known, please enter an approximation</value></text>
+					<text id="q_lmp_hint"><value>ትኽክለኛ ዕለት እንድሕር ዘይፍለጥ፣ ዝተፀጋገዐ ይመላእ </value></text>
 					<text id="q_lmp_constraint"><value>ናይ መወዳእታ ወርሓዊ ፅግያ ዝተርኣየሉ ኣብ መንጎ ሎሚ መዓልትን ዝሓለፉ 9 ኣዋርሕን ክኸውን ኣለዎ</value></text>
 					
 					<text id="q_edd_text"><value>ሕቶ231፡ ንክትወልድ ትፅቢት ዝግበረሉ መዓልቲ (EDD) ኣብዚ ዝስዕብ እዋን ይኸውን</value></text>
@@ -436,23 +436,23 @@
 					
 					<text id="q_tetanus_text"><value>?ሕቶ306፡ ናይ ቴታነስ ክታበት ካርዲ ብምፍታሽ ኣዶ ኣየናይ ብርኪ ቲቲ (TT) ከምዝወሰደት ኣረጋግፂ፡፡</value></text>
 					<text id="q_tetanus_hint"><value>ሎሚዓንቲ ዝተውሃባ መጠን ይጠቓለል</value></text>
-					<text id="q_tetanus_nocard"><value>TODO: translate: Card not available or dates not known</value></text>
+					<text id="q_tetanus_nocard"><value>ካርዲ የለን ወይ ዕለት ኣይፍለጥን </value></text>
 					<text id="q_tetanus_none"><value>ኣይወሰደትን</value></text>
 					<text id="q_tetanus_tt1"><value>ቲቲ 1 ጥራሕ</value></text>
 					<text id="q_tetanus_tt2"><value>ቲቲ 1ን ቲቲ 2ን</value></text>
 					<text id="q_tetanus_tt3"><value>ቲቲ 1፣ ቲቲ 2ን ቲቲ 3ን </value></text>
-					<text id="q_tetanus_tt4"><value>TODO: translate: TT1, TT2, TT3 and TT4</value></text>
-					<text id="q_tetanus_tt5"><value>TODO: translate: TT1, TT2, TT3, TT4 and TT5</value></text>
+					<text id="q_tetanus_tt4"><value>TT1፣ TT2፣ TT3ን TT4ን </value></text>
+					<text id="q_tetanus_tt5"><value>TT1፣ TT2፣ TT3፣ TT4ን TT5ን</value></text>
 					<text id="tetanus_date_constraint"><value>ዝፀሓፍ መዓልቲ ናይ መፃኢ ዕለት ክኸውን የብሉን</value></text>
 					<text id="q_tt1_text"><value>ሕቶ306ሀ፡ ቲቲ 1 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
 					<text id="q_tt2_text"><value>ሕቶ306ለ፡ ቲቲ 2 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
-					<text id="q_tt2_constraint"><value>TODO: translate: Date for TT2 must be between the date for TT1 and today</value></text>
-					<text id="q_tt3_text"><value>TODO: translate: Q306c. When was the TT3 given?</value></text>
-					<text id="q_tt3_constraint"><value>TODO: translate: Date for TT3 must be between the date for TT2 and today</value></text>
-					<text id="q_tt4_text"><value>TODO: translate: Q306d. When was the TT4 given?</value></text>
-					<text id="q_tt4_constraint"><value>TODO: translate: Date for TT4 must be between the date for TT3 and today</value></text>
-					<text id="q_tt5_text"><value>TODO: translate: Q306d. When was the TT5 given?</value></text>
-					<text id="q_tt5_constraint"><value>TODO: translate: Date for TT5 must be between the date for TT4 and today</value></text>
+					<text id="q_tt2_constraint"><value>TT2 ዝተውሃበሉ ዕለት ኣብ መንጎ TT1 ዝተውሃበሉ ዕለትን ሎሚዓንቲን ክኸውን ኣለዎ </value></text>
+					<text id="q_tt3_text"><value>ሕ306ሀ፡ TT3 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
+					<text id="q_tt3_constraint"><value>TT3 ዝተውሃበሉ ዕለት ኣብ መንጎ TT2 ዝተውሃበሉ ዕለትን ሎሚዓንቲን ክኸውን ኣለዎ </value></text>
+					<text id="q_tt4_text"><value>ሕ306ለ፡ TT4 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
+					<text id="q_tt4_constraint"><value>TT4 ዝተውሃበሉ ዕለት ኣብ መንጎ TT3 ዝተውሃበሉ ዕለትን ሎሚዓንቲን ክኸውን ኣለዎ </value></text>
+					<text id="q_tt5_text"><value>ሕ306ሐ፡ TT5 ዝተውሃበሉ ዕለት መዓዝ ነይሩ?</value></text>
+					<text id="q_tt5_constraint"><value>TT5 ዝተውሃበሉ ዕለት ኣብ መንጎ TT4 ዝተውሃበሉ ዕለትን ሎሚዓንቲን ክኸውን ኣለዎ </value></text>
 					
 					<text id="q_irontablets_text"><value>ሕቶ 307 ፡ መከላኸሊ ዋሕዲ ደም (ኣይረን ክኒን) ትወስዲ ኣለኺ'ዶ?</value></text>
 					<text id="q_irongiven_text"><value>ሕቶ 308 ፡ ንጥሙር ጥዕና ቤተሰብ ሰራሕተኛ፡- ኣብ ናይ ሐዚ ክትትል ዑደት፣ ነታ ኣዶ መከላኸሊ ዋሕዲ ደም (ኣይረን) ንምሃብ ኣስታውሲ፡፡</value></text>
@@ -481,9 +481,9 @@
 					<text id="q_height_below150"><value>ትሕቲ 150 ሳ.ሜ</value></text>
 					<text id="q_height_nottaken"><value>ቁመት ኣይዓቀንኩን</value></text>
 					<text id="q_systolicbp_text"><value>ሕቶ 403 ፡ ፀቕጢ ደም ናይታ ኣዶ ዓቂንኪ እቲ ላዕለዋይ (ሲስቶሊክ) ፀቕጢ ደም መዝግቢ።</value></text>
-					<text id="q_systolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
+					<text id="q_systolicbp_hint"><value>ግልጋሎት መውሃቢ መሳርሒኺ እንድሕር ዘይሰርሕ 0 ይፀሓፍ </value></text>
 					<text id="q_diastolicbp_text"><value>ሕቶ 404 ፡ እቲ ታሕተዋይ (ዳያስቶሊ) ፀቕጢ ደም መዝግቢ።</value></text>
-					<text id="q_diastolicbp_hint"><value>TODO: translate: Enter 0 if your equipment is not working</value></text>
+					<text id="q_diastolicbp_hint"><value>ግልጋሎት መውሃቢ መሳርሒኺ እንድሕር ዘይሰርሕ 0 ይፀሓፍ </value></text>
 					<text id="infoBP_text"><value>እንድሕር ድኣ ሲስቶሊክ ፀቕጢ ደም &gt;140 ወይ &lt;90 ወይድማ ዳያስቶሊ ፀቕጢ ደም &gt;90 ወይ &lt;60 ኮይኑ ደጊምኪ ብምዕቃን ኣረጋግፂ</value></text>
 					<text id="q_palloranemia_text"><value>ሕቶ 405 ፡ ናይታ ኣዶ ፅፍራ ወይ ውሽጣዊ ቆቢዕ ዓይና ብምርኣይ ካብ ልሙድ ዝተፈለየ ምፅዕዳው (ፓለር) እንተሃሊይዋ ተዓዘቢ (ፓለር ምልክት ዋሕዲ ደም'ዩ ።)</value></text>
 					<text id="q_palloranemia_pallor"><value>እወ (ፓለር ኣለዋ)</value></text>
@@ -520,7 +520,7 @@
 					<text id="q_location_healthcentre"><value>ጥዕና ጣብያ</value></text>
 					<text id="q_location_home"><value>ኣብ ናይ ተጠቃሚት ግልጋሎት ጥዕና ገዛ</value></text>
 					<text id="q_location_other"><value>ኣብ ካልእ</value></text>
-					<text id="q_visitdate_text"><value>TODO: translate: Q504. Please enter the date of this visit</value></text>
+					<text id="q_visitdate_text"><value>ሕ504፡ ሎሚዓንቲ ክትትል ዝተኻየደሉ ዕለት ይፀሓፍ </value></text>
 					<text id="q_gpsdata_text"><value>ሕቶ 505 ፡ ክትትል ክንክን ቅድመ ወሊድ ዝተኻየደሉ ቦታ ንምምልካት ናይ ጂ.ፕ.ኤስ (GPS) ሓበሬታ ውሰዲ </value></text>
 					<text id="infohealthcenterapp_text"><value>እታ ኣዶ ናይ ላበራቶሪ ምርመራ ንክትገብርን ምስ መዋልዳን ንክትመኻኸርን ናብ ጥዕና ጣብያ እትኸደሉ ቆፀሮ ንኽትሕዝ ግለፅላ። ኣብ ናይ ሐዚ ክትትልኪ እታ ኣደ ካብ ዓቕሚኺ ንላዕሊ ዝኾነ ሕማም ወይድማ ናይ ሓደጋ ምልክታት እንተሃሊየምዋ እቲ ናብ ጥዕና ጣብያ እትኸደሉ ግዜ ብቕልጡፍ ክኸውን ከምዘለዎ ኣገንዝብያ።</value></text>
 					<text id="infoendsession_text"><value>እታ ኣዶ ንዝገበረትልኪ ምትሕብባር ኣመስጊንኪ ናይ ሎሚ ክትትልኪ ፈፅሚ።</value></text>
