@@ -524,7 +524,7 @@
 					<text id="q_apgar1min_colour:label"><value>ሕ504ረ፡ ሕብሪ ቆርበት</value></text>
 					<text id="q_apgar1min_colour_0:label"><value>መንጫሕ/ሰማያዊ</value></text>
 					<text id="q_apgar1min_colour_1:label"><value>መሓዉሩ ሰማያዊ</value></text>
-					<text id="q_apgar1min_colour_2:label"><value>ሙሉእ ብሙሉእ መንጫሕ</value></text>
+					<text id="q_apgar1min_colour_2:label"><value>ሙሉእ ብሙሉእ ጥዑይ ሕብሪ ቆርበት</value></text>
 					
 					<text id="q_apgar1min_text"><value>APGAR ውፅኢት፡ ኣብ 1ይ ደቒቓ: <output value="/data/q_deliveries/q_apgar1min_result"/></value></text>
 					
@@ -549,10 +549,10 @@
 					<text id="q_apgar5min_reflex_1:label"><value>ገፁ ይጨማደድ</value></text>
 					<text id="q_apgar5min_reflex_2:label"><value>ይስዕል/የሀንጥስ</value></text>
 					
-					<text id="q_apgar5min_colour:label"><value>ሕ505፡ ሕብሪ ቆርበት </value></text>
+					<text id="q_apgar5min_colour:label"><value>ሕ505ረ፡ ሕብሪ ቆርበት</value></text>
 					<text id="q_apgar5min_colour_0:label"><value>መንጫሕ/ሰማያዊ</value></text>
 					<text id="q_apgar5min_colour_1:label"><value>መሓውሩ ሰማያዊ</value></text>
-					<text id="q_apgar5min_colour_2:label"><value>ሙሉእ ብሙሉእ ሰማያዊ</value></text>
+					<text id="q_apgar5min_colour_2:label"><value>ሙሉእ ብሙሉእ ጥዑይ ሕብሪ ቆርበት</value></text>
 					
 					<text id="q_apgar5min_text"><value>APGAR ውፅኢት፡ ኣብ 5ይ ደቒቓ : <output value="/data/q_deliveries/q_apgar5min_result"/></value></text>	
 					
@@ -768,45 +768,73 @@
 			
 			<bind id="q_deliveries" nodeset="/data/q_deliveries"/>
 				<bind id="q_livebirth" nodeset="/data/q_deliveries/q_livebirth" required="true()" type="select1"/>
-				<bind id="q_newbornsex" nodeset="/data/q_deliveries/q_newbornsex" required="true()" type="select1"/>
+				<bind id="q_newbornsex" nodeset="/data/q_deliveries/q_newbornsex" required="true()" type="select1" 
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
 				
-				<bind id="q_apgar1min_heart" nodeset="/data/q_deliveries/q_apgar1min_heart" required="true()" type="select1"/>
-				<bind id="q_apgar1min_breathing" nodeset="/data/q_deliveries/q_apgar1min_breathing" required="true()" type="select1"/>
-				<bind id="q_apgar1min_muscle" nodeset="/data/q_deliveries/q_apgar1min_muscle" required="true()" type="select1"/>
-				<bind id="q_apgar1min_reflex" nodeset="/data/q_deliveries/q_apgar1min_reflex" required="true()" type="select1"/>
-				<bind id="q_apgar1min_colour" nodeset="/data/q_deliveries/q_apgar1min_colour" required="true()" type="select1"/>
+				<bind id="q_apgar1min_heart" nodeset="/data/q_deliveries/q_apgar1min_heart" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar1min_breathing" nodeset="/data/q_deliveries/q_apgar1min_breathing" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar1min_muscle" nodeset="/data/q_deliveries/q_apgar1min_muscle" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar1min_reflex" nodeset="/data/q_deliveries/q_apgar1min_reflex" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar1min_colour" nodeset="/data/q_deliveries/q_apgar1min_colour" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
 				<bind id="q_apgar1min_result" nodeset="/data/q_deliveries/q_apgar1min_result" calculate="/data/q_deliveries/q_apgar1min_heart + 
 																								/data/q_deliveries/q_apgar1min_breathing +
 																								/data/q_deliveries/q_apgar1min_muscle +
 																								/data/q_deliveries/q_apgar1min_reflex + 
-																								/data/q_deliveries/q_apgar1min_colour" type="int"/>
-				<bind id="q_apgar1min" nodeset="/data/q_deliveries/q_apgar1min" type="string" readonly="true()"/>
+																								/data/q_deliveries/q_apgar1min_colour" type="int"
+																								relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar1min" nodeset="/data/q_deliveries/q_apgar1min" type="string" readonly="true()"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
 				
-				<bind id="q_apgar5min_heart" nodeset="/data/q_deliveries/q_apgar5min_heart" required="true()" type="select1"/>
-				<bind id="q_apgar5min_breathing" nodeset="/data/q_deliveries/q_apgar5min_breathing" required="true()" type="select1"/>
-				<bind id="q_apgar5min_muscle" nodeset="/data/q_deliveries/q_apgar5min_muscle" required="true()" type="select1"/>
-				<bind id="q_apgar5min_reflex" nodeset="/data/q_deliveries/q_apgar5min_reflex" required="true()" type="select1"/>
-				<bind id="q_apgar5min_colour" nodeset="/data/q_deliveries/q_apgar5min_colour" required="true()" type="select1"/>
+				<bind id="q_apgar5min_heart" nodeset="/data/q_deliveries/q_apgar5min_heart" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar5min_breathing" nodeset="/data/q_deliveries/q_apgar5min_breathing" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar5min_muscle" nodeset="/data/q_deliveries/q_apgar5min_muscle" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar5min_reflex" nodeset="/data/q_deliveries/q_apgar5min_reflex" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar5min_colour" nodeset="/data/q_deliveries/q_apgar5min_colour" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
 				<bind id="q_apgar5min_result" nodeset="/data/q_deliveries/q_apgar5min_result" calculate="/data/q_deliveries/q_apgar5min_heart + 
 																								/data/q_deliveries/q_apgar5min_breathing +
 																								/data/q_deliveries/q_apgar5min_muscle +
 																								/data/q_deliveries/q_apgar5min_reflex + 
-																								/data/q_deliveries/q_apgar5min_colour" type="int"/>
-				<bind id="q_apgar5min" nodeset="/data/q_deliveries/q_apgar5min" type="string" readonly="true()"/>
+																								/data/q_deliveries/q_apgar5min_colour" type="int"
+																								relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_apgar5min" nodeset="/data/q_deliveries/q_apgar5min" type="string" readonly="true()"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
 				
-				<bind id="q_newbornresuscitation" nodeset="/data/q_deliveries/q_newbornresuscitation" required="true()" type="select1"/>
-				<bind id="q_newbornweight" nodeset="/data/q_deliveries/q_newbornweight" required="true()" type="int"/>
-				<bind id="q_newbornhead" nodeset="/data/q_deliveries/q_newbornhead" required="true()" type="int"/>
-				<bind id="q_ttceyeointment" nodeset="/data/q_deliveries/q_ttceyeointment" required="true()" type="select1"/>
-				<bind id="q_bcgimmuno" nodeset="/data/q_deliveries/q_bcgimmuno" required="true()" type="select1"/>
-				<bind id="q_polio0immuno" nodeset="/data/q_deliveries/q_polio0immuno" required="true()" type="select1"/>
-				<bind id="infoimmunocard" nodeset="/data/q_deliveries/infoimmunocard" readonly="true()" type="string"/>
-				<bind id="q_vitamink" nodeset="/data/q_deliveries/q_vitamink" required="true()" type="select1"/>
-				<bind id="q_babymombond" nodeset="/data/q_deliveries/q_babymombond" required="true()" type="select1"/>
-				<bind id="q_babybreathing" nodeset="/data/q_deliveries/q_babybreathing" required="true()" type="select1"/>
-				<bind id="q_newbornhiv" nodeset="/data/q_deliveries/q_newbornhiv" required="true()" type="select1"/>
-				<bind id="q_arvnewbornhiv" nodeset="/data/q_deliveries/q_arvnewbornhiv" required="true()" type="select1"/>
-				<bind id="q_othercomments" nodeset="/data/q_deliveries/q_othercomments" type="string"/>
+				<bind id="q_newbornresuscitation" nodeset="/data/q_deliveries/q_newbornresuscitation" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_newbornweight" nodeset="/data/q_deliveries/q_newbornweight" required="true()" type="int"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_newbornhead" nodeset="/data/q_deliveries/q_newbornhead" required="true()" type="int"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_ttceyeointment" nodeset="/data/q_deliveries/q_ttceyeointment" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_bcgimmuno" nodeset="/data/q_deliveries/q_bcgimmuno" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_polio0immuno" nodeset="/data/q_deliveries/q_polio0immuno" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="infoimmunocard" nodeset="/data/q_deliveries/infoimmunocard" readonly="true()" type="string"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_vitamink" nodeset="/data/q_deliveries/q_vitamink" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_babymombond" nodeset="/data/q_deliveries/q_babymombond" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_babybreathing" nodeset="/data/q_deliveries/q_babybreathing" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_newbornhiv" nodeset="/data/q_deliveries/q_newbornhiv" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_arvnewbornhiv" nodeset="/data/q_deliveries/q_arvnewbornhiv" required="true()" type="select1"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
+				<bind id="q_othercomments" nodeset="/data/q_deliveries/q_othercomments" type="string"
+					relevant="selected(/data/q_deliveries/q_livebirth,'yes')"/>
 				
 			<bind id="infosection6" nodeset="/data/infosection6" readonly="true()" type="string"/>
 			<bind id="q_idcard" nodeset="/data/q_idcard" required="true()" type="select1"/>
