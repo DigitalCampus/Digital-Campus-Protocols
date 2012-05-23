@@ -404,7 +404,7 @@
 					<text id="q_deliverydate_text"><value>ሕቶ305፡ እዚ ወሊድ ዝተኻየደሉ መዓልቲ ፀሓፊ፡፡</value></text>
 					<text id="q_deliverydate_constraint"><value>ወሊድ መዓልቲ ናይ መፃኢ ዕለት ክኸውን ኣይኽእልን </value></text>
 					
-					<text id="q_deliverytime_text"><value>ተቐራራቢ ናይ ወሊድ መዓልቲ ይፀሓፍ </value></text>
+					<text id="q_deliverytime_text"><value>ሕ306፡ ወሊድ ዝተኻየደሉ ክፍለ ግዜ መዓዝ ነይሩ?</value></text>
 					<text id="q_deliverytime_morning"><value>ንጉሆ </value></text>
 					<text id="q_deliverytime_afternoon"><value>ድሕሪ ሰዓት </value></text>
 					<text id="q_deliverytime_evening"><value>ምሸት </value></text>
